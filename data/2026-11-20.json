@@ -1,164 +1,815 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T15:20:00+00:00",
- "headline": "Sánchez y Feijóo, cara a cara a nueve días del 29-N",
+ "generated_at": "2026-11-20T16:38+00:00",
+ "headline": "Feijóo ganó el cara a cara contra Sánchez por 10 puntos, según el sondeo de 40dB. para EL PAÍS y la SER",
  "headline_sec": "politica",
- "sources_ok": 16,
- "sources_total": 16,
+ "sources_ok": 29,
+ "sources_total": 30,
  "stories": [
   {
-   "id": "deb",
-   "sec": "politica",
-   "lang": "es",
-   "region": null,
-   "title": "Sánchez y Feijóo, cara a cara a nueve días del 29-N",
-   "summary": "Pedro Sánchez (PSOE) y Alberto Núñez Feijóo (PP) celebraron el jueves por la noche el único debate cara a cara de la campaña de las elecciones generales del 29 de noviembre. Se dividió en cinco bloques: vivienda, economía y fiscalidad, servicios públicos, corrupción y regeneración democrática, y migración y política exterior.",
-   "link": "https://cnnespanol.cnn.com/2026/11/19/espana/debate-pedro-sanchez-alberto-nunez-feijoo-claves-orix",
-   "source": "CNN en Español",
-   "date": "2026-11-20T08:00:00+00:00",
-   "others": [
-    {
-     "source": "EFE",
-     "title": "Lo describe como un debate tenso que repitió los reproches de la legislatura: Feijóo como gestor fiable y Sánchez alertando de los riesgos de su rival.",
-     "link": "https://www.infobae.com/espana/agencias/2026/11/20/hoy-sera-noticia-viernes-20-de-noviembre/"
-    },
-    {
-     "source": "EFE · reacciones",
-     "title": "Recoge la lectura de cada partido: Bolaños (PSOE) critica a Feijóo y alaba a Sánchez; Tellado (PP) da por ganador a Feijóo. Son valoraciones de parte.",
-     "link": "https://www.infobae.com/espana/agencias/2026/11/20/temas-del-dia-de-efe-espana-del-viernes-20-de-noviembre-1350-horas/"
-    }
-   ],
-   "score": 3
-  },
-  {
-   "id": "cop",
-   "sec": "international",
-   "lang": "en",
-   "region": "global",
-   "title": "Climate talks hit deadlock as draft deal drops fossil fuels",
-   "summary": "On the last scheduled day of COP31 in Antalya, Türkiye, nearly 200 countries remain split after a new draft agreement removed every reference to moving away from fossil fuels.",
-   "link": "https://www.usnews.com/news/world/articles/2026-11-20/nations-seek-deeper-fossil-fuel-cuts-as-annual-un-climate-summit-enters-final-day",
-   "source": "Associated Press",
-   "date": "2026-11-20T08:00:00+00:00",
-   "others": [
-    {
-     "source": "RTÉ News",
-     "title": "Details what was cut: fossil-fuel language, the Brazil-led roadmap and the $120bn adaptation target; the document shrank from 18 to 9 pages.",
-     "link": "https://www.rte.ie/news/world/2026/1119/1599773-cop31-thursday/"
-    },
-    {
-     "source": "UN News",
-     "title": "Earlier in the week it already described talks as deadlocked over fossil fuels and climate finance.",
-     "link": "https://news.un.org/en/story/2026/11/1168833"
-    }
-   ],
-   "score": 3
-  },
-  {
-   "id": "ipc",
-   "sec": "economia",
-   "lang": "es",
-   "region": null,
-   "title": "La inflación de la eurozona sube al 4%, la más alta desde 2023",
-   "summary": "Eurostat confirmó el miércoles que la inflación de la zona euro llegó al 4% en octubre, dos décimas más que en septiembre y el nivel más alto desde septiembre de 2023. En España, la inflación armonizada fue del 4,9%.",
-   "link": "https://www.infobae.com/america/agencias/2026/11/18/la-inflacion-de-la-eurozona-repunto-dos-decimas-en-octubre-hasta-el-4/",
-   "source": "EFE",
-   "date": "2026-11-20T08:00:00+00:00",
-   "others": [
-    {
-     "source": "El Boletín",
-     "title": "Destaca que sin energía la inflación se queda en torno al 2,3% y que España está en el 4,9%, por encima de la media.",
-     "link": "https://www.elboletin.com/la-inflacion-de-la-eurozona-escala-hasta-el-4-en-octubre-y-marca-maximo-desde-2023/"
-    }
-   ],
-   "score": 2
-  },
-  {
-   "id": "tren",
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "Los maquinistas desconvocan la huelga del lunes 23",
-   "summary": "El sindicato de maquinistas Semaf ha desconvocado la huelga prevista para el lunes 23 de noviembre tras cerrar un acuerdo de seguridad ferroviaria con el Ministerio de Transportes y Renfe.",
-   "link": "https://www.infobae.com/espana/2026/11/20/los-maquinistas-desconvocan-la-huelga-del-23-de-noviembre-tras-alcanzar-un-acuerdo-de-seguridad-con-el-gobierno/",
-   "source": "Infobae",
-   "date": "2026-11-20T08:00:00+00:00",
+   "title": "La Defensora del Pueblo cambia el organigrama tras asumir el cargo en funciones: Igualdad deja de tener una sección propia y Migraciones se une a Seguridad",
+   "summary": "Teresa Jiménez-Becerril sustituye a Ángel Gabilondo, cuyo mandato finalizó el miércoles. La ministra Ana Redondo pide su dimisión Leer",
+   "link": "https://www.elmundo.es/espana/2026/11/20/6b000749fc6c83d7128b459b.html",
+   "source": "El Mundo",
+   "date": "2026-11-20T11:53:34+00:00",
    "others": [
     {
-     "source": "esdiario",
-     "title": "Subraya que Semaf era el único sindicato que mantenía la huelga y que el pacto llega 48 horas después de rechazar la oferta del ministro Carlos Cuerpo.",
-     "link": "https://www.esdiario.com/nacional/261120/203482/maquinistas-desconvocan-huelga-23n-desbloquear-compromisos-incumplidos-transportes.html"
+     "source": "elDiario.es",
+     "title": "La Defensora del Pueblo en funciones fulmina en su primer día el área de Igualdad y diluye la de Migraciones",
+     "link": "https://www.eldiario.es/sociedad/defensora-pueblo-funciones-fulmina-primer-dia-area-igualdad-diluye-migraciones_1_13679618.html"
     }
    ],
-   "score": 2
+   "score": 2,
+   "id": "s1"
   },
   {
-   "id": "bepi",
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Dos hombres y un elefante en la habitación",
+   "summary": "Feijóo sacó a Puigdemont en el bloque de vivienda, junto a Jéssica. Sánchez no contestó, pero mencionaba una y otra vez a Abascal",
+   "link": "https://elpais.com/opinion/2026-11-19/dos-hombres-y-un-elefante-en-la-habitacion.html",
+   "source": "El País",
+   "date": "2026-11-19T23:32:55+00:00",
+   "others": [
+    {
+     "source": "elDiario.es",
+     "title": "Dos velas",
+     "link": "https://www.eldiario.es/opinion/velas_131_13678775.html"
+    }
+   ],
+   "score": 2,
+   "id": "s2"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Un millón de euros para un vecino de Dos Hermanas gracias a un rasca de la ONCE: \"Estoy que no quepo\"",
+   "summary": "Raúl Medina, el vendedor del boleto agraciado, afirma que \"que no cabe en él de nervios y de felicidad\".",
+   "link": "https://www.20minutos.es/andalucia/sevilla/un-millon-euros-para-un-vecino-dos-hermanas-gracias-un-rasca-once-estoy-que-no-quepo-mi-cuerpo_7063833_0.html",
+   "source": "20minutos",
+   "date": "2026-11-20T17:24:58+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s3"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Madrid se blinda por Navidad: hasta 800 policías municipales, control de aforos y drones",
+   "summary": "Mañana sábado, Madrid dará el pistoletazo de salida de la campaña navideña, con el encendido de luces y el espectáculo lumínico con drones en la plaza de Cibeles. Se espera la asistencia, si la lluvia lo permite, de 150.000 personas. Una fecha entrañable en la que la ciudad se viste de magia y color hasta el 6 de enero, día de Reyes, cuando se dará por…",
+   "link": "https://www.abc.es/espana/madrid/madrid-blinda-navidad-800-policias-municipales-control-20261120125047-nt.html",
+   "source": "ABC",
+   "date": "2026-11-20T17:03:40+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s4"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Los40 Music Awards 2026: lista completa de artistas que actúan hoy en Barcelona",
+   "summary": "Barcelona se prepara para recibir este viernes, 20 de noviembre, a los protagonistas de Los40 Music Awards Santander 2026. El Palau Sant Jordi alberga la 21.ª edición de unos premios que reúnen a artistas nacionales e internacionales y que este año coinciden con el 60 aniversario de la emisora.Tony Aguilar, Cristina Boscá y Dani Moreno 'El Gallo' serán los…",
+   "link": "https://www.abc.es/espana/cataluna/los40-music-awards-2026-lista-completa-artistas-20261120165515-nt.html",
+   "source": "ABC",
+   "date": "2026-11-20T17:03:06+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s5"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "El túnel de Castellana Norte abrirá al tráfico en la semana del 14 de diciembre",
+   "summary": "El túnel que ha soterrado el tramo final del paseo de la Castellana , al norte de la capital, abrirá al tráfico la semana del 14 al 20 de diciembre, justo antes de que lo haga el de la A-5, cuya inauguración está prevista para el día 23. Así lo ha avanzado este viernes el alcalde de Madrid, José Luis Martínez-Almeida, durante su intervención en la jornada…",
+   "link": "https://www.abc.es/espana/madrid/tunel-castellana-norte-abrira-trafico-semana-diciembre-20261120102938-nt.html",
+   "source": "ABC",
+   "date": "2026-11-20T17:01:25+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s6"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Los psicólogos atienden 2.035 nuevos casos de violencia de género en los dos últimos años",
+   "summary": "Atención en consulta, el apoyo «más urgente» a la hora de denunciar o acudir al juzgado y el seguimiento posterior para intentar superar el proceso tras sufrir violencia de género . Esas son las vertientes que el Colegio de Psicólogos de Castilla y León trabaja con las víctimas en virtud al acuerdo suscrito hace dos décadas con la Junta y mediante el cual…",
+   "link": "https://www.abc.es/espana/castilla-leon/psicologos-atienden-2035-nuevos-casos-violencia-genero-20261120130214-nt.html",
+   "source": "ABC",
+   "date": "2026-11-20T16:58:37+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s7"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Qué tendrá guardado",
+   "summary": "El cara a cara fue una masacre. Hoy se reconocía con la boca más o menos pequeña entre los sanchistas mediáticos. Los más palmeros se agarran a la presunta mala educación de Feijóo, por interrumpir a Sánchez, y a un surtido de supuestas mentiras que los verificadores espigan con esfuerzo sobrehumano. Existe un debate sobre si un cara a cara mueve o no mueve…",
+   "link": "https://www.abc.es/espana/guardado-20261120141019-nt.html",
+   "source": "ABC",
+   "date": "2026-11-20T16:56:24+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s8"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "Feijóo ganó el cara a cara contra Sánchez por 10 puntos, según el sondeo de 40dB. para EL PAÍS y la SER",
+   "summary": "Un 43% de los encuestados se decantan por el líder del PP como ganador del debate, frente al 33,3%, que lo hacen por el candidato socialista",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-20/feijoo-gano-el-cara-a-cara-contra-sanchez-por-10-puntos-segun-el-sondeo-de-40db-para-el-pais-y-la-ser.html",
+   "source": "El País",
+   "date": "2026-11-20T17:30:25+01:00",
+   "others": [
+    {
+     "source": "La Voz de Galicia",
+     "title": "¿Qué verdades y mentiras contaron Sánchez y Feijoo en el cara a cara?",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMVJxa2Npam5uQ09WWEp2b3NZY0JVM0J4Rk1GaUVwQkFtbFFnMS00TTRyajhKTnNtaS1aalBTMFRFcHhFS3hSeG1LdHFBdUt3eEZKWVJhNmgtR2FQQThyNjhfR3RwMkpJSF96ZWduOXF3MjFNQ1R4elI5LVhwV01wLWtWdVdLRS1nbmpCTUpUTkVLakRsZW03TW5hcGp3ODJJMDRBRnMyY3BQRjBkMTJEZGpfWGpDb1lwUWtCSFFFWmJCQlBvTkIwT2NBdXZ0a2w0?oc=5"
+    },
+    {
+     "source": "El Mundo",
+     "title": "El hombre que acabó con Pedro Sánchez",
+     "link": "https://www.elmundo.es/espana/2026/11/20/6aff80cefdddffdf3c8b4578.html"
+    },
+    {
+     "source": "elDiario.es",
+     "title": "El 45% ve a Feijóo vencedor en el cara a cara contra Pedro Sánchez pero el voto apenas se mueve",
+     "link": "https://www.eldiario.es/politica/45-ve-feijoo-vencedor-cara-cara-pedro-sanchez-voto-apenas-mueve_1_13678798.html"
+    },
+    {
+     "source": "La Vanguardia",
+     "title": "Las frases del cara a cara entre Sánchez y Feijóo",
+     "link": "https://www.lavanguardia.com/politica/20261120/11689009/frases-cara-cara-sanchez-feijoo.html"
+    },
+    {
+     "source": "ABC",
+     "title": "¿Quién ha ganado el debate cara a cara entre Pedro Sánchez y Feijóo?",
+     "link": "https://www.abc.es/espana/ganador-debate-cara-cara-pedro-sanchez-feijoo-encuesta-20261119214314-nt.html"
+    },
+    {
+     "source": "20minutos",
+     "title": "Sánchez, en 'Salvados' tras el cara a cara con Feijóo: \"El debate no me ha quitado el sueño\"",
+     "link": "https://www.20minutos.es/television/pedro-sanchez-salvados-tras-cara-cara-con-feijoo-debate-no-me-ha-quitado-sueno_7063822_0.html"
+    }
+   ],
+   "score": 7,
+   "id": "s9"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "La Audiencia deja libre al millonario americano acusado de financiar a Hamas por \"errores sustanciales\" en la traducción de la petición de extradición de EEUU",
+   "summary": "El tribunal considera relevantes los desajustes en la declaración de la agente del FBI en la que se basa la reclamación contra James Cox Chambers, sobre la que aún no hay decisión final Leer",
+   "link": "https://www.elmundo.es/espana/2026/11/20/6b002a6421efa0631f8b4575.html",
+   "source": "El Mundo",
+   "date": "2026-11-20T13:27:22+01:00",
+   "others": [
+    {
+     "source": "EL PAÍS",
+     "title": "La Audiencia deja en libertad al millonario propalestino Chambers tras los errores de traducción en la reclamación de EE UU",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPajNJbU5iZkhoQWdmYXF2VUhoTzFCQnJqU2xmZjZjbHc3OUkyb01iSlB0UU1aeU1wUS1Cd3kwSi0yT0ljSklVOGRWalBBWjZkX2g0U3M1Q1pqYnd6ZXl6UmhZbHFNelRvTFB4cU9Ma01ZSnRYb0UzbmFPM1VQZU9KMDhvZ3Q4QnVXVkhjczVvN1FQd0R4ZHFNUXh4VnNqOTdoMFhUNTQ4aC1VRGJVUTRsQVZtVzJnbXFFaC1TQkhjU2k0MEQxQ21tcUkyUmZ2RWloSFlMYzZXeFRaNmtRbmdKWkc4c3U4N240V1RIUnoxUlZlaVBabzRza9IBjAJBVV95cUxOUVkyVVBxVkxJamJOTkFXNTVpN0d5Vk0tWnMzQjZLUXhrWGRGRVdoSGFxZUVaZmtSZmtTZjZWTnkydDliZTIxTzdjcmZNNDNIVS1UYUdjem54am5OM1VtQ1hEUE91RFhfMm1mXzNUT0VjREk5M0haem1CUXdVRzlRdF8zMHVKSVdxelh6SjBpMW4tMmotV1YyVm8zWFZoVmkzZkxNeDhTejFaNGpsMFlfS0tBeHRvbmVTeUhNc01PdktaSjhjc3pWNjhUMXZ4MzJWWUhSLWpPbkVwTW9ycWdtV1ZCanE5dm9DaXcxNlE3Xzk5eGhHZDhoX2ZPZHYzVWYySktyUk5tYUVvY1pW?oc=5"
+    },
+    {
+     "source": "elDiario.es",
+     "title": "La Audiencia Nacional deja en libertad a 'Fergie' Chambers mientras decide sobre su extradición",
+     "link": "https://www.eldiario.es/politica/audiencia-nacional-aplaza-pronunciamiento-extradicion-fergie-chambers-eeuu_1_13679354.html"
+    },
+    {
+     "source": "La Vanguardia",
+     "title": "La Audiencia Nacional deja libre al millonario James Cox Chambers reclamado por EE.UU.",
+     "link": "https://www.lavanguardia.com/politica/20261120/11689149/audiencia-nacional-pone-libertad-condicional-millonario-james-cox-chambers.html"
+    },
+    {
+     "source": "20minutos",
+     "title": "La Audiencia deja libre a Fergie Chambers después de reconocer EEUU \"errores\" en la solicitud de extradición",
+     "link": "https://www.20minutos.es/nacional/audiencia-nacional-excarcela-chambers-junior-reconocer-estados-unidos-errores-solicitud-extradicion_7063571_0.html"
+    }
+   ],
+   "score": 5,
+   "id": "s10"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "El Supremo veta también el voto en las elecciones a los nacionalizados por la ley de nietos que viven en España",
+   "summary": "Los jueces, a petición de Vox, trasladan a la Junta Electoral Central y al INE que la suspensión cautelar no solo opera en el censo exterior, sino que impide votar el 29-N a los afectados aunque estén empadronados en municipios españoles Las claves del voto exterior del 29N: cómo se apartarán las papeletas de los 'nietos' en los consulados y en el…",
+   "link": "https://www.eldiario.es/politica/supremo-veta-voto-elecciones-nacionalizados-ley-nietos-viven-espana_1_13680980.html",
+   "source": "elDiario.es",
+   "date": "2026-11-20T17:18:48+01:00",
+   "others": [
+    {
+     "source": "EL PAÍS",
+     "title": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España",
+     "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSUZlS1RaeXZlc1YxUV8tWk9QN2dWd2pwM2ZLRk1BVkUtNjdibWo5WVVNMHY0S1NoNUk1YmdCX25NbEt0elJDWmp4ZnMwV2Y5VXF0YUV2Qk8tSGJpUDBwY19VcXJkNzJTcTVJcnhkeW1SMFd1aTh2WXltVndJSTlUOWFYR09hNTR6UmZBQTV0SldXQVM0N2ZTMmh1MlJiSjFnWG9HampiSEhqUlFtQS1vWU0xS0xLZm1wbWJfM0R5aXRCSmoxWVpqalNKcm1CODFwVVoxVUtWUTlNMXV0YlBTdndIZmhoaGMycjU3SDRqUGFISFhFQ1U2Ql9fNF9QdUdfeE5BdEhR0gGaAkFVX3lxTE56Q1NXbzRxWFdpTzhaUHhKODE0VldGSzRuOGY5dmNRakxJSE0wNklfMWdMMU9yRzFiSFBHWFEwNDBHQzBXQlVMUl9pSEhpOTE4N0VZcW9yUUZ0eEItbHZyWXFBUEkwUXVmclRzOU9Rb3ZnLWl5bllHc2hMMGxURXFJZGJ1S200MDhuSHJwMWF6MjVXODM3WENVbEJDdElqUHkyRDFZTXVCZ0VNQzY0OEk3NEFlWWtBMTBzR0w3T3QtVDN1bnoweEN6WlY3dTNPdWJPRkxpbG5tZ1JsVWpJLXNINFF6eE1aSHJvWXpldDVKaVU3NF9BOE44QXhPQlV4ZXJRWHdSeDhTN29vbnBVcm1RSkdxbU5yTVpTUQ?oc=5"
+    },
+    {
+     "source": "ABC",
+     "title": "El Supremo confirma la exclusión del censo de 163.000 nacionalizados por la 'ley de nietos', vivan fuera o en España",
+     "link": "https://www.abc.es/espana/supremo-confirma-exclusion-censo-160000-nacionalizados-ley-20261120160806-nt.html"
+    }
+   ],
+   "score": 3,
+   "id": "s11"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "¿Quién ha ganado el duelo? Los analistas de EL PAÍS dan por vencedor a Feijóo sobre Sánchez",
+   "summary": "Siete expertos opinan sobre el cara a cara entre los candidatos del PP y el PSOE ante las elecciones del 29-N",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-19/quien-ha-ganado-el-duelo-los-analistas-de-el-pais-dan-por-vencedor-a-feijoo-sobre-sanchez.html",
+   "source": "El País",
+   "date": "2026-11-20T00:29:19+01:00",
+   "others": [
+    {
+     "source": "elDiario.es",
+     "title": "ENCUESTA | ¿Quién ha ganado el cara a cara entre Sánchez y Feijóo?",
+     "link": "https://www.eldiario.es/politica/encuesta-ganando-cara-cara-sanchez-feijoo_11_13674665.html"
+    },
+    {
+     "source": "La Vanguardia",
+     "title": "¿Quién ha ganado el cara a cara entre Sánchez y Feijóo?",
+     "link": "https://www.lavanguardia.com/politica/20261120/11688475/ganado-cara-cara.html"
+    }
+   ],
+   "score": 3,
+   "id": "s12"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "Feijóo se lanza al ataque ante un Sánchez que evita el cuerpo a cuerpo",
+   "summary": "En el único cara a cara de la campaña, el candidato popular enmienda la totalidad de la gestión del Gobierno y cuestiona una y otra vez la decencia de su rival, que opta por un tono pausado y minimiza el choque directo",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-19/feijoo-enmienda-ocho-anos-de-gobierno-ante-un-sanchez-que-evita-la-confrontacion.html",
+   "source": "El País",
+   "date": "2026-11-20T00:27:13+01:00",
+   "others": [
+    {
+     "source": "elDiario.es",
+     "title": "Un Sánchez contenido evita el choque contra un Feijóo al ataque",
+     "link": "https://www.eldiario.es/politica/sanchez-contenido-evita-choque-feijoo-ataque_1_13678837.html"
+    },
+    {
+     "source": "La Vanguardia",
+     "title": "Un Sánchez contenido evita mostrar colmillo",
+     "link": "https://www.lavanguardia.com/politica/20261120/11688592/sanchez-contenido-evita-mostrar-colmillo.html"
+    }
+   ],
+   "score": 3,
+   "id": "s13"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "Sánchez: «Si tengo que pedir perdón a las víctimas de los accidentes ferroviarios lo pido»",
+   "summary": "El presidente del Gobierno, Pedro Sánchez, pide perdón a las víctimas de los accidentes ferroviarios de Adamuz y Urda durante el debate cara a cara con Alberto Núñez Fejióo. El líder del Ejecutivo ha asegurado: «Si tengo que pedir perdón a las víctimas del accidente lo pido. Es un dolor que voy a llevar conmigo siempre».Ha sido uno de los momentos más…",
+   "link": "https://www.abc.es/espana/sanchez-pedir-perdon-victimas-pido-20261119225627-nt.html",
+   "source": "ABC",
+   "date": "2026-11-20T16:58:38+01:00",
+   "others": [
+    {
+     "source": "elDiario.es",
+     "title": "Sánchez pide \"perdón\" por los accidentes ferroviarios: \"No lo ha hecho Ayuso con los mayores en las residencias\"",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYjBQVHFONHZMWGJzVmE1dXJpWTYxR1FGNWFaUm5mX3hMWGQ2UzY2OW5DVHhuanpfazR6Sy12WVZFS2lpWjdYYTlVbU1rQldnODYyd05YNU1QcmFpUElFS0dtenJHSEJlb29QVk56TU9IeF93b1BxUml3cUZrRnEzTHByelNGaWtsdVBaRW05RExndV9QN3pCcld0aUVPQWdfY01JR0N2ZmxNakpZQlBJTTJnWDU2YllYaEHSAb8BQVVfeXFMTjd2dEpXZ3IxQjJ5M2JHZndoWWNWdGV5VjNoNnkteVM2RVdzUEViQUJ2UTlSZWNzRmRRMVdLdDdONmpDZTZYXzUxcmdEalhEM0FiZ1pDV2NFd2IyenB4VlFiQ0hIdnl0S1ZlbUdTS0g4eG1tUTNELWVyTGVtZUVuTE5iNlpVVzdmUWNZdWhtd2xXY1k3UzlveGcwLU1hUTBTM2JkeFFZSkdoUGpOYktFeDh4ZTNGMDJDb3pVMmJwM1k?oc=5"
+    }
+   ],
+   "score": 2,
+   "id": "s14"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "Las solicitudes de voto por correo descienden casi un 60% respecto a las elecciones de 2023",
+   "summary": "La maquinaria logística ya está en pleno rendimiento para estas elecciones del 29 de noviembre . Correos ha admitido un total de 1.099.687 solicitudes de voto por correo . Las peticiones han registrado un descenso del 58,07% frente a los comicios del 23 de julio de 2023, en los que la coincidencia con las vacaciones de verano llevó a 2,6 millones de…",
+   "link": "https://www.abc.es/espana/solicitudes-voto-correo-descienden-respecto-elecciones-2023-20261120125601-nt.html",
+   "source": "ABC",
+   "date": "2026-11-20T16:55:09+01:00",
+   "others": [
+    {
+     "source": "20minutos",
+     "title": "Casi 1,1 millones pide el voto por correo para el 29-N: un 11,47% más que en 2019, las últimas elecciones que no cayeron en verano",
+     "link": "https://www.20minutos.es/nacional/casi-1-1-millones-personas-piden-voto-por-correo-para-29-n-un-11-47-mas-que-2019-las-ultimas-elecciones-noviembre_7063645_0.html"
+    }
+   ],
+   "score": 2,
+   "id": "s15"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "El juez ofrece a la líder del 'clan de los Rocho' declarar por videoconferencia tras su petición de ir a la Audiencia escoltada para su declaración por el 'caso Cloacas'",
+   "summary": "La fiscalía respalda esa posibilidad, pero se opone a que sea testigo protegido porque fue ella la que se dio a conocer públicamente en los medios Leer",
+   "link": "https://www.elmundo.es/espana/2026/11/20/6b00450de4d4d819558b45a4.html",
+   "source": "El Mundo",
+   "date": "2026-11-20T14:34:06+01:00",
+   "others": [
+    {
+     "source": "20minutos",
+     "title": "El juez ofrece a Cintia Rocho declarar por videollamada en el caso de las cloacas del PSOE tras pedir protección",
+     "link": "https://www.20minutos.es/nacional/juez-ofrece-cintia-rocho-declarar-por-videollamada-caso-las-cloacas-psoe-tras-pedir-proteccion-policial_7063699_0.html"
+    }
+   ],
+   "score": 2,
+   "id": "s16"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "Sorteo de la BonoLoto, Primitiva y Lotería Nacional del jueves 19 de noviembre",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYmllUHk2MEk3VVBaZ0E1YjFhOFZkY25keHFzNXdxLVBGYzQ1QWFwMV9PMjY3R3dzQjRLbFBxV3AtaEFJeld0U3dMQkV6YldhMV9Na3Q4Y2NlajFHS0pfTS1DT1NLRURRcHZxY3lOVXlfd0lxWW00d0dDYWlDbUNfbVBINWZiaVYwNEwteEdnN1JrWmVIc1NLTmxvYWJlbFBtUGFhS2p3a3ZvZDNzcXUtUW9zaXdfUQ?oc=5",
+   "source": "RTVE.es",
+   "date": "2026-11-20T09:54:40+00:00",
+   "others": [
+    {
+     "source": "Antena 3 Noticias",
+     "title": "Dónde han caído los premios de la Lotería Nacional, La Primitiva, Bonoloto, ONCE y EuroDreams de hoy jueves 19 de noviembre de 2026",
+     "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQSHBXU3F0b25Feklzbk9JUTZtV1VDM0c0eDUyMmpLX3VuWU9lTy1fNndNQTZxUVRsSzJ0cXJPSDM0TTBfOUFyS090UWl0bU1PUFV5cmYxQXczcW5ISFpUZnllUUlxN1RhUFVRd09fYXY3SDI5N2hQWHR1cElDWFB5SlVocEM4YXd1LXBndEw0WTg1NG9LSkpwRVhpcUQ5VEtJeEM1ZUxnQlN5bS1YN0thZDR4dFdoNTJvb256cEEyNm9zTGtaWmxqazRkRS1fdEFDZ3ljci1OcVJsdjBGeGIxa0x2bjFDWmsyS2dOdkI3SVJmRjBDQTF2SUVjZTJKbXFDclZTSTZZVGQzNUVCMnhPWDZB0gGSAkFVX3lxTE4yRFhoY0FzU0FXcWhPeERiVEM2UzVvQU1kcno3RGZXcXZlVjJMdFNrb2hFdTIyREJKRDk2QjhYbGxUQ0RwYWNBaUV4QWU0VGRLdVN6YjM5N2JmeDBvWl9qajlvbjE0Wm1maGU3RVRrMnYyNy1Ldklmb2lHTVNrSGNnTGhpY0k0NWloM3J3eGtzUE1FajA3VGpIMk94d3RSd1Y2UWNuNXFKS2ZFQXI2dUJ5TTZ1djNvdHROdlVWTjJkSGQ2UXJwT0xvXzRVNTRZVVBmbjJpcU1GRGNEVDVNdmpKYUNHWWQ3RzlReU1uMFJsd1kxeVVwUUFsNi1VckhUc0JVeG9PZGVPVWN0dnFxVy1Na3c?oc=5"
+    },
+    {
+     "source": "EL PAÍS",
+     "title": "Cupón diario de la ONCE: comprobar sorteo del jueves 19 de noviembre",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSXJfamhLcDJvRXZkV0ZNQjZvU0c2Uk54d0Q0RndrcmdxY1RUajRSZ3NUSU1WUll5cm9DWEI1bkl4TzFFX3JReTQyTDlwN3VWNFlIWDRLMTA5cUx2bHVLZEpHQldRLURLRHhuNEFDUlF4Y212R2V4R3RNM2hVM1Y4ZnJHT3poeWdMZVliNUYyNmtqVEhxdDBla1BacUJmU2ZfNDdhN3JFMlhVdnJ5ajRz0gHDAUFVX3lxTE1EWnpzZzNDSk9IdldQbWZyaXlaR1RucXRIRVVraXc0Qzk3Q05Ia1Z1aFBQbldzWjVPZU15T2hJbDBtZ3NEc2hBemNrWGJvWWhFNFdrbmk2ZmtqcW1qTTdLa19PVDRLbWFDMXA5aTQtVEFuaFhrazBqeWdSRUZUazZOSWY4ZXl5MHpub0hrUnVxOFpseGZROVRDemZNdnR0a215UFByc2NVLUNjUFhoUzNfZXpiRnd2dDNzcHRUUzNTb2ZHTQ?oc=5"
+    },
+    {
+     "source": "LaSexta",
+     "title": "EURODREAMS | Comprobar resultado del sorteo del jueves 19 de noviembre de 2026",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSGJtX2NmWHI5ZU1LZkx1Nko0SXBGdkp2VDl4RUFvWlZDQXFHLVF4UVpick5acU52ZDViMUpmQy1kQ1Nqc0p3LVVqU1ljTEVNQXBjbHByMGpFLW1mTmEwbVNJSFZKODVHYmtYRm9wYWp1WVpOSnJCUldYUW1FY205TlkyY2NZVWx5VXBCSWRzZFp2SElzaDVUMkl6cnEyRlFwZmhhTlRpN1FDclVEQ2p4b2hlNXpVOTJFcDRhb241WmVkcmtIVkNSX0FRLVTSAcwBQVVfeXFMUHNxUFZPZ0tjeFZGbm1rQTNpelM3bXo4M3lRT0FLTHpvMVRvdUFHaVQ5WHNWLVNTWG12RThObkNJQ3VjSHVmZjV4bGFsdkJJMG1oS09XVjkzQjF5YWtramg1VVlWVkFQZlNmendzc3FBNGZGZURQMy1FZ2hRVmVIVFBWTzN5WWxJY1UzYWNzcnIzbkt3NDFwLXlvYnBOLWFCMU8waU5PaEN3d0VPaHRfUEdYUHpXU0M1T1VGNDEzQUhXbWY3aW44OXBKTlRs?oc=5"
+    }
+   ],
+   "score": 4,
+   "id": "s17"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "California investiga a Nvidia por posibles transferencias de chips avanzados a China",
+   "summary": "El fiscal general del Estado, Rob Bonta, ha emitido un requerimiento de información a la tecnológica para esclarecer si datos confidenciales de la misma fueron del conocimiento del país asiático",
+   "link": "https://elpais.com/us/2026-11-19/california-investiga-a-nvidia-por-posibles-transferencias-de-chips-avanzados-a-china.html",
+   "source": "Cinco Días",
+   "date": "2026-11-19T23:36:56+00:00",
+   "others": [
+    {
+     "source": "Yahoo",
+     "title": "El fiscal general de California investiga a Nvidia por riesgos de filtración a China",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSjhqU3pBdlNxZGU2VnNlVXk5WjRvYjRVSEx2WHRhVC1xNmw3M0RSVXNsNTFMVjA3bmZBOTFiN084NVpJTEo3VUhOajRJcmJpaGtLOEg3Z2VsSWo5bVRaeTZZUWlobndacXVMYTdXemhaUV8yMzVyRTFQckZLY3Foc3hjMVdKTjhMSVdPdVl1ZDAxZUJELUprWFNhVQ?oc=5"
+    },
+    {
+     "source": "BBC · Business",
+     "title": "California targets Nvidia in China AI chip probe",
+     "link": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "score": 3,
+   "id": "s18"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "La inteligencia artificial arrastra a Wall Street y el Ibex intensifica las caídas por debajo de los 19.000",
+   "summary": "Anthropic se desploma un 10% en su segunda sesión en Bolsa. El selectivo español acumula un retroceso cercano al 6% en la semana",
+   "link": "https://cincodias.elpais.com/mercados-financieros/2026-11-20/la-bolsa-y-el-ibex-35.html",
+   "source": "Cinco Días",
+   "date": "2026-11-20T16:33:14+00:00",
+   "others": [
+    {
+     "source": "TradingView",
+     "title": "El Ibex pierde los 19.000 puntos en plena huida de la inteligencia artificial",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0yY2U4OGFEUU9vU0pPbDRvb1hZa3RfWExsR0U1WmhmbnE5ck1mUGJWNXBLQXluRGhHRktqeHExZGdDRVJROFdERWpNbkNQUEVybTNLeXhSVkdXTldMejE1SC1lMF9TUQ?oc=5"
+    }
+   ],
+   "score": 2,
+   "id": "s19"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "El Gobierno desbloquea la directiva del nuevo mercado de emisiones para coches y calefacciones",
+   "summary": "Las comercializadoras de carburantes, como Repsol o Moeve, y de gas, como Naturgy o Iberdrola, deberán comprar derechos en el mercado europeo, cuyo coste trasladarán a los usuarios",
+   "link": "https://elpais.com/economia/2026-11-20/el-gobierno-desbloquea-la-directiva-del-nuevo-mercado-de-emisiones-para-coches-y-calefacciones.html",
+   "source": "El País · Economía",
+   "date": "2026-11-20T14:36:38+00:00",
+   "others": [
+    {
+     "source": "Cinco Días",
+     "title": "El Gobierno desbloquea la directiva del nuevo mercado de emisiones para coches y calefacciones",
+     "link": "https://elpais.com/economia/2026-11-20/el-gobierno-desbloquea-la-directiva-del-nuevo-mercado-de-emisiones-para-coches-y-calefacciones.html"
+    }
+   ],
+   "score": 2,
+   "id": "s20"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "Mejores chollos del Black Friday de Amazon hoy, 20 de noviembre: seis productos con descuentos de hasta un 65 %",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa2V6TDB2SWZsNklVS0lXUGhsWXp6U1pQcC1VQXF2dnpQdzFZM0VpWld6WHdtVUR4T2lCOEJvS2FzMkk4ZkhNTnNVb3FzV1pScE5aQXV6QkZJcUNGUEtkT1dwX1hWUmNkUnBuN3lKckE4UHJmaXF4dU5MSUw4eUh2cGFUSkhVaGd1dE5vSko2WEMzaVN0eWhrWE5uZkxpTlUyTy1wTElncmRwWmt6cHMtbjN2YkPSAboBQVVfeXFMT3dObm5VbTQwMmlYTktPYkhWRE0yZWNWZmlPYUZwUnp3cHFUMmtiRFFrRmRDUFZZbGNXSHFHaDYwUnZteWlHeDZFcktTUmtWYi04QUJ0aEhXV1A5ZFc4XzNVajhHbi1EWExRRC1SbTB3aVc3TzA4VHN5bzFVWTVHbEZXUnhGZVVNVDhncm9hM2EzSnQzWXN1eGIxQlJOYjg2QzBEX21hbGlQUGdHTFBxMFBMSEtlUnNvV09n?oc=5",
+   "source": "Xataka",
+   "date": "2026-11-20T14:16:28+00:00",
+   "others": [
+    {
+     "source": "MARCA",
+     "title": "El Black Friday de Amazon deja las Skechers por los suelos: 25 zapatillas desde 31 euros y descuentos de hasta el 55%",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeFh0X2tlSlI2UmNvQlFGcy1KT2xOU2h1S1VyTWExa1Zqd2JfSVRvVG1GQXVSOXJXRmdCWXNRZlpsX3ZBbHZpcjI4Rll4V3JzOFpfbHdsaEZ5QVZVTU84eFpXWjhpNzZhNi1RX2tzdVZvWFR3UExWM2FYenpYbXcxd2M2RjFaOFVtY0M2TWFJOFJ0dzMxTExHS1JYZ9IBmwFBVV95cUxORUxnMF9Zd1Q0anhDbGxLUGlYMmJJZzVBdEFMZFotdDIwcVF6WUFMdU9JN3JQMmxLdWFtaTFYRXo2cS1YYldHcTlON0RSNlRjODFBN3YzUUg2TDMtdHNXemsxX3ZVSHUzTHZRcDBZRlU5NlF3aVhqWl9DOE42eWttS203eWhhOHNZZ0NHTHp4UEExbFU3MjZuaW1JQQ?oc=5"
+    }
+   ],
+   "score": 2,
+   "id": "s21"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "Sánchez desoye al sector y aprueba el decreto de centros de datos a nueve días de las elecciones",
+   "summary": "El Consejo de Ministros da luz verde a la norma para ordenar el despliegue de 'data center' en España que, según la patronal SpainDC, pone en riesgo 67.000 millones de inversión. El PP garantiza que derogará el texto si llega a La Moncloa tras el 29-N Leer",
+   "link": "https://www.elmundo.es/economia/empresas/2026/11/20/6b00340be85ecec7198b4571.html",
+   "source": "El Mundo · Economía",
+   "date": "2026-11-20T12:53:59+01:00",
+   "others": [
+    {
+     "source": "Cinco Días",
+     "title": "El Gobierno aprueba el decreto de centros de datos y la planificación eléctrica a una semana de las elecciones",
+     "link": "https://elpais.com/economia/2026-11-20/el-gobierno-aprueba-este-viernes-el-decreto-de-centros-de-datos-y-la-planificacion-electrica.html"
+    }
+   ],
+   "score": 2,
+   "id": "s22"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "Transportes confía en que la línea Madrid-Sevilla en Urda se repare en unas dos semanas",
+   "summary": "El ministerio elude comprometerse aún con una fecha de reapertura, mientras Adif valora los daños del siniestro, y Renfe, Iryo y Ouigo ofrecen billetes para viajar a partir del 13 de diciembre",
+   "link": "https://elpais.com/economia/2026-11-20/transportes-confia-en-que-la-linea-madrid-sevilla-en-urda-se-repare-en-unas-dos-semanas.html",
+   "source": "El País · Economía",
+   "date": "2026-11-20T12:31:22+00:00",
+   "others": [
+    {
+     "source": "Cinco Días",
+     "title": "Transportes confía en que la línea Madrid-Sevilla en Urda se repare en unas dos semanas",
+     "link": "https://elpais.com/economia/2026-11-20/transportes-confia-en-que-la-linea-madrid-sevilla-en-urda-se-repare-en-unas-dos-semanas.html"
+    }
+   ],
+   "score": 2,
+   "id": "s23"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "Securitize lanza acciones tokenizadas de Anthropic el día de su debut",
+   "summary": "Los inversores de EE UU, de la Unión Europea y de otras jurisdicciones autorizadas podrán acceder a los títulos, respaldados en una proporción de 1:1 por los de Anthropic",
+   "link": "https://cincodias.elpais.com/criptoactivos/2026-11-19/securitize-lanza-acciones-tokenizadas-de-anthropic-el-dia-de-su-debut.html",
+   "source": "Cinco Días",
+   "date": "2026-11-20T10:44:17+00:00",
+   "others": [
+    {
+     "source": "Expansión",
+     "title": "Las acciones tecnológicas caen a pesar del debut de Anthropic",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT2dXZ3Q1WkF4VnRjQUtla3Q1a3A0SjFQNVdfRHpseTQ4YnFaaHkzcURmanNraUh2U1RkRUlvT0NrSFlXY3NTdUVpUEQxWm5XRE9FbmFTQndzdFlRaGZ3SXVCTG5LLXdXZDFFc3AteDZobDlNWDhFUzJ1M1VFNFM4YjJWZ1ZRMnZQWjNpS0ZtY2xZLThlQjZXZXdtMVpkYzF0bnhXamVpQUZTR0YwQmlad2FxbjFVUdIBtgFBVV95cUxNYl9IbnZIZHllV3B4NDlnd3Z3Z0xyUzh4NWZMTzVIYXdBT01GdUVndGxjVG1ScmFGQzJQd3Y5LURhRkF5OWRGaEl2alkxbHA1NUVmVkpldUJMeGdNZ01hRjd4VmUxY29xY0lVMVNaVEZMOFZJeU00SEUwaEE2blIzMmM0aFdIZ05EUmowYy1KcWRPQ1cxMjN0QkZGZmwwR0RVUlI0cjlhdVY1ZDR1SWNmdl9EWTdfQQ?oc=5"
+    }
+   ],
+   "score": 2,
+   "id": "s24"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "europe",
+   "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+   "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
+   "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Europe",
+   "date": "2026-11-20T13:52:04+00:00",
+   "others": [
+    {
+     "source": "BBC",
+     "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOMy1DM20xRHlCa2dHcXVjQWZxMWdNSEpzZzI2VDhJeTd5NEN3SWlMYW8zdXVPSTZnVkRtVy1EdHRLSFl3UXhZelNMdnZOMjFQNW1peS1Gd1NOQWdjcnc?oc=5"
+    },
+    {
+     "source": "Politico Europe",
+     "title": "Tusk: Russian cruise missile incursion into Poland seems ‘intentional’",
+     "link": "https://www.politico.eu/article/russian-missile-incursion-into-poland-seems-intentional-tusk-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+    }
+   ],
+   "score": 3,
+   "id": "s25"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "asia",
+   "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+   "summary": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
+   "link": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Asia",
+   "date": "2026-11-19T20:07:02+00:00",
+   "others": [
+    {
+     "source": "The Guardian · World",
+     "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+     "link": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar"
+    },
+    {
+     "source": "NPR · World",
+     "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+     "link": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya"
+    }
+   ],
+   "score": 3,
+   "id": "s26"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "europe",
+   "title": "Analysis: Trilateral summit high on spectacle, short on substance",
+   "summary": "The visuals of the historic trilateral meeting may be the only lasting impression left by the summit.",
+   "link": "https://www.bbc.co.uk/news/articles/cwn70vrjlg8ro?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Europe",
+   "date": "2026-11-19T17:55:15+00:00",
+   "others": [
+    {
+     "source": "BBC · US & Canada",
+     "title": "Analysis: Trilateral summit high on spectacle, short on substance",
+     "link": "https://www.bbc.co.uk/news/articles/cwn70vrjlg8ro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "BBC · Asia",
+     "title": "Analysis: Trilateral summit high on spectacle, short on substance",
+     "link": "https://www.bbc.co.uk/news/articles/cwn70vrjlg8ro?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "score": 3,
+   "id": "s27"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "europe",
+   "title": "What the Brussels summit could mean for the UK-EU Brexit deal",
+   "summary": "BBC political editor Chris Mason looks at the potential agreements between the UK and EU that could be reached on food, energy and youth mobility.",
+   "link": "https://www.bbc.co.uk/news/videos/c6lymr5x4ye5o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Europe",
+   "date": "2026-11-20T13:59:17+00:00",
+   "others": [
+    {
+     "source": "Al Jazeera",
+     "title": "UK says new deal will ‘rebuild bridges’ with EU: What’s in it?",
+     "link": "https://www.aljazeera.com/news/2026/11/20/uk-eu-deal-what-we-know-so-far?traffic_source=rss"
+    }
+   ],
+   "score": 2,
+   "id": "s28"
+  },
+  {
    "sec": "international",
    "lang": "en",
    "region": "global",
-   "title": "After eight years, BepiColombo is about to reach Mercury",
-   "summary": "The European–Japanese mission BepiColombo is due to be captured into orbit around Mercury on Saturday, 21 November, after a journey that began in October 2018.",
-   "link": "https://www.esa.int/ESA_Multimedia/Images/2018/10/BepiColombo_arrival_at_Mercury_timeline",
-   "source": "ESA",
-   "date": "2026-11-20T08:00:00+00:00",
+   "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
+   "summary": "Relief in the immediate aftermath of a landmark ruling, but what happens next is in the hands of governments around the world There were tears in the halls of The Hague in the Netherlands and an eruption of applause in the refugee camps of Bangladesh as the scattered communities of Rohingya watched the UN’s top court rule the Myanmar military had committed…",
+   "link": "https://www.theguardian.com/global-development/2026/nov/19/everyone-struggled-for-this-justice-tears-in-court-as-rohingya-vindicated-in-myanmar-genocide-ruling",
+   "source": "The Guardian · World",
+   "date": "2026-11-20T13:41:49+00:00",
    "others": [
     {
-     "source": "Sky at Night Magazine",
-     "title": "Explains what each orbiter will study, from geology to Mercury’s weak magnetic field.",
-     "link": "https://www.skyatnightmagazine.com/news/bepicolombo-mercury"
+     "source": "Al Jazeera",
+     "title": "Myanmar, China object to landmark ICJ ruling on Rohingya genocide",
+     "link": "https://www.aljazeera.com/news/2026/11/20/myanmar-china-object-to-unfair-icj-genocide-ruling?traffic_source=rss"
     }
    ],
-   "score": 2
+   "score": 2,
+   "id": "s29"
   },
   {
-   "id": "nike",
+   "sec": "international",
+   "lang": "en",
+   "region": "us",
+   "title": "White House removes cyber-security chief after series of tech outages",
+   "summary": "CBS is reporting he has been fired after losing the confidence of White House chief of staff Stephen Miller.",
+   "link": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · US & Canada",
+   "date": "2026-11-20T13:28:32+00:00",
+   "others": [
+    {
+     "source": "Euronews.com",
+     "title": "White House cyber director fired after wave of tech outages",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTXoxVVd0c2RsV3pZTHBKdG1EQnZGTGtQZkhUZGRTcTUtUmNBc0dKOGxFS2ZwT1lJRmJ5bk9Zb21mQS1ZRWhqSTlYaEFEUEY4UTljMTc3WjMwVTF6OFpOcXlGdkJQdzNyci1HSXBKUnFlQkZxdDQ4aGFDTnJwTzNZSHMzOF9TMF82QWhjOTl3b1ZmNUhqeGp3QW4yQ1Vwc21IM2hOaHF3VQ?oc=5"
+    }
+   ],
+   "score": 2,
+   "id": "s30"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "us",
+   "title": "Texas death-row inmate screams as execution takes more than one hour",
+   "summary": "This prolonged execution comes weeks after Christa Pike survived the lethal injection of the same drug.",
+   "link": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · US & Canada",
+   "date": "2026-11-20T12:55:55+00:00",
+   "others": [
+    {
+     "source": "Sky News",
+     "title": "US death row inmate takes over an hour to die during lethal injection",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRksxQU5kUlhDMHowd1BqVUYwQklSSHJjVm8waWNTMWFiTjZ4cVpMV2pDUjRHeDhqcHJUWVMybFYxU29rYWtBRzd6ak1DblJNdlZ6UjRTYkM3QXdiV2lXaWY5eUQ2YjVwNWVHcDJWZVJ0eXA2cFVMYjFWWjVUTkRnTWUzYzJsZ1BtUGEzckkwamN3bWsxc2tZQ05HUFEzUGsyNmxUbzdzTE4?oc=5"
+    }
+   ],
+   "score": 2,
+   "id": "s31"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "asia",
+   "title": "South Korea catches 111 students with new measures against exam cheating",
+   "summary": "The students were caught with banned smart devices while taking the high-stakes Suneung exam.",
+   "link": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Asia",
+   "date": "2026-11-20T10:16:19+00:00",
+   "others": [
+    {
+     "source": "BBC",
+     "title": "South Korea catches 111 students with new measures against exam cheating",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14S3gxd05rQ3lzZ2FRVHpTcGpnRExCUVdSd21hNXdudkl2SEdOZXVMT3dtOHNDTmpPdXFuZGVtb1NZRHR6MkNfdEVNQlo1eDJyd0pVbWVvQi1LNEpWbnc?oc=5"
+    }
+   ],
+   "score": 2,
+   "id": "s32"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "europe",
+   "title": "Trump says he and Putin have a 'great relationship' at meeting",
+   "summary": "US President Donald Trump has met Russian President Vladimir Putin on the sidelines of the Asia-Pacific Economic Co-operation (Apec) summit in the southern Chinese city of Shenzhen.",
+   "link": "https://www.bbc.co.uk/news/videos/cm4gn31yn0x9o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Europe",
+   "date": "2026-11-20T10:00:00-05:00",
+   "others": [
+    {
+     "source": "NPR · World",
+     "title": "Trump to hold press conference after meeting with Xi and Putin",
+     "link": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference"
+    }
+   ],
+   "score": 2,
+   "id": "s33"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "us",
+   "title": "Trump accused of falling asleep during Xi Jinping speech at Apec summit in China",
+   "summary": "US president appeared to doze off while Chinese leader made speech, but White House insisted he was awake Donald Trump was, again, accused of falling asleep during a televised event, this time during the speech of the Chinese president, Xi Jinping, at the Asia-Pacific Economic Cooperation (Apec) summit in China. The US president appeared to close his eyes…",
+   "link": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china",
+   "source": "The Guardian · World",
+   "date": "2026-11-20T09:22:00+00:00",
+   "others": [
+    {
+     "source": "The Independent",
+     "title": "Trump mocked for ‘falling asleep’ during meeting with world leaders in China",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcDNlS01kUzBlZnRUMld5bFV1RWtkbVhybUFVem8tWERVcWJZVnVBTkZYVGpHLXZ0QjVZTGFLcDJhLWtyTVdXUm5JbVQ5dXdYOXg1SDNhWC14QWdHNHVTZlNvdGc3R2MxZngyWEVoQ1BTRWdDWUtoX1ZPc183RXEwWlpEZ2stdlBTRHU5VTM2Qkx3ZGgtUk1qcXdUeFl6ZS1xdzJtajU4Vm8xUmcwQTdZYg?oc=5"
+    }
+   ],
+   "score": 2,
+   "id": "s34"
+  },
+  {
    "sec": "moda",
    "lang": "es",
    "region": null,
-   "title": "Nike elige España entre sus 23 países clave para volver a crecer",
-   "summary": "Nike presentó el martes su nueva estrategia, «Full Stride Ahead», en su día del inversor. Se centrará en cinco deportes y 23 países prioritarios, entre ellos España, y quiere sumar unos 5.000 millones de dólares de ventas hasta su año fiscal 2031.",
-   "link": "https://www.modaes.com/empresas/nike-situa-espana-entre-sus-23-paises-estrategicos-en-su-relanzamiento",
-   "source": "Modaes",
-   "date": "2026-11-20T08:00:00+00:00",
+   "title": "Tres firmas de calzado de Caravaca participan en la exposición ‘La moda a tus pies’ del Museo del Traje de Madrid",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVFM2UXBMOHVTU0NyTFNPV1Myd09TSVNOWjBLRjRBaWNaN2FTaWtBeXhNTUJlcV85RmRXX2lfYXIyYVlSckZ3MXpubDNlSUtZbmZYRWNZRG9rMzVESzVXaGF0b3czRVI0ci1mMzdKZ3pZQ3pjNE03SWZIOXpWVFF2d0tQS0NqaGJENWFJUGpXSUFFV0xhZ0Y3NUMtQ2dsQ19KYnY0Ulo2SzUyVWhqOFFOdU9VcVZtQ1c2NFHSAb8BQVVfeXFMUEYtRXp4ZUFMazhEaktvVlFETzlrLXUzc043VXJDalN2cWNLUldNMWltNXlYZVFFcW1VREt2TVdKYnpVN2xYU1JoVmhGX1pSYXRPOGZ0WUJrbTVqeUZsWmpKM1JMMEc5Y1owMi02eEt3OEZFeWkxZUx0MXpUY1FDZlRCWWdJRUdnM3VNQmdrSHlvcnBVNlRYTmhIWUdCbVpDbTZvTVVvTnEzZTJHSjdlX2dKUTZpYzA3S3pxcG1vYk0?oc=5",
+   "source": "La Opinión de Murcia",
+   "date": "2026-11-20T15:31:54+00:00",
    "others": [
     {
-     "source": "FashionUnited",
-     "title": "Resume las cifras del plan: unos 5.000 millones de dólares más de ventas y un margen operativo del 12–14% en 2031.",
-     "link": "https://fashionunited.uk/news/business/nike-unveils-full-stride-ahead-strategy-targets-5-billion-dollars-in-extra-revenue-by-2031/2026111791434"
-    },
-    {
-     "source": "Nike",
-     "title": "El comunicado de la propia empresa (fuente interesada).",
-     "link": "https://about.nike.com/newsroom/releases/nike-inc-announces-full-stride-ahead-strategy-and-2031-financial-framework-at-investor-day"
+     "source": "La Verdad",
+     "title": "Tres firmas de calzado de Caravaca participan en la exposición 'La moda a tus pies' del Museo del Traje de Madrid",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbUZQay1jWG9scktKbVI4WG5Hd3g2aU8wdW00N1VnLUpyNmZEZVlWU0lKU1RxVTFLUzdNellXVG1abzFuSjIxMWRLMjNmWUZ2Q2RBTlRycktEdi1FOGNXYWQ5dWR1Wjl1MlJCeFJ5d2dvTTRLREd3NlljZ1liM2kwRFU0Uy1vdmd2TnN1YVRtQXJ5Nkc0NEFhZmlHeF9ENGNoWG9IVFFaR0NhVmlUUXFZWWFUcHJhQ1NPMnfSAb8BQVVfeXFMT1k4VmJXQWgxQy1hek5nZUtZMl9vS3RHM0REVVZUYXhjSEZXdkpEdTFCVG1fcXZIRFF4TDgxQXliOUJUcTI2WG1jMWVPam9KSDZBUXlGSVlTVUdVemNuZFhnLW0wZ1ZZQUlqZVBkQkNMMjVDVThxWHEyNnk2bUFDQnVfSEd2bGFFUWIySnBRU18yMVZyb2lhTHJ4RXdoXzl2QV84MW5qeFV0UDdwT3hwUVo1UEl1bVkwTWtMR28wYm8?oc=5"
     }
    ],
-   "score": 3
+   "score": 2,
+   "id": "s35"
+  },
+  {
+   "sec": "moda",
+   "lang": "es",
+   "region": null,
+   "title": "Telde afronta el penúltimo fin de semana de las fiestas de San Gregorio con moda, deporte, música y actividades para toda la familia – Ayuntamiento de Telde",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTE5KdzZrTjM0M0tiRkI1SE5QOFFzYUlOTktnUk1VRnFrY0lXSDVDUEx4UGd2c3otc2VGTnUyU0l1RlZwRl9kd1A0aHB1VkNjM1ZQMHlSdWtvUzNyZjVXdENTcDVDUGFGYkc3U3YzV1dEYTVHVmpQUFlqa2R4OXBPV2JzV0JIX3ZHQ0VzT3g4VTBNcFdid0Y1Nm16RksxSXJWYlJKck5yYUJRMVFmVEJjUkc1ekctNzdibVJSdFFlU2l0WDdNYzc2U0FqU1p2UUxDellqTWdBdXpONmVNdVJqM3NSX0VYa3c?oc=5",
+   "source": "Ayuntamiento de Telde",
+   "date": "2026-11-20T13:24:17+00:00",
+   "others": [
+    {
+     "source": "Canarias en Pleno",
+     "title": "San Gregorio Telde: moda, motor y deporte para despedir las fiestas",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVaHVSbnotTzJQdDNOdEtxQUxTenRJWGI3WWhxdzkzU1M2ZnBOTmlIamN5RHlsSXpmSXRFRkxrQmU1SXpFeWVNWVhNUWZYY2I3S0kxME00bEVBN0Z6Z0FKZHhkcjFYQkVlQy1jVHhR?oc=5"
+    }
+   ],
+   "score": 2,
+   "id": "s36"
+  },
+  {
+   "sec": "moda",
+   "lang": "es",
+   "region": null,
+   "title": "Bella Hadid tiene el abrigo de pelo de firma española que parece de lujo y es tan elegante que ya tiene lista de espera",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa19MV0JKa2hEVWRFZ1VGTFB2aXp2THJnemhRcUNGSDNUYW1MbnBsOW5IdjdZYzhackJHLXJUVDZhQjdXSFZ6SGxiWWVHQm53M05kbk5aVDdzdm5pQVRfbFROSVhFamNXM1lEWUhtSkJWSGZMRWZsM3lwRTBUdXlVZXM0TC1RenJpQThjMDRNUm9MZmR6OVFlSTlUZzlZcGluZTF2eWhDbDV6WUZkb3Yw?oc=5",
+   "source": "Harper's BAZAAR",
+   "date": "2026-11-20T16:08:10+00:00",
+   "others": [],
+   "score": 1,
+   "id": "s37"
+  },
+  {
+   "sec": "moda",
+   "lang": "es",
+   "region": null,
+   "title": "La moda pierde cuota de bolsillo en toda Europa y llega a mínimos de 30 años",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkhnUERyT19WdWxGa3hOckJic0xSbDhLcnZocVo2SnJsc0VtcUVNNFF5WF9NdDRWN3R3OHVfMXVwZGdpZWxSV1VOLUtZbHdJWXRqeUR4anhsNVZlcWRzelR0OFFsOVdtX25GVW1uVG1UWnlPTUxySDNIVldlMEstT3RBaDNidEQzTFcxN0JnWlNBTGVDRGMtQ0hNR0FRQk9HZjBSOTh3cTliUWs?oc=5",
+   "source": "Modaes",
+   "date": "2026-11-20T16:00:52+00:00",
+   "others": [],
+   "score": 1,
+   "id": "s38"
+  },
+  {
+   "sec": "moda",
+   "lang": "en",
+   "region": null,
+   "title": "Suki Waterhouse and Robert Pattinson to become Britain’s next big Hollywood power couple",
+   "summary": "Duo’s fame set to soar after Pattinson announced as next James Bond – but they will take newgen approach to power He is the next James Bond. She is a successful model/actor/singer-songwriter. Together, they are set to become the next big British power couple in Hollywood. This week Robert Pattinson and Suki Waterhouse, who have been in a relationship since…",
+   "link": "https://www.theguardian.com/film/2026/nov/20/suki-waterhouse-robert-pattinson-britain-hollywood-power-couple",
+   "source": "The Guardian · Fashion",
+   "date": "2026-11-20T16:00:33+00:00",
+   "others": [],
+   "score": 1,
+   "id": "s39"
   }
  ],
  "top": [
   {
-   "id": "deb",
+   "id": "s9",
    "size": "xl"
   },
   {
-   "id": "ipc",
+   "id": "s10",
    "size": "m"
   },
   {
-   "id": "cop",
+   "id": "s17",
    "size": "m"
   },
   {
-   "id": "tren",
+   "id": "s11",
    "size": "s"
   },
   {
-   "id": "bepi",
+   "id": "s25",
    "size": "s"
   },
   {
-   "id": "nike",
+   "id": "s18",
+   "size": "s"
+  },
+  {
+   "id": "s26",
+   "size": "s"
+  },
+  {
+   "id": "s27",
    "size": "s"
   }
  ],
@@ -171,7 +822,11 @@
   {
    "sec": "international",
    "show": "Global News Podcast (BBC)",
-   "spotify": "https://open.spotify.com/search/Global%20News%20Podcast"
+   "spotify": "https://open.spotify.com/search/Global%20News%20Podcast",
+   "episode": "UK agrees deal on closer cooperation with EU",
+   "link": "http://www.bbc.co.uk/programmes/p0pp3pln",
+   "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pp3ndk.mp3",
+   "date": "2026-11-20T15:29:00+00:00"
   },
   {
    "sec": "international",
@@ -181,7 +836,11 @@
   {
    "sec": "economia",
    "show": "La Primera de Expansión",
-   "spotify": "https://open.spotify.com/search/La%20Primera%20de%20Expansi%C3%B3n"
+   "spotify": "https://open.spotify.com/search/La%20Primera%20de%20Expansi%C3%B3n",
+   "episode": "Anthropic, BBVA, mejores depósitos, Nvidia, Meta y el debate",
+   "link": "https://shows.acast.com/la-primera-de-expansion/episodes/anthropic-bbva-mejores-depositos-nvidia-meta-y-el-debate",
+   "audio": "https://sphinx.acast.com/p/open/s/6a2934a3ec7c103dcafc05f5/e/6affe7c93c298292f349689b/media.mp3",
+   "date": "2026-11-20T06:25:13+00:00"
   },
   {
    "sec": "politica",
@@ -194,6 +853,156 @@
    "spotify": "https://open.spotify.com/search/EL%20MUNDO%20al%20d%C3%ADa"
   }
  ],
- "status": [],
- "note": "Edición inicial preparada a mano."
+ "status": [
+  {
+   "name": "Google Noticias · España",
+   "ok": true,
+   "items": 40
+  },
+  {
+   "name": "Google Noticias · Economía",
+   "ok": true,
+   "items": 40
+  },
+  {
+   "name": "Google News · World",
+   "ok": true,
+   "items": 38
+  },
+  {
+   "name": "Google Noticias · Moda",
+   "ok": true,
+   "items": 40
+  },
+  {
+   "name": "El País",
+   "ok": true,
+   "items": 17
+  },
+  {
+   "name": "El País · Economía",
+   "ok": true,
+   "items": 22
+  },
+  {
+   "name": "El Mundo",
+   "ok": true,
+   "items": 29
+  },
+  {
+   "name": "El Mundo · Economía",
+   "ok": true,
+   "items": 27
+  },
+  {
+   "name": "elDiario.es",
+   "ok": true,
+   "items": 40
+  },
+  {
+   "name": "La Vanguardia",
+   "ok": true,
+   "items": 40
+  },
+  {
+   "name": "ABC",
+   "ok": true,
+   "items": 25
+  },
+  {
+   "name": "20minutos",
+   "ok": true,
+   "items": 40
+  },
+  {
+   "name": "Expansión",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Cinco Días",
+   "ok": true,
+   "items": 28
+  },
+  {
+   "name": "elEconomista",
+   "ok": false,
+   "error": "HTTPError"
+  },
+  {
+   "name": "BBC · Europe",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "BBC · US & Canada",
+   "ok": true,
+   "items": 19
+  },
+  {
+   "name": "BBC · Asia",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "BBC · Latin America",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "BBC · Middle East",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "BBC · Africa",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "The Guardian · World",
+   "ok": true,
+   "items": 32
+  },
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 25
+  },
+  {
+   "name": "NPR · World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "BBC · Business",
+   "ok": true,
+   "items": 13
+  },
+  {
+   "name": "Vogue España",
+   "ok": true,
+   "items": 33
+  },
+  {
+   "name": "The Guardian · Fashion",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Podcast · Global News Podcast (BBC)",
+   "ok": true,
+   "items": 294
+  },
+  {
+   "name": "Podcast · La Primera de Expansión",
+   "ok": true,
+   "items": 1467
+  }
+ ]
 }
