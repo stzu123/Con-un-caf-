@@ -54,6 +54,29 @@ a{color:var(--claret)}
 .day .tag{align-self:flex-start;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;padding:2px 6px}
 .day .hd{font-family:var(--serif);font-size:14px;line-height:1.2;font-weight:600}
 .day .q{font-family:var(--body);font-style:italic;font-size:14px;color:var(--muted);line-height:1.25}
+/* portada tipo periódico */
+.np{margin:18px 18px 0;background:#FFFCF5;border-top:4px double var(--ink);border-bottom:4px double var(--ink);padding:0 0 6px}
+.np-top{display:flex;justify-content:space-between;gap:8px;font:700 10px var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:7px 2px;border-bottom:1px solid var(--ink)}
+.np button{all:unset;box-sizing:border-box;cursor:pointer;display:flex}
+.np button:focus-visible{outline:2px solid var(--claret);outline-offset:2px}
+.np-kick{display:block;font:700 10px var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.np .np-lead{gap:14px;padding:14px 2px;border-bottom:1px solid var(--ink);align-items:flex-start}
+.np .np-lead.flip{flex-direction:row-reverse}
+.np-art{flex:0 0 96px;height:120px;display:flex;align-items:center;justify-content:center;filter:contrast(1.05)}
+.np-lead-txt{display:flex;flex-direction:column;gap:6px;min-width:0}
+.np-h1{font-family:var(--serif);font-weight:800;font-size:clamp(24px,6.6vw,38px);line-height:1.04;letter-spacing:-.01em}
+.np-deck{font-family:var(--body);font-style:italic;font-size:15px;line-height:1.4;color:#3D3631}
+.np-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.np .np-col{flex-direction:column;gap:6px;padding:12px 10px;border-bottom:1px solid var(--rule)}
+.np .np-col:nth-child(odd){border-right:1px solid var(--rule)}
+.np .np-col .np-h2{font-family:var(--serif);font-weight:700;font-size:17px;line-height:1.15}
+.np .np-col.dark .np-h2{font-family:'Alfa Slab One',Georgia,serif;font-weight:400}
+.np-brief{padding:10px 2px 2px;display:flex;flex-direction:column}
+.np-label{font:700 10px var(--sans);letter-spacing:.12em;text-transform:uppercase;border-bottom:2px solid var(--ink);padding-bottom:4px;align-self:flex-start;margin-bottom:4px}
+.np .np-line{gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px dotted #BCA897;font-family:var(--body);font-size:15.5px;line-height:1.3}
+.np .np-line svg{flex:0 0 18px;margin-top:2px}
+@media (min-width:700px){.np-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.np .np-col{border-right:1px solid var(--rule)}.np .np-col:last-child{border-right:0}.np-art{flex-basis:180px;height:150px}
+ .np-brief{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px}.np-label{grid-column:1/-1}}
 .fp{margin:20px 18px 0;background:#FFFDF6;border:1px solid var(--ink);padding:10px 12px;overflow:visible}
 .fp-rule{border-top:3px double var(--ink)}
 .fp-stars{font-size:10px;letter-spacing:.5em;color:var(--ink);text-align:center;overflow:hidden;white-space:nowrap;padding:4px 0}
@@ -246,6 +269,7 @@ const I = {
   notes:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 3h10l4 4v14H5z"/><path d="M9 10h6M9 14h6M9 18h3"/></svg>',
   fav:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-9-8.6A4.7 4.7 0 0 1 12 6.5a4.7 4.7 0 0 1 9 4.9C19 15.6 12 20 12 20z"/></svg>',
   mic:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>',
+  trash:c=>`<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6"/></svg>`,
   cup:'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 8h12v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5zM16 10h2a2 2 0 0 1 0 4h-2"/></svg>'
 };
 const SEC = {
@@ -261,7 +285,7 @@ const REG = [['all','All'],['europe','Europe'],['us','United States'],['asia','A
 const SRC_COLORS = ['#1F3A5F','#C2185B','#1E7B4F','#5C534C','#7A5C00','#4B2A7A'];
 
 /* ---------- estado ---------- */
-let S = {read:{},fav:{},notes:[],readDays:{}};
+let S = {read:{},fav:{},notes:[],readDays:{},hidden:{}};
 try{ const raw = localStorage.getItem('conuncafe'); if(raw) S = Object.assign(S, JSON.parse(raw)); }catch(e){}
 function save(){ try{ localStorage.setItem('conuncafe', JSON.stringify(S)); }catch(e){} }
 const esc = s => String(s==null?'':s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -270,6 +294,7 @@ let view = {name:'edicion', sec:'portada', id:null, reg:'all', rtab:'pend'};
 let lastList = {name:'edicion', sec:'portada'};
 const uid = n => ED.date + ':' + n.id;
 const byId = id => ED.stories.find(n => n.id === id);
+const visible = () => ED.stories.filter(n => !(S.hidden||{})[uid(n)]);
 const meta = n => ({uid:uid(n), title:n.title, sec:n.sec, date:ED.date, source:n.source, link:n.link});
 const fmtDay = d => new Date(d+'T12:00:00').toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'long'});
 const todayISO = () => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
@@ -285,6 +310,7 @@ function acts(n, light){
     <button class="act" data-act="note" data-id="${n.id}" aria-label="Añadir nota">${I.note}</button>
     <button class="act" data-act="read" data-id="${n.id}" aria-label="${r?'Desmarcar leída':'Marcar como leída'}" aria-pressed="${r}">${I.tick(r,c)}</button>
     <button class="act" data-act="fav" data-id="${n.id}" aria-label="${f?'Quitar de favoritos':'Guardar en favoritos'}" aria-pressed="${f}">${I.heart(f,c)}</button>
+    <button class="act" data-act="hide" data-id="${n.id}" aria-label="Descartar: no me interesa">${I.trash(c)}</button>
     <span class="st">${[r?'Leída':'', f?'En favoritos':''].filter(Boolean).join(' · ')}</span></div>`;
 }
 let speaking = false;
@@ -292,7 +318,7 @@ function podMorning(){
   return `<button class="pod" data-morning aria-label="${speaking?'Parar':'Escuchar'} el resumen del día">
     <span class="play" style="background:#FFF1E5;color:#1A1817">${speaking?I.pause:I.play}</span>
     <span style="display:flex;flex-direction:column;min-width:0"><span class="lbl">Morning podcast</span><span class="ep">Resumen de la edición · voz del móvil</span></span>
-    <span class="sub">${ED.stories.length} noticias</span></button>`;
+    <span class="sub">${visible().length} noticias</span></button>`;
 }
 function podLink(p){
   const s = SEC[p.sec] || SEC.portada;
@@ -324,38 +350,78 @@ function storyCard(n){
 }
 
 /* ---------- Lectura en 30 segundos ---------- */
-const DECO = {
-  tape:'<span class="deco tape"></span>', tapeR:'<span class="deco tape r"></span>', tapeL:'<span class="deco tape l"></span>',
-  fold:'<span class="deco fold"></span>',
-  clip:'<svg class="deco clip" width="20" height="48" viewBox="0 0 22 52" fill="none" stroke="#2A2725" stroke-width="2.2" stroke-linecap="round"><path d="M16 14v26a6 6 0 0 1-12 0V10a4.5 4.5 0 0 1 9 0v28a2.5 2.5 0 0 1-5 0V16"/></svg>'
+// Icono según el tema de la noticia (por palabras clave, sin IA)
+const ICONS = {
+  vote:'<path d="M5 11h14v9H5z"/><path d="M9 11V4h6v7"/><path d="M11 6.5l1 1 2-2"/><path d="M8 15h8"/>',
+  euro:'<circle cx="12" cy="12" r="8.5"/><path d="M15.5 8.5a4.5 4.5 0 1 0 0 7M7 11h6M7 13.5h6"/>',
+  chart:'<path d="M4 20h16M4 20V4"/><path d="M7 16l4-5 3 3 5-7"/><path d="M15 7h4v4"/>',
+  house:'<path d="M3 11l9-7 9 7"/><path d="M6 9.5V20h12V9.5"/><path d="M10 20v-6h4v6"/>',
+  train:'<rect x="6" y="3" width="12" height="13" rx="3"/><path d="M6 10h12M9 20l-2 2M15 20l2 2M9 13h.01M15 13h.01"/>',
+  leaf:'<path d="M5 19c0-9 6-14 15-14 0 9-5 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/>',
+  globe:'<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c3 2.5 3 14.5 0 17M12 3.5c-3 2.5-3 14.5 0 17"/>',
+  rocket:'<path d="M12 3c3 2 5 6 4 11l-4 3-4-3c-1-5 1-9 4-11z"/><circle cx="12" cy="9.5" r="1.6"/><path d="M8 14l-3 3 3 1M16 14l3 3-3 1M11 19l1 2 1-2"/>',
+  hanger:'<path d="M12 7.5a2.2 2.2 0 1 1 2.2-2.2"/><path d="M12 7.5v1.5L3 16h18l-9-7"/>',
+  shoe:'<path d="M3 15c0-3 1-5 2-7l4 3c2 1 4 1 6 1l5 1c1 0 1 2 0 3H3z"/><path d="M3 18h18"/>',
+  scales:'<path d="M12 4v16M7 20h10M5 7h14"/><path d="M5 7l-2.5 6h5zM19 7l-2.5 6h5z"/>',
+  bolt:'<path d="M13 3L5 13.5h6L10 21l8-10.5h-6z"/>',
+  oil:'<path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z"/>',
+  chip:'<rect x="7" y="7" width="10" height="10" rx="1"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/>',
+  health:'<path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/>',
+  ball:'<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5l4 3-1.5 4.5h-5L8 10.5z"/>',
+  mega:'<path d="M3 10v4h3l7 5V5L6 10z"/><path d="M17 9a4 4 0 0 1 0 6"/>',
+  briefcase:'<rect x="3" y="7" width="18" height="12" rx="1.5"/><path d="M9 7V5h6v2M3 12h18"/>',
+  paper:'<path d="M4 5h13v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v10a2 2 0 0 1-2 2M7 9h7M7 13h7M7 17h4"/>'
 };
-const DECO_SETS = [{d:['tape'],f:'halftone'},{d:[],f:'torn'},{d:['clip'],f:''},{d:['fold'],f:'torn'},{d:['tapeL'],f:'halftone'},{d:['clip','fold'],f:''}];
-const TILT = ['-0.4deg','0.6deg','-0.7deg','0.5deg','-0.5deg','0.7deg'];
-const LOOK = {
-  international:[{bg:'#1F3A5F',fg:'#fff'},{bg:'#FFFDF6',fg:'#1F3A5F',bd:'3px double #1F3A5F'}],
-  economia:[{bg:'#1E7B4F',fg:'#fff'},{bg:'#FFFDF6',fg:'#1E7B4F',bd:'3px double #1E7B4F'}],
-  espana:[{bg:'#F2C200',fg:'#1A1817'},{bg:'#FFFDF6',fg:'#7A5C00',bd:'3px double #F2C200'}],
-  politica:[{bg:'#FFFDF6',fg:'#C2185B',bd:'3px double #C2185B'},{bg:'#C2185B',fg:'#fff'}],
-  moda:[{bg:'#fff',fg:'#1A1817',stripes:true}]
-};
+const ICON_RULES = [
+  ['vote', /elecci|electoral|debate|campa[nñ]a|votaci|encuesta|urnas|candidat|election|vote|ballot|poll/i],
+  ['train', /tren|ferrovi|renfe|adif|maquinist|metro|cercan|rail|train/i],
+  ['leaf', /clima|cop\d|emisiones|sequ[ií]a|incendio|medio ambiente|climate|emission|wildfire|drought|carbon/i],
+  ['rocket', /espacio|nasa|jaxa|bepicolombo|sat[eé]lite|cohete|mercurio|\bmarte\b|\bluna\b|\bspace\b|orbit|\bmars\b|\bmoon\b|probe|rocket/i],
+  ['house', /vivienda|alquiler|hipoteca|inmobiliari|pisos?\b|housing|rent|mortgage/i],
+  ['euro', /inflaci|ipc|precios|bce|tipos de inter|euro|salario|sueldo|pensi|impuesto|fiscal|inflation|prices|interest rate|tax/i],
+  ['chart', /bolsa|ibex|acciones|mercado|beneficio|resultados|ventas|empresa|stock|market|shares|earnings|profit|ipo/i],
+  ['oil', /petr[oó]leo|brent|gas\b|gasolina|opep|oil|crude|fuel|hormuz|ormuz/i],
+  ['bolt', /energ[ií]a|electricidad|luz\b|apag[oó]n|renovable|nuclear|energy|power|electricity/i],
+  ['chip', /inteligencia artificial|\bia\b|tecnol|chip|digital|ciberat|app\b|\bai\b|tech|cyber|software|robot/i],
+  ['health', /salud|hospital|sanidad|m[eé]dic|vacuna|virus|gripe|c[aá]ncer|health|vaccine|disease|outbreak/i],
+  ['scales', /juez|jueza|tribunal|juicio|fiscal[ií]a|supremo|sentencia|condena|court|judge|trial|ruling|lawsuit/i],
+  ['shoe', /nike|adidas|zapatill|sneaker|deport/i],
+  ['hanger', /moda|desfile|dise[nñ]ador|colecci|ropa|textil|inditex|zara|mango|fashion|vogue|luxury|lujo|pasarela/i],
+  ['ball', /f[uú]tbol|liga|real madrid|bar[cç]a|partido|mundial|olimp|football|match|champions/i],
+  ['briefcase', /empleo|paro\b|huelga|trabajador|sindicat|despid|ere\b|jobs|strike|workers|union/i],
+  ['mega', /protesta|manifestaci|guerra|ataque|conflicto|crisis|alto el fuego|war|attack|protest|ceasefire|conflict/i]
+];
+const SEC_ICON = {espana:'paper', politica:'vote', economia:'euro', international:'globe', moda:'hanger', portada:'paper'};
+function iconFor(n){
+  const text = n.title + ' ' + (n.summary||'');
+  const hit = ICON_RULES.find(([k, re]) => re.test(text));
+  return hit ? hit[0] : (SEC_ICON[n.sec] || 'paper');
+}
+const ico = (k, size, color, sw) => `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${sw||1.6}" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k]||ICONS.paper}</svg>`;
 function seeded(seed){ let x = seed % 2147483647; if(x <= 0) x += 2147483646; return () => (x = x * 16807 % 2147483647) / 2147483647; }
-function shuffle(arr, rnd){ const a = arr.slice(); for(let i=a.length-1;i>0;i--){ const j = Math.floor(rnd()*(i+1)); [a[i],a[j]] = [a[j],a[i]]; } return a; }
+const firstSentence = t => { if(!t) return ''; const m = t.match(/^(.{40,220}?[.!?])(\s|$)/); return m ? m[1] : (t.length > 200 ? t.slice(0,200).replace(/\s\S*$/,'') + '…' : t); };
 function frontPage(){
+  const vis = visible(), ids = (ED.top||[]).map(t => t.id);
+  const ordered = ids.map(byId).filter(n => n && vis.includes(n)).concat(vis.filter(n => !ids.includes(n.id)));
+  if(!ordered.length) return '<div class="empty">Has descartado todas las noticias de hoy.</div>';
   const rnd = seeded(parseInt(ED.date.replace(/-/g,''),10));
-  const sets = shuffle(DECO_SETS, rnd), tilts = shuffle(TILT, rnd);
-  let order = (ED.top||[]).filter(t => byId(t.id));
-  const big = order.find(t => t.size==='xl');
-  if(big && rnd() < 0.5){ order = order.filter(t => t !== big); order.splice(Math.min(2, order.length), 0, big); }
-  const used = {};
-  const blocks = order.map((t, i) => {
-    const n = byId(t.id); const arr = LOOK[n.sec] || LOOK.politica;
-    const k = used[n.sec] || 0; used[n.sec] = k+1; const L = arr[k % arr.length];
-    const ds = sets[i % sets.length], deco = ds.d.map(x => DECO[x]).join('');
-    const fin = (ds.f==='halftone' && (L.bg==='#FFFDF6'||L.stripes||L.bg==='#F2C200')) ? '' : ds.f;
-    return `<button class="fp-b ${t.size}${L.stripes?' stripes':''} ${fin}" style="--r:${tilts[i % tilts.length]};background-color:${L.bg};color:${L.fg};${L.bd?'border:'+L.bd:''}" data-open30="${n.id}" aria-label="${esc(n.title)}. Ir a la noticia">
-      ${deco}<span class="fp-h" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="fp-arrow" aria-hidden="true">→</span></button>`;
-  }).join('');
-  return `<section class="fp" aria-label="Lectura en 30 segundos"><div class="fp-rule"></div><div class="fp-grid">${blocks}</div><div class="fp-rule"></div></section>`;
+  const flip = rnd() < 0.5, darkIdx = 1 + Math.floor(rnd()*2);
+  const lead = ordered[0], second = ordered.slice(1, 5), brief = ordered.slice(5, 14);
+  const kick = n => { const s = SEC[n.sec]||SEC.portada; const more = (n.others||[]).length; return `<span class="np-kick" style="color:${s.ink}">${esc(s.l)}${more?` · ${more+1} fuentes`:''}</span>`; };
+  const L = SEC[lead.sec]||SEC.portada;
+  const leadHTML = `<button class="np-lead${flip?' flip':''}" data-open30="${lead.id}">
+      <span class="np-art" style="background:${L.c}">${ico(iconFor(lead), 64, L.fg, 1.4)}</span>
+      <span class="np-lead-txt">${kick(lead)}<span class="np-h1" ${lead.lang==='en'?'lang="en"':''}>${esc(lead.title)}</span>
+      ${lead.summary?`<span class="np-deck" ${lead.lang==='en'?'lang="en"':''}>${esc(firstSentence(lead.summary))}</span>`:''}</span></button>`;
+  const secHTML = second.map((n, i) => { const s = SEC[n.sec]||SEC.portada, dark = i+1 === darkIdx;
+    return `<button class="np-col${dark?' dark':''}" data-open30="${n.id}" style="${dark?`background:${s.c};color:${s.fg}`:''}">
+      <span class="np-ico" style="${dark?'':`color:${s.ink}`}">${ico(iconFor(n), 26, dark?s.fg:s.ink)}</span>
+      ${dark?`<span class="np-kick">${esc(s.l)}</span>`:kick(n)}<span class="np-h2" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span></button>`; }).join('');
+  const briefHTML = brief.length ? `<div class="np-brief"><span class="np-label">En breve</span>${brief.map(n => { const s = SEC[n.sec]||SEC.portada;
+      return `<button class="np-line" data-open30="${n.id}">${ico(iconFor(n), 18, s.ink, 1.8)}<span ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span></button>`; }).join('')}</div>` : '';
+  return `<section class="np" aria-label="Lectura en 30 segundos">
+    <div class="np-top"><span>Lectura en 30 segundos</span><span>${ordered.length} noticias · ${ED.sources_ok} fuentes</span></div>
+    ${leadHTML}<div class="np-grid">${secHTML}</div>${briefHTML}</section>`;
 }
 
 /* ---------- vistas ---------- */
@@ -373,7 +439,7 @@ function vEdicion(){
     `<p class="soon" style="margin:14px 18px 0">${ED.sources_ok} de ${ED.sources_total} fuentes leídas · actualizado ${esc(new Date(ED.generated_at).toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'}))}</p>`;
 }
 function vSeccion(sec){
-  let list = ED.stories.filter(n => n.sec === sec);
+  let list = visible().filter(n => n.sec === sec);
   let extra = '';
   if(sec === 'international'){
     extra = `<div class="tabs" style="display:flex;border-bottom:0;padding-top:14px" lang="en">${REG.map(([k,l]) => `<button class="tab" data-reg="${k}" style="border-color:#1F3A5F;${view.reg===k?'background:#1F3A5F;color:#fff':'color:#1F3A5F'}">${l}</button>`).join('')}</div>
@@ -414,13 +480,15 @@ function rcard(m){
     <div class="acts"><button class="act" data-unread="${esc(m.uid)}" aria-label="Marcar como no leída">${I.tick(true,'#5C534C')}</button><span class="st">Leída</span></div></div>`;
 }
 function vLectura(){
-  const pend = ED.stories.filter(n => !S.read[uid(n)]);
+  const pend = visible().filter(n => !S.read[uid(n)]);
   const read = Object.values(S.read).filter(Boolean).sort((a,b) => (b.date||'').localeCompare(a.date||''));
+  const hid = Object.values(S.hidden||{}).filter(Boolean).sort((a,b) => (b.date||'').localeCompare(a.date||''));
+  const hidBody = hid.length ? `<div class="wrap" style="display:flex;flex-direction:column;gap:12px;padding-top:14px">${hid.map(m => { const s = SEC[m.sec]||SEC.portada; return `<div class="rcard" style="--c:${s.c}"><div class="kicker" style="color:${s.ink}">${esc(s.l)} · ${esc(m.source||'')}</div><span style="font-family:var(--serif);font-size:17px;color:var(--muted)">${esc(m.title)}</span><div class="acts"><button class="btn ghost" style="min-height:34px;margin:6px 0" data-unhide="${esc(m.uid)}">Recuperar</button></div></div>`; }).join('')}</div>` : `<div class="empty">No has descartado nada.<br>Usa la papelera debajo de una noticia que no te interese.</div>`;
   const body = view.rtab === 'pend'
     ? (pend.length ? `<p class="soon" style="margin:12px 18px 0">De la edición del ${esc(fmtDay(ED.date))}</p>`+pend.map(storyCard).join('') : `<div class="empty">¡Lo has leído todo! ☕</div>`)
     : (read.length ? `<div class="wrap" style="display:flex;flex-direction:column;gap:12px;padding-top:14px">${read.map(rcard).join('')}</div>` : `<div class="empty">Aún no has marcado ninguna noticia como leída.<br>Toca el tick debajo de una noticia.</div>`);
   return `<header class="mast" style="text-align:left"><span class="kicker" style="color:var(--muted)">Tu lectura</span><h1 style="font-size:36px">Leídas y pendientes</h1></header>
-    <div class="seg" role="tablist"><button class="${view.rtab==='pend'?'on':''}" data-rtab="pend">Pendientes (${pend.length})</button><button class="${view.rtab==='read'?'on':''}" data-rtab="read">Leídas (${read.length})</button></div>${body}`;
+    <div class="seg" role="tablist"><button class="${view.rtab==='pend'?'on':''}" data-rtab="pend">Pendientes (${pend.length})</button><button class="${view.rtab==='read'?'on':''}" data-rtab="read">Leídas (${read.length})</button><button class="${view.rtab==='hid'?'on':''}" data-rtab="hid">Descartadas (${hid.length})</button></div>${view.rtab==='hid'?hidBody:body}`;
 }
 function vNotas(){
   const notes = S.notes.slice().reverse();
@@ -485,7 +553,7 @@ function vPodcasts(){
 function morningParts(){
   const parts = [{lang:'es', text:`Buenos días. Esto es Con un Café, la edición del ${fmtDay(ED.date)}.`}];
   const ids = (ED.top||[]).map(t => t.id);
-  const ordered = ids.map(byId).filter(Boolean).concat(ED.stories.filter(n => !ids.includes(n.id)));
+  const vis = visible(); const ordered = ids.map(byId).filter(n => n && vis.includes(n)).concat(vis.filter(n => !ids.includes(n.id)));
   ordered.forEach((n,i) => {
     if(i === ids.length) parts.push({lang:'es', text:'Y además, en el resto de secciones:'});
     const lead = i < ids.length ? (i===0?'Lo más importante: ':'') : '';
@@ -512,7 +580,7 @@ function render(){
   m.innerHTML = (V[view.name]||vEdicion)();
   const tabsB = [['edicion','Edición',I.ed],['calendario','Calendario',I.cal],['lectura','Lectura',I.read],['notas','Notas',I.notes],['favoritos','Favoritos',I.fav],['podcasts','Podcasts',I.mic]];
   const active = view.name==='noticia' ? 'edicion' : view.name;
-  const pend = ED.stories.filter(n => !S.read[uid(n)]).length;
+  const pend = visible().filter(n => !S.read[uid(n)]).length;
   document.getElementById('bnav').innerHTML = tabsB.map(([k,l,ic]) => `<button class="${active===k?'on':''}" data-nav="${k}" aria-current="${active===k?'page':'false'}" style="position:relative">${ic}${l}${k==='lectura'&&pend?`<span class="badge" style="top:4px;right:calc(50% - 22px)">${pend}</span>`:''}</button>`).join('');
   document.getElementById('side').innerHTML = `<span class="logo">Con un Café</span>
     <div class="grp"><span>Secciones</span>${SECS.map(k=>`<button class="${view.name==='edicion'&&view.sec===k?'on':''}" data-sec="${k}"><i class="dot" style="background:${SEC[k].c}"></i>${SEC[k].l}</button>`).join('')}</div>
@@ -551,7 +619,8 @@ function addNote(o){
   o.t = Date.now(); o.date = new Date().toLocaleDateString('es-ES',{day:'numeric',month:'short'});
   S.notes.push(o); save(); toast('Guardado en Notas'); render();
 }
-function toast(t){ const el = document.getElementById('toast'); el.textContent = t; el.style.display='block'; clearTimeout(toast._t); toast._t = setTimeout(()=>el.style.display='none', 2000); }
+let lastHidden = null;
+function toast(t, undo){ const el = document.getElementById('toast'); el.innerHTML = esc(t) + (undo?' <button data-undo style="margin-left:10px;border:0;background:none;color:#FFE600;font-weight:700;text-decoration:underline">Deshacer</button>':''); el.style.display='block'; clearTimeout(toast._t); toast._t = setTimeout(()=>el.style.display='none', undo?5000:2000); }
 
 /* ---------- clics ---------- */
 document.addEventListener('click', e => {
@@ -572,6 +641,8 @@ document.addEventListener('click', e => {
   if(d.free!==undefined){ openSheet(null); return; }
   if(d.del){ S.notes = S.notes.filter(n => String(n.t)!==d.del); save(); render(); return; }
   if(d.unread){ delete S.read[d.unread]; save(); render(); return; }
+  if(d.undo!==undefined){ if(lastHidden){ delete S.hidden[lastHidden]; lastHidden = null; save(); render(); } document.getElementById('toast').style.display='none'; return; }
+  if(d.unhide){ delete S.hidden[d.unhide]; save(); render(); return; }
   if(d.unfav){ delete S.fav[d.unfav]; save(); render(); return; }
   if(d.claude){
     const n = byId(d.claude), text = prompt(n);
@@ -583,6 +654,8 @@ document.addEventListener('click', e => {
     const n = byId(d.id), u = uid(n);
     if(d.act==='note') openSheet(n);
     if(d.act==='read'){ if(S.read[u]) delete S.read[u]; else { S.read[u] = meta(n); S.readDays[ED.date] = true; } save(); render(); }
+    if(d.act==='hide'){ S.hidden = S.hidden||{}; S.hidden[u] = meta(n); save(); lastHidden = u;
+      if(view.name==='noticia') go(lastList); else render(); toast('Descartada', true); }
     if(d.act==='fav'){ if(S.fav[u]) delete S.fav[u]; else S.fav[u] = meta(n); save(); toast(S.fav[u]?'Guardada en Favoritos':'Quitada de Favoritos'); render(); }
   }
 });
