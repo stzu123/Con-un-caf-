@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 UA = "Mozilla/5.0 (compatible; ConUnCafe/1.0; +https://github.com)"
 MAX_AGE_H = 36            # solo noticias de las últimas 36 horas
-PER_SECTION = {"espana": 8, "politica": 8, "economia": 8, "international": 10, "moda": 5}
+PER_SECTION = {"espana": 10, "politica": 10, "economia": 10, "international": 12, "moda": 6}
 TOP_N = 8                 # piezas del collage «Lectura en 30 segundos»
 
 POLITICA = re.compile(r"\b(gobierno|psoe|pp|vox|sumar|podemos|junts|erc|pnv|bildu|congreso|senado|elecci|electoral|campa[nñ]a|"
