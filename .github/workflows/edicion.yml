@@ -1,0 +1,46 @@
+name: Edición diaria
+
+on:
+  schedule:
+    - cron: "15 4 * * *"   # 05:15 en invierno / 06:15 en verano (hora de Madrid)
+  workflow_dispatch:        # botón «Run workflow» para lanzarla a mano
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: edicion
+  cancel-in-progress: false
+
+jobs:
+  edicion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Montar la edición del día (RSS, sin IA)
+        if: github.event_name != 'push'
+        run: python3 scripts/build.py
+      - name: Guardar la edición en el repositorio
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "con-un-cafe-bot"
+          git config user.email "con-un-cafe-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Edición $(date -u +%F)"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}

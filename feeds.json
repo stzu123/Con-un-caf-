@@ -1,0 +1,44 @@
+{
+  "_nota": "Fuentes que lee el programa cada mañana. Puedes añadir o quitar líneas. sec: espana | politica | economia | international | moda. lang: es | en. region (solo international): europe | us | asia | latam | mea | global.",
+  "news": [
+    {"name": "Google Noticias · España", "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=es&gl=ES&ceid=ES:es", "sec": "espana", "lang": "es", "aggregator": true},
+    {"name": "Google Noticias · Economía", "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=es&gl=ES&ceid=ES:es", "sec": "economia", "lang": "es", "aggregator": true},
+    {"name": "Google News · World", "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-GB&gl=GB&ceid=GB:en", "sec": "international", "lang": "en", "aggregator": true},
+    {"name": "Google Noticias · Moda", "url": "https://news.google.com/rss/search?q=moda+when:1d&hl=es&gl=ES&ceid=ES:es", "sec": "moda", "lang": "es", "aggregator": true},
+
+    {"name": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada", "sec": "espana", "lang": "es"},
+    {"name": "El País · Economía", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada", "sec": "economia", "lang": "es"},
+    {"name": "El Mundo", "url": "https://e00-elmundo.uecdn.es/elmundo/rss/espana.xml", "sec": "espana", "lang": "es"},
+    {"name": "El Mundo · Economía", "url": "https://e00-elmundo.uecdn.es/elmundo/rss/economia.xml", "sec": "economia", "lang": "es"},
+    {"name": "elDiario.es", "url": "https://www.eldiario.es/rss/", "sec": "espana", "lang": "es"},
+    {"name": "La Vanguardia", "url": "https://www.lavanguardia.com/rss/politica.xml", "sec": "politica", "lang": "es"},
+    {"name": "ABC", "url": "https://www.abc.es/rss/2.0/espana/", "sec": "espana", "lang": "es"},
+    {"name": "20minutos", "url": "https://www.20minutos.es/rss/", "sec": "espana", "lang": "es"},
+    {"name": "Expansión", "url": "https://e00-expansion.uecdn.es/rss/portada.xml", "sec": "economia", "lang": "es"},
+    {"name": "Cinco Días", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/cincodias.elpais.com/portada", "sec": "economia", "lang": "es"},
+    {"name": "elEconomista", "url": "https://www.eleconomista.es/rss/rss-economia.php", "sec": "economia", "lang": "es"},
+
+    {"name": "BBC · Europe", "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml", "sec": "international", "lang": "en", "region": "europe"},
+    {"name": "BBC · US & Canada", "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", "sec": "international", "lang": "en", "region": "us"},
+    {"name": "BBC · Asia", "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml", "sec": "international", "lang": "en", "region": "asia"},
+    {"name": "BBC · Latin America", "url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml", "sec": "international", "lang": "en", "region": "latam"},
+    {"name": "BBC · Middle East", "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml", "sec": "international", "lang": "en", "region": "mea"},
+    {"name": "BBC · Africa", "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml", "sec": "international", "lang": "en", "region": "mea"},
+    {"name": "The Guardian · World", "url": "https://www.theguardian.com/world/rss", "sec": "international", "lang": "en"},
+    {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "sec": "international", "lang": "en"},
+    {"name": "NPR · World", "url": "https://feeds.npr.org/1004/rss.xml", "sec": "international", "lang": "en"},
+    {"name": "Politico Europe", "url": "https://www.politico.eu/feed/", "sec": "international", "lang": "en", "region": "europe"},
+    {"name": "BBC · Business", "url": "https://feeds.bbci.co.uk/news/business/rss.xml", "sec": "economia", "lang": "en"},
+
+    {"name": "Vogue España", "url": "https://www.vogue.es/feed/rss", "sec": "moda", "lang": "es"},
+    {"name": "The Guardian · Fashion", "url": "https://www.theguardian.com/fashion/rss", "sec": "moda", "lang": "en"}
+  ],
+  "podcasts": [
+    {"sec": "espana", "show": "Hoy en EL PAÍS", "url": "", "search": "Hoy en EL PAÍS"},
+    {"sec": "international", "show": "Global News Podcast (BBC)", "url": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss", "search": "Global News Podcast"},
+    {"sec": "international", "show": "The Intelligence (The Economist)", "url": "", "search": "The Intelligence from The Economist"},
+    {"sec": "economia", "show": "La Primera de Expansión", "url": "https://feeds.acast.com/public/shows/la-primera-de-expansion", "search": "La Primera de Expansión"},
+    {"sec": "politica", "show": "Un tema Al día (elDiario.es)", "url": "", "search": "Un tema Al día"},
+    {"sec": "politica", "show": "EL MUNDO al día", "url": "", "search": "EL MUNDO al día"}
+  ]
+}

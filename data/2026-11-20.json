@@ -1,0 +1,199 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T15:20:00+00:00",
+ "headline": "Sánchez y Feijóo, cara a cara a nueve días del 29-N",
+ "headline_sec": "politica",
+ "sources_ok": 16,
+ "sources_total": 16,
+ "stories": [
+  {
+   "id": "deb",
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "Sánchez y Feijóo, cara a cara a nueve días del 29-N",
+   "summary": "Pedro Sánchez (PSOE) y Alberto Núñez Feijóo (PP) celebraron el jueves por la noche el único debate cara a cara de la campaña de las elecciones generales del 29 de noviembre. Se dividió en cinco bloques: vivienda, economía y fiscalidad, servicios públicos, corrupción y regeneración democrática, y migración y política exterior.",
+   "link": "https://cnnespanol.cnn.com/2026/11/19/espana/debate-pedro-sanchez-alberto-nunez-feijoo-claves-orix",
+   "source": "CNN en Español",
+   "date": "2026-11-20T08:00:00+00:00",
+   "others": [
+    {
+     "source": "EFE",
+     "title": "Lo describe como un debate tenso que repitió los reproches de la legislatura: Feijóo como gestor fiable y Sánchez alertando de los riesgos de su rival.",
+     "link": "https://www.infobae.com/espana/agencias/2026/11/20/hoy-sera-noticia-viernes-20-de-noviembre/"
+    },
+    {
+     "source": "EFE · reacciones",
+     "title": "Recoge la lectura de cada partido: Bolaños (PSOE) critica a Feijóo y alaba a Sánchez; Tellado (PP) da por ganador a Feijóo. Son valoraciones de parte.",
+     "link": "https://www.infobae.com/espana/agencias/2026/11/20/temas-del-dia-de-efe-espana-del-viernes-20-de-noviembre-1350-horas/"
+    }
+   ],
+   "score": 3
+  },
+  {
+   "id": "cop",
+   "sec": "international",
+   "lang": "en",
+   "region": "global",
+   "title": "Climate talks hit deadlock as draft deal drops fossil fuels",
+   "summary": "On the last scheduled day of COP31 in Antalya, Türkiye, nearly 200 countries remain split after a new draft agreement removed every reference to moving away from fossil fuels.",
+   "link": "https://www.usnews.com/news/world/articles/2026-11-20/nations-seek-deeper-fossil-fuel-cuts-as-annual-un-climate-summit-enters-final-day",
+   "source": "Associated Press",
+   "date": "2026-11-20T08:00:00+00:00",
+   "others": [
+    {
+     "source": "RTÉ News",
+     "title": "Details what was cut: fossil-fuel language, the Brazil-led roadmap and the $120bn adaptation target; the document shrank from 18 to 9 pages.",
+     "link": "https://www.rte.ie/news/world/2026/1119/1599773-cop31-thursday/"
+    },
+    {
+     "source": "UN News",
+     "title": "Earlier in the week it already described talks as deadlocked over fossil fuels and climate finance.",
+     "link": "https://news.un.org/en/story/2026/11/1168833"
+    }
+   ],
+   "score": 3
+  },
+  {
+   "id": "ipc",
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "La inflación de la eurozona sube al 4%, la más alta desde 2023",
+   "summary": "Eurostat confirmó el miércoles que la inflación de la zona euro llegó al 4% en octubre, dos décimas más que en septiembre y el nivel más alto desde septiembre de 2023. En España, la inflación armonizada fue del 4,9%.",
+   "link": "https://www.infobae.com/america/agencias/2026/11/18/la-inflacion-de-la-eurozona-repunto-dos-decimas-en-octubre-hasta-el-4/",
+   "source": "EFE",
+   "date": "2026-11-20T08:00:00+00:00",
+   "others": [
+    {
+     "source": "El Boletín",
+     "title": "Destaca que sin energía la inflación se queda en torno al 2,3% y que España está en el 4,9%, por encima de la media.",
+     "link": "https://www.elboletin.com/la-inflacion-de-la-eurozona-escala-hasta-el-4-en-octubre-y-marca-maximo-desde-2023/"
+    }
+   ],
+   "score": 2
+  },
+  {
+   "id": "tren",
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Los maquinistas desconvocan la huelga del lunes 23",
+   "summary": "El sindicato de maquinistas Semaf ha desconvocado la huelga prevista para el lunes 23 de noviembre tras cerrar un acuerdo de seguridad ferroviaria con el Ministerio de Transportes y Renfe.",
+   "link": "https://www.infobae.com/espana/2026/11/20/los-maquinistas-desconvocan-la-huelga-del-23-de-noviembre-tras-alcanzar-un-acuerdo-de-seguridad-con-el-gobierno/",
+   "source": "Infobae",
+   "date": "2026-11-20T08:00:00+00:00",
+   "others": [
+    {
+     "source": "esdiario",
+     "title": "Subraya que Semaf era el único sindicato que mantenía la huelga y que el pacto llega 48 horas después de rechazar la oferta del ministro Carlos Cuerpo.",
+     "link": "https://www.esdiario.com/nacional/261120/203482/maquinistas-desconvocan-huelga-23n-desbloquear-compromisos-incumplidos-transportes.html"
+    }
+   ],
+   "score": 2
+  },
+  {
+   "id": "bepi",
+   "sec": "international",
+   "lang": "en",
+   "region": "global",
+   "title": "After eight years, BepiColombo is about to reach Mercury",
+   "summary": "The European–Japanese mission BepiColombo is due to be captured into orbit around Mercury on Saturday, 21 November, after a journey that began in October 2018.",
+   "link": "https://www.esa.int/ESA_Multimedia/Images/2018/10/BepiColombo_arrival_at_Mercury_timeline",
+   "source": "ESA",
+   "date": "2026-11-20T08:00:00+00:00",
+   "others": [
+    {
+     "source": "Sky at Night Magazine",
+     "title": "Explains what each orbiter will study, from geology to Mercury’s weak magnetic field.",
+     "link": "https://www.skyatnightmagazine.com/news/bepicolombo-mercury"
+    }
+   ],
+   "score": 2
+  },
+  {
+   "id": "nike",
+   "sec": "moda",
+   "lang": "es",
+   "region": null,
+   "title": "Nike elige España entre sus 23 países clave para volver a crecer",
+   "summary": "Nike presentó el martes su nueva estrategia, «Full Stride Ahead», en su día del inversor. Se centrará en cinco deportes y 23 países prioritarios, entre ellos España, y quiere sumar unos 5.000 millones de dólares de ventas hasta su año fiscal 2031.",
+   "link": "https://www.modaes.com/empresas/nike-situa-espana-entre-sus-23-paises-estrategicos-en-su-relanzamiento",
+   "source": "Modaes",
+   "date": "2026-11-20T08:00:00+00:00",
+   "others": [
+    {
+     "source": "FashionUnited",
+     "title": "Resume las cifras del plan: unos 5.000 millones de dólares más de ventas y un margen operativo del 12–14% en 2031.",
+     "link": "https://fashionunited.uk/news/business/nike-unveils-full-stride-ahead-strategy-targets-5-billion-dollars-in-extra-revenue-by-2031/2026111791434"
+    },
+    {
+     "source": "Nike",
+     "title": "El comunicado de la propia empresa (fuente interesada).",
+     "link": "https://about.nike.com/newsroom/releases/nike-inc-announces-full-stride-ahead-strategy-and-2031-financial-framework-at-investor-day"
+    }
+   ],
+   "score": 3
+  }
+ ],
+ "top": [
+  {
+   "id": "deb",
+   "size": "xl"
+  },
+  {
+   "id": "ipc",
+   "size": "m"
+  },
+  {
+   "id": "cop",
+   "size": "m"
+  },
+  {
+   "id": "tren",
+   "size": "s"
+  },
+  {
+   "id": "bepi",
+   "size": "s"
+  },
+  {
+   "id": "nike",
+   "size": "s"
+  }
+ ],
+ "podcasts": [
+  {
+   "sec": "espana",
+   "show": "Hoy en EL PAÍS",
+   "spotify": "https://open.spotify.com/search/Hoy%20en%20EL%20PA%C3%8DS"
+  },
+  {
+   "sec": "international",
+   "show": "Global News Podcast (BBC)",
+   "spotify": "https://open.spotify.com/search/Global%20News%20Podcast"
+  },
+  {
+   "sec": "international",
+   "show": "The Intelligence (The Economist)",
+   "spotify": "https://open.spotify.com/search/The%20Intelligence%20from%20The%20Economist"
+  },
+  {
+   "sec": "economia",
+   "show": "La Primera de Expansión",
+   "spotify": "https://open.spotify.com/search/La%20Primera%20de%20Expansi%C3%B3n"
+  },
+  {
+   "sec": "politica",
+   "show": "Un tema Al día (elDiario.es)",
+   "spotify": "https://open.spotify.com/search/Un%20tema%20Al%20d%C3%ADa"
+  },
+  {
+   "sec": "politica",
+   "show": "EL MUNDO al día",
+   "spotify": "https://open.spotify.com/search/EL%20MUNDO%20al%20d%C3%ADa"
+  }
+ ],
+ "status": [],
+ "note": "Edición inicial preparada a mano."
+}
