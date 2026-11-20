@@ -28,6 +28,10 @@ REGIONS = [
     ("latam", r"mexic|brazil|argentin|venezuel|colombi|chile|peru|cuba|latin america|bolivi|ecuador"),
     ("mea", r"israel|gaza|iran|iraq|syria|leban|yemen|saudi|egypt|africa|nigeria|sudan|kenya|ethiopi|middle east|qatar|houthi|hormuz"),
 ]
+# Titulares de relleno que no son noticia
+BLOCK = re.compile(r"(loter[ií]a|bonoloto|primitiva|euromillones|el gordo|once\b.*sorteo|sorteo|hor[oó]scopo|tiempo (hoy|mañana)|"
+                   r"previsi[oó]n del tiempo|precio de la (luz|gasolina)|gasolina (hoy|más barata)|resultados? del? (partido)|"
+                   r"en directo|última hora|minuto a minuto|crucigrama|sudoku|quiz|wordle|ofertas?|descuentos?|black friday|cupones?)", re.I)
 STOP = set("""a al algo ante con contra de del desde el ella ellos en entre era es esta este esto ha han hay la las le les lo los mas me mi muy
 na ni no nos o para pero por que se sin sobre su sus te tras un una uno y ya the of to in and for on with at by from as is are was were be
 has have after over into new says said its it his her their this that will than more about amid""".split())
@@ -137,7 +141,7 @@ def main():
             entries = parse_feed(fetch(f["url"]))
             n = 0
             for e in entries[:40]:
-                if not e["title"] or not e["link"]:
+                if not e["title"] or not e["link"] or BLOCK.search(e["title"]):
                     continue
                 if e["date"] and (now - e["date"]).total_seconds() > MAX_AGE_H * 3600:
                     continue
