@@ -602,10 +602,34 @@ function jingle(){   // sintonía de unos 3 segundos generada en el propio móvi
 }
 function ding(){ try{ const o = audioCtx.createOscillator(), g = audioCtx.createGain(), t = audioCtx.currentTime;
   o.type='sine'; o.frequency.value = 880; g.gain.setValueAtTime(.12,t); g.gain.exponentialRampToValueAtTime(.001,t+.6); o.connect(g).connect(audioCtx.destination); o.start(t); o.stop(t+.6); }catch(e){} }
-function stopMorning(){ speaking = false; clearTimeout(speakTimer); try{ speechSynthesis.cancel(); }catch(e){} }
+function stopMorning(){ speaking = false; clearTimeout(speakTimer); clearTimeout(watchdog); try{ speechSynthesis.cancel(); }catch(e){} }
+let watchdog = null, keepUtt = [], esVoice = null, enVoice = null;
+function pickVoices(){
+  try{ const v = speechSynthesis.getVoices();
+    esVoice = v.find(x => /^es(-|_)ES/i.test(x.lang)) || v.find(x => /^es/i.test(x.lang)) || null;
+    enVoice = v.find(x => /^en(-|_)GB/i.test(x.lang)) || v.find(x => /^en/i.test(x.lang)) || null; }catch(e){}
+}
+if('speechSynthesis' in window){ pickVoices(); try{ speechSynthesis.onvoiceschanged = pickVoices; }catch(e){} }
+function sayText(p, done){
+  const u = new SpeechSynthesisUtterance(p.text);
+  u.lang = p.lang==='en' ? 'en-GB' : 'es-ES';
+  const v = p.lang==='en' ? enVoice : esVoice; if(v) u.voice = v;
+  u.rate = 0.98;
+  keepUtt.push(u); if(keepUtt.length > 20) keepUtt.shift();   // Chrome pierde frases si no se guardan
+  let finished = false;
+  const fin = () => { if(finished) return; finished = true; clearTimeout(watchdog); done(); };
+  u.onend = fin; u.onerror = fin;
+  clearTimeout(watchdog);
+  watchdog = setTimeout(fin, 2500 + p.text.length * 90);        // por si el navegador no avisa al terminar
+  speechSynthesis.speak(u);
+}
 async function playMorning(){
   if(!('speechSynthesis' in window)){ toast('Tu navegador no tiene voz disponible'); return; }
   if(speaking){ stopMorning(); render(); return; }
+  speechSynthesis.cancel(); pickVoices();
+  // arrancar la voz dentro del propio toque (requisito de móviles)
+  const unlock = new SpeechSynthesisUtterance(' '); unlock.volume = 0; keepUtt.push(unlock); speechSynthesis.speak(unlock);
+  try{ audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)(); if(audioCtx.state === 'suspended') audioCtx.resume(); }catch(e){}
   speaking = true; render();
   await jingle(); if(!speaking) return;
   const parts = morningParts(); let i = 0;
@@ -613,12 +637,13 @@ async function playMorning(){
     if(!speaking) return;
     if(i >= parts.length){ speaking = false; render(); return; }
     const p = parts[i++];
-    const say = () => { const u = new SpeechSynthesisUtterance(p.text); u.lang = p.lang==='en'?'en-GB':'es-ES'; u.rate = 0.98;
-      u.onend = () => { speakTimer = setTimeout(next, p.pause ? 500 : 1300); }; speechSynthesis.speak(u); };
-    if(p.pause){ ding(); speakTimer = setTimeout(say, 900); } else say();
+    const go = () => sayText(p, () => { speakTimer = setTimeout(next, p.pause ? 450 : 1300); });
+    if(p.pause){ ding(); speakTimer = setTimeout(go, 900); } else go();
   };
   next();
 }
+// algunos móviles pausan la voz si la pantalla cambia; la reanudamos
+setInterval(() => { try{ if(speaking && speechSynthesis.paused) speechSynthesis.resume(); }catch(e){} }, 4000);
 
 /* ---------- render ---------- */
 function render(){
