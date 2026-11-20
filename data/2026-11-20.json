@@ -1,11 +1,30 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T16:38+00:00",
- "headline": "Feijóo ganó el cara a cara contra Sánchez por 10 puntos, según el sondeo de 40dB. para EL PAÍS y la SER",
+ "generated_at": "2026-11-20T16:56+00:00",
+ "headline": "¿Quién ha ganado el duelo? Los analistas de EL PAÍS dan por vencedor a Feijóo sobre Sánchez",
  "headline_sec": "politica",
  "sources_ok": 29,
- "sources_total": 30,
+ "sources_total": 29,
  "stories": [
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Frustran la implantación de la primera célula en España de la organización ciberterrorista NoName057(16)",
+   "summary": "Un fusil semiautomático con culata plegable, diversas carabinas, varias escopetas y cargadores de alta capacidad, además de más de 5.000 cartuchos , entre ellos munición militar. Es parte del auténtico arsenal encontrado por la Policía Nacional en los registros practicados dentro de la operación que ha permitido frustrar la «implantación física» de la…",
+   "link": "https://www.abc.es/espana/castilla-leon/frustran-implantacion-primera-celula-espana-organizacion-ciberterrorista-20261120121909-nt.html",
+   "source": "ABC",
+   "date": "2026-11-20T17:23:28+01:00",
+   "others": [
+    {
+     "source": "RTVE.es",
+     "title": "La detención de un hombre en Burgos frustra la implantación física en España de una organización \"ciberterrorista\" prorrusa",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNLTRKeVkySkRKdUNJM3BrUmxVb3FDdnV0Z3I5V3QzTkktU0MzMHRDZTRpbmo4ZUtXdl9yWC1oSEFHTWtJb2RLUTNiRTVRdjZIMVRDQUJDQXMxXy1XcWlKX1VHUUhMTzRrRlJiQTc1V19xRngxZ2tOdDZYWXc0TmtqSDBCWTA3RFRGdG1MSndyXzhpMzYyNkRrNTZJMDRLaXlNRkowbHR5T283ZzUzaEtfV0RaYVZTSGMtZHY0aWM4dlJXSTNyd0NneVFWWFB3UkJfbzhPZGpxUzV2TkN4aVVOeE96blk5SFdILTdTSzgzU0phdw?oc=5"
+    }
+   ],
+   "score": 2,
+   "id": "s1"
+  },
   {
    "sec": "espana",
    "lang": "es",
@@ -23,7 +42,7 @@
     }
    ],
    "score": 2,
-   "id": "s1"
+   "id": "s2"
   },
   {
    "sec": "espana",
@@ -42,7 +61,85 @@
     }
    ],
    "score": 2,
-   "id": "s2"
+   "id": "s3"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Liberan a dos ejemplares de águila imperial ibérica tras su recuperación en Albacete",
+   "summary": "El Gobierno de Castilla-La Mancha ha liberado dos ejemplares jóvenes de águila imperial ibérica en el término municipal de Peñascosa, tras completar satisfactoriamente su tratamiento en el Centro de Recuperación de Fauna Silvestre .Han sido el delegado de la Junta en Albacete, Pedro Antonio Ruiz Santos, y la delegada provincial de Desarrollo Sostenible…",
+   "link": "https://www.abc.es/espana/castilla-la-mancha/liberan-dos-ejemplares-aguila-imperial-iberica-tras-20261120174651-nt.html",
+   "source": "ABC",
+   "date": "2026-11-20T17:46:52+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s4"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Qué tendrá guardado",
+   "summary": "El cara a cara fue una masacre. Hoy se reconocía con la boca más o menos pequeña entre los sanchistas mediáticos. Los más palmeros se agarran a la presunta mala educación de Feijóo, por interrumpir a Sánchez, y a un surtido de supuestas mentiras que los verificadores espigan con esfuerzo sobrehumano. Existe un debate sobre si un cara a cara mueve o no mueve…",
+   "link": "https://www.abc.es/espana/guardado-20261120141019-nt.html",
+   "source": "ABC",
+   "date": "2026-11-20T17:40:15+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s5"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Detenido tras un mes de búsqueda un hombre que disparó en Granada a su expareja y su cuñada",
+   "summary": "Ha sido una investigación compleja y el caso ha tardado casi un mes en esclarecerse, pero se ha conseguido: la Policía Nacional ha detenido a un hombre al que se acusa de haber dispararo el pasado 22 de octubre a dos mujeres en la calle Martín Pinzón, en el distrito Norte de Granada. Una de ellas había sido su pareja y la otra, su cuñada. La detención se ha…",
+   "link": "https://www.abc.es/espana/andalucia/granada/detenido-tras-mes-busqueda-hombre-disparo-granada-20261120173827-nts.html",
+   "source": "ABC",
+   "date": "2026-11-20T17:38:28+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s6"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Los40 Music Awards 2026: horario y dónde ver gratis en televisión y online la gala de hoy",
+   "summary": "Los40 Music Awards Santander 2026 reúnen este viernes, 20 de noviembre, a numerosas figuras de la música nacional e internacional en el Palau Sant Jordi de Barcelona. Con las entradas agotadas, la ceremonia alcanza su vigesimoprimera edición y pone el cierre a las celebraciones del 60 aniversario de la emisora. SER ComunicaciónQuevedo, Olivia Dean…",
+   "link": "https://www.abc.es/espana/cataluna/los40-music-awards-2026-horario-ver-gratis-online-tv-20261120172553-nt.html",
+   "source": "ABC",
+   "date": "2026-11-20T17:34:49+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s7"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "La gloria de la Córdoba romana no se extingue: la gran exposición hace emerger la historia, la vida y el arte de la ciudad",
+   "summary": "Piedra, agua, poder y gloria , pero ¿qué es la gloria? Según el diccionario, reputación, fama y honor extraordinarios que resultan de las acciones y cualidades que alguien deja. Con la connotación es algo más y es una fama que sobrevive al paso del tiempo, una reputación un poco más sólida y perdurable. Es el eco que tiene el que forjó una pieza, el que…",
+   "link": "https://www.abc.es/espana/andalucia/cordoba/gloria-cordoba-romana-extingue-gran-exposicion-emerger-20261120144724-nts.html",
+   "source": "ABC",
+   "date": "2026-11-20T17:32:49+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s8"
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "Manolo Falcó recuerda los tiempos en casa con su hermana Tamara: \"Teníamos periodistas en la puerta\"",
+   "summary": "El hijo del fallecido marqués de Griñón vivió con este e Isabel Preysler cuando se casaron.",
+   "link": "https://www.20minutos.es/gente/manolo-falco-recuerda-los-tiempos-que-compartia-casa-con-su-hermana-tamara-teniamos-periodistas-puerta-siempre_7063821_0.html",
+   "source": "20minutos",
+   "date": "2026-11-20T17:32:10+01:00",
+   "others": [],
+   "score": 1,
+   "id": "s9"
   },
   {
    "sec": "espana",
@@ -55,102 +152,27 @@
    "date": "2026-11-20T17:24:58+01:00",
    "others": [],
    "score": 1,
-   "id": "s3"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
-   "title": "Madrid se blinda por Navidad: hasta 800 policías municipales, control de aforos y drones",
-   "summary": "Mañana sábado, Madrid dará el pistoletazo de salida de la campaña navideña, con el encendido de luces y el espectáculo lumínico con drones en la plaza de Cibeles. Se espera la asistencia, si la lluvia lo permite, de 150.000 personas. Una fecha entrañable en la que la ciudad se viste de magia y color hasta el 6 de enero, día de Reyes, cuando se dará por…",
-   "link": "https://www.abc.es/espana/madrid/madrid-blinda-navidad-800-policias-municipales-control-20261120125047-nt.html",
-   "source": "ABC",
-   "date": "2026-11-20T17:03:40+01:00",
-   "others": [],
-   "score": 1,
-   "id": "s4"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
-   "title": "Los40 Music Awards 2026: lista completa de artistas que actúan hoy en Barcelona",
-   "summary": "Barcelona se prepara para recibir este viernes, 20 de noviembre, a los protagonistas de Los40 Music Awards Santander 2026. El Palau Sant Jordi alberga la 21.ª edición de unos premios que reúnen a artistas nacionales e internacionales y que este año coinciden con el 60 aniversario de la emisora.Tony Aguilar, Cristina Boscá y Dani Moreno 'El Gallo' serán los…",
-   "link": "https://www.abc.es/espana/cataluna/los40-music-awards-2026-lista-completa-artistas-20261120165515-nt.html",
-   "source": "ABC",
-   "date": "2026-11-20T17:03:06+01:00",
-   "others": [],
-   "score": 1,
-   "id": "s5"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
-   "title": "El túnel de Castellana Norte abrirá al tráfico en la semana del 14 de diciembre",
-   "summary": "El túnel que ha soterrado el tramo final del paseo de la Castellana , al norte de la capital, abrirá al tráfico la semana del 14 al 20 de diciembre, justo antes de que lo haga el de la A-5, cuya inauguración está prevista para el día 23. Así lo ha avanzado este viernes el alcalde de Madrid, José Luis Martínez-Almeida, durante su intervención en la jornada…",
-   "link": "https://www.abc.es/espana/madrid/tunel-castellana-norte-abrira-trafico-semana-diciembre-20261120102938-nt.html",
-   "source": "ABC",
-   "date": "2026-11-20T17:01:25+01:00",
-   "others": [],
-   "score": 1,
-   "id": "s6"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
-   "title": "Los psicólogos atienden 2.035 nuevos casos de violencia de género en los dos últimos años",
-   "summary": "Atención en consulta, el apoyo «más urgente» a la hora de denunciar o acudir al juzgado y el seguimiento posterior para intentar superar el proceso tras sufrir violencia de género . Esas son las vertientes que el Colegio de Psicólogos de Castilla y León trabaja con las víctimas en virtud al acuerdo suscrito hace dos décadas con la Junta y mediante el cual…",
-   "link": "https://www.abc.es/espana/castilla-leon/psicologos-atienden-2035-nuevos-casos-violencia-genero-20261120130214-nt.html",
-   "source": "ABC",
-   "date": "2026-11-20T16:58:37+01:00",
-   "others": [],
-   "score": 1,
-   "id": "s7"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
-   "title": "Qué tendrá guardado",
-   "summary": "El cara a cara fue una masacre. Hoy se reconocía con la boca más o menos pequeña entre los sanchistas mediáticos. Los más palmeros se agarran a la presunta mala educación de Feijóo, por interrumpir a Sánchez, y a un surtido de supuestas mentiras que los verificadores espigan con esfuerzo sobrehumano. Existe un debate sobre si un cara a cara mueve o no mueve…",
-   "link": "https://www.abc.es/espana/guardado-20261120141019-nt.html",
-   "source": "ABC",
-   "date": "2026-11-20T16:56:24+01:00",
-   "others": [],
-   "score": 1,
-   "id": "s8"
+   "id": "s10"
   },
   {
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "Feijóo ganó el cara a cara contra Sánchez por 10 puntos, según el sondeo de 40dB. para EL PAÍS y la SER",
-   "summary": "Un 43% de los encuestados se decantan por el líder del PP como ganador del debate, frente al 33,3%, que lo hacen por el candidato socialista",
-   "link": "https://elpais.com/espana/elecciones-generales/2026-11-20/feijoo-gano-el-cara-a-cara-contra-sanchez-por-10-puntos-segun-el-sondeo-de-40db-para-el-pais-y-la-ser.html",
+   "title": "¿Quién ha ganado el duelo? Los analistas de EL PAÍS dan por vencedor a Feijóo sobre Sánchez",
+   "summary": "Siete expertos opinan sobre el cara a cara entre los candidatos del PP y el PSOE ante las elecciones del 29-N",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-19/quien-ha-ganado-el-duelo-los-analistas-de-el-pais-dan-por-vencedor-a-feijoo-sobre-sanchez.html",
    "source": "El País",
    "date": "2026-11-20T17:30:25+01:00",
    "others": [
     {
-     "source": "La Voz de Galicia",
-     "title": "¿Qué verdades y mentiras contaron Sánchez y Feijoo en el cara a cara?",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMVJxa2Npam5uQ09WWEp2b3NZY0JVM0J4Rk1GaUVwQkFtbFFnMS00TTRyajhKTnNtaS1aalBTMFRFcHhFS3hSeG1LdHFBdUt3eEZKWVJhNmgtR2FQQThyNjhfR3RwMkpJSF96ZWduOXF3MjFNQ1R4elI5LVhwV01wLWtWdVdLRS1nbmpCTUpUTkVLakRsZW03TW5hcGp3ODJJMDRBRnMyY3BQRjBkMTJEZGpfWGpDb1lwUWtCSFFFWmJCQlBvTkIwT2NBdXZ0a2w0?oc=5"
-    },
-    {
-     "source": "El Mundo",
-     "title": "El hombre que acabó con Pedro Sánchez",
-     "link": "https://www.elmundo.es/espana/2026/11/20/6aff80cefdddffdf3c8b4578.html"
-    },
-    {
      "source": "elDiario.es",
-     "title": "El 45% ve a Feijóo vencedor en el cara a cara contra Pedro Sánchez pero el voto apenas se mueve",
-     "link": "https://www.eldiario.es/politica/45-ve-feijoo-vencedor-cara-cara-pedro-sanchez-voto-apenas-mueve_1_13678798.html"
+     "title": "ENCUESTA | ¿Quién ha ganado el cara a cara entre Sánchez y Feijóo?",
+     "link": "https://www.eldiario.es/politica/encuesta-ganando-cara-cara-sanchez-feijoo_11_13674665.html"
     },
     {
      "source": "La Vanguardia",
-     "title": "Las frases del cara a cara entre Sánchez y Feijóo",
-     "link": "https://www.lavanguardia.com/politica/20261120/11689009/frases-cara-cara-sanchez-feijoo.html"
+     "title": "¿Quién ha ganado el cara a cara entre Sánchez y Feijóo?",
+     "link": "https://www.lavanguardia.com/politica/20261120/11688475/ganado-cara-cara.html"
     },
     {
      "source": "ABC",
@@ -163,8 +185,71 @@
      "link": "https://www.20minutos.es/television/pedro-sanchez-salvados-tras-cara-cara-con-feijoo-debate-no-me-ha-quitado-sueno_7063822_0.html"
     }
    ],
-   "score": 7,
-   "id": "s9"
+   "score": 5,
+   "id": "s11"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "Feijóo ganó el cara a cara contra Sánchez por 10 puntos, según el sondeo de 40dB. para EL PAÍS y la SER",
+   "summary": "Un 43% de los encuestados se decantan por el líder del PP como ganador del debate, frente al 33,3%, que lo hacen por el candidato socialista",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-20/feijoo-gano-el-cara-a-cara-contra-sanchez-por-10-puntos-segun-el-sondeo-de-40db-para-el-pais-y-la-ser.html",
+   "source": "El País",
+   "date": "2026-11-20T13:49:03+00:00",
+   "others": [
+    {
+     "source": "EL PAÍS",
+     "title": "Feijóo ganó el cara a cara contra Sánchez por 10 puntos, según el sondeo de 40dB. para EL PAÍS y la SER",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPYVhsR3BUNzlGLUFsdEJ3aVlUcl9oSHFoenlxY3k3TlFUSVFtS29Xa1psWTVOWUpYejFsU2ZtemJIbU94UG5PRER1VVdIYWRsazJRX1RRSWhBVjV0bTVzRzFUVW1fV3ZpNWd5bU4zLVQ3ejQ0VXlfVm1Ra3ZJMWRlTS1pWmlSWHZNem5sNF9adDgxTk9VNFUxM3lVSUhFaUo2TWNJMjVYX2pVcG5WMGlST3d3aHBnaEFXRTc5RmlNT2JOQXctWGQ0Sm5DU2NtbGJrU1djdHRMRm0yTGNjYTc0NFRjS3c1MU1wU0RVeHdwUjd0OFRqZF9B0gGLAkFVX3lxTE1GUFVEX3hURDlmdm92VE1nNHZ0YmFULVhXYnJ5c0o5bVJaRm90c0NSUTJLWU1Qdi1HWUNMeU5TMXZnYWRIS1dZdjJiakh0cDNYWW9OcHFRUXo1WndEUlNXNDJQSmowNmhMenJFVFZYQ1hVekt1Z1JWX2lIdFNneWJPZUZNQmtwdjVVLXRicllnOFVFLVppYm5mdWdfNmZhelRneFo3SWtrbG80Q1dXWXN6NDI4djlneUFzS1MwWVBsQ2w3anlqaS1ZbmJUY19ncmV3TDZhUi0xQWw1UGRzRzVCZnBLS1U4MTM2R0tOUWZnT0NlUlNxMkZSSXNwV3RmUXBwdVhXUkxiOHphWQ?oc=5"
+    },
+    {
+     "source": "elDiario.es",
+     "title": "El cara a cara de Sánchez y Feijóo, en nueve vídeos",
+     "link": "https://www.eldiario.es/politica/cara-cara-sanchez-feijoo-nueve-videos_1_13679028.html"
+    },
+    {
+     "source": "La Vanguardia",
+     "title": "Las frases del cara a cara entre Sánchez y Feijóo",
+     "link": "https://www.lavanguardia.com/politica/20261120/11689009/frases-cara-cara-sanchez-feijoo.html"
+    },
+    {
+     "source": "20minutos",
+     "title": "Y a Sánchez se le quedó cara de Bronca-no",
+     "link": "https://www.20minutos.es/nacional/sanchez-se-le-quedo-cara-bronca-no_7063412_0.html"
+    }
+   ],
+   "score": 5,
+   "id": "s12"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España",
+   "summary": "Los jueces exigen a la Junta Electoral que garantice que los afectados no figuren en el censo",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-20/el-supremo-mantiene-suspendido-el-voto-a-163000-nacionalizados-por-la-ley-de-nietos-aunque-ahora-vivan-en-espana.html",
+   "source": "El País",
+   "date": "2026-11-20T17:48:28+01:00",
+   "others": [
+    {
+     "source": "EL PAÍS",
+     "title": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España",
+     "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSUZlS1RaeXZlc1YxUV8tWk9QN2dWd2pwM2ZLRk1BVkUtNjdibWo5WVVNMHY0S1NoNUk1YmdCX25NbEt0elJDWmp4ZnMwV2Y5VXF0YUV2Qk8tSGJpUDBwY19VcXJkNzJTcTVJcnhkeW1SMFd1aTh2WXltVndJSTlUOWFYR09hNTR6UmZBQTV0SldXQVM0N2ZTMmh1MlJiSjFnWG9HampiSEhqUlFtQS1vWU0xS0xLZm1wbWJfM0R5aXRCSmoxWVpqalNKcm1CODFwVVoxVUtWUTlNMXV0YlBTdndIZmhoaGMycjU3SDRqUGFISFhFQ1U2Ql9fNF9QdUdfeE5BdEhR0gGaAkFVX3lxTE56Q1NXbzRxWFdpTzhaUHhKODE0VldGSzRuOGY5dmNRakxJSE0wNklfMWdMMU9yRzFiSFBHWFEwNDBHQzBXQlVMUl9pSEhpOTE4N0VZcW9yUUZ0eEItbHZyWXFBUEkwUXVmclRzOU9Rb3ZnLWl5bllHc2hMMGxURXFJZGJ1S200MDhuSHJwMWF6MjVXODM3WENVbEJDdElqUHkyRDFZTXVCZ0VNQzY0OEk3NEFlWWtBMTBzR0w3T3QtVDN1bnoweEN6WlY3dTNPdWJPRkxpbG5tZ1JsVWpJLXNINFF6eE1aSHJvWXpldDVKaVU3NF9BOE44QXhPQlV4ZXJRWHdSeDhTN29vbnBVcm1RSkdxbU5yTVpTUQ?oc=5"
+    },
+    {
+     "source": "elDiario.es",
+     "title": "El Supremo veta también el voto en las elecciones a los nacionalizados por la ley de nietos que viven en España",
+     "link": "https://www.eldiario.es/politica/supremo-veta-voto-elecciones-nacionalizados-ley-nietos-viven-espana_1_13680980.html"
+    },
+    {
+     "source": "ABC",
+     "title": "El Supremo confirma la exclusión del censo de 163.000 nacionalizados por la 'ley de nietos', vivan fuera o en España",
+     "link": "https://www.abc.es/espana/supremo-confirma-exclusion-censo-160000-nacionalizados-ley-20261120160806-nt.html"
+    }
+   ],
+   "score": 4,
+   "id": "s13"
   },
   {
    "sec": "politica",
@@ -190,63 +275,63 @@
      "source": "La Vanguardia",
      "title": "La Audiencia Nacional deja libre al millonario James Cox Chambers reclamado por EE.UU.",
      "link": "https://www.lavanguardia.com/politica/20261120/11689149/audiencia-nacional-pone-libertad-condicional-millonario-james-cox-chambers.html"
-    },
-    {
-     "source": "20minutos",
-     "title": "La Audiencia deja libre a Fergie Chambers después de reconocer EEUU \"errores\" en la solicitud de extradición",
-     "link": "https://www.20minutos.es/nacional/audiencia-nacional-excarcela-chambers-junior-reconocer-estados-unidos-errores-solicitud-extradicion_7063571_0.html"
     }
    ],
-   "score": 5,
-   "id": "s10"
+   "score": 4,
+   "id": "s14"
   },
   {
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "El Supremo veta también el voto en las elecciones a los nacionalizados por la ley de nietos que viven en España",
-   "summary": "Los jueces, a petición de Vox, trasladan a la Junta Electoral Central y al INE que la suspensión cautelar no solo opera en el censo exterior, sino que impide votar el 29-N a los afectados aunque estén empadronados en municipios españoles Las claves del voto exterior del 29N: cómo se apartarán las papeletas de los 'nietos' en los consulados y en el…",
-   "link": "https://www.eldiario.es/politica/supremo-veta-voto-elecciones-nacionalizados-ley-nietos-viven-espana_1_13680980.html",
-   "source": "elDiario.es",
-   "date": "2026-11-20T17:18:48+01:00",
-   "others": [
-    {
-     "source": "EL PAÍS",
-     "title": "El Supremo mantiene suspendido el voto a 163.000 nacionalizados por la ‘ley de nietos’ aunque ahora vivan en España",
-     "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSUZlS1RaeXZlc1YxUV8tWk9QN2dWd2pwM2ZLRk1BVkUtNjdibWo5WVVNMHY0S1NoNUk1YmdCX25NbEt0elJDWmp4ZnMwV2Y5VXF0YUV2Qk8tSGJpUDBwY19VcXJkNzJTcTVJcnhkeW1SMFd1aTh2WXltVndJSTlUOWFYR09hNTR6UmZBQTV0SldXQVM0N2ZTMmh1MlJiSjFnWG9HampiSEhqUlFtQS1vWU0xS0xLZm1wbWJfM0R5aXRCSmoxWVpqalNKcm1CODFwVVoxVUtWUTlNMXV0YlBTdndIZmhoaGMycjU3SDRqUGFISFhFQ1U2Ql9fNF9QdUdfeE5BdEhR0gGaAkFVX3lxTE56Q1NXbzRxWFdpTzhaUHhKODE0VldGSzRuOGY5dmNRakxJSE0wNklfMWdMMU9yRzFiSFBHWFEwNDBHQzBXQlVMUl9pSEhpOTE4N0VZcW9yUUZ0eEItbHZyWXFBUEkwUXVmclRzOU9Rb3ZnLWl5bllHc2hMMGxURXFJZGJ1S200MDhuSHJwMWF6MjVXODM3WENVbEJDdElqUHkyRDFZTXVCZ0VNQzY0OEk3NEFlWWtBMTBzR0w3T3QtVDN1bnoweEN6WlY3dTNPdWJPRkxpbG5tZ1JsVWpJLXNINFF6eE1aSHJvWXpldDVKaVU3NF9BOE44QXhPQlV4ZXJRWHdSeDhTN29vbnBVcm1RSkdxbU5yTVpTUQ?oc=5"
-    },
-    {
-     "source": "ABC",
-     "title": "El Supremo confirma la exclusión del censo de 163.000 nacionalizados por la 'ley de nietos', vivan fuera o en España",
-     "link": "https://www.abc.es/espana/supremo-confirma-exclusion-censo-160000-nacionalizados-ley-20261120160806-nt.html"
-    }
-   ],
-   "score": 3,
-   "id": "s11"
-  },
-  {
-   "sec": "politica",
-   "lang": "es",
-   "region": null,
-   "title": "¿Quién ha ganado el duelo? Los analistas de EL PAÍS dan por vencedor a Feijóo sobre Sánchez",
-   "summary": "Siete expertos opinan sobre el cara a cara entre los candidatos del PP y el PSOE ante las elecciones del 29-N",
-   "link": "https://elpais.com/espana/elecciones-generales/2026-11-19/quien-ha-ganado-el-duelo-los-analistas-de-el-pais-dan-por-vencedor-a-feijoo-sobre-sanchez.html",
+   "title": "Mentiras y medias verdades del debate cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo",
+   "summary": "Los expertos de EL PAÍS analizan las afirmaciones más controvertidas del primer debate electoral del 29-N",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-19/mentiras-y-medias-verdades-del-debate-cara-a-cara-entre-pedro-sanchez-y-alberto-nunez-feijoo.html",
    "source": "El País",
-   "date": "2026-11-20T00:29:19+01:00",
+   "date": "2026-11-20T11:39:19+01:00",
    "others": [
+    {
+     "source": "El Mundo",
+     "title": "El hombre que acabó con Pedro Sánchez",
+     "link": "https://www.elmundo.es/espana/2026/11/20/6aff80cefdddffdf3c8b4578.html"
+    },
     {
      "source": "elDiario.es",
-     "title": "ENCUESTA | ¿Quién ha ganado el cara a cara entre Sánchez y Feijóo?",
-     "link": "https://www.eldiario.es/politica/encuesta-ganando-cara-cara-sanchez-feijoo_11_13674665.html"
+     "title": "El 45% ve a Feijóo vencedor en el cara a cara contra Pedro Sánchez pero el voto apenas se mueve",
+     "link": "https://www.eldiario.es/politica/45-ve-feijoo-vencedor-cara-cara-pedro-sanchez-voto-apenas-mueve_1_13678798.html"
     },
     {
      "source": "La Vanguardia",
-     "title": "¿Quién ha ganado el cara a cara entre Sánchez y Feijóo?",
-     "link": "https://www.lavanguardia.com/politica/20261120/11688475/ganado-cara-cara.html"
+     "title": "Los momentos más destacados del cara a cara entre Pedro Sánchez y Alberto Núñez Feijóo",
+     "link": "https://www.lavanguardia.com/politica/20261120/11689016/cara-a-cara-pedro-sanchez-alberto-nunez-feijoo-debate-sanchez-feijoo-momentos-destacados-cara-a-cara-crisis-de-la-vivienda-espana-politica-migratoria-ceuta-el-hierro-rebaja-impuestos-iva-alimentos-politica-exterior-espana.html"
+    }
+   ],
+   "score": 4,
+   "id": "s15"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "En busca de la redención y desbordado por Feijóo: ¿Dónde estaba 'Perro Sanxe'?",
+   "summary": "Dos estrategias que no se tocaron, uno al ataque y el otro desganado. Sánchez no respondió a las acusaciones Leer",
+   "link": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/20/6aff2c8cfdddff12628b457d.html",
+   "source": "El Mundo",
+   "date": "2026-11-20T17:39:57+01:00",
+   "others": [
+    {
+     "source": "La Vanguardia",
+     "title": "El perro no ladra, Feijóo lo aprovecha",
+     "link": "https://www.lavanguardia.com/politica/20261120/11688590/perro-ladra-feijoo-aprovecha.html"
+    },
+    {
+     "source": "ABC",
+     "title": "El «perro Sanxe» de debajo de la pelea",
+     "link": "https://www.abc.es/espana/perro-sanxe-debajo-pelea-20261119234058-nt.html"
     }
    ],
    "score": 3,
-   "id": "s12"
+   "id": "s16"
   },
   {
    "sec": "politica",
@@ -270,7 +355,7 @@
     }
    ],
    "score": 3,
-   "id": "s13"
+   "id": "s17"
   },
   {
    "sec": "politica",
@@ -289,7 +374,7 @@
     }
    ],
    "score": 2,
-   "id": "s14"
+   "id": "s18"
   },
   {
    "sec": "politica",
@@ -308,7 +393,7 @@
     }
    ],
    "score": 2,
-   "id": "s15"
+   "id": "s19"
   },
   {
    "sec": "politica",
@@ -327,36 +412,7 @@
     }
    ],
    "score": 2,
-   "id": "s16"
-  },
-  {
-   "sec": "economia",
-   "lang": "es",
-   "region": null,
-   "title": "Sorteo de la BonoLoto, Primitiva y Lotería Nacional del jueves 19 de noviembre",
-   "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYmllUHk2MEk3VVBaZ0E1YjFhOFZkY25keHFzNXdxLVBGYzQ1QWFwMV9PMjY3R3dzQjRLbFBxV3AtaEFJeld0U3dMQkV6YldhMV9Na3Q4Y2NlajFHS0pfTS1DT1NLRURRcHZxY3lOVXlfd0lxWW00d0dDYWlDbUNfbVBINWZiaVYwNEwteEdnN1JrWmVIc1NLTmxvYWJlbFBtUGFhS2p3a3ZvZDNzcXUtUW9zaXdfUQ?oc=5",
-   "source": "RTVE.es",
-   "date": "2026-11-20T09:54:40+00:00",
-   "others": [
-    {
-     "source": "Antena 3 Noticias",
-     "title": "Dónde han caído los premios de la Lotería Nacional, La Primitiva, Bonoloto, ONCE y EuroDreams de hoy jueves 19 de noviembre de 2026",
-     "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQSHBXU3F0b25Feklzbk9JUTZtV1VDM0c0eDUyMmpLX3VuWU9lTy1fNndNQTZxUVRsSzJ0cXJPSDM0TTBfOUFyS090UWl0bU1PUFV5cmYxQXczcW5ISFpUZnllUUlxN1RhUFVRd09fYXY3SDI5N2hQWHR1cElDWFB5SlVocEM4YXd1LXBndEw0WTg1NG9LSkpwRVhpcUQ5VEtJeEM1ZUxnQlN5bS1YN0thZDR4dFdoNTJvb256cEEyNm9zTGtaWmxqazRkRS1fdEFDZ3ljci1OcVJsdjBGeGIxa0x2bjFDWmsyS2dOdkI3SVJmRjBDQTF2SUVjZTJKbXFDclZTSTZZVGQzNUVCMnhPWDZB0gGSAkFVX3lxTE4yRFhoY0FzU0FXcWhPeERiVEM2UzVvQU1kcno3RGZXcXZlVjJMdFNrb2hFdTIyREJKRDk2QjhYbGxUQ0RwYWNBaUV4QWU0VGRLdVN6YjM5N2JmeDBvWl9qajlvbjE0Wm1maGU3RVRrMnYyNy1Ldklmb2lHTVNrSGNnTGhpY0k0NWloM3J3eGtzUE1FajA3VGpIMk94d3RSd1Y2UWNuNXFKS2ZFQXI2dUJ5TTZ1djNvdHROdlVWTjJkSGQ2UXJwT0xvXzRVNTRZVVBmbjJpcU1GRGNEVDVNdmpKYUNHWWQ3RzlReU1uMFJsd1kxeVVwUUFsNi1VckhUc0JVeG9PZGVPVWN0dnFxVy1Na3c?oc=5"
-    },
-    {
-     "source": "EL PAÍS",
-     "title": "Cupón diario de la ONCE: comprobar sorteo del jueves 19 de noviembre",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSXJfamhLcDJvRXZkV0ZNQjZvU0c2Uk54d0Q0RndrcmdxY1RUajRSZ3NUSU1WUll5cm9DWEI1bkl4TzFFX3JReTQyTDlwN3VWNFlIWDRLMTA5cUx2bHVLZEpHQldRLURLRHhuNEFDUlF4Y212R2V4R3RNM2hVM1Y4ZnJHT3poeWdMZVliNUYyNmtqVEhxdDBla1BacUJmU2ZfNDdhN3JFMlhVdnJ5ajRz0gHDAUFVX3lxTE1EWnpzZzNDSk9IdldQbWZyaXlaR1RucXRIRVVraXc0Qzk3Q05Ia1Z1aFBQbldzWjVPZU15T2hJbDBtZ3NEc2hBemNrWGJvWWhFNFdrbmk2ZmtqcW1qTTdLa19PVDRLbWFDMXA5aTQtVEFuaFhrazBqeWdSRUZUazZOSWY4ZXl5MHpub0hrUnVxOFpseGZROVRDemZNdnR0a215UFByc2NVLUNjUFhoUzNfZXpiRnd2dDNzcHRUUzNTb2ZHTQ?oc=5"
-    },
-    {
-     "source": "LaSexta",
-     "title": "EURODREAMS | Comprobar resultado del sorteo del jueves 19 de noviembre de 2026",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSGJtX2NmWHI5ZU1LZkx1Nko0SXBGdkp2VDl4RUFvWlZDQXFHLVF4UVpick5acU52ZDViMUpmQy1kQ1Nqc0p3LVVqU1ljTEVNQXBjbHByMGpFLW1mTmEwbVNJSFZKODVHYmtYRm9wYWp1WVpOSnJCUldYUW1FY205TlkyY2NZVWx5VXBCSWRzZFp2SElzaDVUMkl6cnEyRlFwZmhhTlRpN1FDclVEQ2p4b2hlNXpVOTJFcDRhb241WmVkcmtIVkNSX0FRLVTSAcwBQVVfeXFMUHNxUFZPZ0tjeFZGbm1rQTNpelM3bXo4M3lRT0FLTHpvMVRvdUFHaVQ5WHNWLVNTWG12RThObkNJQ3VjSHVmZjV4bGFsdkJJMG1oS09XVjkzQjF5YWtramg1VVlWVkFQZlNmendzc3FBNGZGZURQMy1FZ2hRVmVIVFBWTzN5WWxJY1UzYWNzcnIzbkt3NDFwLXlvYnBOLWFCMU8waU5PaEN3d0VPaHRfUEdYUHpXU0M1T1VGNDEzQUhXbWY3aW44OXBKTlRs?oc=5"
-    }
-   ],
-   "score": 4,
-   "id": "s17"
+   "id": "s20"
   },
   {
    "sec": "economia",
@@ -380,26 +436,7 @@
     }
    ],
    "score": 3,
-   "id": "s18"
-  },
-  {
-   "sec": "economia",
-   "lang": "es",
-   "region": null,
-   "title": "La inteligencia artificial arrastra a Wall Street y el Ibex intensifica las caídas por debajo de los 19.000",
-   "summary": "Anthropic se desploma un 10% en su segunda sesión en Bolsa. El selectivo español acumula un retroceso cercano al 6% en la semana",
-   "link": "https://cincodias.elpais.com/mercados-financieros/2026-11-20/la-bolsa-y-el-ibex-35.html",
-   "source": "Cinco Días",
-   "date": "2026-11-20T16:33:14+00:00",
-   "others": [
-    {
-     "source": "TradingView",
-     "title": "El Ibex pierde los 19.000 puntos en plena huida de la inteligencia artificial",
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0yY2U4OGFEUU9vU0pPbDRvb1hZa3RfWExsR0U1WmhmbnE5ck1mUGJWNXBLQXluRGhHRktqeHExZGdDRVJROFdERWpNbkNQUEVybTNLeXhSVkdXTldMejE1SC1lMF9TUQ?oc=5"
-    }
-   ],
-   "score": 2,
-   "id": "s19"
+   "id": "s21"
   },
   {
    "sec": "economia",
@@ -418,26 +455,7 @@
     }
    ],
    "score": 2,
-   "id": "s20"
-  },
-  {
-   "sec": "economia",
-   "lang": "es",
-   "region": null,
-   "title": "Mejores chollos del Black Friday de Amazon hoy, 20 de noviembre: seis productos con descuentos de hasta un 65 %",
-   "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa2V6TDB2SWZsNklVS0lXUGhsWXp6U1pQcC1VQXF2dnpQdzFZM0VpWld6WHdtVUR4T2lCOEJvS2FzMkk4ZkhNTnNVb3FzV1pScE5aQXV6QkZJcUNGUEtkT1dwX1hWUmNkUnBuN3lKckE4UHJmaXF4dU5MSUw4eUh2cGFUSkhVaGd1dE5vSko2WEMzaVN0eWhrWE5uZkxpTlUyTy1wTElncmRwWmt6cHMtbjN2YkPSAboBQVVfeXFMT3dObm5VbTQwMmlYTktPYkhWRE0yZWNWZmlPYUZwUnp3cHFUMmtiRFFrRmRDUFZZbGNXSHFHaDYwUnZteWlHeDZFcktTUmtWYi04QUJ0aEhXV1A5ZFc4XzNVajhHbi1EWExRRC1SbTB3aVc3TzA4VHN5bzFVWTVHbEZXUnhGZVVNVDhncm9hM2EzSnQzWXN1eGIxQlJOYjg2QzBEX21hbGlQUGdHTFBxMFBMSEtlUnNvV09n?oc=5",
-   "source": "Xataka",
-   "date": "2026-11-20T14:16:28+00:00",
-   "others": [
-    {
-     "source": "MARCA",
-     "title": "El Black Friday de Amazon deja las Skechers por los suelos: 25 zapatillas desde 31 euros y descuentos de hasta el 55%",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeFh0X2tlSlI2UmNvQlFGcy1KT2xOU2h1S1VyTWExa1Zqd2JfSVRvVG1GQXVSOXJXRmdCWXNRZlpsX3ZBbHZpcjI4Rll4V3JzOFpfbHdsaEZ5QVZVTU84eFpXWjhpNzZhNi1RX2tzdVZvWFR3UExWM2FYenpYbXcxd2M2RjFaOFVtY0M2TWFJOFJ0dzMxTExHS1JYZ9IBmwFBVV95cUxORUxnMF9Zd1Q0anhDbGxLUGlYMmJJZzVBdEFMZFotdDIwcVF6WUFMdU9JN3JQMmxLdWFtaTFYRXo2cS1YYldHcTlON0RSNlRjODFBN3YzUUg2TDMtdHNXemsxX3ZVSHUzTHZRcDBZRlU5NlF3aVhqWl9DOE42eWttS203eWhhOHNZZ0NHTHp4UEExbFU3MjZuaW1JQQ?oc=5"
-    }
-   ],
-   "score": 2,
-   "id": "s21"
+   "id": "s22"
   },
   {
    "sec": "economia",
@@ -456,7 +474,7 @@
     }
    ],
    "score": 2,
-   "id": "s22"
+   "id": "s23"
   },
   {
    "sec": "economia",
@@ -475,7 +493,7 @@
     }
    ],
    "score": 2,
-   "id": "s23"
+   "id": "s24"
   },
   {
    "sec": "economia",
@@ -494,7 +512,102 @@
     }
    ],
    "score": 2,
-   "id": "s24"
+   "id": "s25"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "Las rentas más altas acaparan tres cuartas partes de las ventajas fiscales al alquiler de vivienda",
+   "summary": "Los descuentos a los caseros en el IRPF cuestan a Hacienda unos 1.100 millones al año, de los que más de 800 millones van a parar al 10% más rico de la población",
+   "link": "https://elpais.com/economia/2026-11-20/las-rentas-mas-altas-acaparan-tres-cuartas-partes-de-las-ventajas-fiscales-al-alquiler-de-vivienda.html",
+   "source": "El País · Economía",
+   "date": "2026-11-20T04:45:01+00:00",
+   "others": [
+    {
+     "source": "Cinco Días",
+     "title": "Las rentas más altas acaparan tres cuartas partes de las ventajas fiscales al alquiler de vivienda",
+     "link": "https://elpais.com/economia/2026-11-20/las-rentas-mas-altas-acaparan-tres-cuartas-partes-de-las-ventajas-fiscales-al-alquiler-de-vivienda.html"
+    }
+   ],
+   "score": 2,
+   "id": "s26"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "El problema de la despoblación, escondido por los grandes partidos",
+   "summary": "La plataforma La España Vaciada avanza desunida y sin expectativas de que Soria Ya y Teruel Existe consigan diputado",
+   "link": "https://cincodias.elpais.com/opinion/2026-11-20/el-problema-de-la-despoblacion-escondido-por-los-grandes-partidos.html",
+   "source": "El País · Economía",
+   "date": "2026-11-20T04:40:00+00:00",
+   "others": [
+    {
+     "source": "Cinco Días",
+     "title": "El problema de la despoblación, escondido por los grandes partidos",
+     "link": "https://cincodias.elpais.com/opinion/2026-11-20/el-problema-de-la-despoblacion-escondido-por-los-grandes-partidos.html"
+    }
+   ],
+   "score": 2,
+   "id": "s27"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "La euforia por la OPV de Anthropic tiene su lógica",
+   "summary": "La demanda confirma que invertir en IA exige entrar en las pocas compañías disponibles",
+   "link": "https://cincodias.elpais.com/opinion/2026-11-20/la-euforia-por-la-opv-de-anthropic-tiene-su-logica.html",
+   "source": "El País · Economía",
+   "date": "2026-11-20T04:40:00+00:00",
+   "others": [
+    {
+     "source": "Cinco Días",
+     "title": "La euforia por la OPV de Anthropic tiene su lógica",
+     "link": "https://cincodias.elpais.com/opinion/2026-11-20/la-euforia-por-la-opv-de-anthropic-tiene-su-logica.html"
+    }
+   ],
+   "score": 2,
+   "id": "s28"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "La brecha bursátil transatlántica deja de ser una montaña",
+   "summary": "La diferencia cae del récord del 41% al 26% antes de que las reformas del Viejo Continente surtan efecto",
+   "link": "https://cincodias.elpais.com/opinion/2026-11-20/la-brecha-bursatil-transatlantica-deja-de-ser-una-montana.html",
+   "source": "El País · Economía",
+   "date": "2026-11-20T04:40:00+00:00",
+   "others": [
+    {
+     "source": "Cinco Días",
+     "title": "La brecha bursátil transatlántica deja de ser una montaña",
+     "link": "https://cincodias.elpais.com/opinion/2026-11-20/la-brecha-bursatil-transatlantica-deja-de-ser-una-montana.html"
+    }
+   ],
+   "score": 2,
+   "id": "s29"
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "¿Por qué el transporte público se la juega en estas elecciones?",
+   "summary": "El aumento de usuarios y la electrificación de las flotas obligan a movilizar recursos sin precedentes para el sector",
+   "link": "https://cincodias.elpais.com/opinion/2026-11-20/por-que-el-transporte-publico-se-la-juega-en-estas-elecciones.html",
+   "source": "El País · Economía",
+   "date": "2026-11-20T04:40:00+00:00",
+   "others": [
+    {
+     "source": "Cinco Días",
+     "title": "¿Por qué el transporte público se la juega en estas elecciones?",
+     "link": "https://cincodias.elpais.com/opinion/2026-11-20/por-que-el-transporte-publico-se-la-juega-en-estas-elecciones.html"
+    }
+   ],
+   "score": 2,
+   "id": "s30"
   },
   {
    "sec": "international",
@@ -504,7 +617,7 @@
    "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
    "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
    "source": "BBC · Europe",
-   "date": "2026-11-20T13:52:04+00:00",
+   "date": "2026-11-20T16:54:29+00:00",
    "others": [
     {
      "source": "BBC",
@@ -518,7 +631,7 @@
     }
    ],
    "score": 3,
-   "id": "s25"
+   "id": "s31"
   },
   {
    "sec": "international",
@@ -542,7 +655,7 @@
     }
    ],
    "score": 3,
-   "id": "s26"
+   "id": "s32"
   },
   {
    "sec": "international",
@@ -566,7 +679,26 @@
     }
    ],
    "score": 3,
-   "id": "s27"
+   "id": "s33"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "europe",
+   "title": "Cost of living protests sweep across Europe",
+   "summary": "Thousands marched across European cities on Friday to protest against the cost of living and other issues.",
+   "link": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Europe",
+   "date": "2026-11-20T16:45:34+00:00",
+   "others": [
+    {
+     "source": "The Guardian · World",
+     "title": "Young people across Europe stage coordinated ‘fight for our future’ protests",
+     "link": "https://www.theguardian.com/world/2026/nov/20/young-people-europe-coordinated-protests-cost-of-living"
+    }
+   ],
+   "score": 2,
+   "id": "s34"
   },
   {
    "sec": "international",
@@ -585,7 +717,7 @@
     }
    ],
    "score": 2,
-   "id": "s28"
+   "id": "s35"
   },
   {
    "sec": "international",
@@ -604,7 +736,7 @@
     }
    ],
    "score": 2,
-   "id": "s29"
+   "id": "s36"
   },
   {
    "sec": "international",
@@ -623,7 +755,7 @@
     }
    ],
    "score": 2,
-   "id": "s30"
+   "id": "s37"
   },
   {
    "sec": "international",
@@ -642,7 +774,7 @@
     }
    ],
    "score": 2,
-   "id": "s31"
+   "id": "s38"
   },
   {
    "sec": "international",
@@ -661,7 +793,7 @@
     }
    ],
    "score": 2,
-   "id": "s32"
+   "id": "s39"
   },
   {
    "sec": "international",
@@ -680,7 +812,7 @@
     }
    ],
    "score": 2,
-   "id": "s33"
+   "id": "s40"
   },
   {
    "sec": "international",
@@ -699,7 +831,26 @@
     }
    ],
    "score": 2,
-   "id": "s34"
+   "id": "s41"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "us",
+   "title": "California targets Nvidia in China AI chip probe",
+   "summary": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
+   "link": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · US & Canada",
+   "date": "2026-11-20T09:18:30+00:00",
+   "others": [
+    {
+     "source": "The Guardian · World",
+     "title": "California investigates Nvidia over whether chip exports ended up in China",
+     "link": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china"
+    }
+   ],
+   "score": 2,
+   "id": "s42"
   },
   {
    "sec": "moda",
@@ -718,7 +869,7 @@
     }
    ],
    "score": 2,
-   "id": "s35"
+   "id": "s43"
   },
   {
    "sec": "moda",
@@ -737,7 +888,20 @@
     }
    ],
    "score": 2,
-   "id": "s36"
+   "id": "s44"
+  },
+  {
+   "sec": "moda",
+   "lang": "es",
+   "region": null,
+   "title": "Vicky Martín Berrocal o cómo llevar un 'total look' negro para triunfar en Navidad",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQV01UcGlrMTFIa29fRUhRNDUzckNqN1VJVFc2SFJseEt1V1hIaXFUbkIxNXg1ekxPNHc3Z1NyUzNlTDczRk0tM2s4d3pEZldvaV9aaW5ydktZVGZpRV9wMzNpeE1nWWRwOHZROUdEZUF1NUZ4dGJZdHpPVW1Nd0FZZzNCSjR0NldjVEFMZTFtMEx2ZXdSdTVCSk85X3kzOU00a0xuY0lrSjI1LUg3TEk0Wk1xeUxWcl9HUmc?oc=5",
+   "source": "ELLE",
+   "date": "2026-11-20T16:49:59+00:00",
+   "others": [],
+   "score": 1,
+   "id": "s45"
   },
   {
    "sec": "moda",
@@ -750,7 +914,20 @@
    "date": "2026-11-20T16:08:10+00:00",
    "others": [],
    "score": 1,
-   "id": "s37"
+   "id": "s46"
+  },
+  {
+   "sec": "moda",
+   "lang": "es",
+   "region": null,
+   "title": "El negocio de la nostalgia vuelve a poner de moda el vinilo y la fotografía analógica",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeGU4V2hqZi1WcjZhYm9HVWdMN0QydDV5Rkhhc1psMzBOMVhmSVBmREp4bmpNeG1HUWFucFBTZ2FfNEFLdE1qXzJ6S2xyZUEtM2I0SnM0TkhwSHBXbUx3NlZHdFJRdFlNdmpsNDRPYXNicGJaaHAzRURmREYxbHQyRHVPanJzQ2o0ZThacnFYRUNhZTFtWEtRNWJzQTRTVWdBcEJnUjIxbGRadnZqV3huNFlkdXJDamZKWlRLN3AtSDZEOTE4aFF6MldWbmgtYmlpNnpkcEdITDFGQdIB2gFBVV95cUxQMnN1bjdJbzdCR3FpM2p5al90dElzaVN1cS1DOE9BR01KVm81ZmpMa2JQUVNTZWt1RGthbTJQY2hGZS1ZYnFDTVFSWmJYaHIyZnNEdnZaSk9GQmxqbHhNYW1jbkx3b2F2VXFpc2VlVWxKc1o4cmV3RThCTnl3Q1FGckZ3WUJnUWRrMXJyVExLbGNoR0QwRUdIZEd3S2ZPTVBPMzdyZ1lNZXFqUndrNjVudlpkX1RfLVlFc2hhZzNkS096Z2E0TVpaRWhJUHVSX1g3dVlJYTJqc2ZKdw?oc=5",
+   "source": "Antena 3 Noticias",
+   "date": "2026-11-20T16:06:12+00:00",
+   "others": [],
+   "score": 1,
+   "id": "s47"
   },
   {
    "sec": "moda",
@@ -763,53 +940,40 @@
    "date": "2026-11-20T16:00:52+00:00",
    "others": [],
    "score": 1,
-   "id": "s38"
-  },
-  {
-   "sec": "moda",
-   "lang": "en",
-   "region": null,
-   "title": "Suki Waterhouse and Robert Pattinson to become Britain’s next big Hollywood power couple",
-   "summary": "Duo’s fame set to soar after Pattinson announced as next James Bond – but they will take newgen approach to power He is the next James Bond. She is a successful model/actor/singer-songwriter. Together, they are set to become the next big British power couple in Hollywood. This week Robert Pattinson and Suki Waterhouse, who have been in a relationship since…",
-   "link": "https://www.theguardian.com/film/2026/nov/20/suki-waterhouse-robert-pattinson-britain-hollywood-power-couple",
-   "source": "The Guardian · Fashion",
-   "date": "2026-11-20T16:00:33+00:00",
-   "others": [],
-   "score": 1,
-   "id": "s39"
+   "id": "s48"
   }
  ],
  "top": [
   {
-   "id": "s9",
+   "id": "s11",
    "size": "xl"
   },
   {
-   "id": "s10",
+   "id": "s12",
    "size": "m"
   },
   {
-   "id": "s17",
+   "id": "s13",
    "size": "m"
   },
   {
-   "id": "s11",
+   "id": "s31",
    "size": "s"
   },
   {
-   "id": "s25",
+   "id": "s21",
    "size": "s"
   },
   {
-   "id": "s18",
+   "id": "s32",
    "size": "s"
   },
   {
-   "id": "s26",
+   "id": "s33",
    "size": "s"
   },
   {
-   "id": "s27",
+   "id": "s1",
    "size": "s"
   }
  ],
@@ -862,7 +1026,7 @@
   {
    "name": "Google Noticias · Economía",
    "ok": true,
-   "items": 40
+   "items": 31
   },
   {
    "name": "Google News · World",
@@ -872,7 +1036,7 @@
   {
    "name": "Google Noticias · Moda",
    "ok": true,
-   "items": 40
+   "items": 39
   },
   {
    "name": "El País",
@@ -882,7 +1046,7 @@
   {
    "name": "El País · Economía",
    "ok": true,
-   "items": 22
+   "items": 21
   },
   {
    "name": "El Mundo",
@@ -892,7 +1056,7 @@
   {
    "name": "El Mundo · Economía",
    "ok": true,
-   "items": 27
+   "items": 26
   },
   {
    "name": "elDiario.es",
@@ -902,7 +1066,7 @@
   {
    "name": "La Vanguardia",
    "ok": true,
-   "items": 40
+   "items": 38
   },
   {
    "name": "ABC",
@@ -912,7 +1076,7 @@
   {
    "name": "20minutos",
    "ok": true,
-   "items": 40
+   "items": 37
   },
   {
    "name": "Expansión",
@@ -922,17 +1086,12 @@
   {
    "name": "Cinco Días",
    "ok": true,
-   "items": 28
-  },
-  {
-   "name": "elEconomista",
-   "ok": false,
-   "error": "HTTPError"
+   "items": 27
   },
   {
    "name": "BBC · Europe",
    "ok": true,
-   "items": 9
+   "items": 10
   },
   {
    "name": "BBC · US & Canada",
@@ -942,7 +1101,7 @@
   {
    "name": "BBC · Asia",
    "ok": true,
-   "items": 10
+   "items": 9
   },
   {
    "name": "BBC · Latin America",
@@ -982,12 +1141,12 @@
   {
    "name": "BBC · Business",
    "ok": true,
-   "items": 13
+   "items": 14
   },
   {
    "name": "Vogue España",
    "ok": true,
-   "items": 33
+   "items": 22
   },
   {
    "name": "The Guardian · Fashion",
