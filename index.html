@@ -243,7 +243,7 @@ a.pod{color:var(--paper)}
 .mag-head{display:flex;flex-direction:column;align-items:center;border-bottom:1px solid rgba(255,255,255,.6);padding-bottom:6px}
 .mag-name{font-family:var(--serif);font-weight:800;font-size:clamp(40px,12vw,72px);line-height:.95;letter-spacing:-.02em;text-shadow:0 2px 12px rgba(0,0,0,.35)}
 .mag-issue{font:700 10px var(--sans);letter-spacing:.16em;text-transform:uppercase;margin-top:4px}
-.mag-lines{display:flex;flex-direction:column;gap:10px;margin:14px 0 18px;max-width:66%}
+.mag-lines{display:flex;flex-direction:column;gap:10px;margin:0 0 18px;max-width:66%}
 .mag-lines.right{align-self:flex-end;text-align:right;align-items:flex-end}
 .mag button{all:unset;cursor:pointer;box-sizing:border-box}
 .mag button:focus-visible{outline:2px solid #fff;outline-offset:3px}
@@ -384,7 +384,7 @@ function podLink(p){
 function masthead(){
   const d = new Date(ED.date+'T12:00:00').toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
   const old = ED.date !== todayISO();
-  const compact = view.name==='edicion' && view.sec==='portada';   // en la portada, la cabecera es la propia revista
+  const compact = false;
   return `${compact ? `<header class="mini-mast"><span>${esc(d)} · Lo que importa hoy</span></header>` : `<header class="mast"><div class="date" style="justify-content:center;min-height:24px"><span>${esc(d)}</span></div>
     <h1>Con un Café</h1><p>Lo que importa hoy</p></header>`}
     ${old && ED.date === (INDEX.editions[0]||{}).date ? `<div class="notice">Todavía no está la edición de hoy. Estás viendo la del ${esc(fmtDay(ED.date))}.</div>` : ''}
@@ -478,7 +478,6 @@ function frontPage(){
   const dateTxt = new Date(ED.date+'T12:00:00').toLocaleDateString('es-ES',{day:'numeric',month:'long'});
   const dek = lead.ai ? lead.ai.porque : firstSentence(lead.summary||'');
   const cover = `<div class="mag-cover${lead.image?'':' noimg'}" style="${bg}">
-      <div class="mag-head"><span class="mag-name">Con un Café</span><span class="mag-issue">Nº ${issue} · ${esc(dateTxt)}</span></div>
       <div class="mag-lines${right?' right':''}">${lines.map(n => { const s = SEC[n.sec]||SEC.portada; return `<button data-open30="${n.id}" class="mag-line"><span class="mag-k" style="background:${s.c};color:${s.fg}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-lt" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span></button>`; }).join('')}</div>
       <button class="mag-lead" data-open30="${lead.id}">
         <span class="mag-k" style="background:${ls.c};color:${ls.fg}">${esc(ls.l)}${lead.score>1?` · ${lead.score} fuentes`:''}</span>
