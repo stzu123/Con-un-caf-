@@ -313,13 +313,6 @@ function acts(n, light){
     <button class="act" data-act="trash" data-id="${n.id}" aria-label="Descartar: no me interesa">${I.trash(c)}</button>
     <span class="st">${[r?'Leída':'', f?'En favoritos':''].filter(Boolean).join(' · ')}</span></div>`;
 }
-let speaking = false;
-function podMorning(){
-  return `<button class="pod" data-morning aria-label="${speaking?'Parar':'Escuchar'} el resumen del día">
-    <span class="play" style="background:#FFF1E5;color:#1A1817">${speaking?I.pause:I.play}</span>
-    <span style="display:flex;flex-direction:column;min-width:0"><span class="lbl">Morning podcast</span><span class="ep">Lo importante del día, numerado</span></span>
-    <span class="sub">${Math.min(5, topToday().length)} noticias</span></button>`;
-}
 function podLink(p){
   const s = SEC[p.sec] || SEC.portada;
   const href = p.spotify;
@@ -455,7 +448,7 @@ function vEdicion(){
   }).join('');
   return masthead()+tabs()+
     (INDEX.editions.length>1?`<div style="padding:12px 18px 0" class="kicker"><span style="color:var(--muted)">Lo que marcó cada día</span></div><div class="days" style="padding-top:8px">${days}</div>`:'')+
-    podMorning()+frontPage()+
+    frontPage()+
     `<p class="soon" style="margin:14px 18px 0">${ED.sources_ok} de ${ED.sources_total} fuentes leídas · actualizado ${esc(new Date(ED.generated_at).toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'}))}</p>`;
 }
 function vSeccion(sec){
@@ -561,89 +554,12 @@ function vCalendario(){
     <div class="cal">${cells}</div>
     <span class="soon">Toca un día con edición para leerla. El sello de la taza aparece los días que marcas alguna noticia como leída.</span></div>`;
 }
-let showScript = false;
 function vPodcasts(){
   const pods = ED.podcasts || [];
   return `<header class="mast" style="text-align:left"><span class="kicker" style="color:var(--muted)">Fonoteca</span><h1 style="font-size:36px">Podcasts</h1></header>
-    ${podMorning()}<button class="linkbtn" data-script>${showScript?'Ocultar guion':'Ver guion'}</button>
-    ${showScript?`<div class="script">${morningParts().map(p=>`<p ${p.lang==='en'?'lang="en"':''}>${esc(p.text)}</p>`).join('')}</div>`:''}
-    <h2 class="h2" style="margin:22px 18px 0">De otras fuentes</h2>
+    <p class="soon" style="margin:12px 18px 0">El último episodio de cada programa. Tócalo para escucharlo aquí o ábrelo en Spotify.</p>
     ${pods.map(p => `<div style="margin-top:4px">${podLink(p)}${p.audio?`<audio controls preload="none" src="${esc(p.audio)}" style="width:calc(100% - 36px);margin:8px 18px 0"></audio>`:''}<p style="margin:6px 30px 0;font-size:13px;color:var(--muted)"><b style="color:${(SEC[p.sec]||SEC.portada).ink}">${esc((SEC[p.sec]||SEC.portada).l)}</b>${p.date?' · '+esc(new Date(p.date).toLocaleDateString('es-ES',{day:'numeric',month:'short'})):''}</p></div>`).join('')}`;
 }
-
-/* ---------- podcast con la voz del móvil ---------- */
-const NUM = ['Uno','Dos','Tres','Cuatro','Cinco','Seis'];
-function morningParts(){
-  const top = topToday().slice(0, 5);
-  const parts = [{lang:'es', text:`Buenos días. Esto es Con un Café, ${fmtDay(ED.date)}. Hoy, ${top.length} noticias.`}];
-  top.forEach((n,i) => {
-    parts.push({lang:'es', text:NUM[i] + '.', pause:true});
-    parts.push({lang:n.lang, text:n.title + '.' + (n.summary ? ' ' + firstSentence(n.summary) : '')});
-  });
-  parts.push({lang:'es', text:'Eso es todo. El resto te espera en la app. Que tengas un buen día.', pause:true});
-  return parts;
-}
-let audioCtx = null, speakTimer = null;
-function jingle(){   // sintonía de unos 3 segundos generada en el propio móvil (sin descargar nada)
-  return new Promise(res => {
-    try{
-      audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
-      const t0 = audioCtx.currentTime + 0.05;
-      const notes = [[523.25,0],[659.25,.22],[783.99,.44],[1046.5,.66],[783.99,1.1],[1046.5,1.32]];
-      notes.forEach(([f, t]) => {
-        const o = audioCtx.createOscillator(), g = audioCtx.createGain();
-        o.type = 'triangle'; o.frequency.value = f;
-        g.gain.setValueAtTime(0, t0+t); g.gain.linearRampToValueAtTime(.18, t0+t+.03); g.gain.exponentialRampToValueAtTime(.001, t0+t+.9);
-        o.connect(g).connect(audioCtx.destination); o.start(t0+t); o.stop(t0+t+1);
-      });
-      setTimeout(res, 2600);
-    }catch(e){ res(); }
-  });
-}
-function ding(){ try{ const o = audioCtx.createOscillator(), g = audioCtx.createGain(), t = audioCtx.currentTime;
-  o.type='sine'; o.frequency.value = 880; g.gain.setValueAtTime(.12,t); g.gain.exponentialRampToValueAtTime(.001,t+.6); o.connect(g).connect(audioCtx.destination); o.start(t); o.stop(t+.6); }catch(e){} }
-function stopMorning(){ speaking = false; clearTimeout(speakTimer); clearTimeout(watchdog); try{ speechSynthesis.cancel(); }catch(e){} }
-let watchdog = null, keepUtt = [], esVoice = null, enVoice = null;
-function pickVoices(){
-  try{ const v = speechSynthesis.getVoices();
-    esVoice = v.find(x => /^es(-|_)ES/i.test(x.lang)) || v.find(x => /^es/i.test(x.lang)) || null;
-    enVoice = v.find(x => /^en(-|_)GB/i.test(x.lang)) || v.find(x => /^en/i.test(x.lang)) || null; }catch(e){}
-}
-if('speechSynthesis' in window){ pickVoices(); try{ speechSynthesis.onvoiceschanged = pickVoices; }catch(e){} }
-function sayText(p, done){
-  const u = new SpeechSynthesisUtterance(p.text);
-  u.lang = p.lang==='en' ? 'en-GB' : 'es-ES';
-  const v = p.lang==='en' ? enVoice : esVoice; if(v) u.voice = v;
-  u.rate = 0.98;
-  keepUtt.push(u); if(keepUtt.length > 20) keepUtt.shift();   // Chrome pierde frases si no se guardan
-  let finished = false;
-  const fin = () => { if(finished) return; finished = true; clearTimeout(watchdog); done(); };
-  u.onend = fin; u.onerror = fin;
-  clearTimeout(watchdog);
-  watchdog = setTimeout(fin, 2500 + p.text.length * 90);        // por si el navegador no avisa al terminar
-  speechSynthesis.speak(u);
-}
-async function playMorning(){
-  if(!('speechSynthesis' in window)){ toast('Tu navegador no tiene voz disponible'); return; }
-  if(speaking){ stopMorning(); render(); return; }
-  speechSynthesis.cancel(); pickVoices();
-  // arrancar la voz dentro del propio toque (requisito de móviles)
-  const unlock = new SpeechSynthesisUtterance(' '); unlock.volume = 0; keepUtt.push(unlock); speechSynthesis.speak(unlock);
-  try{ audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)(); if(audioCtx.state === 'suspended') audioCtx.resume(); }catch(e){}
-  speaking = true; render();
-  await jingle(); if(!speaking) return;
-  const parts = morningParts(); let i = 0;
-  const next = () => {
-    if(!speaking) return;
-    if(i >= parts.length){ speaking = false; render(); return; }
-    const p = parts[i++];
-    const go = () => sayText(p, () => { speakTimer = setTimeout(next, p.pause ? 450 : 1300); });
-    if(p.pause){ ding(); speakTimer = setTimeout(go, 900); } else go();
-  };
-  next();
-}
-// algunos móviles pausan la voz si la pantalla cambia; la reanudamos
-setInterval(() => { try{ if(speaking && speechSynthesis.paused) speechSynthesis.resume(); }catch(e){} }, 4000);
 
 /* ---------- render ---------- */
 function render(){
@@ -662,7 +578,6 @@ function render(){
 function go(v){ Object.assign(view, v); render(); window.scrollTo(0,0); }
 async function goDay(date, then){
   try{ await loadEdition(date); }catch(e){ toast('No se ha podido abrir esa edición'); return; }
-  stopMorning();
   if(then) then(); else go({name:'edicion', sec:'portada'});
 }
 function openUid(u){
@@ -708,8 +623,6 @@ document.addEventListener('click', e => {
   if(d.open){ if(view.name!=='noticia') lastList = {name:view.name,sec:view.sec}; go({name:'noticia',id:d.open}); return; }
   if(d.openuid){ openUid(d.openuid); return; }
   if(d.back!==undefined){ go(lastList); return; }
-  if(d.morning!==undefined){ playMorning(); return; }
-  if(d.script!==undefined){ showScript = !showScript; render(); return; }
   if(d.free!==undefined){ openSheet(null); return; }
   if(d.del){ S.notes = S.notes.filter(n => String(n.t)!==d.del); save(); render(); return; }
   if(d.unread){ delete S.read[d.unread]; save(); render(); return; }
