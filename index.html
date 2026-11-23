@@ -337,7 +337,9 @@ let view = {name:'edicion', sec:'portada', id:null, reg:'all', rtab:'pend', eco:
 let lastList = {name:'edicion', sec:'portada'};
 const uid = n => ED.date + ':' + n.id;
 const byId = id => ED.stories.find(n => n.id === id);
-const visible = () => ED.stories.filter(n => !S.trash[uid(n)]);
+const SUCESOS = /(muere|muertos?|fallec|heridos?|herida|killed|\bdead\b|\bdies\b|died|injur|accidente|atropell|incendio|fire at|\bblaze\b|crash|choque|colisi|apu[ñn]al|asesin|homicid|cad[aá]ver|detenid|arrest|tiroteo|shoot|stabb|\brob(o|os)\b|atraco|\bramas?\b|derrumb|ahog|drown|desaparec|missing|sucesos?|polic[ií]a local|guardia civil (busca|localiza)|reyerta|okup)/i, PESO = /(guerra|\bwar\b|gaza|ucrania|ukrain|rusia|russia|dron|drone|attack|ataque|ofensiva|militar|military|army|ej[eé]rcito|gobierno|government|ministr|presiden|elecci|election|parlament|congreso|ley\b|\blaw\b|terror|dana|clima|climate|protest|manifest|huelga|strike|sanci[oó]n|sanction|s[aá]nchez|feij[oó]o|abascal|psoe|\bpp\b|\bvox\b|sumar|trump|putin|alcald|mayor\b|ministro|minister)/i, CLICKBAIT = /(el aparato|el truco|trucos? para|el producto|chollo|as[ií] (puedes|podr[aá]s)|sin poner la calefacci|lo que (nadie|no) te|no te (lo )?vas a creer|te sorprender)/i;
+const noAporta = n => (n.sec !== 'moda' && CLICKBAIT.test(n.title)) || (SUCESOS.test(n.title) && !PESO.test(n.title));
+const visible = () => ED.stories.filter(n => !S.trash[uid(n)] && !noAporta(n));
 const meta = n => ({uid:uid(n), title:n.title, sec:n.sec, date:ED.date, source:n.source, link:n.link, read:Date.now()});
 const fmtDay = d => new Date(d+'T12:00:00').toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'long'});
 const todayISO = () => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };

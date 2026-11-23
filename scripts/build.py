@@ -34,6 +34,15 @@ BLOCK = re.compile(r"(loter[ií]a|bonoloto|primitiva|euromillones|el gordo|once\
                    r"ibex(\s*35)? (abre|cierra|sube|baja|cae|avanza|retrocede|arranca|termina)|bolsa española (abre|cierra|sube|baja)|"
                    r"wall street (abre|cierra)|el euro (sube|baja) frente|cotizaci[oó]n (del|de la) (euro|d[oó]lar|bitcoin) hoy|"
                    r"en directo|última hora|minuto a minuto|crucigrama|sudoku|quiz|wordle|ofertas?|descuentos?|black friday|cupones?)", re.I)
+# Sucesos (accidentes, crímenes, incendios locales…) que no aportan, salvo que tengan peso político o geopolítico
+SUCESOS = re.compile(r"(muere|muertos?|fallec|heridos?|herida|killed|\bdead\b|\bdies\b|died|injur|accidente|atropell|incendio|fire at|\bblaze\b|crash|choque|colisi|apu[ñn]al|asesin|homicid|cad[aá]ver|detenid|arrest|tiroteo|shoot|stabb|\brob(o|os)\b|atraco|\bramas?\b|derrumb|ahog|drown|desaparec|missing|sucesos?|polic[ií]a local|guardia civil (busca|localiza)|reyerta|okup)", re.I)
+PESO = re.compile(r"(guerra|\bwar\b|gaza|ucrania|ukrain|rusia|russia|dron|drone|attack|ataque|ofensiva|militar|military|army|ej[eé]rcito|gobierno|government|ministr|presiden|elecci|election|parlament|congreso|ley\b|\blaw\b|terror|dana|clima|climate|protest|manifest|huelga|strike|sanci[oó]n|sanction|s[aá]nchez|feij[oó]o|abascal|psoe|\bpp\b|\bvox\b|sumar|trump|putin|alcald|mayor\b|ministro|minister)", re.I)
+# Titulares gancho tipo «el aparato que…»
+CLICKBAIT = re.compile(r"(el aparato|el truco|trucos? para|el producto|chollo|as[ií] (puedes|podr[aá]s)|sin poner la calefacci|lo que (nadie|no) te|no te (lo )?vas a creer|te sorprender)", re.I)
+def no_aporta(title, sec):
+    if sec != "moda" and CLICKBAIT.search(title): return True
+    return bool(SUCESOS.search(title)) and not PESO.search(title)
+
 ECON_SUB = [
     ("bolsillo", r"vivienda|alquiler|hipoteca|eur[ií]bor|sueldo|salari|empleo|paro|trabaj|beca|pensi[oó]n|precio|s[uú]per|cesta|luz|gasolina|"
                  r"impuesto|irpf|consum|ahorro|jov[eé]n|universit|housing|rent|mortgage|wage|salary|jobs?\b|workers?|prices|grocer|tax"),
@@ -230,6 +239,8 @@ def main():
                 if not e["title"] or not e["link"] or BLOCK.search(e["title"]):
                     continue
                 if e["date"] and (now - e["date"]).total_seconds() > MAX_AGE_H * 3600:
+                    continue
+                if no_aporta(e["title"], f["sec"]):
                     continue
                 source = f["name"]
                 title = e["title"]
