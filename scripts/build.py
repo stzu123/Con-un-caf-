@@ -173,15 +173,15 @@ Responde SOLO con JSON: {"id": {"esencial": "...", "porque": "...", "cafe": "...
 
 
 def call_ai(messages):
-    """GitHub Models con el token de Actions (gratis); si existe GEMINI_API_KEY, usa Gemini (nivel gratuito)."""
+    """Si existe GEMINI_API_KEY usa Gemini (nivel gratuito); si no o si falla, GitHub Models con el token de Actions."""
     import os
     attempts = []
-    if os.environ.get("GITHUB_TOKEN"):
-        attempts.append(("https://models.github.ai/inference/chat/completions", os.environ["GITHUB_TOKEN"],
-                         os.environ.get("GH_MODEL", "openai/gpt-4.1-mini")))
     if os.environ.get("GEMINI_API_KEY"):
         attempts.append(("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", os.environ["GEMINI_API_KEY"],
                          os.environ.get("GEMINI_MODEL", "gemini-flash-latest")))
+    if os.environ.get("GITHUB_TOKEN"):
+        attempts.append(("https://models.github.ai/inference/chat/completions", os.environ["GITHUB_TOKEN"],
+                         os.environ.get("GH_MODEL", "openai/gpt-4.1-mini")))
     for url, key, model in attempts:
         try:
             body = json.dumps({"model": model, "messages": messages, "temperature": 0.4}).encode()
