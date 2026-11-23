@@ -53,27 +53,7 @@
    "id": "s2"
   },
   {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
-   "title": "Juzgan a 'Anita la fantástica' por la estafa masiva de viajes para carreras de MotoGP",
-   "summary": "La Fiscalía pide nueve años de prisión para la acusada por un delito continuado de estafa con la circunstancia agravante de multirreincidencia Leer",
-   "link": "https://www.elmundo.es/espana/2026/11/23/6b041b22e4d4d8bf1c8b4578.html",
-   "source": "El Mundo",
-   "date": "2026-11-23T15:31:55+01:00",
-   "others": [
-    {
-     "source": "20minutos",
-     "title": "Las víctimas de Anita la fantástica relatan la estafa de los viajes de MotoGP y ella culpa a la aseguradora",
-     "link": "https://www.20minutos.es/nacional/las-victimas-anita-fantastica-relatan-estafa-los-viajes-motogp-ella-culpa-aseguradora_7064659_0.html"
-    }
-   ],
-   "score": 2,
-   "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/04/11/16812293796850.jpg",
-   "id": "s3"
-  },
-  {
-   "sec": "espana",
+   "sec": "economia",
    "lang": "es",
    "region": null,
    "title": "Nvidia recupera a Jensen Huang como CEO después de su renuncia por su relación con una espía china y con otras dos empleadas",
@@ -90,7 +70,8 @@
    ],
    "score": 2,
    "image": "https://static.eldiario.es/clip/ee239a07-9a71-4ebf-9602-fee75026ec3e_16-9-discover-aspect-ratio_default_0.jpg",
-   "id": "s4"
+   "id": "s4",
+   "sub": "empresas"
   },
   {
    "sec": "espana",
@@ -116,20 +97,6 @@
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "El excéntrico vídeo de Marcos Llorente dándole caviar a su hija desata las críticas en redes sociales: \"Es ir de sobrado, es ridículo...\"",
-   "summary": "El futbolista del Atlético de Madrid, conocido por sus peculiares preferencias alimenticias, publicó un vídeo en sus redes sociales compartiendo una lata de este lujoso alimento",
-   "link": "https://www.20minutos.es/deportes/futbol/excentrico-video-marcos-llorente-dandole-caviar-su-hija-desata-muchas-criticas-es-ir-sobrado-es-ridiculo_7064784_0.html",
-   "source": "20minutos",
-   "date": "2026-11-23T18:26:19+01:00",
-   "others": [],
-   "score": 1,
-   "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/23/6b04728b9c34b0-93301594.jpeg",
-   "id": "s6"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
    "title": "Adif pide a Renfe los acelerómetros de los trenes que circularon por Adamuz para investigar «posibles anomalías» en la vía",
    "summary": "Adif ha solicitado que Renfe aporte los registros de los acelerómetros embarcados en los trenes Talgo que circularon por Adamuz los días 17 y 18 de enero de 2026, con el objetivo de analizar si se produjeron aceleraciones anómalas en la zona del accidente y si estas pudieron estar relacionadas con posibles defectos en la vía.La petición figura en un escrito…",
    "link": "https://www.abc.es/espana/andalucia/cordoba/adif-pide-renfe-acelerometros-trenes-circularon-adamuz-20261123182408-nts.html",
@@ -144,20 +111,6 @@
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "Alerta sanitaria: retiran dos lotes de una famosa crema por riesgos para la salud",
-   "summary": "El producto es utilizado por personas con ostomías.",
-   "link": "https://www.20minutos.es/salud/alerta-sanitaria-espana-retiran-dos-lotes-una-crema-por-posibles-riesgos-para-salud_7064778_0.html",
-   "source": "20minutos",
-   "date": "2026-11-23T18:20:09+01:00",
-   "others": [],
-   "score": 1,
-   "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/23/6b04752ce82ad3-12180526.jpeg",
-   "id": "s8"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
    "title": "La ampliación de la M-607 entre Tres Cantos y Colmenar Viejo estará terminada en 2027",
    "summary": "La finalización del tercer carril de la autovía M-607 por sentido entre Tres Cantos y Colmenar Viejo está cada vez más cerca. Las obras de ampliación cuentan con alcanzar el kilómetro 29 durante los primeros meses de 2027, dejando un kilómetro y 300 metros restantes que prevén alcanzar en el segundo semestre de ese mismo año. Este último tramo contará con…",
    "link": "https://www.abc.es/espana/madrid/ampliacion-m607-tres-cantos-colmenar-viejo-terminada-20261123181851-nt.html",
@@ -167,20 +120,6 @@
    "score": 1,
    "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/23/RDSX0063-RLcAoEtbd8gJ2EaCfNa2RjK-1200x840@diario_abc.jpg",
    "id": "s9"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
-   "title": "Los Mossos investigan como posible ajuste de cuentas la muerte a tiros de un hombre en Barcelona esta madrugada",
-   "summary": "Pasaban pocos minutos de las seis de la madrugada, cuando Carolina Melenciano escuchó cuatro disparos . Ella es la responsable del local de la calle Salvà del barrio de Poble-sec , en Barcelona, a escasos metros del cual un pistolero ha matado este lunes a un hombre de entre 30 y 35 años de origen dominicano, residente en Hospitalet de Llobregat, en lo que…",
-   "link": "https://www.abc.es/espana/cataluna/muere-hombre-tras-tiroteado-madrugada-barcelona-20261123091701-nt.html",
-   "source": "ABC",
-   "date": "2026-11-23T18:16:19+01:00",
-   "others": [],
-   "score": 1,
-   "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/23/ejecucion-poblesec-RVWcnZWHa0840h8YXPF9agI-1200x840@diario_abc.jpg",
-   "id": "s10"
   },
   {
    "sec": "politica",

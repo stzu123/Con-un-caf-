@@ -23,32 +23,6 @@
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "Zara Speed Run 2026: horarios, recorrido y cortes de tráfico por la carrera hoy",
-   "summary": "Madrid es una ciudad que se caracteriza por acoger todo tipo de planes en casi cualquier momento del año. En el que nos encontramos ahora, la Navidad es ya la protagonista de las calles de la capital, desde tuvo lugar el reciente encendido de luces . Sin embargo, el fin de semana madrileño ofrece, tanto a sus habitantes como a cualquiera que lo visite…",
-   "link": "https://www.abc.es/espana/madrid/zara-speed-run-2026-horarios-recorrido-cortes-20261122051500-nt.html",
-   "source": "ABC",
-   "date": "2026-11-22T05:15:02+01:00",
-   "others": [],
-   "score": 1,
-   "id": "s2"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
-   "title": "Maratón San Sebastián hoy: cortes de tráfico, recorrido y horario de salida por cajones",
-   "summary": "Hoy, domingo 22 de noviembre de 2026, se celebra la 47 edición de la Zurich Maratón Donostia San Sebastián , la segunda maratón más antigua de España y una de las más prestigiosas de Europa.Además de la maratón, también se celebra la 10K . Una carrera para los que quieren hacer marca o iniciarse en el mundo del running. La Zurich Maratón San Sebastián 2026…",
-   "link": "https://www.abc.es/espana/pais-vasco/maraton-san-sebastian-hoy-cortes-trafico-recorrido-horario-20261122051500-nt.html",
-   "source": "ABC",
-   "date": "2026-11-22T05:15:01+01:00",
-   "others": [],
-   "score": 1,
-   "id": "s3"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
    "title": "Difunden un 'manual' para manifestantes: de recordar el número de placa a negarse a una prueba de ADN",
    "summary": "«Si es posible, identifica a los agentes que te están deteniendo y recuerda su número de placa». Esta recomendación se incluye en la «guía rápida» que ha difundido Intersindical Valenciana en el contexto de la reciente huelga general del 11N. Una especie de manual del manifestante, que después le habría venido bien a más de uno, a la vista de las tensiones…",
    "link": "https://www.abc.es/espana/comunidad-valenciana/difunden-manual-manifestantes-recordar-numero-placa-negarse-20261122050000-nt.html",
@@ -59,7 +33,7 @@
    "id": "s4"
   },
   {
-   "sec": "espana",
+   "sec": "politica",
    "lang": "es",
    "region": null,
    "title": "Gabriel Rufián: “Más que fascismo hay hijoputismo; la maldad está de moda”",
@@ -72,7 +46,7 @@
    "id": "s5"
   },
   {
-   "sec": "espana",
+   "sec": "politica",
    "lang": "es",
    "region": null,
    "title": "¿Quiénes son los indecisos? En busca del dubitativo voto de izquierdas",
@@ -85,7 +59,7 @@
    "id": "s6"
   },
   {
-   "sec": "espana",
+   "sec": "politica",
    "lang": "es",
    "region": null,
    "title": "Inmigración, el ruido más estridente de la batalla política",

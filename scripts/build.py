@@ -20,7 +20,33 @@ PER_SECTION = {"espana": 10, "politica": 10, "economia": 10, "international": 12
 TOP_N = 8                 # piezas del collage «Lectura en 30 segundos»
 
 POLITICA = re.compile(r"\b(gobierno|psoe|pp|vox|sumar|podemos|junts|erc|pnv|bildu|congreso|senado|elecci|electoral|campa[nñ]a|"
-                      r"s[aá]nchez|feij[oó]o|abascal|d[ií]az|ministr|moncloa|parlament|diputad|ley|decreto|debate|votaci|encuesta|cis)\w*", re.I)
+                      r"s[aá]nchez|feij[oó]o|abascal|d[ií]az|ministr|moncloa|parlament|diputad|ley|decreto|debate|votaci|encuesta|cis|"
+                      r"voto|votar|vota\b|pol[ií]tic|rufi[aá]n|puigdemont|amnist|zapatero|aznar|ayuso|29-?n|indecis|candidat|izquierda|derecha)\w*", re.I)
+# Una noticia de un canal general español puede ser de empresa o del extranjero: se decide por el contenido
+ECONOMIA = re.compile(r"\b(nvidia|apple|google|alphabet|microsoft|amazon|meta|tesla|openai|anthropic|samsung|inditex|zara|telef[oó]nica|"
+                      r"iberdrola|repsol|santander|bbva|caixabank|sabadell|mercadona|ryanair|iberia|empresa|compa[nñ]í|multinacional|"
+                      r"ceo|consejero delegado|presidente ejecutivo|accionista|acciones|bolsa|ibex|wall street|beneficio|factura|ventas|"
+                      r"banco|bce|inflaci|ipc|eur[ií]bor|aranceles?|pib|paro|empleo|salario|despidos?|ere\b|startup|inversi[oó]n)\w*", re.I)
+EXTRANJERO = re.compile(r"\b(eeuu|ee\.uu|estados unidos|washington|trump|biden|china|chin[oa]s?|pek[ií]n|xi jinping|rusia|rus[oa]s?|putin|kremlin|"
+                        r"ucrania|zelenski|israel|gaza|netanyahu|ir[aá]n|l[ií]bano|siria|francia|macron|alemania|merz|italia|meloni|"
+                        r"reino unido|londres|bruselas|otan|venezuela|maduro|m[eé]xico|argentina|milei|brasil|lula|colombia|cuba|"
+                        r"jap[oó]n|india|corea|marruecos|argelia|turqu[ií]a|polonia|hungr[ií]a|orb[aá]n)\w*", re.I)
+ESPANA = re.compile(r"\b(españ|madrid|barcelona|catalu|andaluc|valencia|galicia|euskadi|pa[ií]s vasco|canarias|baleares|murcia|arag[oó]n|"
+                    r"castilla|extremadura|asturias|navarra|cantabria|la rioja|sevilla|bilbao|m[aá]laga|zaragoza|moncloa|psoe|\bpp\b|vox)\w*", re.I)
+
+
+def classify(title, summary, sec):
+    """Para noticias de canales generales españoles, decide la sección por el contenido."""
+    if sec != "espana":
+        return sec
+    if POLITICA.search(title):
+        return "politica"
+    text = title + " " + (summary or "")
+    if ECONOMIA.search(title):
+        return "economia"
+    if EXTRANJERO.search(title) and not ESPANA.search(text):
+        return "international"
+    return sec
 REGIONS = [
     ("europe", r"europ|ukrain|russia|france|german|ital|spain|poland|brussels|nato|uk\b|britain|london|paris|berlin|türki|turkey"),
     ("us", r"\bus\b|u\.s\.|united states|america(?!n latin)|trump|washington|congress|senate|white house|new york|california|canada"),
@@ -33,9 +59,10 @@ BLOCK = re.compile(r"(loter[ií]a|bonoloto|primitiva|euromillones|el gordo|once\
                    r"previsi[oó]n del tiempo|precio de la (luz|gasolina)|gasolina (hoy|más barata)|resultados? del? (partido)|"
                    r"ibex(\s*35)? (abre|cierra|sube|baja|cae|avanza|retrocede|arranca|termina)|bolsa española (abre|cierra|sube|baja)|"
                    r"wall street (abre|cierra)|el euro (sube|baja) frente|cotizaci[oó]n (del|de la) (euro|d[oó]lar|bitcoin) hoy|"
+                   r"cortes de tr[aá]fico|d[oó]nde ver|horarios?,? (y )?recorrido|desata las cr[ií]ticas|en redes sociales|retiran (dos |varios )?lotes|"
                    r"en directo|última hora|minuto a minuto|crucigrama|sudoku|quiz|wordle|ofertas?|descuentos?|black friday|cupones?)", re.I)
 # Sucesos (accidentes, crímenes, incendios locales…) que no aportan, salvo que tengan peso político o geopolítico
-SUCESOS = re.compile(r"(muere|muertos?|fallec|heridos?|herida|killed|\bdead\b|\bdies\b|died|injur|accidente|atropell|incendio|fire at|\bblaze\b|crash|choque|colisi|apu[ñn]al|asesin|homicid|cad[aá]ver|detenid|arrest|tiroteo|shoot|stabb|\brob(o|os)\b|atraco|\bramas?\b|derrumb|ahog|drown|desaparec|missing|sucesos?|polic[ií]a local|guardia civil (busca|localiza)|reyerta|okup)", re.I)
+SUCESOS = re.compile(r"(muere|muertos?|fallec|heridos?|herida|killed|\bdead\b|\bdies\b|died|injur|accidente|atropell|incendio|fire at|\bblaze\b|crash|choque|colisi|apu[ñn]al|asesin|a tiros|ajuste de cuentas|estafa|homicid|cad[aá]ver|detenid|arrest|tiroteo|shoot|stabb|\brob(o|os)\b|atraco|\bramas?\b|derrumb|ahog|drown|desaparec|missing|sucesos?|polic[ií]a local|guardia civil (busca|localiza)|reyerta|okup)", re.I)
 PESO = re.compile(r"(guerra|\bwar\b|gaza|ucrania|ukrain|rusia|russia|dron|drone|attack|ataque|ofensiva|militar|military|army|ej[eé]rcito|gobierno|government|ministr|presiden|elecci|election|parlament|congreso|ley\b|\blaw\b|terror|dana|clima|climate|protest|manifest|huelga|strike|sanci[oó]n|sanction|s[aá]nchez|feij[oó]o|abascal|psoe|\bpp\b|\bvox\b|sumar|trump|putin|alcald|mayor\b|ministro|minister)", re.I)
 # Titulares gancho tipo «el aparato que…»
 CLICKBAIT = re.compile(r"(el aparato|el truco|trucos? para|el producto|chollo|as[ií] (puedes|podr[aá]s)|sin poner la calefacci|lo que (nadie|no) te|no te (lo )?vas a creer|te sorprender)", re.I)
@@ -390,9 +417,7 @@ def main():
                     if m:
                         title, source = m.group(1).strip(), e["source"] or m.group(2).strip()
                     e["summary"] = ""   # su descripción es una lista de enlaces, no un resumen
-                sec = f["sec"]
-                if sec == "espana" and POLITICA.search(title):
-                    sec = "politica"
+                sec = classify(title, e["summary"], f["sec"])
                 items.append({
                     "title": title, "link": e["link"], "summary": e["summary"], "source": source,
                     "date": e["date"].isoformat() if e["date"] else None, "sec": sec, "lang": f["lang"],
