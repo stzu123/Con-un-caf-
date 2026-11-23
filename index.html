@@ -422,12 +422,13 @@ function interest(n, P){
 }
 function ranked(list){
   const P = profile();
-  return list.map(n => ({n, r:(n.score||1) + interest(n, P)})).sort((a,b) => b.r - a.r).map(x => x.n);
+  return list.map(n => ({n, r:(n.score||1) + interest(n, P) - (SUCESOS.test(n.title) ? 1000 : 0)})).sort((a,b) => b.r - a.r).map(x => x.n);
 }
 function topToday(){
   const out = [], per = {};
   for(const n of ranked(visible())){
     if(out.length >= 8) break;
+    if(SUCESOS.test(n.title)) continue;
     if((per[n.sec]||0) >= 3) continue;
     per[n.sec] = (per[n.sec]||0) + 1; out.push(n);
   }

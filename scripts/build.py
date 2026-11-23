@@ -309,7 +309,8 @@ def main():
             stories[-1]["sub"] = next((k for k, pat in ECON_SUB if re.search(pat, low)), "mundo")
 
     def rank_key(s):
-        return (s["score"], s["date"] or "")
+        # los sucesos con peso político o geopolítico van los últimos
+        return (0 if SUCESOS.search(s["title"]) else 1, s["score"], s["date"] or "")
 
     chosen = []
     for sec, n in PER_SECTION.items():
@@ -318,7 +319,7 @@ def main():
     for i, s in enumerate(chosen):
         s["id"] = f"s{i+1}"
 
-    top_pool = sorted(chosen, key=rank_key, reverse=True)
+    top_pool = sorted([c for c in chosen if not SUCESOS.search(c["title"])] or chosen, key=rank_key, reverse=True)
     top, seen_secs = [], {}
     for s in top_pool:
         if len(top) >= TOP_N:
