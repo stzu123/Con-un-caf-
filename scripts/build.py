@@ -187,6 +187,9 @@ def call_ai(messages):
                          os.environ.get("GH_MODEL", "openai/gpt-4.1-mini")))
     for url, key, model in attempts:
         for wait in (0, 15, 40):          # servicio saturado (503) o límite por minuto (429): esperar y repetir
+            if time.time() > AI_DEADLINE[0]:
+                log("IA: se acabó el tiempo; la edición sale con lo que haya")
+                return None, None
             if wait:
                 time.sleep(wait)
             raw = ""
@@ -196,7 +199,7 @@ def call_ai(messages):
                     body["response_format"] = {"type": "json_object"}
                 req = urllib.request.Request(url, data=json.dumps(body).encode(),
                                              headers={"Authorization": "Bearer " + key, "Content-Type": "application/json", "User-Agent": UA})
-                with urllib.request.urlopen(req, timeout=180) as r:
+                with urllib.request.urlopen(req, timeout=100) as r:
                     raw = r.read().decode("utf-8", "replace")
                 txt = json.loads(raw)["choices"][0]["message"]["content"]
                 txt = re.sub(r"^```(json)?|```$", "", txt.strip()).strip()
@@ -311,13 +314,32 @@ def good_images(stories):
     log(f"Fotos válidas: {sum(1 for u in res if u)} de {len(stories)}")
 
 
+def keep_previous_ai(chosen, date):
+    """Si ya se generaron explicaciones hoy, se reaprovechan (por titular) y no se gastan peticiones."""
+    f = ROOT / "data" / f"{date}.json"
+    try:
+        old = {x["title"]: x["ai"] for x in json.loads(f.read_text(encoding="utf-8"))["stories"] if x.get("ai")}
+    except Exception:
+        return
+    n = 0
+    for s in chosen:
+        if s["title"] in old:
+            s["ai"] = old[s["title"]]; n += 1
+    if n:
+        log(f"Explicaciones reaprovechadas de la edición anterior de hoy: {n}")
+
+
 def explain(chosen, top):
     """Añade «esencial», «porque», «desarrollo» y «cafe» a las noticias principales (en dos tandas de 5).
     Si la IA falla, la edición sale igual."""
     ids = [t["id"] for t in top]
     extra = [s["id"] for s in sorted(chosen, key=lambda s: s["score"], reverse=True) if s["id"] not in ids]
     ids = (ids + extra)[:10]
-    pick = [s for s in chosen if s["id"] in ids]
+    pick = [s for s in chosen if s["id"] in ids and not s.get("ai")]
+    if not pick:
+        return
+    import time
+    AI_DEADLINE[0] = time.time() + 8 * 60       # como mucho 8 minutos de IA
     n = 0
     for k in range(0, len(pick), 5):
         batch = pick[k:k + 5]
@@ -338,6 +360,7 @@ def explain(chosen, top):
 
 
 chosen_engine = [None]
+AI_DEADLINE = [float("inf")]
 
 
 def main():
@@ -463,6 +486,7 @@ def main():
         pods.append(entry)
 
     good_images(chosen)
+    keep_previous_ai(chosen, madrid_today)
     explain(chosen, top)
 
     if len(chosen) < 5:
