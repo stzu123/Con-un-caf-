@@ -1,259 +1,364 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-23T05:26+00:00",
- "headline": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
- "headline_sec": "international",
- "sources_ok": 29,
- "sources_total": 29,
+ "generated_at": "2026-11-23T17:29+00:00",
+ "headline": "El Supremo aplica la amnistía a Puigdemont y cierra la causa del ‘procés’",
+ "headline_sec": "politica",
+ "sources_ok": 39,
+ "sources_total": 41,
  "stories": [
   {
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "Muere el conductor de un coche tras caerle encima una rama en la M-30",
-   "summary": "El conductor ha quedado atrapado en el interior del coche por la rama y ha entrado en parada cardiorrespiratoria.",
-   "link": "https://www.20minutos.es/madrid/muere-conductor-un-coche-tras-caerle-encima-una-rama-arbol-m-30_7064256_0.html",
-   "source": "20minutos",
-   "date": "2026-11-22T15:44:57+00:00",
+   "title": "La jueza interroga al detective de la defensa de Jonathan Andic por opinar del caso en los medios",
+   "summary": "La magistrada pregunta a Francisco Marco si considera normal efectuar valoraciones en prensa de un caso bajo investigación El juicio paralelo del caso Andic: “Es más fácil contaminar a un jurado que a un juez profesional” La jueza de caso Andic ha interrogado este lunes como testigo a Francisco Marco, detective contratado por la defensa del hijo del…",
+   "link": "https://www.eldiario.es/catalunya/jueza-interroga-detective-defensa-jonathan-andic-opinar-caso-medios_1_13686703.html",
+   "source": "elDiario.es",
+   "date": "2026-11-23T18:06:26+01:00",
    "others": [
     {
-     "source": "Cadena SER",
-     "title": "Muere un conductor al caer la rama de un árbol sobre su coche en la M30",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNODVVc01wY0RVbjJMaDlUS3VwTzRTOVVqWXZGSjM2UUgzT1BORU5neXRWR3QxTXYxNXFvRGd2bjJOS1pxeGxySXhVTUNROXNIMWY2cDczZGZ4VXhwZl9GSXc3UGxzLS1JNm5uSm82UnVNRWlLb1BNbUpLQzdka1RtZUJRMjB4alhRVlhHZHRLcm9hb0g0dk9SWWlaVVdKQU5XQm44Y0tzSmRYSDE1TG5LLTIweTV2c0VqZTN3eDB5cmgtc0XSAdcBQVVfeXFMTUJtcWxrOFdnRTBnaElyTVBoX1VlRFpWaDNpZnZ0aUNxeWZLbXo5NFM0ekNXN3U4Y1FZYWhTUlpWUXQ3cS15WW5ORTdFREFKWVBQT2NxWlc3UEdlV1VmT1YwTEFIcXpYM1dNaXc3S3RZOWYtS0IwaVVVNEtwSFNtVFYyRmdIYV9ZZGhydlRrOEtqU096a1o1TUFnRDFSUWEwMFlUMmtWdWUxUUtZdGNnYm9yVWR2eVJWZ0dwbDNHcjRiRzFLcGh2bTJadWkzckNpQ0VIenZBWUU?oc=5"
+     "source": "20minutos",
+     "title": "La jueza del caso Andic interroga al detective de la defensa por las filtraciones a los medios de comunicación",
+     "link": "https://www.20minutos.es/cataluna/jueza-caso-andic-interroga-detective-defensa-por-las-filtraciones-prensa_7064770_0.html"
     }
    ],
    "score": 2,
+   "image": "https://static.eldiario.es/clip/4ee1f23f-8cb5-43e8-ba68-3429702f24ae_16-9-discover-aspect-ratio_default_0.jpg",
    "id": "s1"
   },
   {
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "Investigan a empresarios de VTC que contratan de conductores a toxicómanos sin techo",
-   "summary": "Los titulares se suceden cada vez con más frecuencia: «Detenido un conductor de VTC drogado por chocar contra un vehículo de limpieza en plena Gran Vía»; «Un conductor de VTC con droga en la nariz intenta embestir a la Policía: 'He tomado tusi antes de trabajar'» ; «Un conductor de VTC ebrio choca contra un banco de la calle de Alcalá tras darse a la fuga…",
-   "link": "https://www.abc.es/espana/madrid/investigan-empresarios-vtc-contratan-conductores-toxicomanos-techo-20261118013727-nt.html",
-   "source": "ABC",
-   "date": "2026-11-23T06:16:39+01:00",
-   "others": [],
-   "score": 1,
+   "title": "Más de 400 asociaciones firman un manifiesto para que la defensora del pueblo en funciones restablezca las áreas de migraciones e Igualdad",
+   "summary": "La nueva titular de la institución eliminó la cartera dedicada a la lucha contra la discriminación de género y diluyó la de inmigración un día después de asumir el cargo. Entre las firmantes hay entidades religiosas y sindicatos",
+   "link": "https://elpais.com/espana/2026-11-23/mas-de-400-asociaciones-firman-un-manifiesto-para-que-la-defensora-del-pueblo-en-funciones-restablezca-las-areas-de-migraciones-e-igualdad.html",
+   "source": "El País",
+   "date": "2026-11-23T16:07:48+00:00",
+   "others": [
+    {
+     "source": "elDiario.es",
+     "title": "Más de 400 asociaciones exigen a la Defensora del Pueblo en funciones que restablezca las áreas de Igualdad y Migraciones",
+     "link": "https://www.eldiario.es/sociedad/400-asociaciones-exigen-defensora-pueblo-funciones-restablezca-areas-igualdad-migraciones_1_13686639.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://imagenes.elpais.com/resizer/v2/FN5ZMG6FLC7EOAN4HQYKEETXII.jpg?auth=c1a54bbbf98ec2fe75c166626f3c224edb299f0effbd13fbeb6cadf31f24931c",
    "id": "s2"
   },
   {
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "Un incendio en un hospital de Berlín deja 15 heridos, uno en estado crítico",
-   "summary": "El fuego se declaró en una habitación de la primera planta de uno de los pabellones. Los servicios de emergencia activaron el protocolo para incidentes con múltiples víctimas y movilizaron a 83 efectivos.",
-   "link": "https://www.20minutos.es/internacional/un-incendio-un-hospital-berlin-deja-15-heridos-uno-estado-critico_7064359_0.html",
-   "source": "20minutos",
-   "date": "2026-11-23T05:10:12+01:00",
-   "others": [],
-   "score": 1,
+   "title": "Juzgan a 'Anita la fantástica' por la estafa masiva de viajes para carreras de MotoGP",
+   "summary": "La Fiscalía pide nueve años de prisión para la acusada por un delito continuado de estafa con la circunstancia agravante de multirreincidencia Leer",
+   "link": "https://www.elmundo.es/espana/2026/11/23/6b041b22e4d4d8bf1c8b4578.html",
+   "source": "El Mundo",
+   "date": "2026-11-23T15:31:55+01:00",
+   "others": [
+    {
+     "source": "20minutos",
+     "title": "Las víctimas de Anita la fantástica relatan la estafa de los viajes de MotoGP y ella culpa a la aseguradora",
+     "link": "https://www.20minutos.es/nacional/las-victimas-anita-fantastica-relatan-estafa-los-viajes-motogp-ella-culpa-aseguradora_7064659_0.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/04/11/16812293796850.jpg",
    "id": "s3"
   },
   {
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "José Elías, empresario catalán, sobre la jornada laboral de cuatro días: «La empresa cobra por productos y el trabajador cobra por horas. Entonces eso no tiene sentido»",
-   "summary": "La jornada laboral de cuatro días es una de las grandes aspiraciones de la izquierda en nuestro país. Una cuestión sobre la que se ha pronunciado recientemente José Elías, el conocido empresario catalán y fundador de Audax, que ha defendido un modelo en el que los trabajadores cobren más en función de lo que producen que del tiempo que permanecen en su…",
-   "link": "https://www.abc.es/espana/cataluna/jose-elias-empresario-catalan-sobre-jornada-laboral-20261123050000-nt.html",
-   "source": "ABC",
-   "date": "2026-11-23T05:08:45+01:00",
-   "others": [],
-   "score": 1,
+   "title": "Nvidia recupera a Jensen Huang como CEO después de su renuncia por su relación con una espía china y con otras dos empleadas",
+   "summary": "Tanto los mercados como el presidente de EEUU, Donald Trump, aplauden la decisión: \"El consejo de administración de Nvidia ha tomado la decisión correcta y adecuada de restituir a Jensen Huang en el cargo de director ejecutivo (CEO)\" Jensen Huang vuelve a Nvidia después de ser despedido por su relación con una espía china y otras dos empleadas de la…",
+   "link": "https://www.eldiario.es/economia/nvidia-recupera-jensen-huang-ceo-despues-haberlo-despedido-relacion-espia-china-empleadas_1_13686512.html",
+   "source": "elDiario.es",
+   "date": "2026-11-23T15:08:47+01:00",
+   "others": [
+    {
+     "source": "20minutos",
+     "title": "Nvidia restituye a Jensen Huang como CEO tras el escándalo de su infidelidad",
+     "link": "https://www.20minutos.es/lainformacion/empresas/nvidia-rescata-ceo-despido-forzoso_7064648_0.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://static.eldiario.es/clip/ee239a07-9a71-4ebf-9602-fee75026ec3e_16-9-discover-aspect-ratio_default_0.jpg",
    "id": "s4"
   },
   {
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "Solo un 23% de la ciudadanía considera que la huelga general del 11-N fue un éxito",
-   "summary": "Un 46,6% de los encuestados considera que la convocatoria fue fallida y un 37,5% cree que ha perjudicado sobre todo a los sindicatos.",
-   "link": "https://www.20minutos.es/lainformacion/economia-y-finanzas/apenas-un-23-ciudadania-considera-que-huelga-general-fue-un-exito_7063863_0.html",
-   "source": "20minutos",
-   "date": "2026-11-23T05:00:00+01:00",
-   "others": [],
-   "score": 1,
+   "title": "La Audiencia Nacional rechaza volver a imputar a Cospedal por el ‘caso Kitchen’",
+   "summary": "El tribunal descarta la petición del PSOE de reabrir las pesquisas sobre la rama política de la trama",
+   "link": "https://elpais.com/espana/2026-11-23/la-audiencia-nacional-rechaza-volver-a-imputar-a-cospedal-por-el-caso-kitchen.html",
+   "source": "El País",
+   "date": "2026-11-23T13:49:24+00:00",
+   "others": [
+    {
+     "source": "elDiario.es",
+     "title": "La Audiencia Nacional vuelve a negarse a investigar la petición de Cospedal a Villarejo para sabotear el caso de la caja B",
+     "link": "https://www.eldiario.es/politica/audiencia-nacional-vuelve-negarse-investigar-peticion-cospedal-villarejo-sabotear-caso-caja-b_1_13686150.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://imagenes.elpais.com/resizer/v2/3ASSY47PWBFPTOS5U7UBOJH3IA.jpg?auth=f32ebd42582b0048d127f0487de04c096c9bf9ccb1610c64365b07102a6cee4a",
    "id": "s5"
   },
   {
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "Los mutualistas exigen el fin de los facturones por usar el 112 sin ser urgencia vital: \"Me han cobrado 1.200 € por ponerme una inyección\"",
-   "summary": "Los funcionarios mutualistas denuncian facturas de miles de euros tras ser atendidos en la sanidad pública al recurrir al 112 y reclaman a Muface cambios para evitar estos ‘facturones’.",
-   "link": "https://www.20minutos.es/nacional/los-mutualistas-exigen-fin-los-facturones-por-usar-112-sin-ser-urgencia-vital-me-han-cobrado-1-200-por-ponerme-una-inyeccion_7062282_0.html",
-   "source": "20minutos",
-   "date": "2026-11-23T05:00:00+01:00",
+   "title": "Los Mossos investigan como posible ajuste de cuentas la muerte a tiros de un hombre en Barcelona esta madrugada",
+   "summary": "Pasaban pocos minutos de las seis de la madrugada, cuando Carolina Melenciano escuchó cuatro disparos. Ella es la responsable del local de la calle Salvà de Barcelona, a escasos metros del cual un pistolero ha matado este lunes a un hombre de entre 30 y 35 años de origen dominicano, residente en Hospitalet de Llobregat, en lo que los Mossos d'Esquadra…",
+   "link": "https://www.abc.es/espana/cataluna/muere-hombre-tras-tiroteado-madrugada-barcelona-20261123091701-nt.html",
+   "source": "ABC",
+   "date": "2026-11-23T18:16:19+01:00",
    "others": [],
    "score": 1,
+   "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/23/ejecucion-poblesec-RVWcnZWHa0840h8YXPF9agI-1200x840@diario_abc.jpg",
    "id": "s6"
   },
   {
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "La compra de viviendas cae más de un 20% en las comunidades que superan los 2.800 €/m²",
-   "summary": "País Vasco, Baleares y la Comunidad de Madrid encabezaron el descenso de las compraventas en septiembre, aunque la caída fue generalizada. Los precios se mueven en dirección contraria. Han subido de media un 14,7% en un año.",
-   "link": "https://www.20minutos.es/nacional/caida-compra-viviendas-se-agudiza-las-zonas-mas-caras-baja-mas-un-20-las-comunidades-que-pasan-2-800-m2_7062680_0.html",
-   "source": "20minutos",
-   "date": "2026-11-23T05:00:00+01:00",
+   "title": "La pesca alicantina estalla por la «amenaza» de la UE de recorte del 32% tras siete años de inversiones",
+   "summary": "La Federación Provincial de Cofradías de Pescadores de Alicante ha estallado contra lo que consideran una «amenaza» que les abocaría a una crisis general, el nuevo recorte drástico del 32% de las jornadas autorizadas después de siete años de mermas, además de inversiones para cumplir con las exigencias de la UE.A pesar de este esfuerzo por faenar en las…",
+   "link": "https://www.abc.es/espana/comunidad-valenciana/alicante/pesca-alicantina-estalla-amenaza-ue-recorte-tras-20261123181543-nt.html",
+   "source": "ABC",
+   "date": "2026-11-23T18:15:44+01:00",
    "others": [],
    "score": 1,
+   "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/23/trabajadores-pesca-mediterraneo-RHRyvr3J7CdpetnuTfs9lIO-1200x840@diario_abc.jpg",
    "id": "s7"
   },
   {
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "El sector del jamón negocia introducir un precinto dorado para el '100% ibérico' de Denominación de Origen",
-   "summary": "En un documento de la Asociación Interprofesional del Cerdo Ibérico (ASICI), al que accedió este medio, se recoge esta propuesta para \"reforzar el reconocimiento y la diferenciación positiva de estas figuras de calidad\".",
-   "link": "https://www.20minutos.es/lainformacion/economia-y-finanzas/sector-jamon-negocia-introducir-precinto-dorado-100-iberico-denominacion-origen_7063731_0.html",
-   "source": "20minutos",
-   "date": "2026-11-23T05:00:00+01:00",
+   "title": "Velázquez promete recuperar la A-40 para conectar la A-4 y la A-5 y reactivar el desarrollo de la Mesa de Ocaña",
+   "summary": "El presidente provincial del Partido Popular y cabeza de lista al Congreso de los Diputados por Toledo, Carlos Velázquez, ha asegurado que su partido recuperará el proyecto de la autovía A-40 en su conexión entre Maqueda, Toledo y Cuenca, y lo situará entre sus prioridades si llega al Gobierno. Velázquez considera que esta infraestructura, que conectaría…",
+   "link": "https://www.abc.es/espana/castilla-la-mancha/toledo/velazquez-promete-recuperar-a40-conectar-reactivar-desarrollo-20261123181405-nt.html",
+   "source": "ABC",
+   "date": "2026-11-23T18:15:41+01:00",
    "others": [],
    "score": 1,
+   "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/23/mitin-RNTGGyeG7LHvQLXHTPJKWzL-1200x840@diario_abc.jpg",
    "id": "s8"
   },
   {
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "El centro de retorno en Ruanda confirma la nueva era en la política migratoria en la UE más allá de geografía e ideología",
-   "summary": "Cinco países firman un pacto sin precedentes en la UE: ubicados en diferentes puntos del bloque y con gobiernos de diferente color, cierran del todo el giro hacia medidas más duras para la gestión de fronteras.",
-   "link": "https://www.20minutos.es/internacional/centro-retorno-ruanda-confirma-nueva-era-politica-migratoria-ue-mas-alla-geografia-ideologia_7062430_0.html",
-   "source": "20minutos",
-   "date": "2026-11-23T05:00:00+01:00",
+   "title": "WWF exige una investigación sobre la muerte de un oso por disparo en Picos de Europa y anuncia acciones legales",
+   "summary": "El Fondo Mundial para la Naturaleza (WWF) considera «de extrema gravedad» la muerte el pasado sábado en Picos de Europa (municipio de Posada de Valdeón, León) de un oso por disparos durante una cacería autorizada para el control de la población de jabalíes. La organización exige una investigación exhaustiva para esclarecer las circunstancias de la muerte y…",
+   "link": "https://www.abc.es/espana/castilla-leon/wwf-exige-investigacion-sobre-muerte-oso-disparo-20261123181420-nt.html",
+   "source": "ABC",
+   "date": "2026-11-23T18:14:21+01:00",
    "others": [],
    "score": 1,
+   "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/23/oso-pardo-R8JLzthZWMzQNAkpXwNoq0N-1200x840@diario_abc.jpg",
    "id": "s9"
   },
   {
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "El aparato para combatir el frío y ahorrar sin poner la calefacción: \"Es uno de los sistemas más eficientes\"",
-   "summary": "Cada hogar en España gasta 640 euros al año en calefacción de media, aunque esta cifra puede aumentar hasta los 1.000 euros, dependiendo del sistema utilizado, según la OCU.",
-   "link": "https://www.20minutos.es/lainformacion/economia-y-finanzas/aparato-para-combatir-frio-ahorrar-sin-poner-calefaccion-es-uno-los-sistemas-mas-eficientes_7059300_0.html",
+   "title": "Una marcha lenta de profesores ocupa mañana las carreteras y los accesos a Madrid por la huelga: estas serán las vías afectadas",
+   "summary": "La marcha lenta de docentes arrancará sobre las 7.00 horas en ocho municipios y circulará por las principales autovías hasta la capital. A las 12.00 horas se celebrará una concentración en la Puerta del Sol.",
+   "link": "https://www.20minutos.es/madrid/una-marcha-lenta-profesores-ocupara-este-martes-las-carreteras-accesos-madrid-por-huelga-confluiran-m-30-para-ir-sol_7064597_0.html",
    "source": "20minutos",
-   "date": "2026-11-23T05:00:00+01:00",
+   "date": "2026-11-23T18:09:11+01:00",
    "others": [],
    "score": 1,
+   "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/23/6b046eac28e5c7-38697649.jpeg",
    "id": "s10"
   },
   {
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "Las cosas por su nombre",
-   "summary": "El lenguaje es un disfraz. Lo fue siempre ('la letra mata', ya lo advirtió Pablo de Tarso), lo es más ahora, en estos tiempos de trampas sustantivadas, adjetivadas, sigladas, explícitas o implícitas. Nicolás Sartorius escribió, no hace muchos años, un libro que recomiendo a la morralla política. Se titula 'La manipulación del lenguaje' (Espasa) y su…",
-   "link": "https://www.abc.es/espana/galicia/nombre-20261122060005-nt.html",
-   "source": "ABC",
-   "date": "2026-11-23T06:00:06+01:00",
+   "title": "El Supremo aplica la amnistía a Puigdemont y cierra la causa del ‘procés’",
+   "summary": "El alto tribunal declara extinguida la responsabilidad penal del expresidente catalán y los exconsejeros Puig y Comín",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-23/el-supremo-aplica-la-amnistia-a-puigdemont-y-cierra-la-causa-del-proces.html",
+   "source": "El País",
+   "date": "2026-11-23T17:34:03+01:00",
    "others": [
     {
-     "source": "Europa Press",
-     "title": "Catalá pide concentrar el voto en Feijóo para \"cambiar las cosas\": \"España no necesita un presidente indolente\"",
-     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNamE1X21WMWFIVjZ1X1NEakpHRS1vUVNsTnUybDc1dWxHdkZDN2sxcTNtMVY0NkhZNnpraVluTXBBLXk4cEJad2N1a3Q4dE5lUGVid1RoT29rWjkyODZZOVNRUG5Zem50ZHpwN3IxRkZmc25IQXdSSUtEZFhUdkc5VzQzMVRyTFptR1gwdERaOGhaY09SN0owb0hLRkF6ekU3Z1I3aEh1Tm5DcGw1QkdLa1ZZdWE2MXZWbkJvVmdmSFlUSlN0QkNVYk5sRTRiaWlQUGMwb0V5cEVLTEdhbFFfTzI2Vmp4MDNNUHk2aGRxUTEyQjF4U3dj?oc=5"
+     "source": "EL PAÍS",
+     "title": "El Supremo aplica la amnistía a Puigdemont y cierra la causa del ‘procés’",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOXhvZ0VuNEFBWmRyLWk2NFBidVpwcElfX1ZZSnUyMmJ4SzFhc2hpY3Iya3pkdDJIdDVFRzRpbGVXckpoTHh6Vy12S20xMDlDU1p3R3dDdTJPWFkwZ2hOVmlTS0RoUS1mamxNX2xSN1lEd3NxV3M2M1NQZEVScnBYMlY5aWlYQ2d6bXdHdFA0SlNDa1FWNGkxSGVDMTNNT2hubjFncmhzWm16QmhCRm9Va2Z2aEYxT0ZJXzEwaWt4ZVJnMEgzY05TYjM1bV9rRmPSAeMBQVVfeXFMTXRGWWlhMTFuVUJMTXJtTzFhdDg0T2U4cnFkcWNzTVVxOGpicWVESHpnQXpyVmxqckZmYVZENHlHQjZidngzRUFBbzkxM19uUXNpOTl2dHVteXc2dTV0TklSTGZPZWN6ZjQxQmdjeTVlQzlCcm96eGMzbGtTeWpyMXBtbHhPZEthZnJkcVY1VTJpLU1BdkdWTmliUUhKZEtZRXF6MGRPMm9WT3piUklES2V0NmRXWmtKZ05vcWhoMUFKeHhNWllLX0RTSWFnSUJtamxXck5QSU1BU3FtN0pjSzVIM3c?oc=5"
+    },
+    {
+     "source": "El Mundo",
+     "title": "El Supremo aplica la amnistía a Puigdemont y archiva definitivamente la causa del 'procés' nueve años después de su apertura",
+     "link": "https://www.elmundo.es/espana/2026/11/23/6b042ed9e4d4d8872c8b4579.html"
+    },
+    {
+     "source": "elDiario.es",
+     "title": "El Supremo aplica la amnistía a Puigdemont y archiva la causa del procés",
+     "link": "https://www.eldiario.es/catalunya/supremo-aplica-amnistia-puigdemont-archiva-causa-proces_1_13676267.html"
+    },
+    {
+     "source": "La Vanguardia",
+     "title": "Documento | El auto del Tribunal Supremo que aplica la amnistía a Puigdemont y cierra la causa del 'procés'",
+     "link": "https://www.lavanguardia.com/politica/20261123/11691231/documento-auto-supremo-amnistia-puigdemont-cierra-proces.html"
+    },
+    {
+     "source": "ABC",
+     "title": "El Supremo aplica la amnistía a Puigdemont y extingue su responsabilidad penal",
+     "link": "https://www.abc.es/espana/supremo-aplica-amnistia-puigdemont-extingue-responsabilidad-penal-20261123135034-nt.html"
+    },
+    {
+     "source": "20minutos",
+     "title": "El Supremo aplica la amnistía a Puigdemont y archiva la causa del 'procés'",
+     "link": "https://www.20minutos.es/nacional/supremo-aplica-amnistia-puigdemont-archiva-causa-proces_7064584_0.html"
     }
    ],
-   "score": 2,
+   "score": 7,
+   "image": "https://imagenes.elpais.com/resizer/v2/PKLSS37I3FDXLI24CFFY4NB6J4.jpg?auth=1b3076a597fdd80b937b3c92cfa15fae0c5af371770329ab3e67ee3fa7e2ec60",
    "id": "s11"
   },
   {
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "Españoles residentes en Portugal votan en Lisboa para elecciones generales",
-   "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOS3dnUHFoLVB0Rko1LVFTcXV0Z2tuZkYwYVdlRHVCNTlkakhqODV1aVRUWDk1cUlZMnplRmljVFhQeWNBRTd3SF9BWkpLV0Q1bFZmMl9zcEdYOURENHFrTnkwdGVhQ0t3Wlp1UGt4SWw3WGxjb0RoQXNuMVNTbU1fX3Vkang0azVGMy0zQ29ocXJveFgza2tWRnJRN3B0N3I4WkxOcWw4bVF1aHFiQTJjRE9xWnlHUlXSAbwBQVVfeXFMTUxDbUVEQ1hHdGN5VGlXOGlvTWJCei0zRWQzZG5faUVieDRtRGRUQ1I5Q1l2WjROYTI3QU1ocTBQVVg0bXRQamctbllNSG1ZazZIb1ZKaFZIZEtrcHpkSzhpRi1HbElKLWY0WS1acGgtZTNCRXFUZVl3T3B5XzZoNGdxM3lkOEYtQ1RlcEd4MkR1cmRUREVMOW1ueFNSclJmbjd3ZXZKYktVQzhWUWRBdFphdlhrcGVZN1hJcW0?oc=5",
-   "source": "ABC",
-   "date": "2026-11-23T05:00:00+00:00",
+   "title": "Puigdemont recomienda un poema \"a los enemigos\" tras la amnistía: \"Me muero de ganas de daros por el culo\"",
+   "summary": "El expresident de la Generalitat reacciona con retranca al archivo de la causa del procés nueve años después El Supremo aplica la amnistía a Puigdemont y archiva la causa del procés “El día ha llegado”. Carles Puigdemont llevaba tiempo esperando la amnistía, que este lunes, tras dos años de rechazo, le ha aplicado el Tribunal Supremo . El expresident ha…",
+   "link": "https://www.eldiario.es/catalunya/puigdemont-recomienda-poema-enemigos-amnistia-muero-ganas-daros-culo_1_13686211.html",
+   "source": "elDiario.es",
+   "date": "2026-11-23T17:34:03+01:00",
    "others": [
     {
-     "source": "Agenda Pública",
-     "title": "La trascendencia de las presentes elecciones generales",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbUYwZzhBeHJUc2psU0hBWWREVUdUVEJfVWVhdm93dzRJUHJuMDdWMTUxeVhGZE90UWdDWDVlTlI3ZWdIVnZ4a2kzUTg1Q1NpQ2dNMkpidHZtbTVmQ3E1aG52aXVKNjlkQ3pBRlk2YndDS1RhaHFYQlFJV2JiQzBFd3Z1bHJEcjU2TGRn?oc=5"
+     "source": "La Vanguardia",
+     "title": "Puigdemont cita un poema para dirigirse a sus “enemigos” tras ser amnistiado: “Me muero de ganas de daros por culo”",
+     "link": "https://www.lavanguardia.com/politica/20261123/11691278/puigdemont-cita-poema-dirigirse-enemigos-amnistiado-me-muero-ganas-daros-culo.html"
+    },
+    {
+     "source": "ABC",
+     "title": "Puigdemont celebra la amnistía con un poema a sus «enemigos»: «Ganas de daros por culo»",
+     "link": "https://www.abc.es/espana/cataluna/puigdemont-celebra-aminstia-poema-enemigos-ganas-daros-20261123172304-nt.html"
+    },
+    {
+     "source": "20minutos",
+     "title": "Puigdemont reacciona al archivo de su causa y recomienda a sus \"enemigos\" un poema que dice: \"Me muero de ganas de daros por culo\"",
+     "link": "https://www.20minutos.es/nacional/puigdemont-recomienda-sus-enemigos-un-poema-que-dice-me-muero-ganas-daros-por-culo-para-celebrar-su-amnistia_7064623_0.html"
     }
    ],
-   "score": 2,
+   "score": 4,
+   "image": "https://static.eldiario.es/clip/cbb361b3-6c1f-4f40-8caa-fd38fef77b01_16-9-discover-aspect-ratio_default_0.jpg",
    "id": "s12"
   },
   {
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "La ventaja de la derecha no cede mientras el PSOE pugna por el primer puesto",
-   "summary": "La suma de PP y Vox sufre apenas un leve desgaste tras 10 días de campaña, según la última encuesta pública de 40dB.",
-   "link": "https://elpais.com/espana/elecciones-generales/2026-11-23/la-ventaja-de-la-derecha-no-cede-mientras-el-psoe-pugna-por-el-primer-puesto.html",
+   "title": "Margarita Robles entra de lleno en campaña con un vídeo inesperado: “[Sánchez] está guapo… ¡Menudo pájaro!”",
+   "summary": "El PSOE de Madrid lanza un vídeo con la ministra de Defensa leyendo la revista ‘Lecturas’",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-23/margarita-robles-entra-de-lleno-en-campana-con-un-video-inesperado-sanchez-esta-guapo-menudo-pajaro.html",
    "source": "El País",
-   "date": "2026-11-23T04:30:01+00:00",
+   "date": "2026-11-23T13:57:41+00:00",
    "others": [
     {
-     "source": "EL PAÍS",
-     "title": "La ventaja de la derecha no cede mientras el PSOE pugna por el primer puesto",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdjhfWWZPeDMta0lGYWstQzc4dldJajh2aUpfQ1hYSGpvb2szbnc1RzltY0lOeFQzNUFESjFpYjNjOVNyUkJBM1RJTkQ2ajlHOVlwcVZUSE50dzNoR00zUVh3RXJHOHFSdkFkVmE4U2ZSRUdsNDZWUW42V1ZKd0NkYmpBRTR6dWZjZjk4ZEtEOVZJYVBPTnl3SExXcEVHLWc0Ni1kUlhjWUwwVzdnQTZwZGhZV2U3OUZWYW1FV1NRV1FtcGJQNU9sTnZld29ZOXdkNUxfbjlB0gHqAUFVX3lxTFBGd2dWUl9NUlJkbjl3bl8tblNMYURwUVBMWk5FcDZ1UUp6U1AxOGp5RWkzNFh4T1JCNFdyajVZdWtuWGpkaGFOelhjZDZpeU9UcVI4X1MzTlZpTjV1Nzd6cjBOd244Q2F6NHZxUG1oMllQUHhaX0dUNHhBVWViMHh0RVpqanJlVEtFaW81cmxwMllNanB3aWlVTGRwVW9RekZFdGY1dUoxUVIxaWpMeHRkWUZiNGxoNVltV0hQbXRTRnJ5RENSOUZ3U0xfc1hUWTJ6NGpJOTl2aTBxaUxaZHZORjBFTTZfQkItZw?oc=5"
+     "source": "elDiario.es",
+     "title": "Margarita Robles entra en campaña con un guiño a las polémicas con Sánchez: \"Menudo pájaro\"",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQalYwNTM0SkVUaDNGeUNWU21LOXRBcUhjQnlVZm9ZYk11RDR2OTlHcVFMeTN1WGhhQ3JEV3FORlgyOGIzTkNfaFZxNFhkdWNtLU5WZkdqSDZaWWVkRDlCWHRFYmZjblNnU2pzNG15TFdsNW1Ua09TRUg1TnNlOFhMdnVIRlUzNXVYRC1pemVfc19CUmJlUE0xci1oX0l6c3FQanFjZTVMVkpYZkNlNU1SMGJnWXJXc2pfVFJkdWdR0gHDAUFVX3lxTE1KNHU0SFVTZDZaTHc5OVJkUW1LTlRiNHdCRExKRHF2SWhteTZvYnFJNDFVd3gxMzk2akV0Z2dVNXZpRzJZWUxuNkFUTWw2ZjAzczlXUVllNjBSdWNFS1FZZXRialZqVHN5UFVUbGdEVEo1Tm9NRTljVmdobUtfMjVMUk5VNm15Y0FibkRBYVBYU29VZy1ISWdqSy1iZmpIdUpSNnVkY2xhc0E3U1BjWW5BWm0zRlk0Q3ZpaExZRS15VnRQOA?oc=5"
+    },
+    {
+     "source": "La Vanguardia",
+     "title": "Robles entra en campaña por el voto femenino: “Está guapo... ¡Menudo pájaro!”",
+     "link": "https://www.lavanguardia.com/politica/20261123/11690970/robles-entra-campana-voto-femenino-esta-guapo-menudo-pajaro.html"
+    },
+    {
+     "source": "20minutos",
+     "title": "La ministra Robles entra en campaña y bromea con Sánchez: \"La verdad que está guapo, menudo pájaro\"",
+     "link": "https://www.20minutos.es/nacional/ministra-robles-entra-campana-bromea-con-pedro-sanchez-menudo-pajaro_7064418_0.html"
     }
    ],
-   "score": 2,
+   "score": 4,
+   "image": "https://imagenes.elpais.com/resizer/v2/5IY4ICEUARJS5KY6Y2CJGVQRLQ.jpg?auth=228304e464444a1af71a926012f9c6bf5f51a0b800c1073feacc637be6f792d9",
    "id": "s13"
   },
   {
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "Último domingo de campaña: Sánchez y Feijóo coinciden en Murcia, Abascal en Zaragoza y Colau en Canarias",
-   "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWk9NNlJCOWkwa1NzcmZVQm5XOU9PS3ZNM0stMDFvWXdxUlNKclUxUFdWajc4eDJoOXdVb09Uc3lsT3k0ellUaG1tVllwcW16MlhWcm01aHp2WmJicWxCTGZySFBtLW5vSG1zTlNTc1hKWUx1ZEZ4eGtEVXZXXzlyaXdWWDhxUFh4UWs5OA?oc=5",
-   "source": "RTVE.es",
-   "date": "2026-11-22T23:40:56+01:00",
+   "title": "Sánchez propone un impuesto para “ultrarricos” con fortunas superiores a 100 millones de euros",
+   "summary": "La medida no estaba en el programa electoral del PSOE pero sí, con algunas diferencias, en el del Frente Amplio",
+   "link": "https://elpais.com/economia/2026-11-23/sanchez-propone-un-impuesto-para-ultrarricos-con-fortunas-superiores-a-100-millones-de-euros.html",
+   "source": "El País",
+   "date": "2026-11-23T10:09:13+00:00",
    "others": [
     {
+     "source": "LaSexta",
+     "title": "Sánchez propone un nuevo impuesto a los ultrarricos que recaudará 2.000 millones para vivienda, pensiones y crianza",
+     "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZjEtMXFXWXJpQmphOFJ1enA4ZmRDVTI0bVR3QzkwQVZ1RzZ2R2xER24wMUg5d3VTM0xpdmtNNmV6bEVDaDNzNFVNZmNMWEUwczg4bHlZb3RlYnBWTVVKckFwNUcxWGpwX1ZGOEI1YUNSbDVwYWpONXAzcDdOTUs4REZ6MnlrSE9kZHI3Ylp4aElqVEdsNXZuVFVWbmdrelRKVzJOaUpkQ2M0T2NLYjZHWC1HcWFwQWpNam9NZE0zSmtiOWhGVHlGN1BGVnJVbUxKMlkyUTZfN3JpT3JGaDhZTFhEanhTUXRFeS1ZWXRSeHFxeTM0YnBLc0tXaGNtMzJNcjk1V09RT1lSYjg10gGMAkFVX3lxTE8zYkYzRl82U04yb3hGdGYxamNpbnEyU0l6dVdFOUoxbXg4UmxnV0V3SWVlbl9BY0N6bHJmTlhpS2staEp0Rm5tVVNIQVVXSm9ZcWkwT1NBUEpDaldtNzhlRlRPQ3BJZXlscENDUThHMjk4b3NmMURJMHBMc1R1M2ZhQnljM1JDZlJ0TnZzSTFXQ01BY25rdERIaWVBaE1zOWdZSFVtWXFISERuVmxuUTFnekgzZ2FYeXBtYlJqN3ljVEVBeTd3UHgtblFFcFZodGpfbWZueDNaTjZkeEhnWWJSRC1hazVQQklVSFN3VTNtN25vWlJIbjhINElKNkQxWGo4NnNyMkFxUW9EN2o?oc=5"
+    },
+    {
      "source": "La Vanguardia",
-     "title": "El último 15",
-     "link": "https://www.lavanguardia.com/politica/20261122/11690626/ultimo-15.html"
+     "title": "Sánchez propone un impuesto a los ultrarricos: 2.000 millones para financiar la agenda social",
+     "link": "https://www.lavanguardia.com/politica/20261123/11690862/sanchez-propone-impuesto-ultrarricos-2-000-millones-financiar-agenda-social.html"
+    },
+    {
+     "source": "20minutos",
+     "title": "Sánchez anuncia un impuesto para los \"ultrarricos\" con patrimonios de más de 100 millones de euros",
+     "link": "https://www.20minutos.es/nacional/sanchez-anuncia-un-nuevo-impuesto-los-ultrarricos-con-mas-100-millones-euros-que-recaudara-2-000-millones_7064429_0.html"
     }
    ],
-   "score": 2,
+   "score": 4,
+   "image": "https://imagenes.elpais.com/resizer/v2/GFGFA3WNFNA5HEPSNWWBTLU6J4.jpg?auth=2b15d19992de0d661dfb0a26f6ff80278a477bded8f90d12dded1c3daf345614",
    "id": "s14"
   },
   {
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "El oscuro deseo de Pedro Sánchez",
-   "summary": "Reúne todas las cosas de las que reniega. Dijo del candidato al Partido Popular que no aportaba esperanza ni proyecto de futuro. Él, el frankenstein que sobrevive gracias al miedo. Al que infunde y al que provoca Leer",
-   "link": "https://www.elmundo.es/espana/2026/11/22/6b034b5221efa0ef3a8b4591.html",
-   "source": "El Mundo",
-   "date": "2026-11-22T23:01:46+01:00",
+   "title": "El PSOE aventaja en casi 10 puntos al PP, según el último CIS antes del 29-N",
+   "summary": "El barómetro de noviembre da a los socialistas un 34,4% en intención de voto y un 24,7% a los populares. Vox pierde 2,8 puntos y cae hasta el 15,6%",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-23/el-psoe-aventaja-en-casi-10-puntos-al-pp-segun-el-ultimo-cis-antes-del-29-n.html",
+   "source": "El País",
+   "date": "2026-11-23T14:05:03+00:00",
    "others": [
     {
-     "source": "El Confidencial",
-     "title": "Pedro Sánchez vuelve a 'Salvados' para definir como \"tebeos\" a los periódicos que no le gustan",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNjgtU2JsWDdWTkFjSXZpalFPWWpFMVZTUXp1OWpkWEJ1Y1BwM2RqX2w0SG5WUTNkekxZb1FMbERXel9jb2tPeHlOWWJzeHotenlsZU5uUjFnbFZZRWtmZXVKTVFmWlcweG9PRnhKcWdocWV6d01TTTVOaHBpenVMNFRWR1JXQWdENHhsVUN3OHZLU01idEpjYkVJblNYS25ZSXZnR0Y5OWNiT3c?oc=5"
+     "source": "elDiario.es",
+     "title": "El último CIS antes de las elecciones da al PSOE una ventaja de casi diez puntos sobre el PP, que con Vox no suma mayoría absoluta",
+     "link": "https://www.eldiario.es/politica/ultimo-cis-elecciones-da-psoe-ventaja-diez-puntos-pp-vox-no-suma-mayoria-absoluta_1_13685466.html"
+    },
+    {
+     "source": "La Vanguardia",
+     "title": "El CIS sitúa al PSOE en cabeza y diez puntos por delante del PP",
+     "link": "https://www.lavanguardia.com/politica/20261123/11691034/cis-situa-psoe-cabeza-diez-puntos-delante-pp.html"
     }
    ],
-   "score": 2,
+   "score": 3,
+   "image": "https://imagenes.elpais.com/resizer/v2/24ZEBZEWFVNAJD2SXH4VFMFDWU.jpg?auth=27e3023dfef3d43505e7a22106ed455395d70b2c9771343830fb03b82ed82ac0",
    "id": "s15"
   },
   {
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "El nuevo gobierno y la colonización de empresas",
-   "summary": "El Estado participa en diez grandes empresas cotizadas en Bolsa, que están muy atentas al resultado del 29N. Si gobierna el PP, como dicen las encuestas, se va a producir un revolcón en el capital y en los equipos de gestión Telefónica vuelve a los beneficios y gana 464 millones hasta septiembre Salvo milagro de última hora, que deje en ridículo a todas las…",
-   "link": "https://www.eldiario.es/economia/nuevo-gobierno-colonizacion-empresas_129_13681166.html",
-   "source": "elDiario.es",
-   "date": "2026-11-22T20:39:42+00:00",
+   "title": "Felipe González responde a José Bono: “Yo ya he votado. Soy una persona seria, no como otros”",
+   "summary": "El expresidente del Congreso le había pedido al exmandatario socialista que no hiciera “el tonto” y apoyara a Pedro Sánchez el 29-N",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-23/felipe-gonzalez-responde-a-jose-bono-yo-ya-he-votado-soy-una-persona-seria-no-como-otros.html",
+   "source": "El País",
+   "date": "2026-11-23T12:50:31+01:00",
    "others": [
     {
-     "source": "Fenadismer",
-     "title": "El Gobierno aprueba un nuevo recargo verde al diesel para 2028",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTUtCdlg3SG5NTW5zZXVTVXgtbW1YQkpWM1c3VFFkeFg5bEY5NDZSRTcxWG52Mm5JNnE4LUZIYXkyQk1EUFBob1dPSlhXYVNFRERNZWFnR3Bmem05SGl5MTk1TWlSMTkwMG5TTURsRl9DdUxoTThmUE9rNHR5dVBXSFZMYWI4VmR5V05TN1BQdjRMX0E?oc=5"
+     "source": "LaSexta",
+     "title": "Felipe González responde a Bono: \"Yo ya he votado. Soy una persona seria, no como otros\"",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPU2ZKcktTWFFHUXdSaXMycWxtVndkdE5YZUI1WndwRGlYeldpYjlObWIyNnZJZElJQzBGa29BaEFUNlVNVVdsMGlTeEROZ0FuaEhHMFd3Sm5qbThibFFGT0NJbE5XVjFpVm1RN01DVzcxa19yWHYtTXlrNl9BWHFnelBuaDdLRjN1ZnhrQmdBdHlxRmJsMHBnNXV4NFRpQ1VvSHU5REt5Snp4TFlhdDUxQUxqRGR4cHlnWjFZS3g4NFBTNXEyUVhINE9CMmhfbWFXcUhDTU9relpCTzE2ekxaTmdB?oc=5"
+    },
+    {
+     "source": "La Vanguardia",
+     "title": "Felipe González responde a Bono: “Yo ya he votado. Soy una persona seria, no como otros”",
+     "link": "https://www.lavanguardia.com/politica/20261123/11691081/felipe-gonzalez-responde-bono-he-votado-persona-seria-otros.html"
     }
    ],
-   "score": 2,
+   "score": 3,
+   "image": "https://imagenes.elpais.com/resizer/v2/OQOCPLJPIJOSNNRHG6P4GL4RAY.jpg?auth=037fedf773304c8a7e7a71a2025379b1e21e7e886bfc58de5396225448e8de4f",
    "id": "s16"
   },
   {
@@ -264,417 +369,432 @@
    "summary": "La socialista ha asegurado que este tipo de ataques no conseguirán silenciarla ni condicionar su actividad política",
    "link": "https://www.lavanguardia.com/politica/20261122/11690516/carmela-silva-candidata-psoe-senado-denuncia-pintadas-insultos-machistas-casa-hijo.html",
    "source": "La Vanguardia",
-   "date": "2026-11-22T19:59:20+00:00",
+   "date": "2026-11-23T18:01:46+01:00",
    "others": [
     {
-     "source": "La Voz de Galicia",
-     "title": "Vandalizan con pintura la fachada de la casa del hijo de Carmela Silva, candidata socialista al Senado por Pontevedra",
-     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQeWtpZzctVzJjNU5lamZWcFJJdDhremVId2NUOFN1WENQQlhfUERNVEc0cmtGY1M0MFBzT0xoMEREMVpJallZZTl0NWtPRjljRDFwNFUta3hyc2NlM1p0OFMxbUpGcmZYODBoR2pObFdmY0gxeHJUblZoOC1sdVpQNFpXdGp5eWVQX0FzUDhNbVMzQmh6WDZUb1ZuMlNhXzVEb3VBcHhtU21FSzl3b3djdkdCSlhheHpNVFRkdjN4dVZ4MWRvcmxJWmI2OWpvTTJDdFNIVGNyMmpjcXFGZWZPRnd2SVAtemptMmZzSkhBMWNSZjYtbU5QMzMtNXlaX2duWVQ40gGfAkFVX3lxTFBtQUlFMzNzTUp6RTd1RWRRd0tQZXh5MXdwaGVDUGN3ZUY4enNzd183MkRrNy1yeFVUQnFHSnlpbm1nUWhxdWZPRVBVMnNMRTFpTTZkWm5DVGJaNWU3SzhzZloyTzVJRllVTWxia3AxalJpZ0t1X0lXNmltSFpFS202Q2RvTFpPcDRsYmdhdUVyN1p4VDQ2VFZHVTc3SGx6QWFOMXlsTDhmTUgybElRcVl0d1lKQ1JwTWpRMW05d1BYY2VKWGNsbXRmWmpfQlVMYkZvZmNyOWMzeEtHZ3YzeFlzTldtNm9SMEtuSmVYX01WVWc3eTFSYkYyeFNBY2lIVlMxSF9ULUZORVUzWHEtNlA5ajlBRnZPTkljM2V3UEFj?oc=5"
+     "source": "ABC",
+     "title": "Las pintadas contra Carmela Silva, «los malos» y «los buenos»",
+     "link": "https://www.abc.es/espana/galicia/jose-luis-jimenez-pintadas-carmela-silva-malos-buenos-20261123180145-nt.html"
     }
    ],
    "score": 2,
+   "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/11/22/6b03146fd10c2.r_d.1478-1584-1461.jpeg",
    "id": "s17"
   },
   {
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "Aznar dice que un nuevo gobierno del PSOE haría peligrar la convivencia entre españoles",
-   "summary": "El expresidente asegura que si Sánchez necesita reconstruir una mayoría el precio sería suprimir la Constitución para “reconocer las naciones vasca y catalana”",
-   "link": "https://www.lavanguardia.com/politica/20261122/11690511/aznar-dice-nuevo-gobierno-psoe-haria-peligrar-convivencia-espanoles.html",
+   "title": "La Junta Electoral abre expediente a Silvia Intxaurrondo por no ser neutral con Vox",
+   "summary": "La JEC acuerda también abrir expedientes contra los ministros Bolaños y Bustinduy por no respetar la debida neutralidad en periodo electoral",
+   "link": "https://www.lavanguardia.com/politica/20261123/11691429/junta-electoral-abre-expediente-silvia-intxaurrondo-neutral-vox.html",
    "source": "La Vanguardia",
-   "date": "2026-11-22T16:56:46+01:00",
+   "date": "2026-11-23T17:56:21+01:00",
    "others": [
     {
-     "source": "La Voz de Galicia",
-     "title": "Aznar dice que un nuevo Gobierno del PSOE haría peligrar la convivencia entre españoles",
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNME5VRllNZmJVbjZRclZvMDcxNk1TdDc5bkdLY0V5VVhYYWtWYUUxTDlzT0dvWmxpQ3puWWpZQl92eGNnZXZRUElfSW9BTUNMNnZ3WTZ6YkF2cGtXTFdZNWpxdlA5RFBvQkVBMUZhekM1TFQ4ejFlV1ZxeDhkNTNCUlQxa0pFTlAzVm9QZndGdWI3UU45Uk9ueWFGRjBRS1llNkZjREszeWVvbDVTYW9aUzlycjl1YXRUaV9QRjZBUWtZLTh4WnVXMDFSTUlzOXFYNUtkRVREMlBfR3RzeXfSAfoBQVVfeXFMTWhPUHR0UzNvWlg5VGZ0Q0I2dzF6ampibmdVZ1hkVm9LRWVFVm5ycTBPNFE5TVlVS0JZdV8yTzdkVnQyZ1UtRG1TQXZWeGFZT1U5UUVoOW00bEZ3b2tUUU1EYVdieFJHU2lISE40RWlNR2VFV0ppZGdaTkU0ZE8zSkFkTlotTzhKdU5PRjA2Zmtvb3p1U3RHS2l2akxud1Jld3F2UVVMcFBablY5SzZrRGZhYlVvbGtiZGVvUExTZHVHOG5qWGJzb0hVNG1rQmNjZ3hKZGI0SE9QUjFtQ1JjTWhLQkFpOGJRNXFuLTI3dnhUZk9TNGhYc2kzUQ?oc=5"
+     "source": "20minutos",
+     "title": "La Junta Electoral abre expediente sancionador a Silvia Intxaurrondo",
+     "link": "https://www.20minutos.es/nacional/junta-electoral-abre-expediente-sancionador-silvia-intxaurrondo-tras-una-denuncia-vox_7064761_0.html"
     }
    ],
    "score": 2,
+   "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/09/15/6aa9294e905e7.r_d.879-560-0.jpeg",
    "id": "s18"
   },
   {
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "Abascal acusa al PP de estar “jugando sucio” en la recta final de la campaña",
-   "summary": "El líder de Vox carga contra las apelaciones al “voto útil” de los populares y le ha pedido a Alberto Núñez Feijóo que aclare con quién piensa pactar si gana las elecciones",
-   "link": "https://www.lavanguardia.com/politica/20261122/11690474/abascal-acusa-pp-jugando-sucio-recta-final-campana.html",
-   "source": "La Vanguardia",
-   "date": "2026-11-22T14:46:09+01:00",
+   "title": "Felipe González responde a Bono tras pedirle que vote al PSOE: \"Que no me hagan hablar\"",
+   "summary": "El expresidente del Gobierno ha confirmado que ya ha votado de cara a las próximas elecciones del 29N, pero no dirá el qué porque este derecho \"es secreto\" José Bono pide a Felipe González que “no haga el tonto” y reconsidere su voto en blanco el 29N El expresidente del Gobierno Felipe González ha respondido tirando de ironía para responder al exministro…",
+   "link": "https://www.eldiario.es/castilla-la-mancha/politica/felipe-gonzalez-responde-bono-pedirle-vote-psoe-no-hagan-hablar_1_13686728.html",
+   "source": "elDiario.es",
+   "date": "2026-11-23T15:34:09+00:00",
    "others": [
     {
-     "source": "RTVE.es",
-     "title": "Abascal acusa al PP de \"estar nerviosos y jugar sucio\" al pedir el voto útil: \"Ya no les importa tanto echar a Sánchez\"",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc2ZJVjBPRWhGU0tBc2pvWVE3RVRXY1NDN2VQUE5RaFVZN2NYVm9VMTFoU3g0cTdFU1JCZVZCRmZNXzFTMlFGVFIxQWNhRmh1bnBfbjNHVmd6bjcxb0VUWnJMQzdHcEV0N0lYOXZzaXpVQThia1dob2syclpxdkxhOXJfTGpZWXhpMThCWjNoVFdZQ0pta1Vtcmp5OUJsb0JCaTE0NGtZZG0tUQ?oc=5"
+     "source": "20minutos",
+     "title": "Felipe González responde a Bono tras pedirle que no hiciera el \"tonto\" y votara a Sánchez: \"Soy alguien serio\"",
+     "link": "https://www.20minutos.es/nacional/felipe-gonzalez-tira-ironia-para-responder-bono-tras-pedirle-que-siga-votando-psoe-se-que-hace-pro-bono_7064613_0.html"
     }
    ],
    "score": 2,
+   "image": "https://static.eldiario.es/clip/13619394-cbd6-4ca0-aa2d-208117549612_16-9-discover-aspect-ratio_default_0.jpg",
    "id": "s19"
   },
   {
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "Feijóo: «No puedo fallar. No voy a tener una segunda oportunidad»",
-   "summary": "Alberto Núñez Feijóo (Os Peares, Orense, 1961) llega eufórico tras el masivo acto de su campaña en la plaza de toros de Valencia. 12.000 personas abarrotaron el coso. Es una tradición demasiado simbólica para el PP. Y una exhibición de fuerza evidente. En el momento de la entrevista con ABC quedan ocho días para las elecciones generales. Los más…",
-   "link": "https://www.abc.es/espana/feijoo-puedo-fallar-tener-segunda-oportunidad-20261122014226-nt.html",
-   "source": "ABC",
-   "date": "2026-11-23T06:12:38+01:00",
-   "others": [],
-   "score": 1,
+   "title": "Abascal defiende el apoyo a todo el bloque de la derecha: \"Cualquier voto que no vaya a la mafia de Sánchez o a sus cómplices es un voto útil para los españoles\"",
+   "summary": "Pasa página del amago de choque con los 'populares' y exime a Feijóo de sus reproches a dirigentes del PP Leer",
+   "link": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b0446bdfdddff7b7e8b458b.html",
+   "source": "El Mundo",
+   "date": "2026-11-23T15:10:13+01:00",
+   "others": [
+    {
+     "source": "20minutos",
+     "title": "Abascal asegura que es \"útil\" cualquier voto que no vaya a Sánchez ni a \"sus cómplices\" y pide al PP no repetir un mensaje \"dañino\"",
+     "link": "https://www.20minutos.es/nacional/abascal-asegura-que-es-util-cualquier-voto-que-no-vaya-sanchez-ni-sus-complices-pide-pp-no-repetir-un-mensaje-danino_7064587_0.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954423271797.jpg",
    "id": "s20"
   },
   {
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "Las aerolíneas anticipan una subida de precios y un recorte de plazas para el próximo verano",
-   "summary": "Ryanair prevé ya un aumento de tarifas de hasta el 20% debido a que el coste del queroseno se ha duplicado desde los ataques a Irán",
-   "link": "https://elpais.com/economia/2026-11-23/las-aerolineas-anticipan-una-subida-de-precios-y-un-recorte-de-plazas-para-el-proximo-verano.html",
-   "source": "El País · Economía",
-   "date": "2026-11-23T04:45:01+00:00",
+   "title": "Nvidia restituye a Jensen Huang como presidente y consejero delegado: \"No representa ningún riesgo para la seguridad nacional\"",
+   "summary": "\"Asumo esta responsabilidad con la mayor humildad y un compromiso renovado\" dice el empresario. \"No ha hecho nada malo, el sexo vende y tenemos que proteger a nuestros genios\", celebra Donald Trump Leer",
+   "link": "https://www.elmundo.es/economia/empresas/2026/11/23/6b044cf5e4d4d8137c8b4591.html",
+   "source": "El Mundo · Economía",
+   "date": "2026-11-23T16:12:35+00:00",
    "others": [
     {
      "source": "EL PAÍS",
-     "title": "Las aerolíneas anticipan una subida de precios y un recorte de plazas para el próximo verano",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcElUT3pDUmdaQ2JhZlczamVoWEptY3hpSml5UlloME9XZ3pJRWdfa1J1SVgwOUprbGtRdlVfdDhZSURlQk5WZ0dKdm5uWkxJcTM4U1BUOVNMcnJhQ3Jtb0c1RnFRSG9wdkJEczhESG5PZjdYY1JKZGlleTM1NnBFUVk1dTZZdmEtbWFRXzJ6djlMdGlvVWJmbHRYNk1kcUxVaXBKV0NWMFFxNk9qVjlwVDJ5cFRSemVtNzc3VU5HRkFVNUNQRHh0Y3EycDJ4cGdoSmfSAeYBQVVfeXFMTVFhdnpXQVRpOHFSS1lFQm4wX2l5YkpNanJ5eUJURWoyR09QN1NURzNvWGJvNURKYkRkc2EzV0VKNmN4a2l3N2xyeXd4R2hYNUx6UHZkbDVTMlBTTzdDRk9Lc3pPN05XdTZBM1FyOWM0ZGZqTU91cVVLZ1I1bktxdk4xZF9mbFV6QzMyald6N3ZET1ViSC1sT2VCMTN5SXNZMTVGdVVJZ2lzdVZEdUhHWUdDZV9jei1DNFFyUTlleXVzOWdQR2dSTEJKU1dJMGptSVNJbk0yb3lhd1lUOXJ6Z1JkZWFzMEE?oc=5"
+     "title": "Nvidia recupera a Jensen Huang como consejero delegado",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT283UEhwOWZUamNWdWpXa2xxOExlNmJCcklKV1FkOEREUGUtSk1pbVppaG5kUUhCZE8wQ2lacFltai1iUUlvNktsdnA0d0xYLTR4R3VYUGpMSHl4N3h2RXFwNDcwQ0EwR1dVRW9qT0lxRUwwdGxEWXhlMmhwTWxZUkJYNERqYmZteEwwOU5CZHNYekQtcVFDNTFwWE9HRmc?oc=5"
+    },
+    {
+     "source": "Cinco Días",
+     "title": "Nvidia recupera a Jensen Huang como consejero delegado",
+     "link": "https://elpais.com/economia/2026-11-23/nvidia-recupera-a-jensen-huang-como-consejero-delegado.html"
+    },
+    {
+     "source": "BBC · Business",
+     "title": "How important are Nvidia and Jensen Huang to the US economy?",
+     "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "The Guardian · Technology",
+     "title": "Jensen Huang reinstated as Nvidia CEO",
+     "link": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive"
+    },
+    {
+     "source": "NPR · Business",
+     "title": "Nvidia's board of directors brings Jensen Huang back as CEO",
+     "link": "https://www.npr.org/2026/11/23/nx-s1-6050910/nvidias-jensen-huang-trump"
+    },
+    {
+     "source": "BBC · Technology",
+     "title": "How important are Nvidia and Jensen Huang to the US economy?",
+     "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "score": 2,
+   "score": 7,
+   "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954439589049.jpg",
+   "sub": "empresas",
    "id": "s21"
   },
   {
    "sec": "economia",
-   "lang": "es",
+   "lang": "en",
    "region": null,
-   "title": "Crisis de la vivienda, desigualdad y crecimiento",
-   "summary": "Los efectos distributivos no solo afectan a la economía, también desincentivan la búsqueda de soluciones",
-   "link": "https://elpais.com/economia/negocios/2026-11-22/crisis-de-la-vivienda-desigualdad-y-crecimiento.html",
-   "source": "El País · Economía",
-   "date": "2026-11-23T02:35:01+00:00",
+   "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
+   "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5% in early trading.",
+   "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Business",
+   "date": "2026-11-23T17:11:07+00:00",
    "others": [
     {
-     "source": "Idealista",
-     "title": "Crisis de vivienda: acelerar sí, improvisar no",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS1NXcHdpQXlSZTl2dHp5aEU2ZE1qNlZ4TDhvdTE3RWRnRjNvUFJWVGlSdzVRZTNUb1IyVDQ3eWpfM2hPenc0UnBWMzlOOXYzWGZMQTVFbGxJOTQtU2p4UDNWdWxzQ0hqaHRXOE9ZNllpdVpIUGFwVHRkTHVoWFk2OHc0UTBoRjZpVV9tS1pCSXNSSUNFWEh6U01pb0tYLUdDNkpzNUdydE1HOFlsdWI0b240RDhPUdIBuwFBVV95cUxPVGE5dmR0cUVnZGo0RHVkeEZKY1VRTmptTWtrblpHLWtaSkZPYXEwU1NhNjhCOUZBbmVKYXFKSXlkd1RrZkduMkR5ei1KaHhDa0dDX1BoRmNpaUJZSkloWjV5MzRvbjRleHY5bXZpVWpsVDQ3Rl9DT25kZjFWY3pOcGR2UlNQZHdMemFicGVnR1VsTl8xR2UwcXpCT3ZmaEN4cDl0em5XUnFTckVnc2pZc1ZpTXlITzVycUhN?oc=5"
+     "source": "The Guardian · Business",
+     "title": "Nvidia shares surge 33% on Jensen Huang‘s return, adding $1tn to company’s value – business live",
+     "link": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates"
+    },
+    {
+     "source": "BBC · Technology",
+     "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
+     "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "score": 2,
+   "score": 3,
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80fb/live/5a6a1700-e753-11f1-99b6-a35a62fa4264.jpg",
+   "sub": "empresas",
    "id": "s22"
   },
   {
    "sec": "economia",
-   "lang": "es",
+   "lang": "en",
    "region": null,
-   "title": "Los directivos españoles moderan su optimismo a medio plazo, pero mantienen la apuesta por el empleo y la IA",
-   "summary": "El 74% de los consejeros delegados confía en que su empresa crezca en los próximos tres años, cuatro puntos menos que en 2025 y diez por debajo de la media global, según un estudio de KPMG",
-   "link": "https://elpais.com/economia/2026-11-22/los-directivos-espanoles-moderan-su-optimismo-a-medio-plazo-pero-mantienen-la-apuesta-por-el-empleo-y-la-ia.html",
-   "source": "El País · Economía",
-   "date": "2026-11-22T13:00:00+00:00",
+   "title": "The rise and fall and rise again of Jensen Huang",
+   "summary": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.",
+   "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Business",
+   "date": "2026-11-23T15:49:52+00:00",
    "others": [
     {
-     "source": "Cinco Días",
-     "title": "Los directivos españoles moderan su optimismo a medio plazo, pero mantienen la apuesta por el empleo y la IA",
-     "link": "https://elpais.com/economia/2026-11-22/los-directivos-espanoles-moderan-su-optimismo-a-medio-plazo-pero-mantienen-la-apuesta-por-el-empleo-y-la-ia.html"
+     "source": "BBC · Technology",
+     "title": "The rise and fall and rise again of Jensen Huang",
+     "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss"
     }
    ],
    "score": 2,
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38db/live/e8339120-deb0-11f1-93e1-3b657b665bcf.jpg",
+   "sub": "empresas",
    "id": "s23"
   },
   {
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "“Tenemos el mejor candidato”: así lanzó España la carrera por la presidencia del BCE",
-   "summary": "El perfil de Hernández de Cos más las circunstancias que condicionan a Francia y Alemania dejan al español a las puertas de dirigir al regulador monetario",
-   "link": "https://elpais.com/economia/2026-11-22/tenemos-el-mejor-candidato-asi-lanzo-espana-la-carrera-por-la-presidencia-del-bce.html",
-   "source": "El País · Economía",
-   "date": "2026-11-22T04:45:01+00:00",
+   "title": "Técnicas Reunidas desarrollará tres centrales eléctricas para RWE en Alemania por más de 1.500 millones",
+   "summary": "El alcance de los trabajos encargados incluirá la ingeniería de diseño del proyecto, el suministro de equipos, la construcción y su puesta en marcha",
+   "link": "https://cincodias.elpais.com/companias/2026-11-23/tecnicas-reunidas-desarrollara-tres-centrales-electricas-para-rwe-en-alemania-por-mas-de-1500-millones.html",
+   "source": "Cinco Días",
+   "date": "2026-11-23T15:16:51+00:00",
    "others": [
     {
-     "source": "Cinco Días",
-     "title": "“Tenemos el mejor candidato”: así lanzó España la carrera por la presidencia del BCE",
-     "link": "https://elpais.com/economia/2026-11-22/tenemos-el-mejor-candidato-asi-lanzo-espana-la-carrera-por-la-presidencia-del-bce.html"
+     "source": "TradingView",
+     "title": "Técnicas Reunidas se adjudica un megacontrato de RWE en Alemania por más de 1.500 millones",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93QzUxYXhET1lHUjl5dDB1UFNFN1ExVjI1V2RJYnVRLW9yUUVqMTFyTE5FaWlCbGFpQ3l5enplV1U2RTVXa3BhanktX21jUzA1YUVPZTZ6QlFUdEZOS3hfWExidmpvZw?oc=5"
     }
    ],
    "score": 2,
+   "image": "https://imagenes.elpais.com/resizer/v2/JNMOSKD5ERHQJGPXX6CT2PRPCY.jpg?auth=28037fde273dab5be3948069e62eb2ca01e9fd3661535abaf46aa1927f212014",
+   "sub": "bolsillo",
    "id": "s24"
   },
   {
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "Los fallos en los sistemas antiblanqueo ponen a Revolut y otros neobancos en el punto de mira",
-   "summary": "Las sanciones a Revolut, N26, Monzo y Starling en los últimos años reabren el debate sobre la capacidad de las entidades digitales para prevenir y detectar delitos económicos",
-   "link": "https://elpais.com/economia/2026-11-22/los-fallos-en-los-sistemas-antiblanqueo-ponen-a-revolut-y-otros-neobancos-en-el-punto-de-mira.html",
-   "source": "El País · Economía",
-   "date": "2026-11-22T04:45:01+00:00",
+   "title": "Murtra pide que Europa cree su propia tecnología y avisa de que no puede depender de multimillonarios \"astutos\"",
+   "summary": "El directivo pone el ejemplo de Airbus como modelo a seguir Leer",
+   "link": "https://www.elmundo.es/economia/empresas/2026/11/23/6b04388ce4d4d8444b8b458a.html",
+   "source": "El Mundo · Economía",
+   "date": "2026-11-23T14:04:26+01:00",
    "others": [
     {
      "source": "Cinco Días",
-     "title": "Los fallos en los sistemas antiblanqueo ponen a Revolut y otros neobancos en el punto de mira",
-     "link": "https://elpais.com/economia/2026-11-22/los-fallos-en-los-sistemas-antiblanqueo-ponen-a-revolut-y-otros-neobancos-en-el-punto-de-mira.html"
+     "title": "Marc Murtra pide que Europa cree su propia tecnología",
+     "link": "https://cincodias.elpais.com/companias/2026-11-23/marc-murtra-pide-que-europa-cree-su-propia-tecnologia.html"
     }
    ],
    "score": 2,
+   "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954390040683.jpg",
+   "sub": "empresas",
    "id": "s25"
   },
   {
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "Christian Sewing, el aficionado al tenis que pelea otro revés para su banco",
-   "summary": "El CEO de Deutsche Bank se enfrenta a la filtración de más de 15 millones de documentos que han dejado al descubierto las tripas de la entidad",
-   "link": "https://cincodias.elpais.com/opinion/2026-11-22/christian-sewing-el-aficionado-al-tenis-que-pelea-otro-reves-para-su-banco.html",
+   "title": "El Gobierno aprobará la limitación de los intereses del crédito al consumo en un paquete de medidas que afectan a la banca",
+   "summary": "El Ejecutivo pretende validar en el Consejo de Ministros de este martes la norma que pone coto a los intereses abusivos de crédito además de prorrogar el impuesto a las entidades financieras",
+   "link": "https://elpais.com/economia/2026-11-23/el-gobierno-aprobara-la-limitacion-de-los-intereses-del-credito-al-consumo-en-un-paquete-de-medidas-que-afectan-a-la-banca.html",
    "source": "El País · Economía",
-   "date": "2026-11-22T04:40:00+00:00",
+   "date": "2026-11-23T13:41:21+00:00",
    "others": [
     {
      "source": "Cinco Días",
-     "title": "Christian Sewing, el aficionado al tenis que pelea otro revés para su banco",
-     "link": "https://cincodias.elpais.com/opinion/2026-11-22/christian-sewing-el-aficionado-al-tenis-que-pelea-otro-reves-para-su-banco.html"
+     "title": "El Gobierno aprobará la limitación de los intereses del crédito al consumo en un paquete de medidas que afectan a la banca",
+     "link": "https://elpais.com/economia/2026-11-23/el-gobierno-aprobara-la-limitacion-de-los-intereses-del-credito-al-consumo-en-un-paquete-de-medidas-que-afectan-a-la-banca.html"
     }
    ],
    "score": 2,
+   "image": "https://imagenes.elpais.com/resizer/v2/H65YPVJQ4JONXJP6BHFS7H43MY.jpg?auth=6fe7bade755b130e07acbbf014ca1ca7bd7cb500f37a9cb225912f553602a72f",
+   "sub": "bolsillo",
    "id": "s26"
   },
   {
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "Las claves: el largo corte del trayecto en tren Madrid-Sevilla es motivo para la reflexión",
-   "summary": "Hay que valorar seriamente la verdadera capacidad del sistema para mantener la actividad con las garantías de seguridad necesarias",
-   "link": "https://cincodias.elpais.com/opinion/2026-11-22/las-claves-el-largo-corte-del-trayecto-en-tren-madrid-sevilla-es-motivo-para-la-reflexion.html",
+   "title": "CC OO y UGT llaman a votar a la izquierda: “Lo mejor para España es reeditar el Gobierno de coalición progresista”",
+   "summary": "Los sindicatos ven en peligro distintos derechos laborales si PP y Vox logran una mayoría absoluta",
+   "link": "https://elpais.com/economia/2026-11-23/cc-oo-y-ugt-llaman-a-votar-a-la-izquierda-lo-mejor-para-espana-es-reeditar-el-gobierno-de-coalicion-progresista.html",
    "source": "El País · Economía",
-   "date": "2026-11-22T04:40:00+00:00",
+   "date": "2026-11-23T13:19:53+00:00",
    "others": [
     {
      "source": "Cinco Días",
-     "title": "Las claves: el largo corte del trayecto en tren Madrid-Sevilla es motivo para la reflexión",
-     "link": "https://cincodias.elpais.com/opinion/2026-11-22/las-claves-el-largo-corte-del-trayecto-en-tren-madrid-sevilla-es-motivo-para-la-reflexion.html"
+     "title": "CC OO y UGT llaman a votar a la izquierda: “Lo mejor para España es reeditar el Gobierno de coalición progresista”",
+     "link": "https://elpais.com/economia/2026-11-23/cc-oo-y-ugt-llaman-a-votar-a-la-izquierda-lo-mejor-para-espana-es-reeditar-el-gobierno-de-coalicion-progresista.html"
     }
    ],
    "score": 2,
+   "image": "https://imagenes.elpais.com/resizer/v2/53Q5UUE735G2RAYQTK4UAPJAOI.jpg?auth=f326bdcf6e73e62da5442513b70d2ece8f7355801f7c73a011c90f490795079c",
+   "sub": "mundo",
    "id": "s27"
   },
   {
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "El caso Weil: así se desmantela un despacho de abogados",
-   "summary": "La liquidación del gigante de la abogacía estadounidense abre un largo proceso para cobrar facturas, rescindir contratos o gestionar posibles reclamaciones",
-   "link": "https://elpais.com/economia/negocios/2026-11-22/el-caso-weil-asi-se-desmantela-un-despacho-de-abogados.html",
-   "source": "El País · Economía",
-   "date": "2026-11-22T04:30:00+00:00",
+   "title": "Bruselas investiga a Coca-Cola por restringir el comercio de sus refrescos en España",
+   "summary": "Los servicios europeos de Competencia creen que la compañía \"ha abusado de su posición dominante\" en el mercado mayorista destinado a vender sus productos a clientes que venden sus refrescos para su consumo fuera del local, principalmente supermercados Leer",
+   "link": "https://www.elmundo.es/economia/empresas/2026/11/23/6b042bfffdddfffa3e8b459a.html",
+   "source": "El Mundo · Economía",
+   "date": "2026-11-23T13:13:17+01:00",
    "others": [
     {
      "source": "Cinco Días",
-     "title": "El caso Weil: así se desmantela un despacho de abogados",
-     "link": "https://elpais.com/economia/negocios/2026-11-22/el-caso-weil-asi-se-desmantela-un-despacho-de-abogados.html"
+     "title": "Bruselas investiga a la principal embotelladora de Coca-Cola por una posible conducta anticompetitiva",
+     "link": "https://elpais.com/economia/2026-11-23/bruselas-investiga-a-la-embotelladora-de-coca-cola-por-una-posible-conducta-anticompetitiva.html"
     }
    ],
    "score": 2,
+   "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954358348933.jpg",
+   "sub": "bolsillo",
    "id": "s28"
   },
   {
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "Las socimis francesas ganan terreno en España: Mistral Selection compra un hotel en Lloret por 7 millones",
-   "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMTJfeTJJWExSaEg5bk50Tk5tMFgxNXNzU1NpUXQ5UlhVZ1NPcGNmTVlIQTlHaVhpX0UyaXdremhfeWJLQVZSYTZsSXlWZENlUFlJTFpjb3Y0NHZDdFpPMFppVmdQdEYyVWZfWHptc180MENtd01XYWFVcldQQTJBWVNQNUVLS3IybWtNcmJzUmhsalBKVTNvXzl0aVhIMzRnN3pIS3M1c096bFpFc0lwcFplMkQzRWRfLW5NZ01NUDRvS3RUYnBSWVdZaG1UajFVejlaN2toUGk1ZU9YeXZTS1NGeWHSAeoBQVVfeXFMTlEwOVdnMlJSY2lpWlU3d01taHhyamY5SUlRYVJpdElKWGgtQjJaMHdnekxUeVAzVjNTS2dOV2xSWUVUXzlSR3EzMGEyVjd6RG9JRWxNTm5kUnI3U2JPT2pqYmtpUFdsZ3ZXVnMzaUw0ckJDUGdnSVBfVm9YdWtZWW5sSUNFWWdUWThtbmV4RUtaZzRBOHB4US1yNWxDOHgzRkVkRndpZEFscHV4VG9ESG4wbkp2R29HZk5zMlk2eV9DcXYyd1FIVmdLckV6ZHkyUXNKaDNncHRXeXBrUnNocHloVFpvaVdZZ1R3?oc=5",
-   "source": "Idealista",
-   "date": "2026-11-23T05:00:01+00:00",
-   "others": [],
-   "score": 1,
+   "title": "La ocupación hotelera en España marca otro récord en octubre aunque los precios suben un 8%",
+   "summary": "El turismo extranjero concentra el 68% de las estancias totales en los diez primeros meses",
+   "link": "https://elpais.com/economia/2026-11-23/la-ocupacion-hotelera-en-espana-marca-otro-record-en-octubre-aunque-los-precios-suben-un-8.html",
+   "source": "El País · Economía",
+   "date": "2026-11-23T10:26:54+00:00",
+   "others": [
+    {
+     "source": "Cinco Días",
+     "title": "La ocupación hotelera en España marca otro récord en octubre aunque los precios suben un 8%",
+     "link": "https://elpais.com/economia/2026-11-23/la-ocupacion-hotelera-en-espana-marca-otro-record-en-octubre-aunque-los-precios-suben-un-8.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://imagenes.elpais.com/resizer/v2/NC234RBGDFG5DIUQPLHXLA4TZQ.JPG?auth=94d682073997d5d5b5c7e7e1f7d42c4704fda02b072d4cd8a3be187ac4732385",
+   "sub": "bolsillo",
    "id": "s29"
   },
   {
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "Los jubilados al PSOE y los policías a Vox: la diferencia del voto por ocupación",
-   "summary": "Los de Abascal también ganan en grupos asociados a la clase obrera. El PP se impone en más ocupaciones, pero Sánchez es el favorito de más gente. Frente Amplio obtiene su mejor dato entre intelectuales y estudiantes",
-   "link": "https://elpais.com/espana/elecciones-generales/2026-11-23/los-jubilados-al-psoe-y-los-policias-a-vox-la-diferencia-del-voto-por-ocupacion.html",
+   "title": "Sánchez propone un impuesto para “ultrarricos” con fortunas superiores a 100 millones de euros",
+   "summary": "La medida no estaba en el programa electoral del PSOE pero sí, con algunas diferencias, en el del Frente Amplio",
+   "link": "https://elpais.com/economia/2026-11-23/sanchez-propone-un-impuesto-para-ultrarricos-con-fortunas-superiores-a-100-millones-de-euros.html",
    "source": "El País · Economía",
-   "date": "2026-11-23T04:30:01+00:00",
-   "others": [],
-   "score": 1,
+   "date": "2026-11-23T09:51:45+00:00",
+   "others": [
+    {
+     "source": "Cinco Días",
+     "title": "Sánchez propone un impuesto para “ultrarricos” con fortunas superiores a 100 millones de euros",
+     "link": "https://elpais.com/economia/2026-11-23/sanchez-propone-un-impuesto-para-ultrarricos-con-fortunas-superiores-a-100-millones-de-euros.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://imagenes.elpais.com/resizer/v2/GFGFA3WNFNA5HEPSNWWBTLU6J4.jpg?auth=2b15d19992de0d661dfb0a26f6ff80278a477bded8f90d12dded1c3daf345614",
+   "sub": "bolsillo",
    "id": "s30"
   },
   {
    "sec": "international",
    "lang": "en",
-   "region": "europe",
-   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-   "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
-   "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC · Europe",
-   "date": "2026-11-23T02:59:35+00:00",
+   "region": "mea",
+   "title": "Ukraine shares video of strikes on Russian ships off Libya",
+   "summary": "President Zelensky said a Russia warship was sunk, with a Russian cargo ship also hit.",
+   "link": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Africa",
+   "date": "2026-11-23T16:24:00+00:00",
    "others": [
     {
-     "source": "Al Jazeera",
-     "title": "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZzU3ZEZYME5lS0ROc3NoTHNrNlpjVlUyd2xjVnRLREpzSWlZWXMyS1E3OTJMZmxZNHZJV1BpbGM1U045c3JTc2p2dlFTYTNTSU9qdnVZamZZN29zR0JBY3ZpYjZ0Z1FpVXc2cDViTFZRMHNwejhPcTBrUHVqdFhZZG5XTTFSYi1Yc3AxaVlLc09VcTdyVzdFaNIBngFBVV95cUxNZlFIcHE3SVRDUFdGeE9CTEgtM3I3T2o3OTBUZWlQaU5IbWhXNVY4NjVqQ2s2eEJLVTRlUXFXakFWdkc0T3ViME1EMUt5US1zejJPSkthWjVaejRkTExNOGJ3LURHWDB3dndjeDBBM0hyRWt6d05ESnE0Ul9BbzlzSXZLSS1MZHM2RUJ4ZjJaMVFZSmlWS3ZSMEgtR2RJdw?oc=5"
-    },
-    {
-     "source": "BBC · Africa",
-     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-     "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+     "source": "The Guardian",
+     "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONjlYcEJxcWh6djFUeEhBbnR4eHJKWHdqOVNOVHhwc2ZGM3QtWGtDNUN3bHA2eUN0WEV3SkxwRVVyNXgzZzVlVHU5YXBZVm5CQmRoNUQ5ck00Rk1lOGFGc3FLRUFFelRnckhkaF9oVmplSE9UR2lEdEFQbFBNRjMya2l0WmFsTVR3bDM4SjNGS0FwOGJhblBsRmNKTQ?oc=5"
     },
     {
      "source": "The Guardian · World",
-     "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-     "link": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
+     "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+     "link": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
+    },
+    {
+     "source": "Al Jazeera",
+     "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
+     "link": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss"
     }
    ],
    "score": 4,
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cc6/live/7a950f50-e738-11f1-99b6-a35a62fa4264.jpg",
    "id": "s31"
   },
   {
    "sec": "international",
    "lang": "en",
-   "region": "us",
-   "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-   "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
-   "link": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC · US & Canada",
-   "date": "2026-11-22T22:26:58+00:00",
+   "region": "europe",
+   "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+   "summary": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya.",
+   "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Europe",
+   "date": "2026-11-23T15:41:23+00:00",
    "others": [
     {
-     "source": "ITVX",
-     "title": "Mexican drug lord captured in bloody shoot-out that left 11 dead | ITV News",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR2FqMUFtaV9BanM0Y0N2by1QUEZhR3VBT3Fad3VpM184ZnJaWmZYTWluOExJcFYtM3QxSUpGUFRTTzFYN3BQLXN0dGEyRHdwWUN1QlUzOUYwZm1JVkV4TE5majZWNGUtUjFQZ3dhNTF5TjZFQnExOEIyMGtoYkQ4SEl5bXplYXhRNnVlMTI1bkl2NG4yWmFqS0x5eUluQ2xWbEE?oc=5"
+     "source": "BBC · Africa",
+     "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+     "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "source": "BBC · Latin America",
-     "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-     "link": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
+     "source": "NPR · World",
+     "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy says",
+     "link": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya"
     }
    ],
    "score": 3,
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f684/live/02351f90-e74d-11f1-99b6-a35a62fa4264.jpg",
    "id": "s32"
   },
   {
    "sec": "international",
    "lang": "en",
-   "region": "asia",
-   "title": "Three killed and dozens missing after fire at Indonesian factory",
-   "summary": "At least three people were killed and many more feared dead after a fire at a confectionary factory.",
-   "link": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC · Asia",
-   "date": "2026-11-22T17:17:00+00:00",
+   "region": "europe",
+   "title": "Burnham says it would be ‘unthinkable’ for the UK to rejoin the EU without a referendum – UK politics live",
+   "summary": "The prime minister’s remarks were the clearest commitment yet to not joining the EU without another vote In her speech, Louise Haigh announced that Juergen Maier, chair of Great British Energy, has been appointed as the government’s northern economy and reindustrialisation commissioner. She said: Giving business the confidence to invest here, and create…",
+   "link": "https://www.theguardian.com/politics/live/2026/nov/23/andy-burnham-brexit-europe-eu-uk-summit-deal-commons-cbi-farage-badenoch-haigh-politics-latest-news-updates",
+   "source": "The Guardian · World",
+   "date": "2026-11-23T17:26:34+00:00",
    "others": [
     {
-     "source": "The Guardian",
-     "title": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUW5OQjUxR2pacnpfSVYwajBicC1LR0RYZUExSm1SOWZqcVZjT1JqNkxyZUkxWUs3X1RIMkJNUFBCNnQ5SmlnbkNzY1gxcGQ3cHllQjdkNDk4OW5scE42dDkxYWJVY3k2VjNrY0t5OE1vYlYtZTNfbFAxRWFUY2l6U2pVWUhVR3A2VlVEQURxS1gxY3lF?oc=5"
-    },
-    {
-     "source": "The Guardian · World",
-     "title": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
-     "link": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta"
+     "source": "Politico Europe",
+     "title": "Rejoining EU without referendum is ‘unthinkable,’ says Andy Burnham",
+     "link": "https://www.politico.eu/article/rejoining-eu-without-referendum-unthinkable-andy-burnham/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
     }
    ],
-   "score": 3,
+   "score": 2,
+   "image": "https://i.guim.co.uk/img/media/221b71637b12d748ec611334d61fd609cbb6a644/209_0_2082_1666/master/2082.jpg?width=140&quality=85&auto=format&fit=max&s=befa3aa2dca37b7d8801c87885d96c7e",
    "id": "s33"
   },
   {
    "sec": "international",
    "lang": "en",
    "region": "mea",
-   "title": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
-   "summary": "Scientific and satellite findings warn of widespread contamination in Gaza, posing grave threats to public health ‘for generations to come’ Israel’s destruction of Gaza has left a devastating environmental legacy with poisoned water, contaminated soil and toxic air threatening the life-support systems that the population depends on for survival, according…",
-   "link": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
-   "source": "The Guardian · World",
-   "date": "2026-11-23T04:00:45+00:00",
+   "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+   "summary": "The report says there are signs of possible contamination across almost all of Gaza as a result of Israel's actions.",
+   "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Middle East",
+   "date": "2026-11-23T17:07:25+00:00",
    "others": [
     {
-     "source": "The Guardian",
-     "title": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdHhuX2FjNjlDYmQtdG1TT0hPSkptRTBNcC0wd3lwekxoRkdSaDNFVWhhOWpEanZQVkNDa0JaLTNjQmFXWTNOQzU2OTUzY1c1RWoxRHpkQmtVNklZZGowSEMxZmRvRVRFa2JJY290b1hNSXZVUWNVdDVvV0RsRHhjNzcyeFZyYTVVNGRBNWVtdVVDVUhfTnNiU2lMWE1lYVRHczNmTjM2azliQQ?oc=5"
+     "source": "BBC",
+     "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53UE10bVlHdlBvUGgwY3hKVXZMclhNVjMzUGRKQURjVV82czlJOUhKNDFfbW41cmE3ZmNSY285bGVsSGJQUnpJUUozTDYyMXdIQk5BTFExcTVmc1haZnc?oc=5"
     }
    ],
    "score": 2,
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/810a/live/c0542f80-e73d-11f1-99a1-253766e7ad8b.jpg",
    "id": "s34"
   },
   {
    "sec": "international",
    "lang": "en",
-   "region": "mea",
-   "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
-   "summary": "UN patron Lewis Pugh saw ships ablaze and fighter jets overhead during three-day swim as Iran conflict continues A British endurance swimmer has completed a three-day swim through the strait of Hormuz to highlight the environmental cost of the Iran war. Lewis Pugh, a UN patron of the oceans, swam the 9.3-mile (15km) length of the waterway, which is a key…",
-   "link": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war",
-   "source": "The Guardian · World",
-   "date": "2026-11-23T02:31:00+00:00",
+   "region": "europe",
+   "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
+   "summary": "The BBC meets the far-left protesters French President Emmanuel Macron says are trying to bring down the Republic.",
+   "link": "https://www.bbc.co.uk/news/articles/cw074km48myeo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Europe",
+   "date": "2026-11-23T13:09:52+00:00",
    "others": [
     {
-     "source": "The Guardian",
-     "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbEhGa045V054T0pYTUNZTHMyZFFuYmkxM2w5V0dYOFFYZHVlbzcyel96TGc0Yzh4c3hUMnhtOC04QkotYVhpV2pzOW8xZEFnbTR1dHh6cmtFS3dHcFhFaEQ5aVVhQlplR2YwRTREREYtcjR5Rk85dFFVVEdjN2EzZUNRdHZnSFJmbmxZTFhKTkM1MVUxZmNqWW5ZNk1vQk9RaEx3Zw?oc=5"
+     "source": "BBC",
+     "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01RDBNMEVkVlhxdGUyS1dycFdla1pRang3NG42RVFnak5WLTQyZUdEOVkta1dCYk1kLUxKUG1RZ0h2Z05ZWkZUckVVOFVjdml2TE82eGUzRlVhZ2pFcGc?oc=5"
     }
    ],
    "score": 2,
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87ae/live/24717fd0-e73f-11f1-802a-678be58471bb.jpg",
    "id": "s35"
-  },
-  {
-   "sec": "international",
-   "lang": "en",
-   "region": "us",
-   "title": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
-   "summary": "Jay Clayton was pressed on Trump’s characterization of Putin during media appearances on Sunday Jay Clayton, the US director of national intelligence, said he trusts Donald Trump “completely” after the US president called Vladimir Putin “a friend” during their recent meeting in China. Clayton made the remarks on Sunday, where he was pressed during media…",
-   "link": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
-   "source": "The Guardian · World",
-   "date": "2026-11-23T02:23:13+00:00",
-   "others": [
-    {
-     "source": "Al Jazeera",
-     "title": "US intelligence chief defends Trump’s comments calling Putin his ‘friend’",
-     "link": "https://www.aljazeera.com/news/2026/11/23/us-intelligence-chief-defends-trumps-comments-calling-putin-his?traffic_source=rss"
-    }
-   ],
-   "score": 2,
-   "id": "s36"
-  },
-  {
-   "sec": "international",
-   "lang": "en",
-   "region": "us",
-   "title": "Democrats win largest House majority since 1992 with North Carolina seat",
-   "summary": "At least 258 US House seats are now under Democratic control, with four more midterm races yet to be decided.",
-   "link": "https://www.aljazeera.com/news/2026/11/22/democrats-win-largest-house-majority-since-1992-with-north-carolina-seat?traffic_source=rss",
-   "source": "Al Jazeera",
-   "date": "2026-11-22T22:19:47+00:00",
-   "others": [
-    {
-     "source": "Financial Times",
-     "title": "House Democrats to start new Congress with largest majority this century",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlA1cDJ4eEpySnVHeEdsOHRBQ1B1NEtEdHJ3MGpFVVNhMGpMWXA5RFdicVFrZ0V5S1ItTVBhenVFc042dUVMZVZiTUl6eTlQRnNnVWJSNHBoSnVoTTVxMTQ5X2FCdjVvdk1YdkQ3SmE2cl8wU0JQeTdfM1dKSFFOeHh6eWk?oc=5"
-    }
-   ],
-   "score": 2,
-   "id": "s37"
-  },
-  {
-   "sec": "international",
-   "lang": "en",
-   "region": "global",
-   "title": "Netanyahu’s Likud, Eisenkot’s Yashar end coalition talks without deal",
-   "summary": "Parties remain split over who will lead the next government and whether far-right minister Itamar Ben-Gvir will join.",
-   "link": "https://www.aljazeera.com/news/2026/11/22/netanyahus-likud-eisenkots-yashar-end-coalition-talks-without-deal?traffic_source=rss",
-   "source": "Al Jazeera",
-   "date": "2026-11-22T21:33:11+00:00",
-   "others": [
-    {
-     "source": "France 24",
-     "title": "Eisenkot invites Netanyahu’s party for ‘marathon’ Israeli coalition talks",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSnNFOEVHR1E3bUhheWlaN2RoMDFTSmpHXzAxWE1pVFhJUXhEN19zX09xT0NPWjhLbzVYZl8xbVoyNVR5MjJYRW5BZ1B2MklPTktCYTM4dkx6Y000RVJsa3JCaTM1UHNhdWFLdUVHZGZnVUZpQTFfd29EY25xTkhpaVNZQy1mU2dWT3lFZWRaZ3Z3ZzRuZlFqRU5VdDBVczlRX2JpUjNQSGp4eThLSVFYM1I4SnVnbW9lSi1HMA?oc=5"
-    }
-   ],
-   "score": 2,
-   "id": "s38"
   },
   {
    "sec": "international",
@@ -684,35 +804,37 @@
    "summary": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end.",
    "link": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
    "source": "BBC · Europe",
-   "date": "2026-11-22T18:57:24+00:00",
+   "date": "2026-11-23T11:22:24+00:00",
    "others": [
     {
-     "source": "The Guardian · World",
-     "title": "Cop31 climate talks break down as key deal rejected",
-     "link": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected"
+     "source": "Al Jazeera",
+     "title": "COP31: What next after UN climate talks collapse",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQU1FZW9UMlRxREp1Ri1LTVBKaWxDWm04YjJEYjBpbE9HQmNSck1VekprWWZXQVpBNTY5enl6czR0c2RpMXVEVm9qb25WSnBjT2lYdnkybHlRYk5naTlZOWZGT2lyVkR2U1JTNVZnbm05WDh2MTFwcUJuTTdKVUpPd05RTjZxaEJFcFVFeWYyTGw1V1nSAZgBQVVfeXFMUDhCVnUtdHgtdzhrTmlOTDY0c1I0N0Z6Zk55WV92U2FiVHpaWEV6LVJveEJSb2tWRUszQUpIeVpJVVlYb2UxUWpWNUtqWkN4ZFpqNTF2WDhYOXlXS3FpQUFWUm5KT2VESHFRbHU1WDl1UVAyNHoxTUR4SXNWaGhpSUF6ZDNjUFJab25XTk10cVlJWWxTM2dsbTg?oc=5"
     }
    ],
    "score": 2,
-   "id": "s39"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4edf/live/0b9a5c60-e70e-11f1-a094-5fdc692f3e33.jpg",
+   "id": "s36"
   },
   {
    "sec": "international",
    "lang": "en",
-   "region": "us",
-   "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-   "summary": "The Army says \"swift action\" is necessary to protect its personnel and nearby communities around its ammunition plant in Iowa.",
-   "link": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC · US & Canada",
-   "date": "2026-11-22T18:29:46+00:00",
+   "region": "global",
+   "title": "Democrats win House by largest margin in 50 years. And, COP31 ends with no deal",
+   "summary": "Democrats have currently flipped 47 House seats and could flip 49 total. And, climate change talks at COP31 ran two days longer than expected, becoming the longest conference in the summit's history.",
+   "link": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31",
+   "source": "NPR · World",
+   "date": "2026-11-23T09:07:00+00:00",
    "others": [
     {
-     "source": "BBC",
-     "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVbUlBZjNFTEZ3bmh4djk2aHI1WlVqTFpVUWgwd0w1UDNXVFFleEduMEJELXdMcnIwMHV4UE1DRGoxdXZ5M3dpcjM4WnJCZm8tdmNTTjhsMHhsbC1KdEE?oc=5"
+     "source": "The Telegraph",
+     "title": "Democrats win largest House majority since 1992",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYUgtNUtrdGdNOVJqMVR5MjBtSFRZMzdDVE1tZkNIYVBYc3JoYWFiSXlFTksySTNMZHYzLTdrNjBqTnQxSFI0NTNmX1Y1QnFkNEhTU2lTdXJVeDUyczdyeF9qYWREY3lDeE9RWjMzWFJVZWY3M2Nib0Utb2JGZ1V5bHBSQmpSQy1PQ1gxWVB5Y3NMR0J3amU1QXF1Nm85YktjQTBjUldGTXVCT01jNnc?oc=5"
     }
    ],
    "score": 2,
-   "id": "s40"
+   "image": "",
+   "id": "s37"
   },
   {
    "sec": "international",
@@ -731,39 +853,64 @@
     }
    ],
    "score": 2,
-   "id": "s41"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc28/live/9c42c760-e66a-11f1-99b6-a35a62fa4264.jpg",
+   "id": "s38"
   },
   {
    "sec": "international",
    "lang": "en",
    "region": "europe",
-   "title": "France gets an EU budget win — but wants more",
-   "summary": "Presented by Fusion for Energy.",
-   "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/france-gets-an-eu-budget-win-but-wants-more/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "source": "Politico Europe",
-   "date": "2026-11-23T05:05:00+00:00",
+   "title": "Germany taking seriously reports Russia may be planning to launch nuclear weapons into space",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOUtWdVJPaUZZOXBmZ0VhUzJTaWNKQVNwUFhzMmVaRWY3MW9ITXVnbWpMd2h0cmdyTEtmaDloN2E1VmNQd056ZTMwSVFPazRtSWtLZ1NXa1NBMUkzQ3VwNjJUajFhZ3B3UXlGNnF3WWhNNUxHelhoZUkzWS1XZERMZ25lSDcxcHVYZHBUbmJlb0FHaGlNSFU1eXF3?oc=5",
+   "source": "The Guardian",
+   "date": "2026-11-23T17:13:00+00:00",
    "others": [],
    "score": 1,
-   "id": "s42"
+   "image": "",
+   "id": "s39"
   },
   {
-   "sec": "moda",
-   "lang": "es",
-   "region": null,
-   "title": "La literatura está de moda",
-   "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNY0wzWEx5SV8xZUpIdkpuZDYwOTRJbndJeWNYVWhBTXVrZlVGTG9CUmxWbDZLUVN1ZHBoQWYwWW5RV19Tc2Rsa0ZQYVBzV3ZvQ1J3QlBUZ21PV3RUUE54bVNOZlNVdWJFdG9hcU9aemxGLUhmazRnZTJqLW80WF9rQU9UOHBGVWtMZExfR1ZWT3RwMWxrQW8wdGw3Rm8welh2Qm8xZ1poR0w0N2tpdEFnWlZmWEc0VklrZUt2aEZLSQ?oc=5",
-   "source": "La Soga | Revista Cultural",
-   "date": "2026-11-23T05:00:32+00:00",
-   "others": [
-    {
-     "source": "EL PAÍS",
-     "title": "Ari Rovira, de la sastrería queer Lancaster Studio: “La moda binaria excluye a mucha gente”",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUXozTVBRX1NxQU41dTZsSDJtVVBMUTZEMkpyc1hfTTZNS2N4eThXZFNKSkpwSU1PV0lIdWZsQWM5WnNLa1Y2NFp6eUUtSDNHSFRpeU1tMVI3REJVUjFMZzIzaVpqVlFNNVlhVGRsckdBUjBlMFAtTnE5c3pvS3hRUVpaNUU5NEdERXVnUnB2VUszbkM2QUFKS3pvVGxKbGJCTVVBT3JKU3pYUGJJNG9oaEh5cVdfMVZTd25uVGNyMnQxNDZSWHJtUHg4X2paV21WdlVFanhJVklsaknSAdsBQVVfeXFMT1F6M01QUV9TcUFONXU2bEgybVVQTFE2RDJKcnNYX002TUtjeHk4V2RTSkpKcElNT1dJSHVmbEFjOVpzS2tWNjRaenlFLUgzR0hUaXlNbTFSN0RCVVIxTGcyM2laalZRTTVZYVRkbHJHQVIwZTBQLU5xOXN6b0t4UVFaWjVFOTRHREV1Z1JwdlVLM25DNkFBSkt6b1RsSmxiQk1VQU9ySlN6WFBiSTRvaGhIeXFXXzFWU3dublRjcjJ0MTQ2UlhybVB4OF9qWldtVnZVRWp4SVZJbGpJ?oc=5"
-    }
-   ],
-   "score": 2,
-   "id": "s43"
+   "sec": "international",
+   "lang": "en",
+   "region": "us",
+   "title": "Analysis: Why Jensen Huang proved too big to fire",
+   "summary": "Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.",
+   "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · US & Canada",
+   "date": "2026-11-23T17:11:58+00:00",
+   "others": [],
+   "score": 1,
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/938d/live/58a5fb00-e762-11f1-a094-5fdc692f3e33.jpg",
+   "id": "s40"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "europe",
+   "title": "Barbados town’s three-year deal with Bristol ‘part of the reparative process’",
+   "summary": "Island’s labour minister, Tony Dyer, says agreement acknowledges links between Speightstown and UK city are rooted in slave trade A town in Barbados known as “Little Bristol” has signed a “twinning’” agreement with the UK city, marking a new chapter in a centuries-long relationship rooted in the transatlantic slave trade. Barbados says the new partnership…",
+   "link": "https://www.theguardian.com/news/2026/nov/23/barbados-minister-speightstown-bristol-deal-slave-trade-reparations",
+   "source": "The Guardian · World",
+   "date": "2026-11-23T16:53:13+00:00",
+   "others": [],
+   "score": 1,
+   "image": "https://i.guim.co.uk/img/media/24fed4fd10403e24fe12b5488f5534556ec94642/381_0_2926_2340/master/2926.jpg?width=140&quality=85&auto=format&fit=max&s=d194d9f5df8e59bfdf87755fa37443e4",
+   "id": "s41"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "us",
+   "title": "US Army reschedules detonation of toxic explosives at Iowa ammunition plant",
+   "summary": "The army says it has moved the detonation to Wednesday to allow for \"optimal weather conditions\", as public outcry intensifies.",
+   "link": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · US & Canada",
+   "date": "2026-11-23T16:52:12+00:00",
+   "others": [],
+   "score": 1,
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c129/live/651f5c40-e68c-11f1-936e-1fd1d31671db.jpg",
+   "id": "s42"
   },
   {
    "sec": "moda",
@@ -773,107 +920,138 @@
    "summary": "La versión más suntuosa de este clásico del zapatero que llevaremos a todas horas",
    "link": "https://www.vogue.es/articulos/bailarinas-terciopelo-tendencias-otono-invierno-2026-2027",
    "source": "Vogue España",
-   "date": "2026-11-23T03:48:01+00:00",
+   "date": "2026-11-23T17:03:27+00:00",
    "others": [
     {
-     "source": "Ultima Hora",
-     "title": "Las combinaciones de colores tendencia este otoño-invierno 2026/2027",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU1lLdXJER2l5M1puWjZiZV9INUlFY1Z5VHpKR1oweHJIOE1ZRER1TmhvRlJFYWtnTjVXM2ZMa0xGRGlGRk9mUWlIbDBiM3BSOUNteDBDNGVuNF9CbGJPb2NoTksxOGxIbmVSQTViNmJ2TW5PUGJBSmt0RkY1c1BxZVVQM0tHeG1lQUZYYlBNREJYajh2SFM5b2dSTzUteEYtVzd4NzJFSWlva0VzOVVKSHpPWnpFLUtLQldIeTVDbTZGeUlobzVF0gHHAUFVX3lxTE9ZeFhXY2l2V05rRF9ER0NQNWFNTHEtX3d5X0VYWHBNMU5YclZLZ1d2MHFwM3VJTENLMVNVS3BEeWY4ZUx6TDBBQi1ESW1IdnlkRFhTMkVwSDJheTZwR051U0FEQmp2YnN5aWFOTVIwWXppbkJmOTVxWUFBSVhwcVN4SGVpNU1ISmpVYzBKUExvVDJJaENib0d6bndjeUhNR1R6VnhjOHg5LVBNTm5VdndTUjV1c0c0VUdRMXFNNjVqejFZSGNBUGc?oc=5"
+     "source": "Cosmopolitan",
+     "title": "Primero se vio en Londres y ahora llega a España: los calcetines de rombos son la tendencia del invierno 2026-2027 y así los llevan las expertas en moda",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS1N0dE10YWNnSEhsUDUxMW1YOS1GdHI0TTlCU05Eb3hNVnRWenJNSkJyOExUWkhCWkx0dVMxVENGVGFRS2VmYjNQaEU2UUtaQUJTYlJJRW5ZMk9QWlQ1dkNJek54RWdleW40SkZNNHpST3lubEpDeFRKUkYyenBBckRxelpaM2djdE9kUjVvTzdEYlZCNWhpcm81ZnR0Yjc4R08zSGV5VVVHd0NaMXpFNGFEd3d4UQ?oc=5"
     }
    ],
    "score": 2,
+   "image": "https://media.vogue.es/photos/6b02ce6043c847b78357c197/master/pass/898537354_18655741279035160_64110174940034946_n.jpg",
+   "id": "s43"
+  },
+  {
+   "sec": "moda",
+   "lang": "es",
+   "region": null,
+   "title": "La moda prevé un otoño-invierno de ventas estancadas por el clima y la inflación",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObmMxU2tIR05lYW9USUtfUk9yOUE3Q0xQTlhybkctUlhQVnA5VjVXaGl5OFFQX19fdUhReHNQNWszT3VBSFIxVFByTUh5TWw3TXltWWJSMWhlLWVGX2thWUN2cVBXODVUWHl1RVBqVGNHb0IwRUlPSUFWMXNKazNsX041MVRkTDhKZTJjSTNCd3VxNDJVRDBaRENqVjctVUd1QXlRQVJtLS1yOEllbkVHN0lSeVdwOTE2NmNvONIBwgFBVV95cUxQU2NIMmR1N1hlbDZMNmNTNG1tZ19iMGVPN3gtZ0thN1ZXNXBLUm1QUUhSSW5zQ1MyUThHT3hkd19aWFNGb21uYU5BQnA3Q3FBX29obktRenloRTY4RkZIamVreEdSeDNzZ21GWW45Zl90cGVoUjd4by12YkpnZHB1Yi1Va1NVZjRjWTNPd3RnQy1kMmtXQnVYSVp0QVNFT3pZNnpCLXpsSkxwM2FDbHh6eU9Fa1J0bW8zNUdPbUZ6cXpHdw?oc=5",
+   "source": "Faro de Vigo",
+   "date": "2026-11-23T16:33:29+00:00",
+   "others": [
+    {
+     "source": "Diario de Santiago",
+     "title": "El 70 % de las marcas de moda prevé mantener estables sus ventas durante la campaña otoño-invierno",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWGo1YXk1QkNXaEptSWQ3WTcxcURJdHp1TVBRS0hHakc5Y1ZPV21TWjFPMGEzZXpkM2VLTHNVYTlNUkpNVmJCNjhEeEJEOUU3RTVZTklqT0FWaElLZEoyVC1SZ3BJUmNEU2ZFZHEtMDg0YzdmQXlOSE16OE5RZDFWdno3LTNLb2RIMTNMMGZ3Sm01Wjgza29SOVFJLUtBRzNrRE8zV2FhbHNqcjVXNk9QNDFYWXpiQVhkaVJ5Z2pGODE1YkU1eWJYMEs3Sjg4MEhzbnZITw?oc=5"
+    }
+   ],
+   "score": 2,
+   "image": "",
    "id": "s44"
   },
   {
    "sec": "moda",
    "lang": "es",
    "region": null,
-   "title": "Los ames o los odies, los leggings regresaron y se llevan con estos zapatos de moda en Otoño-Invierno 2026",
+   "title": "Marta Escoda, estilista: “Las Samba ya no están de moda. Estas son las zapatillas que más vamos a ver este otoño-invierno”",
    "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUldaWjAwNkJMUkZ2aDlxS2NuYUpPazJ1TUVvUjJyY0hJMEJGOWZkWWJRdUNyQUV5ZWI0V005aGl2OXpPTnozVkhWTjZybkJWbi1DODQwSFctaXV4UWtaZzQ4MmVpMlRMSXFDbklPQnE5S2Ixb3RZSF9CSHFzZmVCbWdKQjlVSGxfbThFMklaU1ZkNXUzVmtLLQ?oc=5",
-   "source": "Vogue México",
-   "date": "2026-11-23T00:28:23+00:00",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaktyVUh1T0lxalc5OUVpNU5KN2RNT3lmM3JJYjVhZ2JCWWI5MG91cTZ6NzdNSlBoUENuQ0JaQW9kQmx1RV8zWVFWNUtCZUQ1NENkVGN1Vk5oNC1keXJCdHcwcEFndElSOG5pSF9MNTNnQXp3WXJTZDdJV3hUUWhMeGJhbzJFVjE0UjRyVG9hS0xGMG93OWUtdlJGeUlQMlVTcVFBMEJ3SzhNdEhMVVlmM0tUaVRVUnNZOW9SUGRKSmNHR21Lak42UFdFNkPSAdIBQVVfeXFMUFNHOXptQlFzTEc1LW1LU0FPcXpTYUZPQV9UT0lqa1ZqY2pCN1h0N0diOTNUcUpxRnVCeDE5R1ktbjhCc2FFUGdpVWZWMWpiNVBic2JaT2RQV095emxRb2F1cDg2R25tU2ludXNsMkllMFBYWk5HSEswSjRKQ3hTa2tZLV9IWm9zTnAtMDlYMk5iV2xuQkxjUDlVSmc0LXFPdVAxc3RyZmJvY0lMblRrVWFBOW5UWlFxNEh3VUtPZmNSalA3TlVvWVVwNGU3TldKN3Nn?oc=5",
+   "source": "Trendencias",
+   "date": "2026-11-23T13:30:50+00:00",
    "others": [
     {
-     "source": "Modaes",
-     "title": "Guía de Logística en Moda 2026",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5TSExGNUpCTUZjbWhyMnlFQy1DeFdvVml0SXRmcERCbFNqMmJVejNJbHBHLU5Rb25waldHeDVSNWpOekkzOURBRS1FWFVzVzg4ZHlfdHB0ZFdYc0tsOFNkcGVsTEtraEVxYk5lNDRZdi1ETGFKVlRHbmdUdw?oc=5"
+     "source": "Diario de Noticias de Álava",
+     "title": "Están de moda los eufemismos",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcTNOYnZFcGtOZ0RtV1NtbEhlWHVULTE1eU5lMFZyc28xWVViRmVwYTFOTThvalU3Y256anJKVzJ4bnVxMlNhMERBWThWTUxXNmRiLTFqcUlvSHllMjQzRG9XdGRXZTE1REFtWktfbUcwNWxDTzQ1aElJdkY4VGxYdHNVNWNEeWfSAYwBQVVfeXFMUGFGVEN4QjFHMDF6TWVrV3pLS0lzdDRpeWxlZEZodFc1ZG5aWWwxSFNKWmlSOTlSbjYzZ19rbWVKU2loSmFoQ3FTMndzc2t4Qjd4V1EwNkNWWTJLcWhfcmxJYzlDdHV3VldZUjZrWEJVQ1Z1dkZ2c2dlMENHNm5CbGkySlVQek45MmdDQWI?oc=5"
     }
    ],
    "score": 2,
+   "image": "",
    "id": "s45"
   },
   {
    "sec": "moda",
    "lang": "es",
    "region": null,
-   "title": "Dos expertos analizan el efecto péplum, el favorito de Manuela Villena para marcar cintura: \"Es un corte moderno que esculpe la figura\"",
+   "title": "El estilo de los pilotos de carga inspira una nueva colección de moda masculina",
    "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ2pQZnRtb1ZKNTJmVHBzdW05M0lhYjBIN3dQUkt4ODJNRjhOZnJhN2RDZUZmU09IT3BWN2I4anBIUVRzaVVlaExfYS1PN0hwWl9CUVVRdHhGVmt0VlN3dDRMM2RQWjdxa05uY1AtRTV0WTJfMGE5WWpCak5GRFpoRklIMFdoWnk1aHR5enU3OTJQWW5iTEtBQXhCTTAydjg5Q1BjWEtR?oc=5",
-   "source": "HOLA",
-   "date": "2026-11-23T05:03:00+00:00",
-   "others": [],
-   "score": 1,
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQT2NEbTZSZUpUR3BhNEVoSVhRVzlKY3JiQTFqbWZoYjZUeGdsUHRNZ0RZVjZ5b1pqeHFmR3dNYUZIYjluc21kSTZiWmV2X01KYkVDZ0VBWHFYVWJiOVdwaVVWLW1vYi05cWsxbk0tODJyODhpelpqTUx1QmI2cFRPQWw4YzQxdVFjbmljTkREajBMWms?oc=5",
+   "source": "Esquire",
+   "date": "2026-11-23T11:41:53+00:00",
+   "others": [
+    {
+     "source": "La Vanguardia",
+     "title": "La ficción inspira la moda ‘vintage’",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRUxWUW8xN3BhZ1Yxdk1GVWdIOUR0VUN6cWQ5VDNYaUo0WUpkUG9qeDVIWlVkem9lSHBaeFhWTkJZZ0lYTGZrNnJyWGVfaFd2XzkyOXNaNlBFUjl2Tjk3VlJqa1N5MUQ2ZWFzNy1yOUtjX0xxeFJfWnJUczYxM1NiY1Zfak5RdVBTaFBURy1Wa9IBlAFBVV95cUxNR2hkSGU2M2FUYklVYTdRUWUtYl9jV1UyWmhnYWEtUXlwdi1GTE9tU2kyTFBtR3ZLVEF2YVVjakhGbTREdGtFWDJfb2JaRU1LOUxQbnVmS3llTjRvYkxkUFdKbl9QX0hKdkxGb2dpN3ZXd25aX243NWVmeTRtd3ljVXlRcENtMGlKTzJkMWQwakJuM29m?oc=5"
+    }
+   ],
+   "score": 2,
+   "image": "",
    "id": "s46"
   },
   {
    "sec": "moda",
    "lang": "es",
    "region": null,
-   "title": "Joana Michaela, la diseñadora de 24 años formada en la UPC que revoluciona la moda con ropa impresa en 3D",
+   "title": "Maria Giulia Prezioso Maramotti, Premio TELVA Moda Internacional 2026",
    "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOE1NNGRRQXduMUlhTFdaNnFnb1NabUNfYkhBY0Q0Zy1hQXpDNEFpdGh6c29NQWRybEZ5M3pMT0tld0pFMjFpQjZsVjdINlpnZVBvaWRTUkdKWk5QU0FwNEV0UjRTT1BBblRoS2ZCalpocjlIQmRGZUVGNE1acER2UTNOVzFWLUhRaGNBNjRjMmpNUzFvREI3RDJuLXVxYkNBalRPZnBuWUNCVVNNMXlsZVg4c9IBswFBVV95cUxPLVN6aEhPUDZKS0ZzdVZ3dXBYMlBtV3NLeGswWTkwYVhRRzdmaTljb2lCNmt4YldkUzEzd1l0Y3ZrS3BjNjZXQjl4VnhkN0c2UXR1M1RhWUd0Tk5QX0Z3akQ4ZmtXS1hHbUh3YXZEVWdYa0VPSWVTVzFoMXdoTE05bkJCQnhhbDFmX0hrZC1tS3hYMGZaaDhwX2pJQklUYTZuNXBub2M1VlAyOHpqU3BJZVRuNA?oc=5",
-   "source": "El Periódico",
-   "date": "2026-11-23T05:00:38+00:00",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JYzlELXhGaEg3SXZYdm54VHRLS3QzaVd0MGdvODFPM0QtWnRqS2g1YzNDaTR1TW9ZSFlyc1k5bVRENlhFTWxDX2ZSVUZucXVGNTlfellNMG9SSmFlMkZ3bEdncFJNVG5jQkI3bndTcnVYNUdJdVR2WHhtRnNEQdIBfkFVX3lxTFBBZEg0X21IYkY3MjF2R19rOEdPa2JJaHBDOWVJaWxWRmY5bW13WFhMWEFFcUFMSDlGOUNMVUVvczJuTDFxUDQtLWdBbkQ3cm53eHdEc1Uta3ZNRzA5aW96bE5wN0k2cTVONUpldUE4NGgtMk1zSEhyVy1vQi0tdw?oc=5",
+   "source": "Telva",
+   "date": "2026-11-23T16:40:38+00:00",
    "others": [],
    "score": 1,
+   "image": "",
    "id": "s47"
   },
   {
    "sec": "moda",
    "lang": "es",
    "region": null,
-   "title": "Águeda Amiano, ‘La Duquita’: “Los clientes ahora llaman pidiendo eventos ‘como los de antes’”",
+   "title": "El goleador de moda en LaLiga que sueña con jugar en el FC Barcelona",
    "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYWFYd2ZwQUwxaHdQRTRnRllXRlUxaUNEXzhUbzRKRl9PYmQtTERVeDdncG9mMUgzZjJNM0dadHJoYnpRYThNT2R6VDhGUVgwVG9zLUZKWHlNYlYwVDBtTEtxWmpmRng5QUJ3RnBkTVJYX2JiTGhySmJoenJnUnAySHMwTkxtWjVDNnRtY0pXbENTSER3dWNxbndaWGZwQzZEdm9hSmZKWHM3UHJyLW4wTTV6MjBXVTFSWFVKbnVPSjRQSFRnX0JHRkt5MNIB3wFBVV95cUxPNERZaUdVcDNROU5xVmJldWYtS1VPai0xbEM2bFctV3dFSF9mZGdZaElMRGI2SWk1Wkp1YmZKWFdObWdjTUNfVU1DRmNwNW5ucGRraERMMVBUTHB6VkNzWVJCb1B3N3pNdXRjeUZnVndsMWl3eUM2d2JTMFZfdDE1cFJuVjMxc0lPYmZVajRqc0RfOGJVQ1RCbXVyb20xakE0VUstNjUyTkxja2xTUFdFYTRuM3NtUzFnQmR0UGRFZjlub19COVlGeU0wemRGODJlQkRLWUtnZGRKelVkeXVV?oc=5",
-   "source": "EL PAÍS",
-   "date": "2026-11-23T04:30:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQTV4ZVJwN3RqOVRXVEhhSWc0b3VYNXM0Wm15YjlTakI1QXFrLWVNRnhkZDlnRlVycGZZTHVIVjJubjVtWDd3R0VsNmFwWXVRRFpESEZqMjJBeU9SU0ZsVkJ5T0t1Y1h5b0YzRkM5a04ydWNZZ0ZLRG5kMWg2WDJ6dGd5WG1EUmwxdGYwWm5Ya3ZpX2wza29MMA?oc=5",
+   "source": "Sports Illustrated",
+   "date": "2026-11-23T16:36:28+00:00",
    "others": [],
    "score": 1,
+   "image": "",
    "id": "s48"
   }
  ],
  "top": [
   {
-   "id": "s31",
+   "id": "s11",
    "size": "xl"
   },
   {
-   "id": "s32",
+   "id": "s21",
    "size": "m"
-  },
-  {
-   "id": "s33",
-   "size": "m"
-  },
-  {
-   "id": "s11",
-   "size": "s"
-  },
-  {
-   "id": "s43",
-   "size": "s"
   },
   {
    "id": "s12",
-   "size": "s"
+   "size": "m"
   },
   {
-   "id": "s21",
+   "id": "s31",
    "size": "s"
   },
   {
    "id": "s13",
+   "size": "s"
+  },
+  {
+   "id": "s22",
+   "size": "s"
+  },
+  {
+   "id": "s32",
+   "size": "s"
+  },
+  {
+   "id": "s1",
    "size": "s"
   }
  ],
@@ -887,10 +1065,10 @@
    "sec": "international",
    "show": "Global News Podcast (BBC)",
    "spotify": "https://open.spotify.com/search/Global%20News%20Podcast",
-   "episode": "The Global Story: AI can imitate a human. But can it think like one?",
-   "link": "http://www.bbc.co.uk/programmes/p0pp0406",
-   "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pp03f4.mp3",
-   "date": "2026-11-22T20:00:00+00:00"
+   "episode": "Jensen Huang reinstated as Nvidia CEO",
+   "link": "http://www.bbc.co.uk/programmes/p0pphgd5",
+   "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pphdx7.mp3",
+   "date": "2026-11-23T16:08:00+00:00"
   },
   {
    "sec": "international",
@@ -901,10 +1079,10 @@
    "sec": "economia",
    "show": "La Primera de Expansión",
    "spotify": "https://open.spotify.com/search/La%20Primera%20de%20Expansi%C3%B3n",
-   "episode": "Anthropic, BBVA, mejores depósitos, Nvidia, Meta y el debate",
-   "link": "https://shows.acast.com/la-primera-de-expansion/episodes/anthropic-bbva-mejores-depositos-nvidia-meta-y-el-debate",
-   "audio": "https://sphinx.acast.com/p/open/s/6a2934a3ec7c103dcafc05f5/e/6affe7c93c298292f349689b/media.mp3",
-   "date": "2026-11-20T06:25:13+00:00"
+   "episode": "Santander, BBVA, pensiones, Indra, Black Friday, Amazon, Zalando y coches chinos",
+   "link": "https://shows.acast.com/la-primera-de-expansion/episodes/santander-bbva-pensiones-indra-black-friday-amazon-zalando-y",
+   "audio": "https://sphinx.acast.com/p/open/s/6a2934a3ec7c103dcafc05f5/e/6b03daddc2063ef6306513e4/media.mp3",
+   "date": "2026-11-23T06:19:09+00:00"
   },
   {
    "sec": "politica",
@@ -921,22 +1099,22 @@
   {
    "name": "Google Noticias · España",
    "ok": true,
-   "items": 32
+   "items": 38
   },
   {
    "name": "Google Noticias · Economía",
    "ok": true,
-   "items": 26
+   "items": 33
   },
   {
    "name": "Google News · World",
    "ok": true,
-   "items": 30
+   "items": 29
   },
   {
    "name": "Google Noticias · Moda",
    "ok": true,
-   "items": 36
+   "items": 37
   },
   {
    "name": "El País",
@@ -946,27 +1124,27 @@
   {
    "name": "El País · Economía",
    "ok": true,
-   "items": 18
+   "items": 17
   },
   {
    "name": "El Mundo",
    "ok": true,
-   "items": 16
+   "items": 24
   },
   {
    "name": "El Mundo · Economía",
    "ok": true,
-   "items": 14
+   "items": 26
   },
   {
    "name": "elDiario.es",
    "ok": true,
-   "items": 39
+   "items": 40
   },
   {
    "name": "La Vanguardia",
    "ok": true,
-   "items": 29
+   "items": 36
   },
   {
    "name": "ABC",
@@ -976,7 +1154,7 @@
   {
    "name": "20minutos",
    "ok": true,
-   "items": 40
+   "items": 37
   },
   {
    "name": "Expansión",
@@ -986,22 +1164,22 @@
   {
    "name": "Cinco Días",
    "ok": true,
-   "items": 11
+   "items": 26
   },
   {
    "name": "BBC · Europe",
    "ok": true,
-   "items": 4
+   "items": 7
   },
   {
    "name": "BBC · US & Canada",
    "ok": true,
-   "items": 5
+   "items": 7
   },
   {
    "name": "BBC · Asia",
    "ok": true,
-   "items": 2
+   "items": 1
   },
   {
    "name": "BBC · Latin America",
@@ -1011,27 +1189,27 @@
   {
    "name": "BBC · Middle East",
    "ok": true,
-   "items": 0
+   "items": 1
   },
   {
    "name": "BBC · Africa",
    "ok": true,
-   "items": 3
+   "items": 6
   },
   {
    "name": "The Guardian · World",
    "ok": true,
-   "items": 24
+   "items": 25
   },
   {
    "name": "Al Jazeera",
    "ok": true,
-   "items": 25
+   "items": 24
   },
   {
    "name": "NPR · World",
    "ok": true,
-   "items": 8
+   "items": 6
   },
   {
    "name": "Politico Europe",
@@ -1041,12 +1219,12 @@
   {
    "name": "BBC · Business",
    "ok": true,
-   "items": 10
+   "items": 14
   },
   {
    "name": "Vogue España",
    "ok": true,
-   "items": 17
+   "items": 26
   },
   {
    "name": "The Guardian · Fashion",
@@ -1054,14 +1232,75 @@
    "items": 2
   },
   {
+   "name": "El País · Internacional",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "The Guardian · Business",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "The Guardian · Technology",
+   "ok": true,
+   "items": 13
+  },
+  {
+   "name": "The Economist · Finance & economics",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR · Business",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "BBC · Technology",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "El País · Tecnología",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Guardian · Spain",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Politico Europe · Politics",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BBC · Politics",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "El País · Política",
+   "ok": false,
+   "error": "HTTPError"
+  },
+  {
+   "name": "El País · S Moda",
+   "ok": false,
+   "error": "HTTPError"
+  },
+  {
    "name": "Podcast · Global News Podcast (BBC)",
    "ok": true,
-   "items": 293
+   "items": 294
   },
   {
    "name": "Podcast · La Primera de Expansión",
    "ok": true,
-   "items": 1467
+   "items": 1468
   }
- ]
+ ],
+ "ai_engine": null
 }
