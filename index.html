@@ -239,15 +239,15 @@ a.pod{color:var(--paper)}
 .sunday{display:block;width:calc(100% - 36px);margin:14px 18px 0;padding:14px;border:0;background:#4B2A7A;color:#fff;font:15px var(--sans);text-align:left}
 .mag{margin:14px 18px 0}
 .mag-cover{position:relative;min-height:min(125vw,620px);background-size:cover;background-position:center;color:#fff;display:flex;flex-direction:column;padding:16px;overflow:hidden}
-.mag-cover.noimg{color:#3B2614;background-image:radial-gradient(rgba(59,38,20,.08) 1px,transparent 1.4px);background-size:7px 7px}
+.mag-cover.noimg{color:#3B2A1A;background-image:radial-gradient(rgba(59,42,26,.10) 1px,transparent 1.4px);background-size:7px 7px}
 .mag-cover.noimg *{text-shadow:none!important}
 .mag-cover:not(.noimg) .mag-top{border-color:rgba(255,255,255,.6)}
 .mag-cover.noimg .mag-credit{display:none}
-.mag .mag-cover.noimg button:focus-visible{outline-color:#3B2614}
+.mag .mag-cover.noimg button:focus-visible{outline-color:#3B2A1A}
 .mag-head{display:flex;flex-direction:column;align-items:center;border-bottom:1px solid rgba(255,255,255,.6);padding-bottom:6px}
 .mag-name{font-family:var(--serif);font-weight:800;font-size:clamp(40px,12vw,72px);line-height:.95;letter-spacing:-.02em;text-shadow:0 2px 12px rgba(0,0,0,.35)}
 .mag-issue{font:700 10px var(--sans);letter-spacing:.16em;text-transform:uppercase;margin-top:4px}
-.mag-lines{display:flex;flex-direction:column;gap:12px;margin:0 0 18px;max-width:82%}
+.mag-lines{display:flex;flex-direction:column;gap:12px;margin:0 0 18px;width:100%}
 .mag-lines.right{align-self:flex-end;text-align:right;align-items:flex-end}
 .mag button{all:unset;cursor:pointer;box-sizing:border-box}
 .mag button:focus-visible{outline:2px solid #fff;outline-offset:3px}
@@ -288,6 +288,12 @@ button.t.wk{display:block;padding:6px 0;border-bottom:1px solid var(--rule2)}
 .toc-n{font-size:22px;min-width:24px}
 .mag .toc-img{flex:0 0 72px;height:72px;margin-top:4px}
 .mag-cover.noimg .mag-cover-x{}
+
+.mag-row{display:flex;align-items:center;gap:8px;width:100%}
+.mag-row .mag-k,.mag-lines.right .mag-k{align-self:center}
+.mag-src{margin-left:auto;font:600 11px var(--sans);letter-spacing:.02em;opacity:.8;text-align:right;white-space:nowrap}
+.toc-src{color:var(--muted);opacity:1}
+.mag-lines.right{text-align:left;align-items:stretch}
 </style>
 </head>
 <body>
@@ -481,6 +487,7 @@ function iconFor(n){
 const ico = (k, size, color) => `<svg width="${size}" height="${size}" viewBox="0 0 64 64" fill="none" stroke="${color}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k]||ICONS.paper}</svg>`;
 function seeded(seed){ let x = seed % 2147483647; if(x <= 0) x += 2147483646; return () => (x = x * 16807 % 2147483647) / 2147483647; }
 const isOpinion = n => /\/opini|\/tribuna|\/columnas?\//i.test(n.link||'') || n.title.split(/\s+/).length <= 5;
+function srcTxt(n){ const k = (n.others||[]).length; return n.source.replace(/ · .*/,'') + (k ? ` y ${k} más` : ''); }
 function expl(n){
   const t = n.ai ? n.ai.esencial : firstSentence(n.summary||'');
   if(t && t.length > 30) return t.length > 200 ? t.slice(0,197).replace(/\s\S*$/,'') + '…' : t;
@@ -497,14 +504,14 @@ function frontPage(){
   const right = rnd() < 0.5, dark = !lead.image ? true : rnd() < 0.6;
   const ls = SEC[lead.sec] || SEC.portada;
   const bg = lead.image ? `background-image:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 45%,rgba(0,0,0,.82) 100%),url('${esc(lead.image)}')`
-                        : `background-color:#D8BFA0`;
+                        : `background-color:#EADBC4`;
   const dateTxt = new Date(ED.date+'T12:00:00').toLocaleDateString('es-ES',{day:'numeric',month:'long'});
   const dek = lead.ai ? lead.ai.porque : firstSentence(lead.summary||'');
   const cover = `<div class="mag-cover${lead.image?'':' noimg'}" style="${bg}">
       <div class="mag-top">Lo más importante de hoy</div>
-      <div class="mag-lines${right?' right':''}">${lines.map(n => { const s = SEC[n.sec]||SEC.portada; return `<button data-open30="${n.id}" class="mag-line"><span class="mag-k" style="background:${s.c};color:${s.fg}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-lt" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="mag-ex">${esc(expl(n))}</span></button>`; }).join('')}</div>
+      <div class="mag-lines${right?' right':''}">${lines.map(n => { const s = SEC[n.sec]||SEC.portada; return `<button data-open30="${n.id}" class="mag-line"><span class="mag-row"><span class="mag-k" style="background:${s.c};color:${s.fg}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-src">${esc(srcTxt(n))}</span></span><span class="mag-lt" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="mag-ex">${esc(expl(n))}</span></button>`; }).join('')}</div>
       <button class="mag-lead" data-open30="${lead.id}">
-        <span class="mag-k" style="background:${ls.c};color:${ls.fg}">${esc(ls.l)}${lead.score>1?` · ${lead.score} fuentes`:''}</span>
+        <span class="mag-row"><span class="mag-k" style="background:${ls.c};color:${ls.fg}">${esc(ls.l)}</span><span class="mag-src">${esc(srcTxt(lead))}</span></span>
         <span class="mag-h" ${lead.lang==='en'?'lang="en"':''}>${esc(lead.title)}</span>
         ${dek?`<span class="mag-dek">${esc(dek)}</span>`:''}${followBadge(lead)}
       </button>
@@ -512,7 +519,7 @@ function frontPage(){
     </div>`;
   const toc = more.map((n,i) => { const s = SEC[n.sec]||SEC.portada;
     return `<button class="toc-i" data-open30="${n.id}"><span class="toc-n" style="color:${s.c}">${i+1}</span>
-      <span class="toc-t"><span class="toc-k" style="color:${s.ink}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="toc-h" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="toc-ex">${esc(expl(n))}</span>${followBadge(n)}</span>
+      <span class="toc-t"><span class="mag-row"><span class="toc-k" style="color:${s.ink}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-src toc-src">${esc(srcTxt(n))}</span></span><span class="toc-h" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="toc-ex">${esc(expl(n))}</span>${followBadge(n)}</span>
       ${n.image?`<span class="toc-img" style="background-image:url('${esc(n.image)}')"></span>`:''}</button>`; }).join('');
   return `<section class="mag" aria-label="Lectura en 30 segundos">${cover}
     ${more.length?`<div class="toc"><div class="toc-title">Y además, hoy</div>${toc}</div>`:''}</section>`;
