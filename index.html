@@ -295,6 +295,8 @@ button.t.wk{display:block;padding:6px 0;border-bottom:1px solid var(--rule2)}
 .mag-src{margin-left:auto;font:600 11px var(--sans);letter-spacing:.02em;opacity:.8;text-align:right;white-space:nowrap}
 .toc-src{color:var(--muted);opacity:1}
 .mag-lines.right{text-align:left;align-items:stretch}
+
+.mag-cover.photo .mag-lt,.mag-cover.photo .mag-h,.mag-cover.photo .mag-ex,.mag-cover.photo .mag-dek,.mag-cover.photo .mag-src,.mag-cover.photo .mag-top{text-shadow:0 0 6px rgba(234,219,196,.9),0 0 2px rgba(234,219,196,.9)!important}
 </style>
 </head>
 <body>
@@ -504,7 +506,7 @@ function frontPage(){
   const issue = INDEX.editions.length - INDEX.editions.findIndex(e => e.date === ED.date);
   const right = rnd() < 0.5, dark = !lead.image ? true : rnd() < 0.6;
   const ls = SEC[lead.sec] || SEC.portada;
-  const bg = lead.image ? `background-image:radial-gradient(rgba(59,42,26,.10) 1px,transparent 1.4px),linear-gradient(rgba(234,219,196,.84),rgba(234,219,196,.84)),url('${esc(lead.image)}');background-size:7px 7px,cover,cover;background-position:0 0,center,center`
+  const bg = lead.image ? `background-image:linear-gradient(rgba(234,219,196,.58),rgba(234,219,196,.58)),url('${esc(lead.image)}');background-size:cover,cover;background-position:center,center`
                         : `background-color:#EADBC4`;
   const dateTxt = new Date(ED.date+'T12:00:00').toLocaleDateString('es-ES',{day:'numeric',month:'long'});
   const dek = lead.ai ? lead.ai.porque : firstSentence(lead.summary||'');
