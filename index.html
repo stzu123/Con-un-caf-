@@ -236,9 +236,6 @@ a.pod{color:var(--paper)}
   .toast{bottom:30px} }
 .badge-en{display:inline-block;margin-left:6px;background:var(--ink);color:#fff;font:700 10px var(--sans);padding:4px 6px;vertical-align:top}
 .badge-follow{display:inline-block;margin:6px 0 0;background:var(--note);color:var(--noteInk);font:700 11px var(--sans);padding:3px 8px;align-self:flex-start}
-.timebar{display:flex;align-items:center;gap:8px;margin:14px 18px 0;flex-wrap:wrap}
-.timebar span{font:700 12px var(--sans);margin-right:4px}
-.timebar button{min-height:38px;padding:0 14px;border:1px solid var(--ink);background:var(--card);font:700 13px var(--sans);color:var(--ink);border-radius:999px}
 .sunday{display:block;width:calc(100% - 36px);margin:14px 18px 0;padding:14px;border:0;background:#4B2A7A;color:#fff;font:15px var(--sans);text-align:left}
 .mag{margin:14px 18px 0}
 .mag-cover{position:relative;min-height:min(125vw,620px);background-size:cover;background-position:center;color:#fff;display:flex;flex-direction:column;padding:16px;overflow:hidden}
@@ -268,10 +265,6 @@ a.pod{color:var(--paper)}
 .toc-k{font:700 10px var(--sans);letter-spacing:.1em;text-transform:uppercase}
 .toc-h{font-family:var(--serif);font-weight:700;font-size:16px;line-height:1.2}
 .hero{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
-.qbar{display:flex;gap:4px;margin:6px 18px 12px}
-.qbar span{flex:1;height:4px;background:var(--rule)}
-.qbar span.done{background:var(--ink)}
-.qbar span.on{background:var(--claret)}
 .tl{display:flex;flex-direction:column;border-left:2px solid var(--noteInk);margin-left:6px}
 .tl-i{display:flex;flex-direction:column;gap:3px;padding:0 0 16px 16px;position:relative}
 .tl-i::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--noteInk)}
@@ -340,7 +333,7 @@ S.trash = S.trash || {}; S.follow = S.follow || {};
 function save(){ try{ localStorage.setItem('conuncafe', JSON.stringify(S)); }catch(e){} }
 const esc = s => String(s==null?'':s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let INDEX = {editions:[]}, ED = null;
-let view = {name:'edicion', sec:'portada', id:null, reg:'all', rtab:'pend', eco:'todo', ftab:'fav', minutes:5, qi:0, story:null};
+let view = {name:'edicion', sec:'portada', id:null, reg:'all', rtab:'pend', eco:'todo', ftab:'fav', story:null};
 let lastList = {name:'edicion', sec:'portada'};
 const uid = n => ED.date + ':' + n.id;
 const byId = id => ED.stories.find(n => n.id === id);
@@ -502,28 +495,6 @@ function frontPage(){
     <div class="toc"><div class="toc-title">En este número</div>${toc}</div></section>`;
 }
 
-/* ---------- ¿cuánto tiempo tienes? ---------- */
-function queue(){ const n = {2:3, 5:6, 10:10}[view.minutes] || 6; return topToday().concat(ranked(visible()).filter(x => !topToday().includes(x))).filter(x => !S.read[uid(x)] || true).slice(0, n); }
-function timeChips(){
-  return `<div class="timebar"><span>¿Cuánto tiempo tienes?</span>${[2,5,10].map(m => `<button data-minutes="${m}">${m} min</button>`).join('')}</div>`;
-}
-function vGuiada(){
-  const q = queue(), i = view.qi;
-  const bar = `<div class="qbar">${q.map((_,k) => `<span class="${k<i?'done':k===i?'on':''}"></span>`).join('')}</div>`;
-  if(i >= q.length) return `<button class="back" data-nav="edicion">${I.back}Portada</button>${bar}
-    <div class="empty" style="font-size:16px">¡Listo! Te has puesto al día en ${view.minutes} minutos. ☕<br><br><button class="btn" data-nav="edicion">Volver a la portada</button></div>`;
-  const n = q[i], s = SEC[n.sec]||SEC.portada, en = n.lang==='en';
-  return `<button class="back" data-nav="edicion">${I.back}Salir</button>${bar}
-    <div class="art"><span class="soon">${i+1} de ${q.length} · ${view.minutes} minutos</span>
-    <span class="chip" style="background:${s.c};color:${s.fg};align-self:flex-start">${esc(s.l)}${en?' · EN':''}</span>
-    ${n.image?`<img class="hero" src="${esc(n.image)}" alt="" loading="lazy">`:''}
-    <h1 ${en?'lang="en"':''}>${esc(n.title)}</h1>
-    ${n.ai?`<div class="box yellow"><span class="kicker">Lo esencial</span><p>${esc(n.ai.esencial)}</p></div><div class="box"><span class="kicker" style="color:var(--claret)">Por qué importa</span><p>${esc(n.ai.porque)}</p></div>`
-          :(n.summary?`<div class="box yellow"><span class="kicker">Lo esencial · ${esc(n.source)}</span><p ${en?'lang="en"':''}>${esc(n.summary)}</p></div>`:'')}
-    <div style="display:flex;gap:8px"><button class="btn" data-qnext style="flex:1">Leída, siguiente →</button><button class="btn ghost" data-qskip>Saltar</button></div>
-    <button class="linkbtn" style="padding:0" data-open="${n.id}">Abrir la noticia completa</button></div>`;
-}
-
 /* ---------- historia que sigues: línea del tiempo ---------- */
 async function storyTimeline(fid){
   const f = S.follow[fid]; if(!f) return [];
@@ -608,7 +579,7 @@ function vEdicion(){
   return masthead()+tabs()+
     (INDEX.editions.length>1?`<div style="padding:12px 18px 0" class="kicker"><span style="color:var(--muted)">Lo que marcó cada día</span></div><div class="days" style="padding-top:8px">${days}</div>`:'')+
     (new Date(ED.date+'T12:00:00').getDay()===0 ? `<button class="sunday" data-semana>Es domingo: <b>tu semana</b> te está esperando →</button>` : '')+
-    timeChips()+frontPage()+
+    frontPage()+
     `<p class="soon" style="margin:14px 18px 0">${ED.sources_ok} de ${ED.sources_total} fuentes leídas · actualizado ${esc(new Date(ED.generated_at).toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'}))}</p>`;
 }
 function vSeccion(sec){
@@ -740,10 +711,10 @@ function vPodcasts(){
 function render(){
   const m = document.getElementById('main');
   if(!ED){ m.innerHTML = '<div class="loading">Preparando tu café…</div>'; return; }
-  const V = {guiada:vGuiada, historia:vHistoria, semana:vSemana, edicion:vEdicion, noticia:()=>vNoticia(view.id), lectura:vLectura, notas:vNotas, favoritos:vFavoritos, calendario:vCalendario, podcasts:vPodcasts};
+  const V = {historia:vHistoria, semana:vSemana, edicion:vEdicion, noticia:()=>vNoticia(view.id), lectura:vLectura, notas:vNotas, favoritos:vFavoritos, calendario:vCalendario, podcasts:vPodcasts};
   m.innerHTML = (V[view.name]||vEdicion)();
   const tabsB = [['edicion','Edición',I.ed],['calendario','Calendario',I.cal],['lectura','Lectura',I.read],['notas','Notas',I.notes],['favoritos','Favoritos',I.fav],['podcasts','Podcasts',I.mic]];
-  const active = ({noticia:'edicion', guiada:'edicion', historia:'favoritos', semana:'calendario'})[view.name] || view.name;
+  const active = ({noticia:'edicion', historia:'favoritos', semana:'calendario'})[view.name] || view.name;
   const pend = visible().filter(n => !S.read[uid(n)]).length;
   document.getElementById('bnav').innerHTML = tabsB.map(([k,l,ic]) => `<button class="${active===k?'on':''}" data-nav="${k}" aria-current="${active===k?'page':'false'}" style="position:relative">${ic}${l}${k==='lectura'&&pend?`<span class="badge" style="top:4px;right:calc(50% - 22px)">${pend}</span>`:''}</button>`).join('');
   document.getElementById('side').innerHTML = `<span class="logo">Con un Café</span>
@@ -793,9 +764,6 @@ document.addEventListener('click', e => {
   if(d.reg){ view.reg = d.reg; render(); return; }
   if(d.eco){ view.eco = d.eco; render(); return; }
   if(d.ftab){ view.ftab = d.ftab; render(); return; }
-  if(d.minutes){ go({name:'guiada', minutes:+d.minutes, qi:0}); return; }
-  if(d.qnext!==undefined){ const q = queue(); const n = q[view.qi]; if(n){ S.read[uid(n)] = meta(n); S.readDays[ED.date] = true; save(); } view.qi++; render(); window.scrollTo(0,0); return; }
-  if(d.qskip!==undefined){ view.qi++; render(); window.scrollTo(0,0); return; }
   if(d.story){ go({name:'historia', story:d.story}); return; }
   if(d.unfollow){ delete S.follow[d.unfollow]; save(); go({name:'favoritos', ftab:'follow'}); return; }
   if(d.semana!==undefined){ go({name:'semana'}); return; }
