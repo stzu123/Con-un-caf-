@@ -177,8 +177,9 @@ def call_ai(messages):
     import os
     attempts = []
     if os.environ.get("GEMINI_API_KEY"):
-        attempts.append(("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", os.environ["GEMINI_API_KEY"],
-                         os.environ.get("GEMINI_MODEL", "gemini-flash-latest")))
+        # primero el modelo más potente (Pro); si no está disponible para esa clave, Flash
+        for model in os.environ.get("GEMINI_MODEL", "gemini-pro-latest,gemini-flash-latest").split(","):
+            attempts.append(("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", os.environ["GEMINI_API_KEY"], model.strip()))
     if os.environ.get("GITHUB_TOKEN"):
         attempts.append(("https://models.github.ai/inference/chat/completions", os.environ["GITHUB_TOKEN"],
                          os.environ.get("GH_MODEL", "openai/gpt-4.1-mini")))
