@@ -234,6 +234,55 @@ a.pod{color:var(--paper)}
   .bnav,.tabs[role=tablist]{display:none}
   .main{padding-bottom:40px}
   .toast{bottom:30px} }
+.badge-en{display:inline-block;margin-left:6px;background:var(--ink);color:#fff;font:700 10px var(--sans);padding:4px 6px;vertical-align:top}
+.badge-follow{display:inline-block;margin:6px 0 0;background:var(--note);color:var(--noteInk);font:700 11px var(--sans);padding:3px 8px;align-self:flex-start}
+.timebar{display:flex;align-items:center;gap:8px;margin:14px 18px 0;flex-wrap:wrap}
+.timebar span{font:700 12px var(--sans);margin-right:4px}
+.timebar button{min-height:38px;padding:0 14px;border:1px solid var(--ink);background:var(--card);font:700 13px var(--sans);color:var(--ink);border-radius:999px}
+.sunday{display:block;width:calc(100% - 36px);margin:14px 18px 0;padding:14px;border:0;background:#4B2A7A;color:#fff;font:15px var(--sans);text-align:left}
+.mag{margin:14px 18px 0}
+.mag-cover{position:relative;min-height:min(125vw,620px);background-size:cover;background-position:center;color:#fff;display:flex;flex-direction:column;padding:16px;overflow:hidden}
+.mag-cover.noimg{background-image:radial-gradient(rgba(255,255,255,.12) 1px,transparent 1.4px);background-size:7px 7px}
+.mag-head{display:flex;flex-direction:column;align-items:center;border-bottom:1px solid rgba(255,255,255,.6);padding-bottom:6px}
+.mag-name{font-family:var(--serif);font-weight:800;font-size:clamp(40px,12vw,72px);line-height:.95;letter-spacing:-.02em;text-shadow:0 2px 12px rgba(0,0,0,.35)}
+.mag-issue{font:700 10px var(--sans);letter-spacing:.16em;text-transform:uppercase;margin-top:4px}
+.mag-lines{display:flex;flex-direction:column;gap:10px;margin:14px 0 18px;max-width:66%}
+.mag-lines.right{align-self:flex-end;text-align:right;align-items:flex-end}
+.mag button{all:unset;cursor:pointer;box-sizing:border-box}
+.mag button:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.mag .mag-line{display:flex;flex-direction:column;gap:4px;align-items:inherit}
+.mag-k{display:inline-block;font:700 10px var(--sans);letter-spacing:.1em;text-transform:uppercase;padding:3px 7px;align-self:flex-start}
+.mag-lines.right .mag-k{align-self:flex-end}
+.mag-lt{font-family:var(--serif);font-weight:700;font-size:16px;line-height:1.15;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.mag .mag-lead{margin-top:auto;display:flex;flex-direction:column;gap:8px}
+.mag-h{font-family:var(--serif);font-weight:800;font-size:clamp(28px,8vw,48px);line-height:1;text-shadow:0 2px 14px rgba(0,0,0,.45)}
+.mag-dek{font-family:var(--body);font-size:16px;line-height:1.35;max-width:90%;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.mag-credit{position:absolute;right:8px;bottom:4px;font-size:10px;opacity:.8}
+.toc{background:var(--card);border:1px solid var(--ink);border-top:0;padding:4px 14px 8px}
+.toc-title{font-family:var(--serif);font-style:italic;font-size:22px;padding:10px 0 6px;border-bottom:3px double var(--ink)}
+.mag .toc-i{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--rule2);width:100%}
+.mag .toc-i:last-child{border-bottom:0}
+.toc-n{font-family:var(--serif);font-weight:800;font-size:28px;min-width:38px}
+.toc-img{flex:0 0 64px;height:64px;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center}
+.toc-t{display:flex;flex-direction:column;gap:3px;min-width:0}
+.toc-k{font:700 10px var(--sans);letter-spacing:.1em;text-transform:uppercase}
+.toc-h{font-family:var(--serif);font-weight:700;font-size:16px;line-height:1.2}
+.hero{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.qbar{display:flex;gap:4px;margin:6px 18px 12px}
+.qbar span{flex:1;height:4px;background:var(--rule)}
+.qbar span.done{background:var(--ink)}
+.qbar span.on{background:var(--claret)}
+.tl{display:flex;flex-direction:column;border-left:2px solid var(--noteInk);margin-left:6px}
+.tl-i{display:flex;flex-direction:column;gap:3px;padding:0 0 16px 16px;position:relative}
+.tl-i::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--noteInk)}
+.tl-d{font:700 11px var(--sans);text-transform:uppercase;letter-spacing:.06em;color:var(--noteInk)}
+button.t{all:unset;cursor:pointer;font-family:var(--serif);font-size:17px;line-height:1.25}
+button.t.wk{display:block;padding:6px 0;border-bottom:1px solid var(--rule2)}
+.wbar{display:grid;grid-template-columns:96px 1fr 24px;gap:8px;align-items:center;font-size:13px}
+.wtrack{height:10px;background:var(--rule2);display:block}
+.wtrack span{display:block;height:10px}
+@media (min-width:700px){.mag-cover{min-height:480px}}
+.mini-mast{display:flex;justify-content:center;padding:12px 18px 10px;border-bottom:3px double var(--ink);font:700 12px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
 </style>
 </head>
 <body>
@@ -269,6 +318,7 @@ const I = {
   fav:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-9-8.6A4.7 4.7 0 0 1 12 6.5a4.7 4.7 0 0 1 9 4.9C19 15.6 12 20 12 20z"/></svg>',
   mic:'<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>',
   trash:(c)=>`<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6"/></svg>`,
+  follow:(on,c)=>`<svg width="20" height="20" viewBox="0 0 24 24" fill="${on?c:'none'}" stroke="${c}" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>`,
   cup:'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 8h12v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5zM16 10h2a2 2 0 0 1 0 4h-2"/></svg>'
 };
 const SEC = {
@@ -284,34 +334,51 @@ const REG = [['all','All'],['europe','Europe'],['us','United States'],['asia','A
 const SRC_COLORS = ['#1F3A5F','#C2185B','#1E7B4F','#5C534C','#7A5C00','#4B2A7A'];
 
 /* ---------- estado ---------- */
-let S = {read:{},fav:{},notes:[],readDays:{},trash:{}};
+let S = {read:{},fav:{},notes:[],readDays:{},trash:{},follow:{}};
 try{ const raw = localStorage.getItem('conuncafe'); if(raw) S = Object.assign(S, JSON.parse(raw)); }catch(e){}
-S.trash = S.trash || {};
+S.trash = S.trash || {}; S.follow = S.follow || {};
 function save(){ try{ localStorage.setItem('conuncafe', JSON.stringify(S)); }catch(e){} }
 const esc = s => String(s==null?'':s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let INDEX = {editions:[]}, ED = null;
-let view = {name:'edicion', sec:'portada', id:null, reg:'all', rtab:'pend'};
+let view = {name:'edicion', sec:'portada', id:null, reg:'all', rtab:'pend', eco:'todo', ftab:'fav', minutes:5, qi:0, story:null};
 let lastList = {name:'edicion', sec:'portada'};
 const uid = n => ED.date + ':' + n.id;
 const byId = id => ED.stories.find(n => n.id === id);
 const visible = () => ED.stories.filter(n => !S.trash[uid(n)]);
-const meta = n => ({uid:uid(n), title:n.title, sec:n.sec, date:ED.date, source:n.source, link:n.link});
+const meta = n => ({uid:uid(n), title:n.title, sec:n.sec, date:ED.date, source:n.source, link:n.link, read:Date.now()});
 const fmtDay = d => new Date(d+'T12:00:00').toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'long'});
 const todayISO = () => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
 
 async function getJSON(p){ const r = await fetch(p, {cache:'no-store'}); if(!r.ok) throw new Error(p); return r.json(); }
 async function loadEdition(date){ ED = await getJSON('data/'+date+'.json'); }
 
+/* ---------- historias que sigues ---------- */
+const EDCACHE = {};
+async function getEdition(date){ if(!EDCACHE[date]) EDCACHE[date] = await getJSON('data/'+date+'.json'); return EDCACHE[date]; }
+function storyWords(n){ return [...new Set(words(n.title + ' ' + (n.summary||'')))]; }
+function followOf(n, own){
+  const sw = new Set(storyWords(n)), u = ED.date + ':' + n.id;
+  for(const [fid, f] of Object.entries(S.follow)){
+    if(!f) continue;
+    if(f.origin === u) return own ? fid : null;
+    const hit = f.words.filter(w => sw.has(w)).length;
+    if(hit >= Math.max(2, Math.ceil(f.words.length * 0.35))) return fid;
+  }
+  return null;
+}
+function followBadge(n){ const fid = followOf(n); return fid ? `<span class="badge-follow">Historia que sigues</span>` : ''; }
+
 /* ---------- piezas ---------- */
 function acts(n, light){
   const c = light ? '#FFFFFF' : '#5C534C', u = uid(n);
-  const r = !!S.read[u], f = !!S.fav[u];
+  const r = !!S.read[u], f = !!S.fav[u], fo = !!followOf(n, true);
   return `<div class="acts">
     <button class="act" data-act="note" data-id="${n.id}" aria-label="Añadir nota">${I.note}</button>
     <button class="act" data-act="read" data-id="${n.id}" aria-label="${r?'Desmarcar leída':'Marcar como leída'}" aria-pressed="${r}">${I.tick(r,c)}</button>
     <button class="act" data-act="fav" data-id="${n.id}" aria-label="${f?'Quitar de favoritos':'Guardar en favoritos'}" aria-pressed="${f}">${I.heart(f,c)}</button>
+    <button class="act" data-act="follow" data-id="${n.id}" aria-label="${fo?'Dejar de seguir esta historia':'Seguir esta historia'}" aria-pressed="${fo}">${I.follow(fo, fo?'#4B2A7A':c)}</button>
     <button class="act" data-act="trash" data-id="${n.id}" aria-label="Descartar: no me interesa">${I.trash(c)}</button>
-    <span class="st">${[r?'Leída':'', f?'En favoritos':''].filter(Boolean).join(' · ')}</span></div>`;
+    <span class="st">${[r?'Leída':'', f?'En favoritos':'', fo?'Siguiendo':''].filter(Boolean).join(' · ')}</span></div>`;
 }
 function podLink(p){
   const s = SEC[p.sec] || SEC.portada;
@@ -324,8 +391,9 @@ function podLink(p){
 function masthead(){
   const d = new Date(ED.date+'T12:00:00').toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
   const old = ED.date !== todayISO();
-  return `<header class="mast"><div class="date" style="justify-content:center;min-height:24px"><span>${esc(d)}</span></div>
-    <h1>Con un Café</h1><p>Lo que importa hoy</p></header>
+  const compact = view.name==='edicion' && view.sec==='portada';   // en la portada, la cabecera es la propia revista
+  return `${compact ? `<header class="mini-mast"><span>${esc(d)} · Lo que importa hoy</span></header>` : `<header class="mast"><div class="date" style="justify-content:center;min-height:24px"><span>${esc(d)}</span></div>
+    <h1>Con un Café</h1><p>Lo que importa hoy</p></header>`}
     ${old && ED.date === (INDEX.editions[0]||{}).date ? `<div class="notice">Todavía no está la edición de hoy. Estás viendo la del ${esc(fmtDay(ED.date))}.</div>` : ''}
     ${old && ED.date !== (INDEX.editions[0]||{}).date ? `<div class="notice">Estás viendo una edición anterior: ${esc(fmtDay(ED.date))}. <button class="linkbtn" style="padding:0" data-latest>Ir a la más reciente</button></div>` : ''}`;
 }
@@ -336,9 +404,9 @@ function tabs(){
 function storyCard(n){
   const s = SEC[n.sec] || SEC.portada;
   const more = (n.others||[]).length;
-  return `<article class="story"><span class="chip" style="background:${s.c};color:${s.fg}">${esc(n.source)}${more?` · +${more} fuentes`:''}</span>
+  return `<article class="story"><span class="chip" style="background:${s.c};color:${s.fg}">${esc(n.source)}${more?` · +${more} fuentes`:''}</span>${n.lang==='en'&&n.sec!=='international'?'<span class="badge-en">EN</span>':''}${followBadge(n)}
     <h3 style="font-size:24px" ${n.lang==='en'?'lang="en"':''}><button data-open="${n.id}">${esc(n.title)}</button></h3>
-    ${n.summary?`<p class="lede" ${n.lang==='en'?'lang="en"':''}>${esc(n.summary)}</p>`:''}
+    ${n.ai?`<p class="lede">${esc(n.ai.esencial)}</p>`:(n.summary?`<p class="lede" ${n.lang==='en'?'lang="en"':''}>${esc(n.summary)}</p>`:'')}
     ${acts(n)}</article>`;
 }
 
@@ -371,70 +439,161 @@ function topToday(){
   return out;
 }
 
-/* ---------- Lectura en 30 segundos: portada de periódico ---------- */
+/* ---------- Lectura en 30 segundos: portada de revista ---------- */
 const ICONS = {
   ballot:'<path d="M14 30h36v24H14z"/><path d="M24 30V12h16v18"/><path d="M28 18h8M28 23h8M22 42h20"/>',
-  lectern:'<path d="M20 20h24l-4 10H24z"/><path d="M32 30v20M22 54h20"/><circle cx="32" cy="12" r="5"/>',
   euro:'<circle cx="32" cy="32" r="22"/><path d="M41 22a12 12 0 1 0 0 20M20 29h18M20 35h18"/>',
   chart:'<path d="M10 52h44M10 52V12"/><path d="M16 44l10-12 8 6 14-18"/><path d="M42 20h6v6"/>',
   house:'<path d="M10 30L32 12l22 18"/><path d="M16 26v26h32V26"/><path d="M27 52V38h10v14"/>',
-  train:'<rect x="18" y="10" width="28" height="34" rx="6"/><path d="M18 30h28M24 50l-4 6M40 50l4 6"/><circle cx="25" cy="38" r="2"/><circle cx="39" cy="38" r="2"/>',
+  train:'<rect x="18" y="10" width="28" height="34" rx="6"/><path d="M18 30h28M24 50l-4 6M40 50l4 6"/>',
   leaf:'<path d="M14 50C14 26 30 14 52 12c-2 24-14 40-38 38z"/><path d="M14 50l22-22"/>',
   globe:'<circle cx="32" cy="32" r="22"/><path d="M10 32h44M32 10c9 7 9 37 0 44M32 10c-9 7-9 37 0 44"/>',
-  rocket:'<path d="M32 8c10 8 12 22 8 34H24c-4-12-2-26 8-34z"/><circle cx="32" cy="24" r="4"/><path d="M24 42l-6 8h10M40 42l6 8H36M28 50l4 8 4-8"/>',
   hanger:'<path d="M32 22a5 5 0 1 1 5-5"/><path d="M32 22v4L8 44h48L32 26"/>',
   scales:'<path d="M32 10v44M20 54h24M14 18h36"/><path d="M14 18l-6 14h12zM50 18l-6 14h12z"/>',
-  bolt:'<path d="M36 8L16 36h14l-4 20 22-30H34z"/>',
-  chip:'<rect x="18" y="18" width="28" height="28"/><rect x="26" y="26" width="12" height="12"/><path d="M24 10v8M32 10v8M40 10v8M24 46v8M32 46v8M40 46v8M10 24h8M10 32h8M10 40h8M46 24h8M46 32h8M46 40h8"/>',
-  heartbeat:'<path d="M8 34h12l6-14 8 28 6-14h16"/>',
-  ball:'<circle cx="32" cy="32" r="20"/><path d="M32 22l8 6-3 10H27l-3-10z"/>',
-  flag:'<path d="M16 56V10"/><path d="M16 12h30l-6 10 6 10H16"/>',
+  chip:'<rect x="18" y="18" width="28" height="28"/><rect x="26" y="26" width="12" height="12"/>',
   paper:'<path d="M12 14h40v38H12z"/><path d="M18 22h28M18 30h28M18 38h18"/>'
 };
 const ICON_RULES = [
-  ['ballot', /elecci|electoral|votaci|urna|encuesta|ballot|election|vote/],
-  ['house', /vivienda|alquiler|hipoteca|inmobiliar|housing|rent|mortgage/],
-  ['train', /tren|renfe|adif|ferroviar|huelga|metro|aeropuerto|vuelo|train|rail|strike|airport|flight/],
-  ['leaf', /clima|cop\d|emisiones|medio ambiente|sequia|incendio|lluvia|dana|climate|emissions|wildfire|flood/],
-  ['rocket', /espacio|sonda|nasa|esa\b|luna|marte|mercurio|cohete|space|probe|moon|mars|mercury|rocket/],
-  ['hanger', /moda|desfile|ropa|zara|inditex|nike|marca|textil|fashion|clothing|brand|luxury/],
-  ['scales', /juez|jueza|tribunal|juicio|fiscal|supremo|condena|court|judge|trial|lawsuit/],
-  ['bolt', /energia|petroleo|gas|luz|electricidad|ormuz|energy|oil|power|electricity/],
-  ['chip', /tecnolog|inteligencia artificial|\bia\b|chip|apple|google|meta|openai|anthropic|technology|\bai\b|software/],
-  ['heartbeat', /salud|hospital|sanidad|virus|gripe|medic|health|disease|vaccine/],
-  ['ball', /futbol|liga|champions|real madrid|barca|tenis|deporte|football|sport|olympic/],
-  ['flag', /guerra|ataque|ejercito|otan|ucrania|rusia|gaza|israel|iran|war|army|nato|ukraine|russia/],
-  ['euro', /inflaci|precio|ipc|\bbce\b|tipos de inter|\beuros?\b|salari|sueldo|pension|impuesto|inflation|prices|interest rate|tax/],
-  ['chart', /bolsa|ibex|mercado|acciones|empresa|beneficio|ventas|banco|resultados|stock|market|shares|bank|earnings/],
-  ['lectern', /debate|discurso|comparecen|parlament|congreso|senado|gobierno|ministr|president|parliament|minister/]
+  ['ballot', /elecci|electoral|votaci|encuesta|election|vote|debate|congreso|parlament/],
+  ['house', /vivienda|alquiler|hipoteca|housing|rent|mortgage/],
+  ['train', /tren|renfe|adif|huelga|aeropuerto|vuelo|aerol|train|rail|strike|airline|flight/],
+  ['leaf', /clima|cop\d|emisiones|incendio|dana|climate|emissions|wildfire|flood/],
+  ['hanger', /moda|desfile|ropa|zara|inditex|nike|fashion|clothing|luxury/],
+  ['scales', /juez|jueza|tribunal|juicio|fiscal|supremo|court|judge|trial/],
+  ['chip', /tecnolog|inteligencia artificial|\bia\b|chip|apple|google|openai|nvidia|technology|\bai\b/],
+  ['euro', /inflaci|precio|\bbce\b|tipos de inter|\beuros?\b|salari|sueldo|impuesto|inflation|prices|tax/],
+  ['chart', /bolsa|mercado|empresa|banco|ventas|stock|market|bank|shares/]
 ];
 function iconFor(n){
   const t = (n.title + ' ' + (n.summary||'')).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
   for(const [k, re] of ICON_RULES) if(re.test(t)) return k;
   return n.sec==='international' ? 'globe' : 'paper';
 }
-const ico = (k, size, color) => `<svg class="np-ico" width="${size}" height="${size}" viewBox="0 0 64 64" fill="none" stroke="${color}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k]||ICONS.paper}</svg>`;
+const ico = (k, size, color) => `<svg width="${size}" height="${size}" viewBox="0 0 64 64" fill="none" stroke="${color}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k]||ICONS.paper}</svg>`;
 function seeded(seed){ let x = seed % 2147483647; if(x <= 0) x += 2147483646; return () => (x = x * 16807 % 2147483647) / 2147483647; }
 function firstSentence(t){ const m = (t||'').match(/^.{40,220}?[.!?](\s|$)/); return m ? m[0].trim() : (t||'').slice(0,180); }
 function frontPage(){
   const top = topToday(); if(!top.length) return '';
   const rnd = seeded(parseInt(ED.date.replace(/-/g,''),10));
-  const flip = rnd() < 0.5;                       // la pieza principal cambia de lado cada día
   const [lead, ...rest] = top;
-  const second = rest.slice(0, 4), briefs = rest.slice(4);
-  const kick = n => { const s = SEC[n.sec]||SEC.portada; return `<span class="np-kick" style="color:${s.ink}">${esc(s.l)}${n.score>1?` · ${n.score} fuentes`:''}</span>`; };
-  const leadHTML = `<button class="np-lead${flip?' flip':''}" data-open30="${lead.id}">
-      <span class="np-leadico">${ico(iconFor(lead), 92, (SEC[lead.sec]||SEC.portada).c)}</span>
-      <span class="np-leadtxt">${kick(lead)}<span class="np-h1" ${lead.lang==='en'?'lang="en"':''}>${esc(lead.title)}</span>
-      ${lead.summary?`<span class="np-dek" ${lead.lang==='en'?'lang="en"':''}>${esc(firstSentence(lead.summary))}</span>`:''}</span></button>`;
-  const secHTML = second.map(n => `<button class="np-col" data-open30="${n.id}">${ico(iconFor(n), 40, (SEC[n.sec]||SEC.portada).c)}${kick(n)}<span class="np-h2" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span></button>`).join('');
-  const briefHTML = briefs.map(n => `<button class="np-brief" data-open30="${n.id}">${ico(iconFor(n), 26, (SEC[n.sec]||SEC.portada).c)}<span>${kick(n)}<span class="np-h3" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span></span></button>`).join('');
-  return `<section class="np" aria-label="Lectura en 30 segundos">
-    <div class="np-bar"><span>Lectura en 30 segundos</span><span>${top.length} noticias</span></div>
-    ${leadHTML}
-    <div class="np-grid">${secHTML}</div>
-    ${briefs.length?`<div class="np-briefs">${briefHTML}</div>`:''}
-  </section>`;
+  const lines = rest.slice(0, 3);
+  const issue = INDEX.editions.length - INDEX.editions.findIndex(e => e.date === ED.date);
+  const right = rnd() < 0.5, dark = !lead.image ? true : rnd() < 0.6;
+  const ls = SEC[lead.sec] || SEC.portada;
+  const bg = lead.image ? `background-image:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 45%,rgba(0,0,0,.82) 100%),url('${esc(lead.image)}')`
+                        : `background:${ls.c}`;
+  const dateTxt = new Date(ED.date+'T12:00:00').toLocaleDateString('es-ES',{day:'numeric',month:'long'});
+  const dek = lead.ai ? lead.ai.porque : firstSentence(lead.summary||'');
+  const cover = `<div class="mag-cover${lead.image?'':' noimg'}" style="${bg}">
+      <div class="mag-head"><span class="mag-name">Con un Café</span><span class="mag-issue">Nº ${issue} · ${esc(dateTxt)}</span></div>
+      <div class="mag-lines${right?' right':''}">${lines.map(n => { const s = SEC[n.sec]||SEC.portada; return `<button data-open30="${n.id}" class="mag-line"><span class="mag-k" style="background:${s.c};color:${s.fg}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-lt" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span></button>`; }).join('')}</div>
+      <button class="mag-lead" data-open30="${lead.id}">
+        <span class="mag-k" style="background:${ls.c};color:${ls.fg}">${esc(ls.l)}${lead.score>1?` · ${lead.score} fuentes`:''}</span>
+        <span class="mag-h" ${lead.lang==='en'?'lang="en"':''}>${esc(lead.title)}</span>
+        ${dek?`<span class="mag-dek">${esc(dek)}</span>`:''}${followBadge(lead)}
+      </button>
+      ${lead.image?`<span class="mag-credit">Imagen: ${esc(lead.source)}</span>`:''}
+    </div>`;
+  const toc = rest.map((n,i) => { const s = SEC[n.sec]||SEC.portada;
+    return `<button class="toc-i" data-open30="${n.id}"><span class="toc-n" style="color:${s.c}">${String(i+2).padStart(2,'0')}</span>
+      ${n.image?`<span class="toc-img" style="background-image:url('${esc(n.image)}')"></span>`:`<span class="toc-img noimg" style="background:${s.c}">${ico(iconFor(n), 30, s.fg)}</span>`}
+      <span class="toc-t"><span class="toc-k" style="color:${s.ink}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="toc-h" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span>${followBadge(n)}</span></button>`; }).join('');
+  return `<section class="mag" aria-label="Lectura en 30 segundos">${cover}
+    <div class="toc"><div class="toc-title">En este número</div>${toc}</div></section>`;
+}
+
+/* ---------- ¿cuánto tiempo tienes? ---------- */
+function queue(){ const n = {2:3, 5:6, 10:10}[view.minutes] || 6; return topToday().concat(ranked(visible()).filter(x => !topToday().includes(x))).filter(x => !S.read[uid(x)] || true).slice(0, n); }
+function timeChips(){
+  return `<div class="timebar"><span>¿Cuánto tiempo tienes?</span>${[2,5,10].map(m => `<button data-minutes="${m}">${m} min</button>`).join('')}</div>`;
+}
+function vGuiada(){
+  const q = queue(), i = view.qi;
+  const bar = `<div class="qbar">${q.map((_,k) => `<span class="${k<i?'done':k===i?'on':''}"></span>`).join('')}</div>`;
+  if(i >= q.length) return `<button class="back" data-nav="edicion">${I.back}Portada</button>${bar}
+    <div class="empty" style="font-size:16px">¡Listo! Te has puesto al día en ${view.minutes} minutos. ☕<br><br><button class="btn" data-nav="edicion">Volver a la portada</button></div>`;
+  const n = q[i], s = SEC[n.sec]||SEC.portada, en = n.lang==='en';
+  return `<button class="back" data-nav="edicion">${I.back}Salir</button>${bar}
+    <div class="art"><span class="soon">${i+1} de ${q.length} · ${view.minutes} minutos</span>
+    <span class="chip" style="background:${s.c};color:${s.fg};align-self:flex-start">${esc(s.l)}${en?' · EN':''}</span>
+    ${n.image?`<img class="hero" src="${esc(n.image)}" alt="" loading="lazy">`:''}
+    <h1 ${en?'lang="en"':''}>${esc(n.title)}</h1>
+    ${n.ai?`<div class="box yellow"><span class="kicker">Lo esencial</span><p>${esc(n.ai.esencial)}</p></div><div class="box"><span class="kicker" style="color:var(--claret)">Por qué importa</span><p>${esc(n.ai.porque)}</p></div>`
+          :(n.summary?`<div class="box yellow"><span class="kicker">Lo esencial · ${esc(n.source)}</span><p ${en?'lang="en"':''}>${esc(n.summary)}</p></div>`:'')}
+    <div style="display:flex;gap:8px"><button class="btn" data-qnext style="flex:1">Leída, siguiente →</button><button class="btn ghost" data-qskip>Saltar</button></div>
+    <button class="linkbtn" style="padding:0" data-open="${n.id}">Abrir la noticia completa</button></div>`;
+}
+
+/* ---------- historia que sigues: línea del tiempo ---------- */
+async function storyTimeline(fid){
+  const f = S.follow[fid]; if(!f) return [];
+  const dates = INDEX.editions.map(e => e.date).filter(d => d >= f.date).slice(0, 30);
+  const out = [];
+  for(const d of dates){
+    try{ const ed = await getEdition(d);
+      ed.stories.forEach(n => { const sw = new Set(storyWords(n)); const hit = f.words.filter(w => sw.has(w)).length;
+        if(d+':'+n.id === f.origin || hit >= Math.max(2, Math.ceil(f.words.length*0.35))) out.push({date:d, n}); });
+    }catch(e){}
+  }
+  return out;
+}
+let TL = {fid:null, items:null};
+function vHistoria(){
+  const fid = view.story, f = S.follow[fid];
+  if(!f) return `<div class="empty">Ya no sigues esta historia.</div>`;
+  if(TL.fid !== fid){ TL = {fid, items:null}; storyTimeline(fid).then(items => { if(TL.fid === fid){ TL.items = items; render(); } }); }
+  const items = TL.items;
+  const notes = S.notes.filter(x => x.uid && items && items.some(it => it.date+':'+it.n.id === x.uid));
+  return `<button class="back" data-nav="favoritos">${I.back}Historias que sigues</button>
+    <div class="art"><span class="kicker" style="color:var(--noteInk)">Historia que sigues · desde el ${esc(fmtDay(f.date))}</span><h1>${esc(f.title)}</h1>
+    ${items===null?'<div class="loading">Buscando en tus ediciones…</div>':
+      `<div class="tl">${items.slice().reverse().map(it => `<div class="tl-i"><span class="tl-d">${esc(new Date(it.date+'T12:00:00').toLocaleDateString('es-ES',{weekday:'short',day:'numeric',month:'short'}))}</span>
+        <button class="t" data-openuid="${esc(it.date+':'+it.n.id)}">${esc(it.n.title)}</button><span class="soon" style="font-style:normal">${esc(it.n.source)}${(it.n.others||[]).length?` y ${it.n.others.length} más`:''}</span></div>`).join('')}</div>`}
+    ${notes.length?`<h2 class="h2">Tus notas sobre esta historia</h2>${notes.map(x => `<div class="ncard"><div class="bd"><div style="font-size:15px;white-space:pre-wrap">${esc(x.text)}</div></div></div>`).join('')}`:''}
+    <button class="btn ghost" data-unfollow="${esc(fid)}" style="align-self:flex-start">Dejar de seguir</button></div>`;
+}
+
+/* ---------- tu semana ---------- */
+let WK = {key:null, data:null};
+async function weekData(){
+  const dates = INDEX.editions.map(e => e.date).filter(d => d <= ED.date).slice(0, 7);
+  const eds = []; for(const d of dates){ try{ eds.push(await getEdition(d)); }catch(e){} }
+  return {dates, eds};
+}
+function vSemana(){
+  const key = ED.date;
+  if(WK.key !== key){ WK = {key, data:null}; weekData().then(d => { if(WK.key === key){ WK.data = d; render(); } }); }
+  if(!WK.data) return `<div class="loading">Preparando tu semana…</div>`;
+  const {dates, eds} = WK.data, from = dates[dates.length-1];
+  const all = []; eds.forEach(ed => ed.stories.forEach(n => all.push({date:ed.date, n})));
+  const seen = []; const big = all.sort((a,b) => (b.n.score||1)-(a.n.score||1)).filter(x => { const w = new Set(words(x.n.title)); if(seen.some(sw => [...w].filter(y => sw.has(y)).length >= 3)) return false; seen.push(w); return true; }).slice(0,5);
+  const inWeek = m => m && m.date >= from && m.date <= ED.date;
+  const reads = Object.values(S.read).filter(inWeek), favs = Object.values(S.fav).filter(inWeek);
+  const bySec = {}; reads.forEach(m => bySec[m.sec] = (bySec[m.sec]||0)+1);
+  const total = reads.length || 1;
+  const missing = ['espana','international','economia','politica'].filter(k => !bySec[k]);
+  const skipped = big.filter(x => !S.read[x.date+':'+x.n.id]);
+  const notes = S.notes.filter(x => x.uid && x.uid.slice(0,10) >= from);
+  return `<button class="back" data-nav="calendario">${I.back}Calendario</button>
+    <header class="mast" style="text-align:left"><span class="kicker" style="color:var(--muted)">Del ${esc(fmtDay(from))} al ${esc(fmtDay(ED.date))}</span><h1 style="font-size:36px">Tu semana</h1></header>
+    <div class="wrap" style="display:flex;flex-direction:column;gap:16px;padding-top:14px">
+    <div class="box"><span class="kicker" style="color:var(--claret)">Lo que más se ha contado</span>${big.map((x,i) => `<button class="t wk" data-openuid="${esc(x.date+':'+x.n.id)}"><b>${i+1}</b> ${esc(x.n.title)} <span class="soon" style="font-style:normal">· ${x.n.score||1} fuentes</span></button>`).join('')}</div>
+    <div class="box"><span class="kicker" style="color:var(--claret)">Tu lectura</span>
+      <p style="font-size:15px">${reads.length} noticias leídas, ${favs.length} favoritas y ${notes.length} notas.</p>
+      ${['espana','international','economia','politica','moda'].map(k => { const v = bySec[k]||0, s = SEC[k]; return `<div class="wbar"><span>${s.l}</span><span class="wtrack"><span style="width:${Math.round(v/total*100)}%;background:${s.c}"></span></span><span>${v}</span></div>`; }).join('')}
+      ${missing.length && reads.length?`<p style="font-size:14px">Esta semana no has leído nada de <b>${missing.map(k => SEC[k].l).join(', ')}</b>. ¿Le echas un ojo?</p>`:''}</div>
+    ${skipped.length?`<div class="box"><span class="kicker" style="color:var(--claret)">Te lo saltaste</span>${skipped.map(x => `<button class="t wk" data-openuid="${esc(x.date+':'+x.n.id)}">${esc(x.n.title)}</button>`).join('')}</div>`:''}
+    <div class="box cafe"><span class="kicker" style="color:#6B3A12">Tus notas de la semana</span><p style="font-size:15px">${notes.length} notas. Descárgalas en un archivo para llevarlas a clase.</p>
+      <button class="btn" data-export style="align-self:flex-start">Exportar notas de la semana</button></div></div>`;
+}
+function exportNotes(){
+  const from = (WK.data && WK.data.dates[WK.data.dates.length-1]) || '0000';
+  const notes = S.notes.filter(x => !x.uid || x.uid.slice(0,10) >= from);
+  const txt = ['Con un Café · Mis notas', '', ...notes.map(x => `• ${x.title ? x.title + (x.link ? ' (' + x.link + ')' : '') + '\n  ' : ''}${x.kind==='vocab'?'Vocabulario: ':''}${x.text}${x.def ? ' — ' + x.def : ''}\n`)].join('\n');
+  try{ const blob = new Blob([txt], {type:'text/plain;charset=utf-8'}); const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob); a.download = 'con-un-cafe-notas-' + ED.date + '.txt'; document.body.appendChild(a); a.click(); a.remove(); }catch(e){}
+  try{ navigator.clipboard.writeText(txt); }catch(e){}
+  toast('Notas descargadas y copiadas');
 }
 
 /* ---------- vistas ---------- */
@@ -448,7 +607,8 @@ function vEdicion(){
   }).join('');
   return masthead()+tabs()+
     (INDEX.editions.length>1?`<div style="padding:12px 18px 0" class="kicker"><span style="color:var(--muted)">Lo que marcó cada día</span></div><div class="days" style="padding-top:8px">${days}</div>`:'')+
-    frontPage()+
+    (new Date(ED.date+'T12:00:00').getDay()===0 ? `<button class="sunday" data-semana>Es domingo: <b>tu semana</b> te está esperando →</button>` : '')+
+    timeChips()+frontPage()+
     `<p class="soon" style="margin:14px 18px 0">${ED.sources_ok} de ${ED.sources_total} fuentes leídas · actualizado ${esc(new Date(ED.generated_at).toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'}))}</p>`;
 }
 function vSeccion(sec){
@@ -458,6 +618,11 @@ function vSeccion(sec){
     extra = `<div class="tabs" style="display:flex;border-bottom:0;padding-top:14px" lang="en">${REG.map(([k,l]) => `<button class="tab" data-reg="${k}" style="border-color:#1F3A5F;${view.reg===k?'background:#1F3A5F;color:#fff':'color:#1F3A5F'}">${l}</button>`).join('')}</div>
       <p class="soon" style="margin:8px 18px 0">Selecciona una palabra para ver su significado o guardarla en Notas.</p>`;
     if(view.reg !== 'all') list = list.filter(n => (n.region||'global') === view.reg);
+  }
+  if(sec === 'economia'){
+    const subs = [['todo','Todo'],['bolsillo','Tu bolsillo'],['empresas','Empresas y tecnología'],['mundo','El mundo y los mercados']];
+    extra = `<div class="tabs" style="display:flex;border-bottom:0;padding-top:14px">${subs.map(([k,l]) => `<button class="tab" data-eco="${k}" style="border-color:#1E7B4F;${view.eco===k?'background:#1E7B4F;color:#fff':'color:#1E7B4F'}">${l}</button>`).join('')}</div>`;
+    if(view.eco !== 'todo') list = list.filter(n => (n.sub||'mundo') === view.eco);
   }
   const pods = (ED.podcasts||[]).filter(p => p.sec === sec).map(podLink).join('');
   const empty = sec==='international' ? `<div class="empty" lang="en">Nothing big here today.</div>` : `<div class="empty">Hoy no hay noticias de ${SEC[sec].l}.</div>`;
@@ -474,16 +639,20 @@ function vNoticia(id){
   const others = (n.others||[]);
   return `<button class="back" data-back>${I.back}${lastList.name==='edicion' && lastList.sec!=='portada' ? SEC[lastList.sec].l : 'Volver'}</button>
     <div class="art" ${en?'id="enBody"':''}><span class="chip" style="background:${s.c};color:${s.fg};align-self:flex-start">${esc(s.l)}${n.region&&n.sec==='international'?' · '+esc((REG.find(r=>r[0]===n.region)||['',''])[1]):''}</span>
-    <h1 ${en?'lang="en"':''}>${esc(n.title)}</h1>
-    ${n.summary?`<div class="box yellow"><span class="kicker">Lo esencial · ${esc(n.source)}</span><p ${en?'lang="en"':''}>${esc(n.summary)}</p></div>`:''}
+    <h1 ${en?'lang="en"':''}>${esc(n.title)}</h1>${followBadge(n)}
+    ${n.image?`<figure class="photo"><img class="hero" src="${esc(n.image)}" alt="" loading="lazy"><figcaption>Imagen: ${esc(n.source)}</figcaption></figure>`:''}
+    ${n.ai?`<div class="box yellow"><span class="kicker">Lo esencial</span><p>${esc(n.ai.esencial)}</p></div>
+      <div class="box"><span class="kicker" style="color:var(--claret)">Por qué importa</span><p>${esc(n.ai.porque)}</p></div>`
+      :(n.summary?`<div class="box yellow"><span class="kicker">Lo esencial · ${esc(n.source)}</span><p ${en?'lang="en"':''}>${esc(n.summary)}</p></div>`:'')}
     <a class="btn" style="display:flex;align-items:center;justify-content:center;text-decoration:none" href="${esc(n.link)}" target="_blank" rel="noopener">${en?'Read the full story':'Leer la noticia completa'} en ${esc(n.source)} ↗</a>
     ${others.length?`<h2 class="h2">${en?'What each source says':'Qué dice cada fuente'}</h2>${others.map((o,i)=>`<div class="src" style="--c:${SRC_COLORS[i%SRC_COLORS.length]}"><b style="font-size:14px">${esc(o.source)}</b>
       <p style="margin:0;font-family:var(--body);font-size:16px;line-height:1.4" ${en?'lang="en"':''}>${esc(o.title)}</p><a href="${esc(o.link)}" target="_blank" rel="noopener" style="font-size:12px;font-weight:700">${en?'Read the original ↗':'Leer original ↗'}</a></div>`).join('')}
       <p class="soon">Compara los titulares: cada medio elige qué destacar.</p>`:''}
     <div class="box cafe"><span class="kicker" style="color:#6B3A12">Te lo explico con un café</span>
-      <p style="font-size:15px">¿Quieres entenderla a fondo y conectarla con otros temas? Claude te la explica con las fuentes de arriba.</p>
-      <button class="btn" data-claude="${n.id}" style="align-self:flex-start">Profundiza con Claude</button>
-      <span class="soon">Solo gasta tu uso de Claude cuando lo pulsas.</span></div>
+      ${n.ai?`<p>${esc(n.ai.cafe)}</p><span class="soon">Explicación escrita por IA a partir de las fuentes. Contrástala con los enlaces.</span>
+        <button class="linkbtn" style="padding:0" data-claude="${n.id}">¿Quieres ir más a fondo? Pregúntale a Claude</button>`
+      :`<p style="font-size:15px">¿Quieres entenderla a fondo y conectarla con otros temas? Claude te la explica con las fuentes de arriba.</p>
+        <button class="btn" data-claude="${n.id}" style="align-self:flex-start">Profundiza con Claude</button><span class="soon">Solo gasta tu uso de Claude cuando lo pulsas.</span>`}</div>
     ${acts(n)}</div>`;
 }
 function rcard(m){
@@ -530,8 +699,13 @@ function vFavoritos(){
       ${hasNote?'<span style="align-self:flex-start;font-size:11px;font-weight:600;color:var(--noteInk);background:var(--note);padding:2px 8px">Tiene apunte</span>':''}
       <div class="acts"><button class="act" data-unfav="${esc(m.uid)}" aria-label="Quitar de favoritos">${I.heart(true,'#5C534C')}</button></div></div>`; }).join('')
     : `<div class="empty">Todavía no hay favoritos.<br>Toca el corazón debajo de una noticia para guardarla aquí.</div>`;
-  return `<header class="mast" style="text-align:left"><span class="kicker" style="color:var(--muted)">Guardadas con el corazón</span><h1 style="font-size:36px">Favoritos</h1></header>
-    <div class="wrap" style="display:flex;flex-direction:column;gap:12px;padding-top:14px">${list}</div>`;
+  const fl = Object.entries(S.follow).filter(([k,f]) => f);
+  const flist = fl.length ? fl.map(([fid,f]) => { const s = SEC[f.sec]||SEC.portada; return `<div class="rcard" style="--c:#4B2A7A"><div class="kicker" style="color:${s.ink}">${esc(s.l)} · desde el ${esc(new Date(f.date+'T12:00:00').toLocaleDateString('es-ES',{day:'numeric',month:'short'}))}</div>
+      <button class="t" data-story="${esc(fid)}">${esc(f.title)}</button><div class="acts"><button class="linkbtn" style="padding:0" data-story="${esc(fid)}">Ver la historia día a día →</button></div></div>`; }).join('')
+    : `<div class="empty">Aún no sigues ninguna historia.<br>Toca el marcador debajo de una noticia y te avisaré cuando vuelva a salir.</div>`;
+  return `<header class="mast" style="text-align:left"><span class="kicker" style="color:var(--muted)">Lo que te importa</span><h1 style="font-size:36px">Favoritos</h1></header>
+    <div class="seg" role="tablist"><button class="${view.ftab==='fav'?'on':''}" data-ftab="fav">Favoritos (${favs.length})</button><button class="${view.ftab==='follow'?'on':''}" data-ftab="follow">Historias que sigues (${fl.length})</button></div>
+    <div class="wrap" style="display:flex;flex-direction:column;gap:12px;padding-top:14px">${view.ftab==='follow'?flist:list}</div>`;
 }
 function vCalendario(){
   const now = new Date(), y = now.getFullYear(), m = now.getMonth(), td = now.getDate();
@@ -550,6 +724,7 @@ function vCalendario(){
   return `<header class="mast" style="text-align:left"><span class="kicker" style="color:var(--muted)">Calendario</span><h1 style="font-size:36px;text-transform:capitalize">${esc(mn)}</h1></header>
     <div class="wrap" style="display:flex;flex-direction:column;gap:12px;padding-top:14px">
     <div style="display:flex;justify-content:space-around;background:var(--ink);color:var(--paper);padding:12px"><div><b style="font-size:22px">${Object.keys(S.readDays).length}</b><div style="font-size:11px;color:#CFC3B8">sellos</div></div><div><b style="font-size:22px">${Object.values(S.read).filter(Boolean).length}</b><div style="font-size:11px;color:#CFC3B8">leídas</div></div><div><b style="font-size:22px">${S.notes.length}</b><div style="font-size:11px;color:#CFC3B8">notas</div></div></div>
+    <button class="btn" data-semana>Ver tu semana →</button>
     <div class="cal" style="font-size:11px;font-weight:700;color:var(--muted);text-align:center"><span>L</span><span>M</span><span>X</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
     <div class="cal">${cells}</div>
     <span class="soon">Toca un día con edición para leerla. El sello de la taza aparece los días que marcas alguna noticia como leída.</span></div>`;
@@ -565,10 +740,10 @@ function vPodcasts(){
 function render(){
   const m = document.getElementById('main');
   if(!ED){ m.innerHTML = '<div class="loading">Preparando tu café…</div>'; return; }
-  const V = {edicion:vEdicion, noticia:()=>vNoticia(view.id), lectura:vLectura, notas:vNotas, favoritos:vFavoritos, calendario:vCalendario, podcasts:vPodcasts};
+  const V = {guiada:vGuiada, historia:vHistoria, semana:vSemana, edicion:vEdicion, noticia:()=>vNoticia(view.id), lectura:vLectura, notas:vNotas, favoritos:vFavoritos, calendario:vCalendario, podcasts:vPodcasts};
   m.innerHTML = (V[view.name]||vEdicion)();
   const tabsB = [['edicion','Edición',I.ed],['calendario','Calendario',I.cal],['lectura','Lectura',I.read],['notas','Notas',I.notes],['favoritos','Favoritos',I.fav],['podcasts','Podcasts',I.mic]];
-  const active = view.name==='noticia' ? 'edicion' : view.name;
+  const active = ({noticia:'edicion', guiada:'edicion', historia:'favoritos', semana:'calendario'})[view.name] || view.name;
   const pend = visible().filter(n => !S.read[uid(n)]).length;
   document.getElementById('bnav').innerHTML = tabsB.map(([k,l,ic]) => `<button class="${active===k?'on':''}" data-nav="${k}" aria-current="${active===k?'page':'false'}" style="position:relative">${ic}${l}${k==='lectura'&&pend?`<span class="badge" style="top:4px;right:calc(50% - 22px)">${pend}</span>`:''}</button>`).join('');
   document.getElementById('side').innerHTML = `<span class="logo">Con un Café</span>
@@ -616,6 +791,15 @@ document.addEventListener('click', e => {
   if(d.nav){ if(d.nav==='edicion') go({name:'edicion',sec:'portada'}); else go({name:d.nav}); return; }
   if(d.sec){ go({name:'edicion',sec:d.sec}); return; }
   if(d.reg){ view.reg = d.reg; render(); return; }
+  if(d.eco){ view.eco = d.eco; render(); return; }
+  if(d.ftab){ view.ftab = d.ftab; render(); return; }
+  if(d.minutes){ go({name:'guiada', minutes:+d.minutes, qi:0}); return; }
+  if(d.qnext!==undefined){ const q = queue(); const n = q[view.qi]; if(n){ S.read[uid(n)] = meta(n); S.readDays[ED.date] = true; save(); } view.qi++; render(); window.scrollTo(0,0); return; }
+  if(d.qskip!==undefined){ view.qi++; render(); window.scrollTo(0,0); return; }
+  if(d.story){ go({name:'historia', story:d.story}); return; }
+  if(d.unfollow){ delete S.follow[d.unfollow]; save(); go({name:'favoritos', ftab:'follow'}); return; }
+  if(d.semana!==undefined){ go({name:'semana'}); return; }
+  if(d.export!==undefined){ exportNotes(); return; }
   if(d.rtab){ view.rtab = d.rtab; render(); return; }
   if(d.goday){ goDay(d.goday); return; }
   if(d.latest!==undefined){ goDay(INDEX.editions[0].date); return; }
@@ -638,6 +822,11 @@ document.addEventListener('click', e => {
     const n = byId(d.id), u = uid(n);
     if(d.act==='note') openSheet(n);
     if(d.act==='read'){ if(S.read[u]) delete S.read[u]; else { S.read[u] = meta(n); S.readDays[ED.date] = true; } save(); render(); }
+    if(d.act==='follow'){
+      const fid = followOf(n, true);
+      if(fid){ delete S.follow[fid]; toast('Has dejado de seguir esta historia'); }
+      else { const w = words(n.title).slice(0, 8); S.follow['f'+Date.now()] = {title:n.title, sec:n.sec, date:ED.date, origin:u, words:w}; toast('Siguiendo: te avisaré cuando vuelva a salir'); }
+      save(); render(); return; }
     if(d.act==='trash'){ S.trash[u] = meta(n); delete S.fav[u]; save(); toast('Descartada. La recuperas en Lectura → Descartadas');
       if(view.name==='noticia') go(lastList); else render(); return; }
     if(d.act==='fav'){ if(S.fav[u]) delete S.fav[u]; else S.fav[u] = meta(n); save(); toast(S.fav[u]?'Guardada en Favoritos':'Quitada de Favoritos'); render(); }

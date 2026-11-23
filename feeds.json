@@ -1,5 +1,5 @@
 {
-  "_nota": "Fuentes que lee el programa cada mañana. Puedes añadir o quitar líneas. sec: espana | politica | economia | international | moda. lang: es | en. region (solo international): europe | us | asia | latam | mea | global.",
+  "_nota": "Fuentes que lee el programa cada mañana. Cada sección mezcla español e inglés. sec: espana | politica | economia | international | moda. lang: es | en. region (solo international): europe | us | asia | latam | mea | global.",
   "news": [
     {
       "name": "Google Noticias · España",
@@ -173,6 +173,78 @@
       "url": "https://www.theguardian.com/fashion/rss",
       "sec": "moda",
       "lang": "en"
+    },
+    {
+      "name": "El País · Internacional",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada",
+      "sec": "international",
+      "lang": "es"
+    },
+    {
+      "name": "The Guardian · Business",
+      "url": "https://www.theguardian.com/business/rss",
+      "sec": "economia",
+      "lang": "en"
+    },
+    {
+      "name": "The Guardian · Technology",
+      "url": "https://www.theguardian.com/technology/rss",
+      "sec": "economia",
+      "lang": "en"
+    },
+    {
+      "name": "The Economist · Finance & economics",
+      "url": "https://www.economist.com/finance-and-economics/rss.xml",
+      "sec": "economia",
+      "lang": "en"
+    },
+    {
+      "name": "NPR · Business",
+      "url": "https://feeds.npr.org/1006/rss.xml",
+      "sec": "economia",
+      "lang": "en"
+    },
+    {
+      "name": "BBC · Technology",
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "sec": "economia",
+      "lang": "en"
+    },
+    {
+      "name": "El País · Tecnología",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada",
+      "sec": "economia",
+      "lang": "es"
+    },
+    {
+      "name": "The Guardian · Spain",
+      "url": "https://www.theguardian.com/world/spain/rss",
+      "sec": "espana",
+      "lang": "en"
+    },
+    {
+      "name": "Politico Europe · Politics",
+      "url": "https://www.politico.eu/section/politics/feed/",
+      "sec": "politica",
+      "lang": "en"
+    },
+    {
+      "name": "BBC · Politics",
+      "url": "https://feeds.bbci.co.uk/news/politics/rss.xml",
+      "sec": "politica",
+      "lang": "en"
+    },
+    {
+      "name": "El País · Política",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/subsection/politica/portada",
+      "sec": "politica",
+      "lang": "es"
+    },
+    {
+      "name": "El País · S Moda",
+      "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/smoda.elpais.com/portada",
+      "sec": "moda",
+      "lang": "es"
     }
   ],
   "podcasts": [

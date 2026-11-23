@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  models: read
   pages: write
   id-token: write
 
@@ -27,6 +28,9 @@ jobs:
       - name: Montar la edición del día (RSS, sin IA)
         if: github.event_name != 'push'
         run: python3 scripts/build.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       - name: Guardar la edición en el repositorio
         if: github.event_name != 'push'
         run: |
