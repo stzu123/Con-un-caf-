@@ -1,8 +1,8 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-23T17:41+00:00",
- "headline": "El Supremo aplica la amnistía a Puigdemont y cierra la causa del ‘procés’",
- "headline_sec": "politica",
+ "generated_at": "2026-11-23T17:53+00:00",
+ "headline": "Nvidia restituye a Jensen Huang como presidente y consejero delegado: \"No representa ningún riesgo para la seguridad nacional\"",
+ "headline_sec": "economia",
  "sources_ok": 39,
  "sources_total": 41,
  "stories": [
@@ -24,13 +24,7 @@
    ],
    "score": 2,
    "image": "https://static.eldiario.es/clip/4ee1f23f-8cb5-43e8-ba68-3429702f24ae_16-9-discover-aspect-ratio_default_0.jpg",
-   "id": "s1",
-   "ai": {
-    "esencial": "La jueza instructora del caso Andic interrogó este lunes al detective privado de la defensa de Jonathan Andic por sus declaraciones públicas y filtraciones sobre la causa.",
-    "porque": "Importa porque abre el debate sobre los límites entre el derecho de defensa, la presencia mediática en casos abiertos y la protección de una investigación judicial en curso.",
-    "desarrollo": "Según informa elDiario.es, la magistrada encargada del caso Andic citó este lunes a declarar como testigo a Francisco Marco, el detective contratado por la defensa de Jonathan Andic. Durante el interrogatorio, la jueza le preguntó directamente si considera habitual realizar valoraciones en la prensa sobre un procedimiento judicial que todavía se encuentra bajo investigación. El citado medio recoge además la reflexión sobre los denominados juicios paralelos, señalando que resulta más sencillo influir en un jurado popular que en un magistrado profesional. Por su parte, 20minutos coincide en informar sobre la comparecencia de este lunes ante la jueza instructora, pero pone el foco de su titular en las presuntas filtraciones a los medios de comunicación. Ambos diarios concuerdan en que el tribunal busca esclarecer la exposición mediática de la investigación por parte de alguien vinculado al entorno de la defensa.",
-    "cafe": "Lo que suele pasar desapercibido detrás de los grandes sumarios es la batalla paralela que se libra en platós y redacciones. En los procesos judiciales mediáticos, hablar ante las cámaras puede ayudar a construir un relato favorable ante la opinión pública, pero también puede chocar frontalmente con el secreto de la investigación y con la paciencia de quien instruye el caso. Que una jueza llame a declarar como testigo al propio investigador privado de la defensa demuestra hasta qué punto la estrategia comunicativa tiene consecuencias legales reales. Para una generación acostumbrada a que todo se comente en tiempo real en redes sociales, esta noticia recuerda que en los tribunales los tiempos y las formas importan mucho. Al final, quien gana con la discreción suele ser la limpieza del proceso, mientras que la sobreexposición puede volverse en contra de quienes buscan defenderse fuera de la sala."
-   }
+   "id": "s1"
   },
   {
    "sec": "espana",
@@ -193,11 +187,6 @@
    "date": "2026-11-23T17:34:03+01:00",
    "others": [
     {
-     "source": "LaSexta",
-     "title": "El Tribunal Supremo aplica la amnistía a Puigdemont y archiva definitivamente la causa del 'procés'",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaTRBcXdUMm5aRFR6dENBbWxsOGNpLXRyYlgzSnJqeDB1cUxuYXMzTTRpOXYzSWdJVkJvOW5FRWx2aE9pdVhrZGdiOUZTMmdyNFRFRGdJb1ZhSFRUM2JHYVpWZWJ3bTkzWWYwbjEtaHhTYzctNC1tcjhfMkQzTlNYRnFPMzhFZHBmcTNaNk90bG1DQnBOQWEyTkUxTFJqSXp0c3RyN0phZndoR0psNGh2VnJMZEdYTUdETGZuSzRnYXFUT3NPRU1FeXJB?oc=5"
-    },
-    {
      "source": "El Mundo",
      "title": "El Supremo aplica la amnistía a Puigdemont y archiva definitivamente la causa del 'procés' nueve años después de su apertura",
      "link": "https://www.elmundo.es/espana/2026/11/23/6b042ed9e4d4d8872c8b4579.html"
@@ -223,15 +212,9 @@
      "link": "https://www.20minutos.es/nacional/supremo-aplica-amnistia-puigdemont-archiva-causa-proces_7064584_0.html"
     }
    ],
-   "score": 7,
+   "score": 6,
    "image": "https://imagenes.elpais.com/resizer/v2/PKLSS37I3FDXLI24CFFY4NB6J4.jpg?auth=1b3076a597fdd80b937b3c92cfa15fae0c5af371770329ab3e67ee3fa7e2ec60",
-   "id": "s11",
-   "ai": {
-    "esencial": "Según coinciden El País, El Mundo, elDiario.es, LaSexta y La Vanguardia, el Tribunal Supremo ha aplicado la amnistía a Carles Puigdemont y ha archivado definitivamente la causa del 'procés'.",
-    "porque": "Cierra un frente judicial de nueve años con impacto directo en el tablero político español y catalán, al extinguir la responsabilidad penal de sus principales implicados.",
-    "desarrollo": "Según informan El País, LaSexta, El Mundo, elDiario.es y La Vanguardia, el Tribunal Supremo ha dictado el auto por el que aplica la ley de amnistía al expresidente de la Generalitat Carles Puigdemont y archiva de manera definitiva la causa del 'procés'. El País precisa que el alto tribunal declara extinguida la responsabilidad penal tanto del propio Puigdemont como de los exconsejeros Puig y Comín. Por su parte, El Mundo destaca que esta resolución pone fin a un procedimiento judicial abierto hace nueve años, mientras que La Vanguardia aporta el documento íntegro del auto judicial que formaliza el cierre del caso. Asimismo, según señala elDiario.es en su cobertura del episodio, la decisión del Supremo llega este lunes tras dos años previos de rechazo a aplicar la medida de gracia. Todos los medios consultados coinciden en subrayar el carácter definitivo del archivo y el cierre formal de una de las causas judiciales más prolongadas de los últimos años.",
-    "cafe": "Nueve años en política y en los tribunales dan para cambiar casi todo. Si hoy tienes veintiún años, cuando arrancó esta causa judicial apenas estabas entrando en el instituto, y desde entonces el debate sobre el 'procés' y la amnistía ha ocupado buena parte de la conversación pública en España. Como señalan las crónicas de los distintos diarios, este paso del Supremo cierra la vía penal para Puigdemont, Puig y Comín tras dos años previos de rechazo judicial. En términos políticos, el archivo abre una etapa nueva en la que quienes defendían la amnistía ven normalizarse la situación jurídica de los encausados, mientras quienes se oponían a ella mantienen sus críticas sobre el encaje institucional de la medida. La noticia conecta directamente con la reacción inmediata del propio Puigdemont en el titular siguiente y deja claro que, aunque el expediente judicial termine hoy, la disputa política seguirá marcando pactos, discursos y prioridades de Gobierno."
-   }
+   "id": "s11"
   },
   {
    "sec": "politica",
@@ -261,13 +244,7 @@
    ],
    "score": 4,
    "image": "https://static.eldiario.es/clip/cbb361b3-6c1f-4f40-8caa-fd38fef77b01_16-9-discover-aspect-ratio_default_0.jpg",
-   "id": "s12",
-   "ai": {
-    "esencial": "Según recogen elDiario.es, La Vanguardia, ABC y 20minutos, Carles Puigdemont ha celebrado la amnistía aplicada por el Supremo citando unos versos provocadores dirigidos a sus «enemigos».",
-    "porque": "Muestra el tono desafiante con el que el expresident encara esta nueva etapa política tras el archivo de su causa, anticipando un clima de confrontación dialéctica.",
-    "desarrollo": "Según informan elDiario.es, La Vanguardia, ABC y 20minutos, el expresident de la Generalitat Carles Puigdemont reaccionó este lunes al archivo definitivo de la causa del 'procés' recomendando un poema dirigido a sus «enemigos» que incluye la expresión «me muero de ganas de daros por el culo». De acuerdo con elDiario.es, Puigdemont respondió con retranca después de que el Tribunal Supremo le aplicara la amnistía tras dos años de rechazo y nueve después de abrirse el procedimiento, señalando que «el día ha llegado». Por su parte, ABC interpreta la cita literaria como una forma de celebrar la resolución judicial, mientras que La Vanguardia y 20minutos subrayan el destinatario directo del mensaje y reproducen el verso literal del poema citado por el dirigente catalán. Todos los medios coinciden en destacar lo llamativo y provocador de la respuesta elegida por Puigdemont en un momento de gran relevancia institucional.",
-    "cafe": "En la política actual, tan importante como lo que decide un tribunal es el titular que se viraliza cinco minutos después. En lugar de optar por un comunicado institucional clásico tras el auto del Supremo recogido en la noticia anterior, Puigdemont eligió una referencia poética cargada de ironía y provocación que, según muestran las portadas de los diarios, garantiza atención mediática inmediata. Para sus seguidores, el gesto puede leerse como una revancha simbólica tras años de litigio; para sus detractores, en cambio, refuerza las críticas sobre la falta de espíritu de reconciliación tras la amnistía. Al final, este tipo de mensajes funcionan exactamente como los hilos virales en redes: polarizan, movilizan a los propios y convierten una resolución jurídica compleja en una frase fácil de recordar, dejando claro que el cierre de la causa judicial no rebaja necesariamente la temperatura del debate político."
-   }
+   "id": "s12"
   },
   {
    "sec": "politica",
@@ -277,12 +254,12 @@
    "summary": "La medida no estaba en el programa electoral del PSOE pero sí, con algunas diferencias, en el del Frente Amplio",
    "link": "https://elpais.com/economia/2026-11-23/sanchez-propone-un-impuesto-para-ultrarricos-con-fortunas-superiores-a-100-millones-de-euros.html",
    "source": "El País",
-   "date": "2026-11-23T15:00:59+00:00",
+   "date": "2026-11-23T10:09:13+00:00",
    "others": [
     {
-     "source": "La Voz de Galicia",
-     "title": "Sánchez promociona un impuesto para los ultrarricos",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLXVJZjRWMkFiRUhQU0ZoN2dGNExsVm1ZODBELWtmVTVJd2lWT2QtR0JibXVMNWZleEg5a0pvbzlmSWFFbmVzMThHOU5LN0FfY205cHBXMjFoa21KSGIycG1RRl9jazF4VXNRalNOUzI1SGcyT1IzVklpN0JDVnpxYV85NnRrMlZKaWs0b29aY2U3VHQzeU5yRDBad3dZT3F0akdNSndaMHJJeEF3ZFBTRDBVNXVlQW5jTUVLNjZ6ZllGMkxBWHJvamVKbw?oc=5"
+     "source": "LaSexta",
+     "title": "Sánchez propone un nuevo impuesto a los ultrarricos que recaudará 2.000 millones para vivienda, pensiones y crianza",
+     "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZjEtMXFXWXJpQmphOFJ1enA4ZmRDVTI0bVR3QzkwQVZ1RzZ2R2xER24wMUg5d3VTM0xpdmtNNmV6bEVDaDNzNFVNZmNMWEUwczg4bHlZb3RlYnBWTVVKckFwNUcxWGpwX1ZGOEI1YUNSbDVwYWpONXAzcDdOTUs4REZ6MnlrSE9kZHI3Ylp4aElqVEdsNXZuVFVWbmdrelRKVzJOaUpkQ2M0T2NLYjZHWC1HcWFwQWpNam9NZE0zSmtiOWhGVHlGN1BGVnJVbUxKMlkyUTZfN3JpT3JGaDhZTFhEanhTUXRFeS1ZWXRSeHFxeTM0YnBLc0tXaGNtMzJNcjk1V09RT1lSYjg10gGMAkFVX3lxTE8zYkYzRl82U04yb3hGdGYxamNpbnEyU0l6dVdFOUoxbXg4UmxnV0V3SWVlbl9BY0N6bHJmTlhpS2staEp0Rm5tVVNIQVVXSm9ZcWkwT1NBUEpDaldtNzhlRlRPQ3BJZXlscENDUThHMjk4b3NmMURJMHBMc1R1M2ZhQnljM1JDZlJ0TnZzSTFXQ01BY25rdERIaWVBaE1zOWdZSFVtWXFISERuVmxuUTFnekgzZ2FYeXBtYlJqN3ljVEVBeTd3UHgtblFFcFZodGpfbWZueDNaTjZkeEhnWWJSRC1hazVQQklVSFN3VTNtN25vWlJIbjhINElKNkQxWGo4NnNyMkFxUW9EN2o?oc=5"
     },
     {
      "source": "La Vanguardia",
@@ -297,49 +274,7 @@
    ],
    "score": 4,
    "image": "https://imagenes.elpais.com/resizer/v2/GFGFA3WNFNA5HEPSNWWBTLU6J4.jpg?auth=2b15d19992de0d661dfb0a26f6ff80278a477bded8f90d12dded1c3daf345614",
-   "id": "s13",
-   "ai": {
-    "esencial": "Según informan El País, La Vanguardia, La Voz de Galicia y 20minutos, Pedro Sánchez ha propuesto un nuevo impuesto para grandes fortunas con patrimonios superiores a 100 millones de euros.",
-    "porque": "Reabre el debate fiscal sobre cuánto deben aportar los grandes patrimonios para sostener el gasto social y cómo se recaudan los recursos públicos.",
-    "desarrollo": "Según publican El País, La Vanguardia, La Voz de Galicia y 20minutos, Pedro Sánchez ha anunciado una propuesta para crear un impuesto dirigido a los denominados «ultrarricos». Tanto El País como 20minutos concretan que el gravamen afectaría a fortunas o patrimonios que superen los 100 millones de euros. Por su parte, La Vanguardia añade que el objetivo planteado con esta medida es recaudar 2.000 millones destinados a financiar la agenda social, mientras que La Voz de Galicia destaca que Sánchez está promocionando activamente esta iniciativa tributaria. El País subraya además un matiz político relevante: la propuesta no figuraba en el programa electoral del PSOE, aunque sí aparecía, con algunas diferencias, en el programa del Frente Amplio. Todos los diarios coinciden en que el anuncio sitúa la fiscalidad a las mayores fortunas en el centro de la agenda política actual.",
-    "cafe": "Un impuesto a patrimonios de más de 100 millones de euros suena lejanísimo cuando estás mirando cuánto te queda en la cuenta después de pagar el alquiler o un abono transporte. Sin embargo, este debate toca de lleno el modelo de país y quién paga los servicios públicos. Quienes defienden la propuesta argumentan que una aportación adicional de los grandes patrimonios permite financiar políticas sociales sin subir la carga fiscal a rentas medias o primer empleo. Por el contrario, los sectores críticos con este tipo de tributos suelen advertir de posibles efectos sobre la inversión, el ahorro o el atractivo económico, además de señalar el giro respecto al programa electoral original del PSOE que apunta El País. En clave de campaña y pactos, la iniciativa también busca acercar posturas con socios situados más a la izquierda, como refleja la coincidencia parcial con el Frente Amplio."
-   }
-  },
-  {
-   "sec": "politica",
-   "lang": "es",
-   "region": null,
-   "title": "Margarita Robles entra de lleno en campaña con un vídeo inesperado: “[Sánchez] está guapo… ¡Menudo pájaro!”",
-   "summary": "El PSOE de Madrid lanza un vídeo con la ministra de Defensa leyendo la revista ‘Lecturas’",
-   "link": "https://elpais.com/espana/elecciones-generales/2026-11-23/margarita-robles-entra-de-lleno-en-campana-con-un-video-inesperado-sanchez-esta-guapo-menudo-pajaro.html",
-   "source": "El País",
-   "date": "2026-11-23T13:57:41+00:00",
-   "others": [
-    {
-     "source": "elDiario.es",
-     "title": "Margarita Robles entra en campaña con un guiño a las polémicas con Sánchez: \"Menudo pájaro\"",
-     "link": "https://www.eldiario.es/rastreador/margarita-robles-entra-campana-guino-polemicas-sanchez-menudo-pajaro_132_13685149.html"
-    },
-    {
-     "source": "La Vanguardia",
-     "title": "Robles entra en campaña por el voto femenino: “Está guapo... ¡Menudo pájaro!”",
-     "link": "https://www.lavanguardia.com/politica/20261123/11690970/robles-entra-campana-voto-femenino-esta-guapo-menudo-pajaro.html"
-    },
-    {
-     "source": "20minutos",
-     "title": "La ministra Robles entra en campaña y bromea con Sánchez: \"La verdad que está guapo, menudo pájaro\"",
-     "link": "https://www.20minutos.es/nacional/ministra-robles-entra-campana-bromea-con-pedro-sanchez-menudo-pajaro_7064418_0.html"
-    }
-   ],
-   "score": 4,
-   "image": "https://imagenes.elpais.com/resizer/v2/5IY4ICEUARJS5KY6Y2CJGVQRLQ.jpg?auth=228304e464444a1af71a926012f9c6bf5f51a0b800c1073feacc637be6f792d9",
-   "id": "s14",
-   "ai": {
-    "esencial": "Según informan El País, elDiario.es, La Vanguardia y 20minutos, Margarita Robles protagoniza un vídeo de campaña del PSOE de Madrid en el que bromea diciendo que Pedro Sánchez «está guapo» y es un «menudo pájaro».",
-    "porque": "Muestra cómo los partidos recurren a formatos desenfadados y guiños internos para conectar con el electorado, especialmente en un contexto marcado por polémicas previas.",
-    "desarrollo": "Según relatan El País, elDiario.es, La Vanguardia y 20minutos, la ministra de Defensa, Margarita Robles, ha entrado en campaña mediante un vídeo difundido por el PSOE de Madrid que ha llamado la atención por su tono informal. El País explica que en la pieza audiovisual aparece la ministra leyendo la revista 'Lecturas' y comentando sobre Pedro Sánchez que «está guapo» antes de añadir la expresión «¡menudo pájaro!». Por su parte, 20minutos coincide en subrayar el carácter distendido de la broma, mientras que elDiario.es interpreta el vídeo como un guiño directo a las polémicas anteriores entre Robles y Sánchez. En una línea distinta de análisis, La Vanguardia apunta que la intervención de la ministra busca movilizar el voto femenino dentro de la estrategia electoral socialista. Todas las cabeceras concuerdan en que se trata de una aparición inesperada que utiliza el humor para reforzar la campaña.",
-    "cafe": "Las campañas electorales hace tiempo que abandonaron el formato único del mitin serio y la corbata para adaptarse al lenguaje rápido de los vídeos cortos y las redes sociales. Que una ministra de Defensa aparezca hojeando una revista del corazón para lanzar un comentario irónico sobre el presidente busca exactamente eso: romper la solemnidad y generar conversación orgánica en el móvil de quien normalmente desconecta de la política tradicional. Para los estrategas de campaña, este tipo de piezas ayudan a suavizar roces previos —como el guiño a las polémicas que señala elDiario.es— y a acercarse a públicos concretos, como el voto femenino al que alude La Vanguardia. Al mismo tiempo, otros sectores suelen mirar con escepticismo estas estrategias al considerar que banalizan el debate sobre gestión pública. Gana quien consigue atención en el algoritmo; el reto es que la broma no tape el mensaje."
-   }
+   "id": "s13"
   },
   {
    "sec": "politica",
@@ -364,13 +299,32 @@
    ],
    "score": 3,
    "image": "https://imagenes.elpais.com/resizer/v2/24ZEBZEWFVNAJD2SXH4VFMFDWU.jpg?auth=27e3023dfef3d43505e7a22106ed455395d70b2c9771343830fb03b82ed82ac0",
-   "id": "s15",
-   "ai": {
-    "esencial": "Según el barómetro de noviembre del Centro de Investigaciones Sociológicas (CIS) recogido por El País, elDiario.es y La Vanguardia, el PSOE obtendría un 34,4 % en intención de voto frente al 24,7 % del PP antes de las elecciones del 29-N. Vox descendería hasta el 15,6 % tras retroceder 2,8 puntos.",
-    "porque": "Esta encuesta marca el pulso de la recta final hacia el 29-N y condiciona las estrategias de campaña de los partidos ante posibles pactos postelectorales, interesando especialmente a quienes decidirán su voto en los próximos días.",
-    "desarrollo": "El último barómetro del CIS de noviembre, publicado antes de la cita electoral del 29-N, refleja una distancia de casi diez puntos entre las dos principales formaciones estatales, según coinciden en destacar El País, elDiario.es y La Vanguardia. De acuerdo con los datos difundidos por El País, el PSOE alcanzaría un 34,4 % en estimación de voto, mientras que el PP se situaría en el 24,7 %. Por su parte, Vox retrocedería 2,8 puntos respecto a la medición anterior y bajaría hasta el 15,6 %. Los tres medios concuerdan en señalar esa brecha cercana a los diez puntos entre socialistas y populares, aunque ponen distintos énfasis en sus titulares. Mientras El País y La Vanguardia centran la atención en la ventaja otorgada al PSOE en cabeza de la encuesta, elDiario.es subraya además las implicaciones parlamentarias de estos números al indicar que la suma entre el PP y Vox no alcanzaría la mayoría absoluta.",
-    "cafe": "Cuando faltan pocos días para el 29-N, las encuestas como este barómetro de noviembre del CIS funcionan como el termómetro de la conversación política, aunque no equivalen a los resultados definitivos de las urnas. La fotografía que trasladan El País, elDiario.es y La Vanguardia muestra un escenario fragmentado donde la aritmética de posibles acuerdos cobra tanto protagonismo como el porcentaje individual de cada candidatura, especialmente tras el dato destacado por elDiario.es sobre la falta de mayoría absoluta entre PP y Vox según este sondeo. Para alguien de veintipocos años que sigue la campaña entre apuntes o prácticas, este tipo de estudios suele activar el debate sobre qué prioridades entrarán en la próxima legislatura, desde el acceso al alquiler hasta las condiciones del primer empleo. Al tratarse de una estimación previa, la movilización final del electorado el día de la votación será determinante para confirmar o modificar estas proyecciones."
-   }
+   "id": "s14"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "Margarita Robles entra de lleno en campaña con un vídeo inesperado: “[Sánchez] está guapo… ¡Menudo pájaro!”",
+   "summary": "El PSOE de Madrid lanza un vídeo con la ministra de Defensa leyendo la revista ‘Lecturas’",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-23/margarita-robles-entra-de-lleno-en-campana-con-un-video-inesperado-sanchez-esta-guapo-menudo-pajaro.html",
+   "source": "El País",
+   "date": "2026-11-23T13:57:41+00:00",
+   "others": [
+    {
+     "source": "elDiario.es",
+     "title": "Margarita Robles entra en campaña con un guiño a las polémicas con Sánchez: \"Menudo pájaro\"",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQalYwNTM0SkVUaDNGeUNWU21LOXRBcUhjQnlVZm9ZYk11RDR2OTlHcVFMeTN1WGhhQ3JEV3FORlgyOGIzTkNfaFZxNFhkdWNtLU5WZkdqSDZaWWVkRDlCWHRFYmZjblNnU2pzNG15TFdsNW1Ua09TRUg1TnNlOFhMdnVIRlUzNXVYRC1pemVfc19CUmJlUE0xci1oX0l6c3FQanFjZTVMVkpYZkNlNU1SMGJnWXJXc2pfVFJkdWdR0gHDAUFVX3lxTE1KNHU0SFVTZDZaTHc5OVJkUW1LTlRiNHdCRExKRHF2SWhteTZvYnFJNDFVd3gxMzk2akV0Z2dVNXZpRzJZWUxuNkFUTWw2ZjAzczlXUVllNjBSdWNFS1FZZXRialZqVHN5UFVUbGdEVEo1Tm9NRTljVmdobUtfMjVMUk5VNm15Y0FibkRBYVBYU29VZy1ISWdqSy1iZmpIdUpSNnVkY2xhc0E3U1BjWW5BWm0zRlk0Q3ZpaExZRS15VnRQOA?oc=5"
+    },
+    {
+     "source": "La Vanguardia",
+     "title": "Robles entra en campaña por el voto femenino: “Está guapo... ¡Menudo pájaro!”",
+     "link": "https://www.lavanguardia.com/politica/20261123/11690970/robles-entra-campana-voto-femenino-esta-guapo-menudo-pajaro.html"
+    }
+   ],
+   "score": 3,
+   "image": "https://imagenes.elpais.com/resizer/v2/5IY4ICEUARJS5KY6Y2CJGVQRLQ.jpg?auth=228304e464444a1af71a926012f9c6bf5f51a0b800c1073feacc637be6f792d9",
+   "id": "s15"
   },
   {
    "sec": "politica",
@@ -383,9 +337,9 @@
    "date": "2026-11-23T12:50:31+01:00",
    "others": [
     {
-     "source": "EL PAÍS",
-     "title": "Felipe González responde a José Bono: “Yo ya he votado. Soy una persona seria, no como otros”",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNY2dMVHdOMEtlMjRRMVpPTF90OFdSWWNTd2tNMENudEpITVVidXp3RWpSM3cwWkdNMnNrM0ZJZTh1eVgtTExtQ2NwSjRyU0VCUVM0bUQyajdWMllqekF6ckFyVlpYYmVmbTYzaGxPY0Q5aGZoX3NRWmlrVlhQajdvYVVPWTJGUWV6SjZIN2xnUUlYbnU5NWJJcGJXOFdRV2thbm43M1Z4QTdKNjNFYlhNdTFPOEhuaXhnci1JUGE0T05lNWd6VlIxd2tYZTBsbHlxVkh1c1lFYlNXQlJhY05qV3VOSUxYQQ?oc=5"
+     "source": "LaSexta",
+     "title": "Felipe González responde a Bono: \"Yo ya he votado. Soy una persona seria, no como otros\"",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPU2ZKcktTWFFHUXdSaXMycWxtVndkdE5YZUI1WndwRGlYeldpYjlObWIyNnZJZElJQzBGa29BaEFUNlVNVVdsMGlTeEROZ0FuaEhHMFd3Sm5qbThibFFGT0NJbE5XVjFpVm1RN01DVzcxa19yWHYtTXlrNl9BWHFnelBuaDdLRjN1ZnhrQmdBdHlxRmJsMHBnNXV4NFRpQ1VvSHU5REt5Snp4TFlhdDUxQUxqRGR4cHlnWjFZS3g4NFBTNXEyUVhINE9CMmhfbWFXcUhDTU9relpCTzE2ekxaTmdB0gHiAUFVX3lxTFBhV2hxREduclhUYUhSSnZYNi12WnR1dlFDb1BfS0xTQXRjcXc2eGRWejZmdWs2QnhhR0NxOHpkR1JxU3kyaEowLVlQb1dxX2JZZC1helk3VW42Y0ZGSHFKZGlCSkZpcFl1N1NXejhzRHNXbXJCNzJIS1pqYlNOTFVWWENKRllNVlBZRWlnSzdqdktLdlpmT2ZWUm9uWGlZSFdsbzc2Ty1nOWZPSy1mM1o2UmVSZ25lLTlqMkJVTGw0MVZYMWJZaWRiTDRFYTFxNnZ5aE8ta3diQVBxUDVfZGVOU3c?oc=5"
     },
     {
      "source": "La Vanguardia",
@@ -430,32 +384,12 @@
     {
      "source": "20minutos",
      "title": "La Junta Electoral abre expediente sancionador a Silvia Intxaurrondo",
-     "link": "https://www.20minutos.es/nacional/junta-electoral-abre-expediente-sancionador-silvia-intxaurrondo-tras-una-denuncia-vox_7064761_0.html"
+     "link": "https://www.20minutos.es/television/junta-electoral-abre-expediente-sancionador-silvia-intxaurrondo-tras-una-denuncia-vox_7064761_0.html"
     }
    ],
    "score": 2,
    "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2026/09/15/6aa9294e905e7.r_d.879-560-0.jpeg",
    "id": "s18"
-  },
-  {
-   "sec": "politica",
-   "lang": "es",
-   "region": null,
-   "title": "Felipe González responde a Bono tras pedirle que vote al PSOE: \"Que no me hagan hablar\"",
-   "summary": "El expresidente del Gobierno ha confirmado que ya ha votado de cara a las próximas elecciones del 29N, pero no dirá el qué porque este derecho \"es secreto\" José Bono pide a Felipe González que “no haga el tonto” y reconsidere su voto en blanco el 29N El expresidente del Gobierno Felipe González ha respondido tirando de ironía para responder al exministro…",
-   "link": "https://www.eldiario.es/castilla-la-mancha/politica/felipe-gonzalez-responde-bono-pedirle-vote-psoe-no-hagan-hablar_1_13686728.html",
-   "source": "elDiario.es",
-   "date": "2026-11-23T15:34:09+00:00",
-   "others": [
-    {
-     "source": "20minutos",
-     "title": "Felipe González responde a Bono tras pedirle que no hiciera el \"tonto\" y votara a Sánchez: \"Soy alguien serio\"",
-     "link": "https://www.20minutos.es/nacional/felipe-gonzalez-tira-ironia-para-responder-bono-tras-pedirle-que-siga-votando-psoe-se-que-hace-pro-bono_7064613_0.html"
-    }
-   ],
-   "score": 2,
-   "image": "https://static.eldiario.es/clip/13619394-cbd6-4ca0-aa2d-208117549612_16-9-discover-aspect-ratio_default_0.jpg",
-   "id": "s19"
   },
   {
    "sec": "politica",
@@ -475,6 +409,26 @@
    ],
    "score": 2,
    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954423271797.jpg",
+   "id": "s19"
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "Nevenka Fernández considera “una vergüenza” que se “arrope” al alcalde de Móstoles (PP) investigado por acoso y apoyado por Ayuso",
+   "summary": "La exconcejala de Ponferrada, convertida en un referente tras denunciar al alcalde por acoso, recibe un premio de la UGT en Valencia",
+   "link": "https://elpais.com/espana/elecciones-generales/2026-11-23/nevenka-fernandez-considera-una-verguenza-que-se-arrope-al-alcalde-de-mostoles-pp-investigado-por-presunto-acoso.html",
+   "source": "El País",
+   "date": "2026-11-23T12:57:51+00:00",
+   "others": [
+    {
+     "source": "elDiario.es",
+     "title": "Nevenka Fernández, tras el apoyo del PP de Ayuso al alcalde de Móstoles: “Es una vergüenza”",
+     "link": "https://www.eldiario.es/comunitat-valenciana/nevenka-fernandez-ve-verguenza-pp-arrope-alcalde-mostoles-denunciado-acoso-peleamos-no-ocurra_1_13685491.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://imagenes.elpais.com/resizer/v2/DY3HHDAWPJOSRNPCKCQ27Y7DJA.jpg?auth=9114fda0907b21172909e2478835fabd996c669ac4e58dc586515b04bf74fdb8",
    "id": "s20"
   },
   {
@@ -521,45 +475,28 @@
    "score": 7,
    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/23/17954439589049.jpg",
    "sub": "empresas",
-   "id": "s21",
-   "ai": {
-    "esencial": "Nvidia ha restituido a Jensen Huang como presidente y consejero delegado tras afirmar que no supone ningún riesgo para la seguridad nacional. El regreso del directivo ha sido celebrado por Donald Trump y ha despertado análisis sobre su peso en la economía estadounidense.",
-    "porque": "El liderazgo de este gigante tecnológico afecta directamente a la estabilidad del sector digital global, a la industria de la inteligencia artificial y a los fondos de inversión vinculados a la bolsa estadounidense.",
-    "desarrollo": "La tecnológica estadounidense Nvidia ha devuelto a Jensen Huang los cargos de presidente y consejero delegado, según informan El Mundo, EL PAÍS, Cinco Días y The Guardian. De acuerdo con El Mundo, la compañía ha respaldado el nombramiento al sostener que el directivo no supone ninguna amenaza para la seguridad nacional. Al conocerse la noticia, el propio Huang manifestó que acepta el reto con humildad y un compromiso renovado. La decisión suscitó también el aplauso de Donald Trump, quien defendió que el empresario no había hecho nada indebido, aludió a que el sexo vende y reclamó proteger al talento brillante del país. Mientras la prensa española y The Guardian coinciden en centrarse en la restitución de Huang en la cúpula ejecutiva, BBC Business amplía la mirada para examinar el peso real tanto de la empresa como de su dirigente dentro del conjunto de la economía estadounidense.",
-    "cafe": "Que una sola persona vuelva al frente de una empresa y provoque tanto revuelo político y financiero dice mucho del poder actual de las grandes tecnológicas. Como plantea BBC Business al examinar el peso de Nvidia y de su fundador en Estados Unidos, el liderazgo corporativo en la industria de los semiconductores trasciende ya los despachos y se mezcla con debates sobre seguridad nacional y respaldo político, como muestra la celebración de Donald Trump. Esta noticia conecta directamente con la reacción inmediata de los parqués, donde las acciones de la firma han respondido con fuertes subidas al confirmarse su regreso. Aunque Nvidia parezca lejana desde España, sus decisiones marcan el ritmo de la inteligencia artificial, las herramientas digitales que usas a diario y la rentabilidad de muchos fondos de ahorro e inversión indexados al mercado estadounidense."
-   }
+   "id": "s21"
   },
   {
    "sec": "economia",
    "lang": "en",
    "region": null,
-   "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
-   "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5% in early trading.",
+   "title": "Nvidia shares up nearly 33% and tech stocks rally after Jensen Huang returns",
+   "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 7%.",
    "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
    "source": "BBC · Business",
-   "date": "2026-11-23T17:25:01+00:00",
+   "date": "2026-11-23T17:42:37+00:00",
    "others": [
     {
-     "source": "The Guardian · Business",
-     "title": "Nvidia shares surge 33% on Jensen Huang‘s return, adding $1tn to company’s value – business live",
-     "link": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates"
-    },
-    {
      "source": "BBC · Technology",
-     "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
+     "title": "Nvidia shares up nearly 33% and tech stocks rally after Jensen Huang returns",
      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "score": 3,
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80fb/live/5a6a1700-e753-11f1-99b6-a35a62fa4264.jpg",
+   "score": 2,
+   "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/80fb/live/5a6a1700-e753-11f1-99b6-a35a62fa4264.jpg",
    "sub": "empresas",
-   "id": "s22",
-   "ai": {
-    "esencial": "Las acciones de Nvidia se han disparado entre un 30 % y un 33 % tras el regreso de Jensen Huang, arrastrando al alza a los mercados tecnológicos. El índice Nasdaq llegó a subir un 6,5 % en el inicio de la sesión.",
-    "porque": "Este repunte multimillonario demuestra la enorme dependencia de las bolsas mundiales respecto a unos pocos gigantes tecnológicos, algo que influye en el valor de planes de ahorro, fondos de inversión y el clima económico global.",
-    "desarrollo": "La vuelta de Jensen Huang a la dirección de Nvidia ha desencadenado una fuerte subida bursátil en los valores tecnológicos, según recogen BBC y The Guardian. En sus secciones económica y tecnológica, la cadena británica BBC cifra el avance de las acciones de la compañía en un 30 % y destaca que este impulso ha contagiado al resto del parqué, llevando al índice tecnológico Nasdaq a anotarse un alza del 6,5 % en los primeros compases de la negociación. Por su parte, The Guardian eleva el repunte de los títulos hasta el 33 % en su cobertura en directo y calcula que este salto ha sumado un billón de dólares al valor de mercado de la empresa. Ambas cabeceras coinciden en vincular directamente el entusiasmo inversor con la restitución de Huang, aunque difieren ligeramente en el porcentaje exacto de revalorización según el momento de la sesión registrado en sus crónicas.",
-    "cafe": "Que el valor en bolsa de una sola empresa aumente en un billón de dólares en cuestión de horas ilustra hasta qué punto los mercados viven pendientes de nombres propios. Si conectas esta noticia con el anuncio previo sobre la restitución de Jensen Huang, se entiende el alivio de los inversores: para Wall Street, su figura funciona como garantía de continuidad frente a la incertidumbre reciente. Quienes tenían acciones tecnológicas o fondos ligados al Nasdaq celebran hoy una subida rápida en sus carteras, mientras que quienes apostaron por una caída del valor encajan pérdidas inmediatas. Para alguien joven que empieza a pensar en el ahorro o en cómo funciona la economía digital, este episodio recuerda que la tecnología detrás de los videojuegos o la inteligencia artificial concentra un peso financiero enorme y hace que cualquier cambio en Silicon Valley sacuda el mercado global."
-   }
+   "id": "s22"
   },
   {
    "sec": "economia",
@@ -578,7 +515,7 @@
     }
    ],
    "score": 2,
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38db/live/e8339120-deb0-11f1-93e1-3b657b665bcf.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/38db/live/e8339120-deb0-11f1-93e1-3b657b665bcf.jpg",
    "sub": "empresas",
    "id": "s23"
   },
@@ -737,7 +674,7 @@
    "summary": "President Zelensky said a Russia warship was sunk, with a Russian cargo ship also hit.",
    "link": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
    "source": "BBC · Africa",
-   "date": "2026-11-23T16:24:00+00:00",
+   "date": "2026-11-23T17:06:00+00:00",
    "others": [
     {
      "source": "The Guardian",
@@ -756,14 +693,8 @@
     }
    ],
    "score": 4,
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cc6/live/7a950f50-e738-11f1-99b6-a35a62fa4264.jpg",
-   "id": "s31",
-   "ai": {
-    "esencial": "Ucrania ha difundido imágenes del ataque con drones navales contra dos barcos rusos frente a las costas de Libia. Según el presidente Zelenski, un buque de guerra ruso resultó hundido y un carguero fue alcanzado.",
-    "porque": "La operación traslada el conflicto entre Rusia y Ucrania al Mediterráneo, ampliando el tablero geográfico de la guerra cerca de Europa y afectando a la seguridad de las rutas marítimas.",
-    "desarrollo": "Las autoridades ucranianas han hecho público un vídeo que muestra ataques contra dos embarcaciones rusas en aguas cercanas a Libia, según informan BBC, The Guardian y Al Jazeera. Tanto The Guardian como la cadena británica BBC señalan que Kiev ha confirmado el empleo de drones navales para ejecutar esta operación contra ambos barcos. En declaraciones recogidas por BBC Africa, el presidente ucraniano, Volodímir Zelenski, afirmó que uno de los objetivos alcanzados era un buque de guerra ruso que terminó hundido, mientras que un segundo barco de carga también sufrió impactos. Las tres fuentes coinciden en atribuir a Ucrania la difusión y reivindicación de la acción militar frente al litoral libio, aunque mantienen matices en el enfoque: mientras The Guardian subraya la confirmación oficial ucraniana sobre el uso de drones, Al Jazeera enfatiza que se trata de una reivindicación de Kiev y analiza qué datos concretos se conocen hasta el momento.",
-    "cafe": "Lo llamativo de este episodio no es solo la capacidad militar de unos drones navales frente a grandes buques, sino el lugar donde ocurre. Que el enfrentamiento entre Ucrania y Rusia alcance el litoral de Libia, en pleno mar Mediterráneo, demuestra que la guerra hace tiempo que dejó de limitarse al frente del este europeo. Como recoge también la noticia paralela sobre la reacción de Moscú, el Kremlin ha advertido de una posible escalada de tensiones en la zona, un corredor clave por el que circulan mercancías hacia Europa. Aunque parezca un conflicto lejano, cualquier inestabilidad en las rutas marítimas mediterráneas puede acabar encareciendo los costes de transporte, los precios de productos importados y las materias primas, factores que terminan filtrándose en la cesta de la compra o en el precio de tus billetes cuando viajas."
-   }
+   "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/9cc6/live/7a950f50-e738-11f1-99b6-a35a62fa4264.jpg",
+   "id": "s31"
   },
   {
    "sec": "international",
@@ -787,14 +718,8 @@
     }
    ],
    "score": 3,
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f684/live/02351f90-e74d-11f1-99b6-a35a62fa4264.jpg",
-   "id": "s32",
-   "ai": {
-    "esencial": "Tras las declaraciones de Zelenski sobre el ataque con drones ucranianos a un buque de guerra ruso en una base naval en Libia, el Kremlin ha advertido de una escalada regional de tensiones sin pronunciarse directamente sobre los hechos.",
-    "porque": "La respuesta cauta pero firme de Moscú abre incógnitas sobre posibles represalias en el norte de África y mantiene en alerta a los países ribereños del Mediterráneo y a la diplomacia internacional.",
-    "desarrollo": "Las informaciones sobre el ataque ucraniano con drones contra un buque de guerra ruso en Libia han provocado una primera reacción desde Moscú, según detallan BBC y NPR. De acuerdo con NPR, el presidente ucraniano, Volodímir Zelenski, sostuvo que los aparatos no tripulados impactaron contra el navío militar cuando este se encontraba en una base naval en territorio libio, un detalle concreto sobre el emplazamiento que el medio estadounidense aporta frente a la formulación más amplia de BBC Europe y BBC Africa. Ante estas afirmaciones, las dos ediciones de la cadena británica recogen la postura oficial del Kremlin, que ha evitado hacer comentarios directos sobre los ataques en Libia, pero ha lanzado una advertencia sobre el riesgo de que se produzca una escalada de tensiones en la región. Así, los medios coinciden en contraponer el anuncio de Zelenski con la negativa rusa a comentar directamente el incidente.",
-    "cafe": "En diplomacia, lo que se calla suele pesar tanto como lo que se anuncia. Al evitar pronunciarse directamente sobre el golpe en la base naval libia mientras alerta de una escalada regional, el Kremlin esquiva confirmar un daño militar en público sin renunciar a marcar posición en el norte de África. Si unes esta pieza con la difusión del vídeo ucraniano, se percibe una batalla paralela por el relato: Kiev busca mostrar capacidad para golpear intereses rusos lejos de sus fronteras, y Moscú intenta contener el desgaste geopolítico. Para el resto de Europa, la preocupación radica en que el Mediterráneo sume otro foco de fricción cercano, con efectos posibles sobre la seguridad marítima y las rutas comerciales. Al final, la estabilidad de esta región también acaba influyendo en la inflación cotidiana o en la tranquilidad de tus próximos viajes por el sur europeo."
-   }
+   "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/f684/live/02351f90-e74d-11f1-99b6-a35a62fa4264.jpg",
+   "id": "s32"
   },
   {
    "sec": "international",
@@ -804,7 +729,7 @@
    "summary": "The prime minister’s remarks were the clearest commitment yet to not joining the EU without another vote In her speech, Louise Haigh announced that Juergen Maier, chair of Great British Energy, has been appointed as the government’s northern economy and reindustrialisation commissioner. She said: Giving business the confidence to invest here, and create…",
    "link": "https://www.theguardian.com/politics/live/2026/nov/23/andy-burnham-brexit-europe-eu-uk-summit-deal-commons-cbi-farage-badenoch-haigh-politics-latest-news-updates",
    "source": "The Guardian · World",
-   "date": "2026-11-23T17:26:34+00:00",
+   "date": "2026-11-23T17:36:35+00:00",
    "others": [
     {
      "source": "Politico Europe",
@@ -813,27 +738,27 @@
     }
    ],
    "score": 2,
-   "image": "https://i.guim.co.uk/img/media/221b71637b12d748ec611334d61fd609cbb6a644/209_0_2082_1666/master/2082.jpg?width=140&quality=85&auto=format&fit=max&s=befa3aa2dca37b7d8801c87885d96c7e",
+   "image": "https://i.guim.co.uk/img/media/221b71637b12d748ec611334d61fd609cbb6a644/209_0_2082_1666/master/2082.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=d648f2b0e8a4446e90bf73f26a2e6c01",
    "id": "s33"
   },
   {
    "sec": "international",
    "lang": "en",
-   "region": "mea",
-   "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-   "summary": "The report says there are signs of possible contamination across almost all of Gaza as a result of Israel's actions.",
-   "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC · Middle East",
-   "date": "2026-11-23T17:07:25+00:00",
+   "region": "europe",
+   "title": "Flights cancelled in Belgium due to cost-of-living strike",
+   "summary": "A series of strikes have hit Belgium in recent months as the prime minister struggles to agree a budget to cut costs.",
+   "link": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · Europe",
+   "date": "2026-11-23T13:34:02+00:00",
    "others": [
     {
      "source": "BBC",
-     "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53UE10bVlHdlBvUGgwY3hKVXZMclhNVjMzUGRKQURjVV82czlJOUhKNDFfbW41cmE3ZmNSY285bGVsSGJQUnpJUUozTDYyMXdIQk5BTFExcTVmc1haZnc?oc=5"
+     "title": "Flights cancelled in Belgium due to cost-of-living strike",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1MM1EzTWwydXdteGEzclVvNmVXQ0c2cEpja1BDNEdMc1M3VEJaQ3lneWJweFFhWDBhQXVLamw1QVRzN09Cc21EZkFJem5lMTNwZWFGb19JaWZCcjJXT1E?oc=5"
     }
    ],
    "score": 2,
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/810a/live/c0542f80-e73d-11f1-99a1-253766e7ad8b.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/6bf3/live/3920ed00-e738-11f1-8294-033bd8ee7e95.jpg",
    "id": "s34"
   },
   {
@@ -853,7 +778,7 @@
     }
    ],
    "score": 2,
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87ae/live/24717fd0-e73f-11f1-802a-678be58471bb.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/87ae/live/24717fd0-e73f-11f1-802a-678be58471bb.jpg",
    "id": "s35"
   },
   {
@@ -873,7 +798,7 @@
     }
    ],
    "score": 2,
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4edf/live/0b9a5c60-e70e-11f1-a094-5fdc692f3e33.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/4edf/live/0b9a5c60-e70e-11f1-a094-5fdc692f3e33.jpg",
    "id": "s36"
   },
   {
@@ -893,27 +818,27 @@
     }
    ],
    "score": 2,
-   "image": "",
+   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6719x3779+0+347/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe5%2F7d%2Fc50c3bcc4fe1ae05beb95414859a%2Fgettyimages-2305196522.jpg",
    "id": "s37"
   },
   {
    "sec": "international",
    "lang": "en",
-   "region": "us",
-   "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-   "summary": "The Army says \"swift action\" is necessary to protect its personnel and nearby communities around its ammunition plant in Iowa.",
-   "link": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC · US & Canada",
-   "date": "2026-11-22T18:29:46+00:00",
+   "region": "mea",
+   "title": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+   "summary": "Scientific and satellite findings warn of widespread contamination in Gaza, posing grave threats to public health ‘for generations to come’ Israel’s destruction of Gaza has left a devastating environmental legacy with poisoned water, contaminated soil and toxic air threatening the life-support systems that the population depends on for survival, according…",
+   "link": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
+   "source": "The Guardian · World",
+   "date": "2026-11-23T04:00:45+00:00",
    "others": [
     {
-     "source": "BBC",
-     "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVbUlBZjNFTEZ3bmh4djk2aHI1WlVqTFpVUWgwd0w1UDNXVFFleEduMEJELXdMcnIwMHV4UE1DRGoxdXZ5M3dpcjM4WnJCZm8tdmNTTjhsMHhsbC1KdEE?oc=5"
+     "source": "The Guardian",
+     "title": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdHhuX2FjNjlDYmQtdG1TT0hPSkptRTBNcC0wd3lwekxoRkdSaDNFVWhhOWpEanZQVkNDa0JaLTNjQmFXWTNOQzU2OTUzY1c1RWoxRHpkQmtVNklZZGowSEMxZmRvRVRFa2JJY290b1hNSXZVUWNVdDVvV0RsRHhjNzcyeFZyYTVVNGRBNWVtdVVDVUhfTnNiU2lMWE1lYVRHczNmTjM2azliQQ?oc=5"
     }
    ],
    "score": 2,
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c129/live/651f5c40-e68c-11f1-936e-1fd1d31671db.jpg",
+   "image": "https://i.guim.co.uk/img/media/3f84cee4d3a31ab236a50a7d425bc2b6fc6b6fe8/237_0_2475_1980/master/2475.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=cc45482dada91d8db094017e4cadcacb",
    "id": "s38"
   },
   {
@@ -933,8 +858,36 @@
     }
    ],
    "score": 2,
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc28/live/9c42c760-e66a-11f1-99b6-a35a62fa4264.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/dc28/live/9c42c760-e66a-11f1-99b6-a35a62fa4264.jpg",
    "id": "s39"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "us",
+   "title": "US Army reschedules detonation of toxic explosives at Iowa ammunition plant",
+   "summary": "The army says it has moved the detonation to Wednesday to allow for \"optimal weather conditions\", as public outcry intensifies.",
+   "link": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC · US & Canada",
+   "date": "2026-11-23T17:48:27+00:00",
+   "others": [],
+   "score": 1,
+   "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/c129/live/651f5c40-e68c-11f1-936e-1fd1d31671db.jpg",
+   "id": "s40"
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "global",
+   "title": "Abolishing Natural England would be travesty, say campaigners",
+   "summary": "Environmentalists say abolishing independent body will make it easier for landowners and developers ‘to trash nature’ Not just any quango, Natural England is the only public body that exists to legally protect the jewels in the crown of English nature – places increasingly under threat in a country that is overseeing an ongoing and devastating decline in…",
+   "link": "https://www.theguardian.com/environment/2026/nov/23/abolishing-natural-england-would-be-travesty-say-campaigners",
+   "source": "The Guardian · World",
+   "date": "2026-11-23T17:27:51+00:00",
+   "others": [],
+   "score": 1,
+   "image": "https://i.guim.co.uk/img/media/fa4230eee7577e335fa0f5a9c9fe2ea1b2d573b7/497_0_5055_4047/master/5055.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6fc6fadf5c6d11488d85909e6b947ac1",
+   "id": "s41"
   },
   {
    "sec": "international",
@@ -947,56 +900,8 @@
    "date": "2026-11-23T17:19:55+00:00",
    "others": [],
    "score": 1,
-   "image": "https://i.guim.co.uk/img/media/bfd5ba75d2fef1972b3c75b1a735ae9b05d31036/156_27_6787_5429/master/6787.jpg?width=140&quality=85&auto=format&fit=max&s=da215f2c7e360e655c53f507906b5a06",
-   "id": "s40"
-  },
-  {
-   "sec": "international",
-   "lang": "en",
-   "region": "global",
-   "title": "Child safety groups urge Amazon and eBay to stop selling AI toys until proved safe",
-   "summary": "Advocates from across the world voice concern over privacy issues and inappropriate communication to children More than 150 child safety groups and experts across six continents have urged Amazon and eBay to stop selling AI toys this Christmas until they are proved to be safe. In a letter sent to Amazon’s president, Andy Jassy, and eBay’s president, Jamie…",
-   "link": "https://www.theguardian.com/technology/2026/nov/23/child-safety-groups-urge-amazon-ebay-stop-selling-ai-toys-until-proved-safe",
-   "source": "The Guardian · World",
-   "date": "2026-11-23T17:18:06+00:00",
-   "others": [],
-   "score": 1,
-   "image": "https://i.guim.co.uk/img/media/0685580621412c0ab09c57f3e1cbcfe36f682121/126_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=fa2ca7ab7793e1ef1f6f28976543118b",
-   "id": "s41"
-  },
-  {
-   "sec": "international",
-   "lang": "en",
-   "region": "us",
-   "title": "Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner",
-   "summary": "The impersonator, Canadian comedian Mark Critch, poked fun at the US president's search for a new press secretary and US-Canada trade talks.",
-   "link": "https://www.bbc.co.uk/news/articles/cr930y92dyx4o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC · US & Canada",
-   "date": "2026-11-23T17:14:50+00:00",
-   "others": [],
-   "score": 1,
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f36/live/7d4e5560-e758-11f1-b407-33329b1ec67a.png",
+   "image": "https://i.guim.co.uk/img/media/bfd5ba75d2fef1972b3c75b1a735ae9b05d31036/156_27_6787_5429/master/6787.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f93dad4e8331148826e93ca5683798bd",
    "id": "s42"
-  },
-  {
-   "sec": "moda",
-   "lang": "es",
-   "region": null,
-   "title": "Las bailarinas más especiales del otoño-invierno 2026/2027 son de terciopelo",
-   "summary": "La versión más suntuosa de este clásico del zapatero que llevaremos a todas horas",
-   "link": "https://www.vogue.es/articulos/bailarinas-terciopelo-tendencias-otono-invierno-2026-2027",
-   "source": "Vogue España",
-   "date": "2026-11-23T17:03:27+00:00",
-   "others": [
-    {
-     "source": "Cosmopolitan",
-     "title": "Primero se vio en Londres y ahora llega a España: los calcetines de rombos son la tendencia del invierno 2026-2027 y así los llevan las expertas en moda",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS1N0dE10YWNnSEhsUDUxMW1YOS1GdHI0TTlCU05Eb3hNVnRWenJNSkJyOExUWkhCWkx0dVMxVENGVGFRS2VmYjNQaEU2UUtaQUJTYlJJRW5ZMk9QWlQ1dkNJek54RWdleW40SkZNNHpST3lubEpDeFRKUkYyenBBckRxelpaM2djdE9kUjVvTzdEYlZCNWhpcm81ZnR0Yjc4R08zSGV5VVVHd0NaMXpFNGFEd3d4UQ?oc=5"
-    }
-   ],
-   "score": 2,
-   "image": "https://media.vogue.es/photos/6b02ce6043c847b78357c197/master/pass/898537354_18655741279035160_64110174940034946_n.jpg",
-   "id": "s43"
   },
   {
    "sec": "moda",
@@ -1016,7 +921,7 @@
    ],
    "score": 2,
    "image": "",
-   "id": "s44"
+   "id": "s43"
   },
   {
    "sec": "moda",
@@ -1036,7 +941,7 @@
    ],
    "score": 2,
    "image": "",
-   "id": "s45"
+   "id": "s44"
   },
   {
    "sec": "moda",
@@ -1056,17 +961,37 @@
    ],
    "score": 2,
    "image": "",
+   "id": "s45"
+  },
+  {
+   "sec": "moda",
+   "lang": "es",
+   "region": null,
+   "title": "Así es el vestido de novia de Miley Cyrus: espalda al aire y silueta clásica",
+   "summary": "La cantante eligió un diseño de Saint Laurent que apela a la novia minimalista",
+   "link": "https://www.vogue.es/articulos/vestido-novia-miley-cyrus-saint-laurent",
+   "source": "Vogue España",
+   "date": "2026-11-23T11:23:11+00:00",
+   "others": [
+    {
+     "source": "EL PAÍS",
+     "title": "El vestido de novia de Miley Cyrus: un Saint Laurent clásico y sofisticado con un gran escote en la espalda",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPem5QYkNVS0ppMGh0NWFjQmcyRk0zNzVhTkVLQXRUNmFyZ3paWlNBdEtHUUVnQWtWclNhMGF5R2Nja1pFNXZLLWw5Q2hiRGNITXRxZVpnOVVuVDZzUFpkZXk2UzhQcHRVdHRuT2NGb0Y5RG4wazNNQ1dGRWhmekRJZEJ3bUduZktzQ2NEVXY4dWl3bGJkS1dKdGxlYkZkbHRYWG9xSzFPV0NrT2E4dlowdGVfamczaDRuNXM5TmJjMWo0Slc2eVZqdng4SXdGdTJUdWZKQWFEamgwX2thVlYwT3hWbGNnT1nSAfsBQVVfeXFMT3lJaXFicHFFcWN6UGxpbHVMMHFBa0lhUmZERHJvaW1nZ2JYLWY3Rk5oTXFKbjNZX2xyYTJybUl5RTctOWlod2p2TWVHLXhhR3dtRlBsRldINFdMQkJvQjBQVmNfbXFTWC1HaTA1dThyWG9sLVk1QWdJUHljeWJoREpPRGVRZlQxcTQzbTBPWDdNdWhYdlRyMHNkbXFael9nck5NM2xuUmUtSkxyQXFKTVJkYTVZTnhTdTJJV011bm54REhDTDJnQUlBVW56Rk9sV29FdHJhdVZuSGgwXzc3QTZXMXNkNHBwYzM3VWRSeElzTTRHc082bTNneG8?oc=5"
+    }
+   ],
+   "score": 2,
+   "image": "https://media.vogue.es/photos/6b03464e3b513bda03e13f32/master/pass/Captura%20de%20pantalla%202026-11-22%20a%20las%2020.43.57.png",
    "id": "s46"
   },
   {
    "sec": "moda",
    "lang": "es",
    "region": null,
-   "title": "La princesa Charlene de Mónaco, al estilo Grace Kelly, deslumbra con traje blanco y peinado con ondas",
+   "title": "Madre Coraje promueve la moda sostenible en Huelva con una jornada de intercambio de ropa este viernes",
    "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTTB4RlBTajJoek5sMy05bklSdERrcGs2MXptZDM2MFdDWm5wUzlVaVJfazZpdlhiLTlhUWJoMzRSUGZLTXF0UHBxdUNCWExTbXY5QjlWSVBXOGNoZzhkaTFjUi1yck94U0lBTnUxWGNwRzZ4SEtMNXJRblVDaXBsLWlYcHFkOUdmZmFNMFNfc0hyYjVxcTA1ODA4WUNqZUxwRlo0aWotN200dDVpTjFVSlhBNFhpckE2QWc5M2JYYkRFVXBXQ21NOUozdWpidw?oc=5",
-   "source": "Harper's BAZAAR",
-   "date": "2026-11-23T17:09:12+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSGoyNEdBMDJ4MUwwOVF0dVRvSjFfb0lualBpMmYwYjd1d1NZWHRMRkUySU9XZ3pSak9FMjc1RmdQUVVVZzRiUHZqai1GY0VnbWhuZTdGMFUzMzBlZk5hVVpwN1ZELXY5ekJZLUVocmlNODQwNFZOWVNRbHR1NEdGOXJ4MUpiWFB4enNYRzJTM0Z6RXFUZEZBUXhRcTExTzFYUy1PTkhQMlk0Z19ZODFXM3NFMGktQ1Q0dmlWbEZseXdTMWxXZzRTR2F2Y2pZbWI2Q3BqZmNHR2JkUTZmWDQya2NvZEdVQV82Qm5J?oc=5",
+   "source": "Europa Press",
+   "date": "2026-11-23T17:41:19+00:00",
    "others": [],
    "score": 1,
    "image": "",
@@ -1076,11 +1001,11 @@
    "sec": "moda",
    "lang": "es",
    "region": null,
-   "title": "Maria Giulia Prezioso Maramotti, Premio TELVA Moda Internacional 2026",
+   "title": "El delantero de moda en LaLiga, \"como loco\" por fichar por el Barça",
    "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JYzlELXhGaEg3SXZYdm54VHRLS3QzaVd0MGdvODFPM0QtWnRqS2g1YzNDaTR1TW9ZSFlyc1k5bVRENlhFTWxDX2ZSVUZucXVGNTlfellNMG9SSmFlMkZ3bEdncFJNVG5jQkI3bndTcnVYNUdJdVR2WHhtRnNEQdIBfkFVX3lxTFBBZEg0X21IYkY3MjF2R19rOEdPa2JJaHBDOWVJaWxWRmY5bW13WFhMWEFFcUFMSDlGOUNMVUVvczJuTDFxUDQtLWdBbkQ3cm53eHdEc1Uta3ZNRzA5aW96bE5wN0k2cTVONUpldUE4NGgtMk1zSEhyVy1vQi0tdw?oc=5",
-   "source": "Telva",
-   "date": "2026-11-23T16:40:38+00:00",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcFQ1andqemlLM1FYSDdHUlNrbWJqWjQ4M0QtWjVmU09ydkZuMkUyVFR1aGd5cXR5QkJ6UF94V1VjOFNEWmRpZmJGVnhUYjJ6Mm51VkRJWXlaZ09IaXNweEJqWmpkTzNRRk9fSVY3S0cyZ2NSRTFTdm9xZElVRWVHbW5PWHBCWDQzRDM1RlNHLWtza01NaUxIZ1hOOGzSAZwBQVVfeXFMTkptZV9PZ3Q4LTFSakxHdFE4d1pNMW4ydFBWcGJ4VTIydmtmY3ZvWXVleXg5TklqSGoyblBzaEtOVFllZDZ3NzQ1ZFVidjdQQnZhNUNoV2ViNng5R3dsdGxEdFVwTVI5cVFzLWlvZzlybllxdzdzTjlFcmNSdk54QVlTaVB2bUNLX3JjbTBaUjBlTGJsWWJRektVOUtB?oc=5",
+   "source": "SPORT",
+   "date": "2026-11-23T17:38:03+00:00",
    "others": [],
    "score": 1,
    "image": "",
@@ -1089,11 +1014,11 @@
  ],
  "top": [
   {
-   "id": "s11",
+   "id": "s21",
    "size": "xl"
   },
   {
-   "id": "s21",
+   "id": "s11",
    "size": "m"
   },
   {
@@ -1109,15 +1034,15 @@
    "size": "s"
   },
   {
-   "id": "s22",
-   "size": "s"
-  },
-  {
    "id": "s32",
    "size": "s"
   },
   {
    "id": "s1",
+   "size": "s"
+  },
+  {
+   "id": "s22",
    "size": "s"
   }
  ],
@@ -1165,22 +1090,22 @@
   {
    "name": "Google Noticias · España",
    "ok": true,
-   "items": 37
+   "items": 36
   },
   {
    "name": "Google Noticias · Economía",
    "ok": true,
-   "items": 32
+   "items": 33
   },
   {
    "name": "Google News · World",
    "ok": true,
-   "items": 31
+   "items": 30
   },
   {
    "name": "Google Noticias · Moda",
    "ok": true,
-   "items": 37
+   "items": 38
   },
   {
    "name": "El País",
@@ -1310,7 +1235,7 @@
   {
    "name": "The Guardian · Technology",
    "ok": true,
-   "items": 13
+   "items": 14
   },
   {
    "name": "The Economist · Finance & economics",
@@ -1368,5 +1293,5 @@
    "items": 1468
   }
  ],
- "ai_engine": "generativelanguage.googleapis.com · gemini-4-hydrogen"
+ "ai_engine": null
 }
