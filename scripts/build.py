@@ -212,6 +212,105 @@ def call_ai(messages):
     return None, None
 
 
+# ---------- fotos: buscar la versión grande y descartar las pixeladas ----------
+MIN_W = 700
+
+
+def img_size(b):
+    """Ancho y alto a partir de los primeros bytes de un JPEG, PNG, GIF o WebP (sin librerías)."""
+    try:
+        if b[:8] == b"\x89PNG\r\n\x1a\n":
+            return int.from_bytes(b[16:20], "big"), int.from_bytes(b[20:24], "big")
+        if b[:6] in (b"GIF87a", b"GIF89a"):
+            return int.from_bytes(b[6:8], "little"), int.from_bytes(b[8:10], "little")
+        if b[:4] == b"RIFF" and b[8:12] == b"WEBP":
+            k = b[12:16]
+            if k == b"VP8X":
+                return int.from_bytes(b[24:27], "little") + 1, int.from_bytes(b[27:30], "little") + 1
+            if k == b"VP8 ":
+                return int.from_bytes(b[26:28], "little") & 0x3FFF, int.from_bytes(b[28:30], "little") & 0x3FFF
+            if k == b"VP8L":
+                v = int.from_bytes(b[21:25], "little")
+                return (v & 0x3FFF) + 1, ((v >> 14) & 0x3FFF) + 1
+        if b[:2] == b"\xff\xd8":
+            i = 2
+            while i + 9 < len(b):
+                if b[i] != 0xFF:
+                    i += 1; continue
+                m = b[i + 1]
+                if 0xC0 <= m <= 0xCF and m not in (0xC4, 0xC8, 0xCC):
+                    return int.from_bytes(b[i + 7:i + 9], "big"), int.from_bytes(b[i + 5:i + 7], "big")
+                i += 2 + int.from_bytes(b[i + 2:i + 4], "big")
+    except Exception:
+        pass
+    return 0, 0
+
+
+def width_of(url):
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Range": "bytes=0-262143"})
+        with urllib.request.urlopen(req, timeout=12) as r:
+            return img_size(r.read(262144))[0]
+    except Exception:
+        return 0
+
+
+def upsize(url):
+    """Algunas webs dan miniaturas con el tamaño en la dirección: pedir la grande."""
+    url = re.sub(r"(ichef\.bbci\.co\.uk/(?:ace|news)/(?:standard|ws)/)\d+(/)", r"\g<1>1024\2", url)
+    return url
+
+
+def page_image(link):
+    """La foto principal del artículo (og:image / twitter:image), que suele ser la versión grande."""
+    if not link or "news.google." in link:
+        return ""
+    try:
+        req = urllib.request.Request(link, headers={"User-Agent": UA, "Accept": "text/html"})
+        with urllib.request.urlopen(req, timeout=12) as r:
+            page = r.read(400000).decode("utf-8", "replace")
+    except Exception:
+        return ""
+    for pat in (r'<meta[^>]+(?:property|name)=["\'](?:og:image|og:image:secure_url|twitter:image)["\'][^>]*content=["\']([^"\']+)',
+                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\'](?:og:image|twitter:image)["\']'):
+        m = re.search(pat, page, re.I)
+        if m:
+            u = html.unescape(m.group(1)).strip()
+            if u.startswith("//"):
+                u = "https:" + u
+            if u.startswith("https://"):
+                return u
+    return ""
+
+
+def good_images(stories):
+    """Para cada noticia, una foto de al menos MIN_W px de ancho; si no hay ninguna, sin foto."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    def best(s):
+        cands = []
+        if s.get("image"):
+            cands.append(upsize(s["image"]))
+        for link in [s["link"]] + [o["link"] for o in s.get("others", [])][:3]:
+            u = page_image(link)
+            if u:
+                cands.append(upsize(u))
+        seen = set()
+        for u in cands:
+            if u in seen:
+                continue
+            seen.add(u)
+            if width_of(u) >= MIN_W:
+                return u
+        return ""
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        res = list(ex.map(best, stories))
+    for s, u in zip(stories, res):
+        s["image"] = u
+    log(f"Fotos válidas: {sum(1 for u in res if u)} de {len(stories)}")
+
+
 def explain(chosen, top):
     """Añade «esencial», «porque», «desarrollo» y «cafe» a las noticias principales (en dos tandas de 5).
     Si la IA falla, la edición sale igual."""
@@ -363,6 +462,7 @@ def main():
                 status.append({"name": "Podcast · " + p["show"], "ok": False, "error": type(ex).__name__})
         pods.append(entry)
 
+    good_images(chosen)
     explain(chosen, top)
 
     if len(chosen) < 5:

@@ -510,7 +510,7 @@ function frontPage(){
                         : `background-color:#EADBC4`;
   const dateTxt = new Date(ED.date+'T12:00:00').toLocaleDateString('es-ES',{day:'numeric',month:'long'});
   const dek = lead.ai ? lead.ai.porque : firstSentence(lead.summary||'');
-  const cover = `<div class="mag-cover noimg${lead.image?' photo':''}" style="${bg}">
+  const cover = `<div class="mag-cover noimg${lead.image?' photo':''}" ${lead.image?`data-img="${esc(lead.image)}"`:''} style="${bg}">
       <div class="mag-top">Lo más importante de hoy</div>
       <div class="mag-lines${right?' right':''}">${lines.map(n => { const s = SEC[n.sec]||SEC.portada; return `<button data-open30="${n.id}" class="mag-line"><span class="mag-row"><span class="mag-k" style="background:${s.c};color:${s.fg}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-src">${esc(srcTxt(n))}</span></span><span class="mag-lt" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="mag-ex">${esc(expl(n))}</span></button>`; }).join('')}</div>
       <button class="mag-lead" data-open30="${lead.id}">
@@ -523,7 +523,7 @@ function frontPage(){
   const toc = more.map((n,i) => { const s = SEC[n.sec]||SEC.portada;
     return `<button class="toc-i" data-open30="${n.id}"><span class="toc-n" style="color:${s.c}">${i+1}</span>
       <span class="toc-t"><span class="mag-row"><span class="toc-k" style="color:${s.ink}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-src toc-src">${esc(srcTxt(n))}</span></span><span class="toc-h" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="toc-ex">${esc(expl(n))}</span>${followBadge(n)}</span>
-      ${n.image?`<span class="toc-img" style="background-image:url('${esc(n.image)}')"></span>`:''}</button>`; }).join('');
+      ${n.image?`<span class="toc-img" data-imgcheck="${esc(n.image)}" style="background-image:url('${esc(n.image)}')"></span>`:''}</button>`; }).join('');
   return `<section class="mag" aria-label="Lectura en 30 segundos">${cover}
     ${more.length?`<div class="toc"><div class="toc-title">Y además, hoy</div>${toc}</div>`:''}</section>`;
 }
@@ -644,7 +644,7 @@ function vNoticia(id){
   return `<button class="back" data-back>${I.back}${lastList.name==='edicion' && lastList.sec!=='portada' ? SEC[lastList.sec].l : 'Volver'}</button>
     <div class="art" ${en?'id="enBody"':''}><span class="chip" style="background:${s.c};color:${s.fg};align-self:flex-start">${esc(s.l)}${n.region&&n.sec==='international'?' · '+esc((REG.find(r=>r[0]===n.region)||['',''])[1]):''}</span>
     <h1 ${en?'lang="en"':''}>${esc(n.title)}</h1>${followBadge(n)}
-    ${n.image?`<figure class="photo"><img class="hero" src="${esc(n.image)}" alt="" loading="lazy" onerror="this.parentNode.remove()"><figcaption>Imagen: ${esc(n.source)}</figcaption></figure>`:''}
+    ${n.image?`<figure class="photo" data-imgcheck="${esc(n.image)}"><img class="hero" src="${esc(n.image)}" alt="" loading="lazy" onerror="this.parentNode.remove()"><figcaption>Imagen: ${esc(n.source)}</figcaption></figure>`:''}
     ${n.ai?`<div class="box yellow"><span class="kicker">Lo esencial</span><p>${esc(n.ai.esencial)}</p></div>
       <div class="box"><span class="kicker" style="color:var(--claret)">Por qué importa</span><p>${esc(n.ai.porque)}</p></div>
       ${n.ai.desarrollo?`<div class="box"><span class="kicker" style="color:var(--claret)">La noticia</span><p>${esc(n.ai.desarrollo)}</p></div>`:''}`
@@ -754,6 +754,18 @@ function render(){
   document.getElementById('side').innerHTML = `<span class="logo">Con un Café</span>
     <div class="grp"><span>Secciones</span>${SECS.map(k=>`<button class="${view.name==='edicion'&&view.sec===k?'on':''}" data-sec="${k}"><i class="dot" style="background:${SEC[k].c}"></i>${SEC[k].l}</button>`).join('')}</div>
     <div class="grp"><span>Tus espacios</span>${tabsB.map(([k,l])=>`<button class="${active===k?'on':''}" data-nav="${k}">${l}${k==='lectura'&&pend?` (${pend})`:''}</button>`).join('')}</div>`;
+  checkImgs();
+}
+/* fotos pixeladas fuera: si miden menos de 700 px de ancho no se muestran */
+const IMGOK = {};
+function testImg(url, cb){
+  if(url in IMGOK) return cb(IMGOK[url]);
+  const im = new Image(); im.onload = () => cb(IMGOK[url] = im.naturalWidth >= 700); im.onerror = () => cb(IMGOK[url] = false); im.src = url;
+}
+function checkImgs(){
+  document.querySelectorAll('.mag-cover.photo[data-img]').forEach(el => testImg(el.dataset.img, ok => { if(!ok){
+    el.classList.remove('photo'); el.style.backgroundImage = ''; el.style.backgroundColor = '#EADBC4'; el.style.backgroundSize = ''; } }));
+  document.querySelectorAll('[data-imgcheck]').forEach(el => testImg(el.dataset.imgcheck, ok => { if(!ok) el.remove(); }));
 }
 function go(v){ Object.assign(view, v); render(); window.scrollTo(0,0); }
 async function goDay(date, then){
