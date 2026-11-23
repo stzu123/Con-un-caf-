@@ -163,64 +163,79 @@ def guess_region(text):
 AI_PROMPT = """Eres la redactora de «Con un Café», la prensa matinal de una universitaria española de 21 años.
 Ya sabe lo básico (qué es la inflación, el BCE, el Congreso...), así que NO definas conceptos básicos.
 Para cada noticia te doy el titular y lo que dicen las fuentes. Escribe en español (aunque la noticia esté en inglés):
-- "esencial": 2 frases con qué ha pasado.
+- "esencial": 1-2 frases claras con qué ha pasado (se lee debajo del titular en la portada).
 - "porque": 1-2 frases: por qué importa hoy y a quién afecta.
+- "desarrollo": 120-180 palabras: la noticia contada entera y ordenada (qué, quién, cuándo, dónde, qué dice cada fuente
+  y en qué coinciden o discrepan).
 - "cafe": 120-170 palabras, cercano y con chispa, sin paternalismo: contexto, causas, consecuencias, quién gana y quién pierde,
   y cómo conecta con otras noticias de la lista o con su vida (alquiler, primer empleo, ahorro, viajes, tecnología).
 REGLAS: usa SOLO la información que te doy y conocimiento general estable; NO inventes cifras, fechas, nombres ni declaraciones.
 Si un dato no está en el texto, no lo pongas. No copies frases de las fuentes: redacta con tus palabras.
-Responde SOLO con JSON: {"id": {"esencial": "...", "porque": "...", "cafe": "..."}, ...}"""
+Responde SOLO con JSON válido, sin texto antes ni después:
+{"id": {"esencial": "...", "porque": "...", "desarrollo": "...", "cafe": "..."}, ...}"""
 
 
 def call_ai(messages):
-    """Si existe GEMINI_API_KEY usa Gemini (nivel gratuito); si no o si falla, GitHub Models con el token de Actions."""
-    import os
+    """Gemini (nivel gratuito) si existe GEMINI_API_KEY, con reintentos; si falla, GitHub Models con el token de Actions."""
+    import os, time
     attempts = []
     if os.environ.get("GEMINI_API_KEY"):
-        # primero el modelo más potente (Pro); si no está disponible para esa clave, Flash
-        for model in os.environ.get("GEMINI_MODEL", "gemini-pro-latest,gemini-4-hydrogen,gemini-flash-latest").split(","):
+        for model in os.environ.get("GEMINI_MODEL", "gemini-4-hydrogen,gemini-flash-latest,gemini-flash-lite-latest").split(","):
             attempts.append(("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", os.environ["GEMINI_API_KEY"], model.strip()))
     if os.environ.get("GITHUB_TOKEN"):
         attempts.append(("https://models.github.ai/inference/chat/completions", os.environ["GITHUB_TOKEN"],
                          os.environ.get("GH_MODEL", "openai/gpt-4.1-mini")))
     for url, key, model in attempts:
-        try:
-            body = json.dumps({"model": model, "messages": messages, "temperature": 0.4}).encode()
-            req = urllib.request.Request(url, data=body, headers={"Authorization": "Bearer " + key, "Content-Type": "application/json",
-                                                                  "User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=120) as r:
-                out = json.loads(r.read())
-            txt = out["choices"][0]["message"]["content"]
-            m = re.search(r"\{.*\}", txt, re.S)
-            return json.loads(m.group(0)), url.split("/")[2] + " · " + model
-        except Exception as ex:
-            log("IA no disponible en", url.split("/")[2], type(ex).__name__, str(ex)[:200])
+        for wait in (0, 15, 40):          # servicio saturado (503) o límite por minuto (429): esperar y repetir
+            if wait:
+                time.sleep(wait)
+            raw = ""
+            try:
+                body = {"model": model, "messages": messages, "temperature": 0.4}
+                if "googleapis" in url:
+                    body["response_format"] = {"type": "json_object"}
+                req = urllib.request.Request(url, data=json.dumps(body).encode(),
+                                             headers={"Authorization": "Bearer " + key, "Content-Type": "application/json", "User-Agent": UA})
+                with urllib.request.urlopen(req, timeout=180) as r:
+                    raw = r.read().decode("utf-8", "replace")
+                txt = json.loads(raw)["choices"][0]["message"]["content"]
+                txt = re.sub(r"^```(json)?|```$", "", txt.strip()).strip()
+                m = re.search(r"\{.*\}", txt, re.S)
+                return json.loads(m.group(0)), url.split("/")[2] + " · " + model
+            except urllib.error.HTTPError as ex:
+                log("IA", model, "HTTP", ex.code, ex.read()[:160])
+                if ex.code not in (429, 500, 503):
+                    break
+            except Exception as ex:
+                log("IA", model, type(ex).__name__, str(ex)[:120], "| respuesta:", raw[:160])
+                break
     return None, None
 
 
 def explain(chosen, top):
-    """Añade «esencial», «porque» y «cafe» a las noticias principales. Si la IA falla, la edición sale igual."""
+    """Añade «esencial», «porque», «desarrollo» y «cafe» a las noticias principales (en dos tandas de 5).
+    Si la IA falla, la edición sale igual."""
     ids = [t["id"] for t in top]
     extra = [s["id"] for s in sorted(chosen, key=lambda s: s["score"], reverse=True) if s["id"] not in ids]
     ids = (ids + extra)[:10]
     pick = [s for s in chosen if s["id"] in ids]
-    if not pick:
-        return
-    lines = []
-    for s in pick:
-        others = "; ".join(f'{o["source"]}: {o["title"]}' for o in s["others"][:4])
-        lines.append(f'id={s["id"]} | sección={s["sec"]} | {s["source"]}: {s["title"]} | resumen: {s["summary"] or "-"} | otras fuentes: {others or "-"}')
-    res, engine = call_ai([{"role": "system", "content": AI_PROMPT}, {"role": "user", "content": "\n".join(lines)}])
-    if not res:
-        return
     n = 0
-    for s in pick:
-        r = res.get(s["id"]) or {}
-        if isinstance(r, dict) and r.get("cafe"):
-            s["ai"] = {k: clean(str(r.get(k, "")), 1400) for k in ("esencial", "porque", "cafe")}
-            n += 1
-    log(f"Explicaciones IA: {n} noticias ({engine})")
-    chosen_engine[0] = engine
+    for k in range(0, len(pick), 5):
+        batch = pick[k:k + 5]
+        lines = []
+        for s in batch:
+            others = "; ".join(f'{o["source"]}: {o["title"]}' for o in s["others"][:4])
+            lines.append(f'id={s["id"]} | sección={s["sec"]} | {s["source"]}: {s["title"]} | resumen: {s["summary"] or "-"} | otras fuentes: {others or "-"}')
+        res, engine = call_ai([{"role": "system", "content": AI_PROMPT}, {"role": "user", "content": "\n".join(lines)}])
+        if not res:
+            continue
+        for s in batch:
+            r = res.get(s["id"]) or {}
+            if isinstance(r, dict) and r.get("cafe"):
+                s["ai"] = {f: clean(str(r.get(f, "")), 2000) for f in ("esencial", "porque", "desarrollo", "cafe")}
+                n += 1
+        chosen_engine[0] = engine
+    log(f"Explicaciones IA: {n} noticias ({chosen_engine[0]})")
 
 
 chosen_engine = [None]

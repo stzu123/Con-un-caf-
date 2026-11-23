@@ -242,7 +242,8 @@ a.pod{color:var(--paper)}
 .mag-cover.noimg{color:#3B2A1A;background-image:radial-gradient(rgba(59,42,26,.10) 1px,transparent 1.4px);background-size:7px 7px}
 .mag-cover.noimg *{text-shadow:none!important}
 .mag-cover:not(.noimg) .mag-top{border-color:rgba(255,255,255,.6)}
-.mag-cover.noimg .mag-credit{display:none}
+.mag-cover.noimg:not(.photo) .mag-credit{display:none}
+.mag-cover.photo .mag-credit{color:#3B2A1A;opacity:.7}
 .mag .mag-cover.noimg button:focus-visible{outline-color:#3B2A1A}
 .mag-head{display:flex;flex-direction:column;align-items:center;border-bottom:1px solid rgba(255,255,255,.6);padding-bottom:6px}
 .mag-name{font-family:var(--serif);font-weight:800;font-size:clamp(40px,12vw,72px);line-height:.95;letter-spacing:-.02em;text-shadow:0 2px 12px rgba(0,0,0,.35)}
@@ -503,11 +504,11 @@ function frontPage(){
   const issue = INDEX.editions.length - INDEX.editions.findIndex(e => e.date === ED.date);
   const right = rnd() < 0.5, dark = !lead.image ? true : rnd() < 0.6;
   const ls = SEC[lead.sec] || SEC.portada;
-  const bg = lead.image ? `background-image:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 45%,rgba(0,0,0,.82) 100%),url('${esc(lead.image)}')`
+  const bg = lead.image ? `background-image:radial-gradient(rgba(59,42,26,.10) 1px,transparent 1.4px),linear-gradient(rgba(234,219,196,.84),rgba(234,219,196,.84)),url('${esc(lead.image)}');background-size:7px 7px,cover,cover;background-position:0 0,center,center`
                         : `background-color:#EADBC4`;
   const dateTxt = new Date(ED.date+'T12:00:00').toLocaleDateString('es-ES',{day:'numeric',month:'long'});
   const dek = lead.ai ? lead.ai.porque : firstSentence(lead.summary||'');
-  const cover = `<div class="mag-cover${lead.image?'':' noimg'}" style="${bg}">
+  const cover = `<div class="mag-cover noimg${lead.image?' photo':''}" style="${bg}">
       <div class="mag-top">Lo más importante de hoy</div>
       <div class="mag-lines${right?' right':''}">${lines.map(n => { const s = SEC[n.sec]||SEC.portada; return `<button data-open30="${n.id}" class="mag-line"><span class="mag-row"><span class="mag-k" style="background:${s.c};color:${s.fg}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-src">${esc(srcTxt(n))}</span></span><span class="mag-lt" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="mag-ex">${esc(expl(n))}</span></button>`; }).join('')}</div>
       <button class="mag-lead" data-open30="${lead.id}">
@@ -641,9 +642,10 @@ function vNoticia(id){
   return `<button class="back" data-back>${I.back}${lastList.name==='edicion' && lastList.sec!=='portada' ? SEC[lastList.sec].l : 'Volver'}</button>
     <div class="art" ${en?'id="enBody"':''}><span class="chip" style="background:${s.c};color:${s.fg};align-self:flex-start">${esc(s.l)}${n.region&&n.sec==='international'?' · '+esc((REG.find(r=>r[0]===n.region)||['',''])[1]):''}</span>
     <h1 ${en?'lang="en"':''}>${esc(n.title)}</h1>${followBadge(n)}
-    ${n.image?`<figure class="photo"><img class="hero" src="${esc(n.image)}" alt="" loading="lazy"><figcaption>Imagen: ${esc(n.source)}</figcaption></figure>`:''}
+    ${n.image?`<figure class="photo"><img class="hero" src="${esc(n.image)}" alt="" loading="lazy" onerror="this.parentNode.remove()"><figcaption>Imagen: ${esc(n.source)}</figcaption></figure>`:''}
     ${n.ai?`<div class="box yellow"><span class="kicker">Lo esencial</span><p>${esc(n.ai.esencial)}</p></div>
-      <div class="box"><span class="kicker" style="color:var(--claret)">Por qué importa</span><p>${esc(n.ai.porque)}</p></div>`
+      <div class="box"><span class="kicker" style="color:var(--claret)">Por qué importa</span><p>${esc(n.ai.porque)}</p></div>
+      ${n.ai.desarrollo?`<div class="box"><span class="kicker" style="color:var(--claret)">La noticia</span><p>${esc(n.ai.desarrollo)}</p></div>`:''}`
       :(n.summary?`<div class="box yellow"><span class="kicker">Lo esencial · ${esc(n.source)}</span><p ${en?'lang="en"':''}>${esc(n.summary)}</p></div>`:'')}
     <a class="btn" style="display:flex;align-items:center;justify-content:center;text-decoration:none" href="${esc(n.link)}" target="_blank" rel="noopener">${en?'Read the full story':'Leer la noticia completa'} en ${esc(n.source)} ↗</a>
     ${others.length?`<h2 class="h2">${en?'What each source says':'Qué dice cada fuente'}</h2>${others.map((o,i)=>`<div class="src" style="--c:${SRC_COLORS[i%SRC_COLORS.length]}"><b style="font-size:14px">${esc(o.source)}</b>
