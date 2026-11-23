@@ -242,8 +242,7 @@ a.pod{color:var(--paper)}
 .mag-cover.noimg{color:#3B2A1A;background-image:radial-gradient(rgba(59,42,26,.10) 1px,transparent 1.4px);background-size:7px 7px}
 .mag-cover.noimg *{text-shadow:none!important}
 .mag-cover:not(.noimg) .mag-top{border-color:rgba(255,255,255,.6)}
-.mag-cover.noimg:not(.photo) .mag-credit{display:none}
-.mag-cover.photo .mag-credit{color:#3B2A1A;opacity:.7}
+
 .mag .mag-cover.noimg button:focus-visible{outline-color:#3B2A1A}
 .mag-head{display:flex;flex-direction:column;align-items:center;border-bottom:1px solid rgba(255,255,255,.6);padding-bottom:6px}
 .mag-name{font-family:var(--serif);font-weight:800;font-size:clamp(40px,12vw,72px);line-height:.95;letter-spacing:-.02em;text-shadow:0 2px 12px rgba(0,0,0,.35)}
@@ -296,7 +295,14 @@ button.t.wk{display:block;padding:6px 0;border-bottom:1px solid var(--rule2)}
 .toc-src{color:var(--muted);opacity:1}
 .mag-lines.right{text-align:left;align-items:stretch}
 
-.mag-cover.photo .mag-lt,.mag-cover.photo .mag-h,.mag-cover.photo .mag-ex,.mag-cover.photo .mag-dek,.mag-cover.photo .mag-src,.mag-cover.photo .mag-top{text-shadow:0 0 6px rgba(234,219,196,.9),0 0 2px rgba(234,219,196,.9)!important}
+
+.mag-cover.withphoto .mag-lead{margin-top:0;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid currentColor}
+.mag-cover.withphoto .mag-lines{margin-bottom:0}
+.mag-photo{position:relative;display:block;width:100%;aspect-ratio:16/10;background-size:cover;background-position:center;margin-bottom:6px}
+.mag-photo .mag-credit{position:absolute;right:0;bottom:-18px;font:11px var(--sans);color:#3B2A1A;opacity:.7}
+.mag-cover.withphoto .mag-row{margin-top:14px}
+.mag-cover.withphoto .mag-lead .mag-row{margin-top:20px}
+.mag-cover.withphoto .mag-lines .mag-row{margin-top:0}
 </style>
 </head>
 <body>
@@ -506,19 +512,18 @@ function frontPage(){
   const issue = INDEX.editions.length - INDEX.editions.findIndex(e => e.date === ED.date);
   const right = rnd() < 0.5, dark = !lead.image ? true : rnd() < 0.6;
   const ls = SEC[lead.sec] || SEC.portada;
-  const bg = lead.image ? `background-image:linear-gradient(rgba(234,219,196,.58),rgba(234,219,196,.58)),url('${esc(lead.image)}');background-size:cover,cover;background-position:center,center`
-                        : `background-color:#EADBC4`;
+
   const dateTxt = new Date(ED.date+'T12:00:00').toLocaleDateString('es-ES',{day:'numeric',month:'long'});
   const dek = lead.ai ? lead.ai.porque : firstSentence(lead.summary||'');
-  const cover = `<div class="mag-cover noimg${lead.image?' photo':''}" ${lead.image?`data-img="${esc(lead.image)}"`:''} style="${bg}">
-      <div class="mag-top">Lo más importante de hoy</div>
-      <div class="mag-lines${right?' right':''}">${lines.map(n => { const s = SEC[n.sec]||SEC.portada; return `<button data-open30="${n.id}" class="mag-line"><span class="mag-row"><span class="mag-k" style="background:${s.c};color:${s.fg}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-src">${esc(srcTxt(n))}</span></span><span class="mag-lt" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="mag-ex">${esc(expl(n))}</span></button>`; }).join('')}</div>
-      <button class="mag-lead" data-open30="${lead.id}">
+  const lineHtml = lines.map(n => { const s = SEC[n.sec]||SEC.portada; return `<button data-open30="${n.id}" class="mag-line"><span class="mag-row"><span class="mag-k" style="background:${s.c};color:${s.fg}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-src">${esc(srcTxt(n))}</span></span><span class="mag-lt" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="mag-ex">${esc(expl(n))}</span></button>`; }).join('');
+  const leadHtml = `<button class="mag-lead" data-open30="${lead.id}">
+        ${lead.image?`<span class="mag-photo" data-imgcheck="${esc(lead.image)}" style="background-image:url('${esc(lead.image)}')"><span class="mag-credit">Imagen: ${esc(lead.source.replace(/ · .*/,''))}</span></span>`:''}
         <span class="mag-row"><span class="mag-k" style="background:${ls.c};color:${ls.fg}">${esc(ls.l)}</span><span class="mag-src">${esc(srcTxt(lead))}</span></span>
         <span class="mag-h" ${lead.lang==='en'?'lang="en"':''}>${esc(lead.title)}</span>
         ${dek?`<span class="mag-dek">${esc(dek)}</span>`:''}${followBadge(lead)}
-      </button>
-      ${lead.image?`<span class="mag-credit">Imagen: ${esc(lead.source)}</span>`:''}
+      </button>`;
+  const cover = `<div class="mag-cover noimg${lead.image?' withphoto':''}"><div class="mag-top">Lo más importante de hoy</div>
+      ${lead.image ? leadHtml + `<div class="mag-lines">${lineHtml}</div>` : `<div class="mag-lines">${lineHtml}</div>` + leadHtml}
     </div>`;
   const toc = more.map((n,i) => { const s = SEC[n.sec]||SEC.portada;
     return `<button class="toc-i" data-open30="${n.id}"><span class="toc-n" style="color:${s.c}">${i+1}</span>
@@ -763,8 +768,6 @@ function testImg(url, cb){
   const im = new Image(); im.onload = () => cb(IMGOK[url] = im.naturalWidth >= 700); im.onerror = () => cb(IMGOK[url] = false); im.src = url;
 }
 function checkImgs(){
-  document.querySelectorAll('.mag-cover.photo[data-img]').forEach(el => testImg(el.dataset.img, ok => { if(!ok){
-    el.classList.remove('photo'); el.style.backgroundImage = ''; el.style.backgroundColor = '#EADBC4'; el.style.backgroundSize = ''; } }));
   document.querySelectorAll('[data-imgcheck]').forEach(el => testImg(el.dataset.imgcheck, ok => { if(!ok) el.remove(); }));
 }
 function go(v){ Object.assign(view, v); render(); window.scrollTo(0,0); }
