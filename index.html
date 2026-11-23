@@ -241,12 +241,13 @@ a.pod{color:var(--paper)}
 .mag-cover{position:relative;min-height:min(125vw,620px);background-size:cover;background-position:center;color:#fff;display:flex;flex-direction:column;padding:16px;overflow:hidden}
 .mag-cover.noimg{color:#3B2614;background-image:radial-gradient(rgba(59,38,20,.08) 1px,transparent 1.4px);background-size:7px 7px}
 .mag-cover.noimg *{text-shadow:none!important}
+.mag-cover:not(.noimg) .mag-top{border-color:rgba(255,255,255,.6)}
 .mag-cover.noimg .mag-credit{display:none}
 .mag .mag-cover.noimg button:focus-visible{outline-color:#3B2614}
 .mag-head{display:flex;flex-direction:column;align-items:center;border-bottom:1px solid rgba(255,255,255,.6);padding-bottom:6px}
 .mag-name{font-family:var(--serif);font-weight:800;font-size:clamp(40px,12vw,72px);line-height:.95;letter-spacing:-.02em;text-shadow:0 2px 12px rgba(0,0,0,.35)}
 .mag-issue{font:700 10px var(--sans);letter-spacing:.16em;text-transform:uppercase;margin-top:4px}
-.mag-lines{display:flex;flex-direction:column;gap:10px;margin:0 0 18px;max-width:66%}
+.mag-lines{display:flex;flex-direction:column;gap:12px;margin:0 0 18px;max-width:82%}
 .mag-lines.right{align-self:flex-end;text-align:right;align-items:flex-end}
 .mag button{all:unset;cursor:pointer;box-sizing:border-box}
 .mag button:focus-visible{outline:2px solid #fff;outline-offset:3px}
@@ -279,6 +280,14 @@ button.t.wk{display:block;padding:6px 0;border-bottom:1px solid var(--rule2)}
 .wtrack span{display:block;height:10px}
 @media (min-width:700px){.mag-cover{min-height:480px}}
 .mini-mast{display:flex;justify-content:center;padding:12px 18px 10px;border-bottom:3px double var(--ink);font:700 12px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+
+.mag-top{font:700 11px var(--sans);letter-spacing:.16em;text-transform:uppercase;padding-bottom:8px;margin-bottom:14px;border-bottom:1px solid currentColor}
+.mag-ex{font-family:var(--body);font-size:14px;line-height:1.35;opacity:.9}
+.toc-ex{font-family:var(--body);font-size:14px;line-height:1.35;color:var(--muted)}
+.mag .toc-i{align-items:flex-start}
+.toc-n{font-size:22px;min-width:24px}
+.mag .toc-img{flex:0 0 72px;height:72px;margin-top:4px}
+.mag-cover.noimg .mag-cover-x{}
 </style>
 </head>
 <body>
@@ -428,14 +437,15 @@ function ranked(list){
   return list.map(n => ({n, r:(n.score||1) + interest(n, P) - (SUCESOS.test(n.title) ? 1000 : 0)})).sort((a,b) => b.r - a.r).map(x => x.n);
 }
 function topToday(){
-  const out = [], per = {};
-  for(const n of ranked(visible())){
+  const hasText = n => n.ai || (n.summary||'').length > 70;
+  const out = [], per = {}, pool = ranked(visible()).filter(n => !SUCESOS.test(n.title) && !isOpinion(n));
+  for(const pass of [true, false]) for(const n of pool){
     if(out.length >= 8) break;
-    if(SUCESOS.test(n.title)) continue;
+    if(out.includes(n) || (pass && !hasText(n))) continue;
     if((per[n.sec]||0) >= 3) continue;
     per[n.sec] = (per[n.sec]||0) + 1; out.push(n);
   }
-  return out;
+  return ranked(out);
 }
 
 /* ---------- Lectura en 30 segundos: portada de revista ---------- */
@@ -470,12 +480,19 @@ function iconFor(n){
 }
 const ico = (k, size, color) => `<svg width="${size}" height="${size}" viewBox="0 0 64 64" fill="none" stroke="${color}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k]||ICONS.paper}</svg>`;
 function seeded(seed){ let x = seed % 2147483647; if(x <= 0) x += 2147483646; return () => (x = x * 16807 % 2147483647) / 2147483647; }
-function firstSentence(t){ const m = (t||'').match(/^.{40,220}?[.!?](\s|$)/); return m ? m[0].trim() : (t||'').slice(0,180); }
+const isOpinion = n => /\/opini|\/tribuna|\/columnas?\//i.test(n.link||'') || n.title.split(/\s+/).length <= 5;
+function expl(n){
+  const t = n.ai ? n.ai.esencial : firstSentence(n.summary||'');
+  if(t && t.length > 30) return t.length > 200 ? t.slice(0,197).replace(/\s\S*$/,'') + '…' : t;
+  const k = (n.others||[]).length;
+  return `Lo cuenta ${n.source}${k?` y ${k} medio${k>1?'s':''} más`:''}. Tócala para ver de qué va.`;
+}
+function firstSentence(t){ const m = (t||'').match(/^.{40,220}?[.!?](\s|$)/); return m ? m[0].trim() : ((t||'').length > 180 ? t.slice(0,177).replace(/\s\S*$/,'') + '…' : (t||'')); }
 function frontPage(){
   const top = topToday(); if(!top.length) return '';
   const rnd = seeded(parseInt(ED.date.replace(/-/g,''),10));
   const [lead, ...rest] = top;
-  const lines = rest.slice(0, 3);
+  const lines = rest.slice(0, 3), more = rest.slice(3);
   const issue = INDEX.editions.length - INDEX.editions.findIndex(e => e.date === ED.date);
   const right = rnd() < 0.5, dark = !lead.image ? true : rnd() < 0.6;
   const ls = SEC[lead.sec] || SEC.portada;
@@ -484,7 +501,8 @@ function frontPage(){
   const dateTxt = new Date(ED.date+'T12:00:00').toLocaleDateString('es-ES',{day:'numeric',month:'long'});
   const dek = lead.ai ? lead.ai.porque : firstSentence(lead.summary||'');
   const cover = `<div class="mag-cover${lead.image?'':' noimg'}" style="${bg}">
-      <div class="mag-lines${right?' right':''}">${lines.map(n => { const s = SEC[n.sec]||SEC.portada; return `<button data-open30="${n.id}" class="mag-line"><span class="mag-k" style="background:${s.c};color:${s.fg}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-lt" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span></button>`; }).join('')}</div>
+      <div class="mag-top">Lo más importante de hoy</div>
+      <div class="mag-lines${right?' right':''}">${lines.map(n => { const s = SEC[n.sec]||SEC.portada; return `<button data-open30="${n.id}" class="mag-line"><span class="mag-k" style="background:${s.c};color:${s.fg}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="mag-lt" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="mag-ex">${esc(expl(n))}</span></button>`; }).join('')}</div>
       <button class="mag-lead" data-open30="${lead.id}">
         <span class="mag-k" style="background:${ls.c};color:${ls.fg}">${esc(ls.l)}${lead.score>1?` · ${lead.score} fuentes`:''}</span>
         <span class="mag-h" ${lead.lang==='en'?'lang="en"':''}>${esc(lead.title)}</span>
@@ -492,12 +510,12 @@ function frontPage(){
       </button>
       ${lead.image?`<span class="mag-credit">Imagen: ${esc(lead.source)}</span>`:''}
     </div>`;
-  const toc = rest.map((n,i) => { const s = SEC[n.sec]||SEC.portada;
-    return `<button class="toc-i" data-open30="${n.id}"><span class="toc-n" style="color:${s.c}">${String(i+2).padStart(2,'0')}</span>
-      ${n.image?`<span class="toc-img" style="background-image:url('${esc(n.image)}')"></span>`:`<span class="toc-img noimg" style="background:${s.c}">${ico(iconFor(n), 30, s.fg)}</span>`}
-      <span class="toc-t"><span class="toc-k" style="color:${s.ink}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="toc-h" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span>${followBadge(n)}</span></button>`; }).join('');
+  const toc = more.map((n,i) => { const s = SEC[n.sec]||SEC.portada;
+    return `<button class="toc-i" data-open30="${n.id}"><span class="toc-n" style="color:${s.c}">${i+1}</span>
+      <span class="toc-t"><span class="toc-k" style="color:${s.ink}">${esc(s.l)}${n.lang==='en'?' · EN':''}</span><span class="toc-h" ${n.lang==='en'?'lang="en"':''}>${esc(n.title)}</span><span class="toc-ex">${esc(expl(n))}</span>${followBadge(n)}</span>
+      ${n.image?`<span class="toc-img" style="background-image:url('${esc(n.image)}')"></span>`:''}</button>`; }).join('');
   return `<section class="mag" aria-label="Lectura en 30 segundos">${cover}
-    <div class="toc"><div class="toc-title">En este número</div>${toc}</div></section>`;
+    ${more.length?`<div class="toc"><div class="toc-title">Y además, hoy</div>${toc}</div>`:''}</section>`;
 }
 
 /* ---------- historia que sigues: línea del tiempo ---------- */
