@@ -187,19 +187,26 @@ def guess_region(text):
     return "global"
 
 
-AI_PROMPT = """Eres la redactora de «Con un Café», la prensa matinal de una universitaria española de 21 años.
-Ya sabe lo básico (qué es la inflación, el BCE, el Congreso...), así que NO definas conceptos básicos.
-Para cada noticia te doy el titular y lo que dicen las fuentes. Escribe en español (aunque la noticia esté en inglés):
-- "esencial": 1-2 frases claras con qué ha pasado (se lee debajo del titular en la portada).
-- "porque": 1-2 frases: por qué importa hoy y a quién afecta.
-- "desarrollo": 120-180 palabras: la noticia contada entera y ordenada (qué, quién, cuándo, dónde, qué dice cada fuente
-  y en qué coinciden o discrepan).
-- "cafe": 120-170 palabras, cercano y con chispa, sin paternalismo: contexto, causas, consecuencias, quién gana y quién pierde,
-  y cómo conecta con otras noticias de la lista o con su vida (alquiler, primer empleo, ahorro, viajes, tecnología).
-REGLAS: usa SOLO la información que te doy y conocimiento general estable; NO inventes cifras, fechas, nombres ni declaraciones.
-Si un dato no está en el texto, no lo pongas. No copies frases de las fuentes: redacta con tus palabras.
-Responde SOLO con JSON válido, sin texto antes ni después:
-{"id": {"esencial": "...", "porque": "...", "desarrollo": "...", "cafe": "..."}, ...}"""
+AI_VERSION = 2
+AI_PROMPT = """Eres la editora de «Con un Café», una prensa matinal para una universitaria española de 21 años, lista e informada.
+Para cada noticia recibes el titular, el resumen y, si lo hay, un extracto del artículo. Escribe en español (aunque la noticia esté en inglés)
+CUATRO bloques. Cada bloque tiene un trabajo distinto y DEBE APORTAR INFORMACIÓN NUEVA respecto al titular y a los demás bloques:
+
+- "esencial" (máx. 25 palabras): el hecho nuevo de hoy, concreto (quién, qué, cifra clave). Es lo que se lee bajo el titular, así que no lo repitas: añade el dato que falta.
+- "porque" (máx. 35 palabras): qué está en juego o qué consecuencia tiene. NO vuelvas a contar el hecho.
+- "contexto" (60-110 palabras): los antecedentes que NO salen en el titular: cómo se ha llegado aquí, qué pasó antes, datos de fondo,
+  qué falta por saber. Si el extracto trae detalles (cifras, fechas, declaraciones), úsalos aquí.
+- "cafe" (60-100 palabras): tradúcelo a su mundo con un ejemplo concreto (dinero, trabajo, estudios, alquiler, viajes, tecnología, derechos)
+  o explica la pieza que hace falta para entenderlo. Termina con una frase que empiece por «Atenta a:» y diga qué puede pasar después.
+
+REGLAS:
+1. Prohibido repetir: ningún dato, nombre o idea puede aparecer en más de un bloque. Si un bloque no tiene nada nuevo que aportar, escribe "".
+2. No nombres periódicos ni medios salvo que discrepen entre sí y eso importe para entenderlo.
+3. Neutral: no opines, no tomes partido, no uses muletillas («oye», «dale», «nosotras»), no sermonees.
+4. Usa solo la información dada y conocimiento general bien establecido. NO inventes cifras, fechas, nombres ni citas. Redacta con tus palabras.
+5. No definas lo básico (inflación, BCE, Congreso...).
+Responde SOLO con JSON válido:
+{"id": {"esencial": "...", "porque": "...", "contexto": "...", "cafe": "..."}, ...}"""
 
 
 def call_ai(messages):
@@ -291,6 +298,16 @@ def upsize(url):
     return url
 
 
+ARTICLE = {}   # enlace -> extracto del texto del artículo (para que la IA tenga detalles)
+
+
+def article_text(page):
+    body = re.sub(r"(?is)<(script|style|noscript|aside|nav|footer|figure)[^>]*>.*?</\1>", " ", page)
+    paras = [clean(p) for p in re.findall(r"(?is)<p[^>]*>(.*?)</p>", body)]
+    paras = [p for p in paras if len(p) > 80 and not re.search(r"cookies|suscr[ií]b|subscribe|newsletter|©|todos los derechos", p, re.I)]
+    return " ".join(paras)[:2500]
+
+
 def page_image(link):
     """La foto principal del artículo (og:image / twitter:image), que suele ser la versión grande."""
     if not link or "news.google." in link:
@@ -301,6 +318,7 @@ def page_image(link):
             page = r.read(400000).decode("utf-8", "replace")
     except Exception:
         return ""
+    ARTICLE[link] = article_text(page)
     for pat in (r'<meta[^>]+(?:property|name)=["\'](?:og:image|og:image:secure_url|twitter:image)["\'][^>]*content=["\']([^"\']+)',
                 r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\'](?:og:image|twitter:image)["\']'):
         m = re.search(pat, page, re.I)
@@ -345,7 +363,7 @@ def keep_previous_ai(chosen, date):
     """Si ya se generaron explicaciones hoy, se reaprovechan (por titular) y no se gastan peticiones."""
     f = ROOT / "data" / f"{date}.json"
     try:
-        old = {x["title"]: x["ai"] for x in json.loads(f.read_text(encoding="utf-8"))["stories"] if x.get("ai")}
+        old = {x["title"]: x["ai"] for x in json.loads(f.read_text(encoding="utf-8"))["stories"] if x.get("ai") and x["ai"].get("v") == AI_VERSION}
     except Exception:
         return
     n = 0
@@ -357,33 +375,34 @@ def keep_previous_ai(chosen, date):
 
 
 def explain(chosen, top):
-    """Añade «esencial», «porque», «desarrollo» y «cafe» a las noticias principales (en dos tandas de 5).
-    Si la IA falla, la edición sale igual."""
-    ids = [t["id"] for t in top]
-    extra = [s["id"] for s in sorted(chosen, key=lambda s: s["score"], reverse=True) if s["id"] not in ids]
-    ids = (ids + extra)[:10]
-    pick = [s for s in chosen if s["id"] in ids and not s.get("ai")]
+    """Explica todas las noticias (las de portada primero), en tandas de 6. Si la IA falla, la edición sale igual."""
+    import time
+    first = [t["id"] for t in top]
+    order = sorted(chosen, key=lambda s: (s["id"] not in first, -s["score"]))
+    pick = [s for s in order if not s.get("ai")]
     if not pick:
         return
-    import time
-    AI_DEADLINE[0] = time.time() + 8 * 60       # como mucho 8 minutos de IA
+    AI_DEADLINE[0] = time.time() + 14 * 60       # como mucho 14 minutos de IA
     n = 0
-    for k in range(0, len(pick), 5):
-        batch = pick[k:k + 5]
+    for k in range(0, len(pick), 6):
+        batch = pick[k:k + 6]
         lines = []
         for s in batch:
             others = "; ".join(f'{o["source"]}: {o["title"]}' for o in s["others"][:4])
-            lines.append(f'id={s["id"]} | sección={s["sec"]} | {s["source"]}: {s["title"]} | resumen: {s["summary"] or "-"} | otras fuentes: {others or "-"}')
-        res, engine = call_ai([{"role": "system", "content": AI_PROMPT}, {"role": "user", "content": "\n".join(lines)}])
-        if not res:
-            continue
-        for s in batch:
-            r = res.get(s["id"]) or {}
-            if isinstance(r, dict) and r.get("cafe"):
-                s["ai"] = {f: clean(str(r.get(f, "")), 2000) for f in ("esencial", "porque", "desarrollo", "cafe")}
-                n += 1
-        chosen_engine[0] = engine
-    log(f"Explicaciones IA: {n} noticias ({chosen_engine[0]})")
+            text = ARTICLE.get(s["link"]) or next((ARTICLE.get(o["link"]) for o in s["others"] if ARTICLE.get(o["link"])), "")
+            lines.append(f'id={s["id"]} | sección={s["sec"]} | titular: {s["title"]} | resumen: {s["summary"] or "-"} | '
+                         f'otras fuentes: {others or "-"} | extracto: {text or "-"}')
+        res, engine = call_ai([{"role": "system", "content": AI_PROMPT}, {"role": "user", "content": "\n\n".join(lines)}])
+        if res:
+            for s in batch:
+                r = res.get(s["id"]) or {}
+                if isinstance(r, dict) and (r.get("contexto") or r.get("cafe")):
+                    s["ai"] = {f: clean(str(r.get(f, "")), 1500) for f in ("esencial", "porque", "contexto", "cafe")}
+                    s["ai"]["v"] = AI_VERSION
+                    n += 1
+            chosen_engine[0] = engine
+        time.sleep(4)
+    log(f"Explicaciones IA: {n} de {len(pick)} ({chosen_engine[0]})")
 
 
 chosen_engine = [None]

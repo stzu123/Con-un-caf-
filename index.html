@@ -646,20 +646,20 @@ function prompt(n){
 function vNoticia(id){
   const n = byId(id), s = SEC[n.sec] || SEC.portada, en = n.lang === 'en';
   const others = (n.others||[]);
-  return `<button class="back" data-back>${I.back}${lastList.name==='edicion' && lastList.sec!=='portada' ? SEC[lastList.sec].l : 'Volver'}</button>
+  return `<button class="back" data-back>${I.back}${lastList.from30 ? 'Lo más importante de hoy' : lastList.name==='edicion' && lastList.sec!=='portada' ? SEC[lastList.sec].l : 'Volver'}</button>
     <div class="art" ${en?'id="enBody"':''}><span class="chip" style="background:${s.c};color:${s.fg};align-self:flex-start">${esc(s.l)}${n.region&&n.sec==='international'?' · '+esc((REG.find(r=>r[0]===n.region)||['',''])[1]):''}</span>
     <h1 ${en?'lang="en"':''}>${esc(n.title)}</h1>${followBadge(n)}
     ${n.image?`<figure class="photo" data-imgcheck="${esc(n.image)}"><img class="hero" src="${esc(n.image)}" alt="" loading="lazy" onerror="this.parentNode.remove()"><figcaption>Imagen: ${esc(n.source)}</figcaption></figure>`:''}
-    ${n.ai?`<div class="box yellow"><span class="kicker">Lo esencial</span><p>${esc(n.ai.esencial)}</p></div>
-      <div class="box"><span class="kicker" style="color:var(--claret)">Por qué importa</span><p>${esc(n.ai.porque)}</p></div>
-      ${n.ai.desarrollo?`<div class="box"><span class="kicker" style="color:var(--claret)">La noticia</span><p>${esc(n.ai.desarrollo)}</p></div>`:''}`
+    ${n.ai?`${n.ai.esencial?`<div class="box yellow"><span class="kicker">Lo esencial</span><p>${esc(n.ai.esencial)}</p></div>`:''}
+      ${n.ai.porque?`<div class="box"><span class="kicker" style="color:var(--claret)">Por qué importa</span><p>${esc(n.ai.porque)}</p></div>`:''}
+      ${(n.ai.contexto||n.ai.desarrollo)?`<div class="box"><span class="kicker" style="color:var(--claret)">Contexto</span><p>${esc(n.ai.contexto||n.ai.desarrollo)}</p></div>`:''}`
       :(n.summary?`<div class="box yellow"><span class="kicker">Lo esencial · ${esc(n.source)}</span><p ${en?'lang="en"':''}>${esc(n.summary)}</p></div>`:'')}
     <a class="btn" style="display:flex;align-items:center;justify-content:center;text-decoration:none" href="${esc(n.link)}" target="_blank" rel="noopener">${en?'Read the full story':'Leer la noticia completa'} en ${esc(n.source)} ↗</a>
     ${others.length?`<h2 class="h2">${en?'What each source says':'Qué dice cada fuente'}</h2>${others.map((o,i)=>`<div class="src" style="--c:${SRC_COLORS[i%SRC_COLORS.length]}"><b style="font-size:14px">${esc(o.source)}</b>
       <p style="margin:0;font-family:var(--body);font-size:16px;line-height:1.4" ${en?'lang="en"':''}>${esc(o.title)}</p><a href="${esc(o.link)}" target="_blank" rel="noopener" style="font-size:12px;font-weight:700">${en?'Read the original ↗':'Leer original ↗'}</a></div>`).join('')}
       <p class="soon">Compara los titulares: cada medio elige qué destacar.</p>`:''}
     <div class="box cafe"><span class="kicker" style="color:#6B3A12">Te lo explico con un café</span>
-      ${n.ai?`<p>${esc(n.ai.cafe)}</p><span class="soon">Explicación escrita por IA a partir de las fuentes. Contrástala con los enlaces.</span>
+      ${n.ai&&n.ai.cafe?`<p>${esc(n.ai.cafe)}</p><span class="soon">Explicación escrita por IA a partir de las fuentes. Contrástala con los enlaces.</span>
         <button class="linkbtn" style="padding:0" data-claude="${n.id}">¿Quieres ir más a fondo? Pregúntale a Claude</button>`
       :`<p style="font-size:15px">¿Quieres entenderla a fondo y conectarla con otros temas? Claude te la explica con las fuentes de arriba.</p>
         <button class="btn" data-claude="${n.id}" style="align-self:flex-start">Profundiza con Claude</button><span class="soon">Solo gasta tu uso de Claude cuando lo pulsas.</span>`}</div>
@@ -820,10 +820,10 @@ document.addEventListener('click', e => {
   if(d.rtab){ view.rtab = d.rtab; render(); return; }
   if(d.goday){ goDay(d.goday); return; }
   if(d.latest!==undefined){ goDay(INDEX.editions[0].date); return; }
-  if(d.open30){ const n = byId(d.open30); lastList = {name:'edicion', sec: SECS.includes(n.sec) ? n.sec : 'portada'}; go({name:'noticia',id:d.open30}); return; }
-  if(d.open){ if(view.name!=='noticia') lastList = {name:view.name,sec:view.sec}; go({name:'noticia',id:d.open}); return; }
+  if(d.open30){ lastList = {name:'edicion', sec:'portada', y:window.scrollY, from30:true}; go({name:'noticia',id:d.open30}); return; }
+  if(d.open){ if(view.name!=='noticia') lastList = {name:view.name,sec:view.sec,y:window.scrollY}; go({name:'noticia',id:d.open}); return; }
   if(d.openuid){ openUid(d.openuid); return; }
-  if(d.back!==undefined){ go(lastList); return; }
+  if(d.back!==undefined){ const y = lastList.y || 0; const {from30, ...v} = lastList; Object.assign(view, {...v}); delete view.y; render(); window.scrollTo(0, y); return; }
   if(d.free!==undefined){ openSheet(null); return; }
   if(d.del){ S.notes = S.notes.filter(n => String(n.t)!==d.del); save(); render(); return; }
   if(d.unread){ delete S.read[d.unread]; save(); render(); return; }
