@@ -303,6 +303,8 @@ button.t.wk{display:block;padding:6px 0;border-bottom:1px solid var(--rule2)}
 .mag-cover.withphoto .mag-row{margin-top:14px}
 .mag-cover.withphoto .mag-lead .mag-row{margin-top:20px}
 .mag-cover.withphoto .mag-lines .mag-row{margin-top:0}
+
+.badge-inst{display:inline-block;margin-left:6px;background:#E3EFE8;color:#1E5B3F;font:700 10px var(--sans);padding:4px 6px;vertical-align:top;letter-spacing:.04em}
 </style>
 </head>
 <body>
@@ -426,7 +428,7 @@ function tabs(){
 function storyCard(n){
   const s = SEC[n.sec] || SEC.portada;
   const more = (n.others||[]).length;
-  return `<article class="story"><span class="chip" style="background:${s.c};color:${s.fg}">${esc(n.source)}${more?` · +${more} fuentes`:''}</span>${n.lang==='en'&&n.sec!=='international'?'<span class="badge-en">EN</span>':''}${followBadge(n)}
+  return `<article class="story"><span class="chip" style="background:${s.c};color:${s.fg}">${esc(n.source)}${more?` · +${more} fuentes`:''}</span>${n.lang==='en'&&n.sec!=='international'?'<span class="badge-en">EN</span>':''}${n.inst?`<span class="badge-inst">${n.official?'Oficial · ':''}${esc(n.inst)}</span>`:''}${followBadge(n)}
     <h3 style="font-size:24px" ${n.lang==='en'?'lang="en"':''}><button data-open="${n.id}">${esc(n.title)}</button></h3>
     ${n.ai?`<p class="lede">${esc(n.ai.esencial)}</p>`:(n.summary?`<p class="lede" ${n.lang==='en'?'lang="en"':''}>${esc(n.summary)}</p>`:'')}
     ${acts(n)}</article>`;

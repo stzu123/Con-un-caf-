@@ -245,6 +245,82 @@
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/smoda.elpais.com/portada",
       "sec": "moda",
       "lang": "es"
+    },
+    {
+      "name": "Google Noticias · BCE",
+      "url": "https://news.google.com/rss/search?q=%22Banco%20Central%20Europeo%22%20OR%20BCE%20OR%20Lagarde%20when%3A1d&hl=es&gl=ES&ceid=ES:es",
+      "sec": "economia",
+      "lang": "es",
+      "aggregator": true,
+      "inst": "BCE",
+      "max_items": 4
+    },
+    {
+      "name": "Google Noticias · Reserva Federal",
+      "url": "https://news.google.com/rss/search?q=%22Reserva%20Federal%22%20OR%20Powell%20OR%20%22la%20Fed%22%20when%3A1d&hl=es&gl=ES&ceid=ES:es",
+      "sec": "economia",
+      "lang": "es",
+      "aggregator": true,
+      "inst": "Fed",
+      "max_items": 4
+    },
+    {
+      "name": "Google Noticias · FMI",
+      "url": "https://news.google.com/rss/search?q=FMI%20OR%20%22Fondo%20Monetario%20Internacional%22%20OR%20Georgieva%20when%3A1d&hl=es&gl=ES&ceid=ES:es",
+      "sec": "economia",
+      "lang": "es",
+      "aggregator": true,
+      "inst": "FMI",
+      "max_items": 4
+    },
+    {
+      "name": "Google Noticias · Banco de España, INE y Eurostat",
+      "url": "https://news.google.com/rss/search?q=%22Banco%20de%20Espa%C3%B1a%22%20OR%20INE%20OR%20Eurostat%20OR%20%22Escriv%C3%A1%22%20when%3A1d&hl=es&gl=ES&ceid=ES:es",
+      "sec": "economia",
+      "lang": "es",
+      "aggregator": true,
+      "inst": "Datos oficiales",
+      "max_items": 4
+    },
+    {
+      "name": "Google Noticias · Unión Europea",
+      "url": "https://news.google.com/rss/search?q=%22Comisi%C3%B3n%20Europea%22%20OR%20%22von%20der%20Leyen%22%20OR%20%22Consejo%20Europeo%22%20OR%20%22Parlamento%20Europeo%22%20when%3A1d&hl=es&gl=ES&ceid=ES:es",
+      "sec": "international",
+      "lang": "es",
+      "aggregator": true,
+      "inst": "UE",
+      "max_items": 4,
+      "region": "europe"
+    },
+    {
+      "name": "Google Noticias · ONU y OTAN",
+      "url": "https://news.google.com/rss/search?q=ONU%20OR%20%22Naciones%20Unidas%22%20OR%20Guterres%20OR%20OTAN%20when%3A1d&hl=es&gl=ES&ceid=ES:es",
+      "sec": "international",
+      "lang": "es",
+      "aggregator": true,
+      "inst": "ONU",
+      "max_items": 4,
+      "region": "global"
+    },
+    {
+      "name": "BCE · Comunicados oficiales",
+      "url": "https://www.ecb.europa.eu/rss/press.html",
+      "sec": "economia",
+      "lang": "en",
+      "inst": "BCE",
+      "official": true,
+      "max_age_h": 72,
+      "only": "monetary policy|interest rate|key ECB|decision|account of the|projections|financial stability|inflation|economic bulletin|digital euro|bank lending survey|stress test"
+    },
+    {
+      "name": "Reserva Federal · Comunicados oficiales",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "sec": "economia",
+      "lang": "en",
+      "inst": "Fed",
+      "official": true,
+      "max_age_h": 72,
+      "only": "FOMC|Federal Open Market|monetary policy|interest rate|discount rate|Minutes of|Beige Book|stress test|economic projections|Financial Stability Report"
     }
   ],
   "podcasts": [
@@ -284,5 +360,6 @@
       "url": "",
       "search": "EL MUNDO al día"
     }
-  ]
+  ],
+  "_nota_instituciones": "Búsquedas por institución en Google Noticias (máx. 4 por búsqueda) y comunicados oficiales del BCE y la Fed filtrados por importancia."
 }

@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 UA = "Mozilla/5.0 (compatible; ConUnCafe/1.0; +https://github.com)"
 MAX_AGE_H = 36            # solo noticias de las últimas 36 horas
-PER_SECTION = {"espana": 10, "politica": 10, "economia": 10, "international": 12, "moda": 6}
+PER_SECTION = {"espana": 10, "politica": 10, "economia": 12, "international": 12, "moda": 6}
 TOP_N = 8                 # piezas del collage «Lectura en 30 segundos»
 
 POLITICA = re.compile(r"\b(gobierno|psoe|pp|vox|sumar|podemos|junts|erc|pnv|bildu|congreso|senado|elecci|electoral|campa[nñ]a|"
@@ -205,6 +205,8 @@ REGLAS:
 3. Neutral: no opines, no tomes partido, no uses muletillas («oye», «dale», «nosotras»), no sermonees.
 4. Usa solo la información dada y conocimiento general bien establecido. NO inventes cifras, fechas, nombres ni citas. Redacta con tus palabras.
 5. No definas lo básico (inflación, BCE, Congreso...).
+6. Si una noticia trae «piezas relacionadas», es una historia que se ha contado en varias piezas: intégralas en un único relato
+   más completo (el contexto puede llegar a 150 palabras), sin enumerarlas una a una.
 Responde SOLO con JSON válido:
 {"id": {"esencial": "...", "porque": "...", "contexto": "...", "cafe": "..."}, ...}"""
 
@@ -390,7 +392,9 @@ def explain(chosen, top):
         for s in batch:
             others = "; ".join(f'{o["source"]}: {o["title"]}' for o in s["others"][:4])
             text = ARTICLE.get(s["link"]) or next((ARTICLE.get(o["link"]) for o in s["others"] if ARTICLE.get(o["link"])), "")
+            rel = " // ".join(s.get("more", []))
             lines.append(f'id={s["id"]} | sección={s["sec"]} | titular: {s["title"]} | resumen: {s["summary"] or "-"} | '
+                         f'piezas relacionadas de la misma historia: {rel or "-"} | '
                          f'otras fuentes: {others or "-"} | extracto: {text or "-"}')
         res, engine = call_ai([{"role": "system", "content": AI_PROMPT}, {"role": "user", "content": "\n\n".join(lines)}])
         if res:
@@ -409,6 +413,72 @@ chosen_engine = [None]
 AI_DEADLINE = [float("inf")]
 
 
+# ---------- unir en una sola noticia las piezas de la misma historia (p. ej. varias sobre Nvidia) ----------
+import unicodedata
+THREAD_COMMON = set("""el la los las un una de del en y o a al con por para sobre tras ante the a an of in on at to for and or with after over from by as is are was be its his her their this that new
+este esta estos estas su sus lo que como más mas qué quién cómo cuándo dónde así hoy ayer
+encuesta claves breaking live update opinion análisis analisis entrevista video vídeo
+españa spain gobierno government ue eu europa europe us eeuu estados unidos uk
+psoe pp vox sumar podemos junts erc pnv bildu compromis sanchez feijoo abascal diaz trump biden
+supremo tribunal congreso senado fiscal fiscalia audiencia nacional bruselas comision madrid barcelona
+enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre
+lunes martes miercoles jueves viernes sabado domingo monday tuesday wednesday thursday friday saturday sunday
+internacional international world mundial ccoo ugt pedro alberto nunez frente amplio china chinese russia russian rusia ruso rusa ukraine ucrania israel gaza iran francia france alemania germany italia italy mexico europe european europea uk britain british londres london paris berlin washington white house casa blanca who what why how when where quien como cuatro tres dos cinco seis mentiras alleged""".split())
+THREAD_COMMON={unicodedata.normalize("NFD",w).encode("ascii","ignore").decode() for w in THREAD_COMMON}
+def ent_norm(w):
+    return unicodedata.normalize('NFD', w.lower()).encode('ascii','ignore').decode()
+def entities(text):
+    out=set()
+    for sent in re.split(r"[.:;!?«»\"“”'‘’()|\-–—]\s*", text):
+        toks=re.findall(r"[A-Za-zÀ-ÿ0-9][\wÀ-ÿ'’\-]*", sent)
+        for i,t in enumerate(toks):
+            if (t[0].isupper() or re.match(r"^[A-Z0-9]{2,}", t)) and len(t)>=3 and not t.isdigit() and not re.match(r"^\d", t) and ent_norm(t) not in THREAD_COMMON:
+                out.add(ent_norm(t))
+    return out
+def thread_groups(stories, title_df_max=4):
+    ents=[entities(s["title"]) for s in stories]
+    full=[entities(s["title"]+". "+(s.get("summary") or "")) for s in stories]
+    df={}
+    for e in full:
+        for x in e: df[x]=df.get(x,0)+1
+    def match(i,j):
+        shared_t={x for x in ents[i]&ents[j] if df[x]<=title_df_max}
+        if not shared_t: return False
+        shared_f={x for x in full[i]&full[j] if df[x]<=title_df_max}
+        return len(shared_f)>=2 or min(df[x] for x in shared_t)<=3
+    order=sorted(range(len(stories)), key=lambda i: -(stories[i].get("score") or 1))
+    groups=[]
+    for i in order:
+        g=next((g for g in groups if match(g[0],i)), None)
+        if g: g.append(i)
+        else: groups.append([i])
+    return groups
+
+
+def merge_threads(stories):
+    out = []
+    for g in thread_groups(stories):
+        lead = stories[g[0]]
+        if len(g) > 1:
+            seen = {lead["link"]} | {o["link"] for o in lead["others"]}
+            more = []
+            for i in g[1:]:
+                m = stories[i]
+                for o in [{"source": m["source"], "title": m["title"], "link": m["link"]}] + m["others"]:
+                    if o["link"] not in seen:
+                        seen.add(o["link"]); lead["others"].append(o)
+                if m.get("summary"):
+                    more.append(m["summary"])
+                lead["image"] = lead.get("image") or m.get("image", "")
+                lead["date"] = max(filter(None, [lead["date"], m["date"]]), default=None)
+            lead["others"] = lead["others"][:10]
+            lead["score"] = sum(stories[i]["score"] for i in g)
+            lead["more"] = more[:4]          # resúmenes de las otras piezas, para la explicación
+            log(f"Historia unida ({len(g)} piezas): {lead['title'][:70]}")
+        out.append(lead)
+    return out
+
+
 def main():
     cfg = json.loads((ROOT / "feeds.json").read_text(encoding="utf-8"))
     now = datetime.datetime.now(datetime.timezone.utc)
@@ -419,10 +489,15 @@ def main():
         try:
             entries = parse_feed(fetch(f["url"]))
             n = 0
+            only = re.compile(f["only"], re.I) if f.get("only") else None
             for e in entries[:40]:
+                if n >= f.get("max_items", 99):
+                    break
                 if not e["title"] or not e["link"] or BLOCK.search(e["title"]):
                     continue
-                if e["date"] and (now - e["date"]).total_seconds() > MAX_AGE_H * 3600:
+                if only and not only.search(e["title"]):
+                    continue
+                if e["date"] and (now - e["date"]).total_seconds() > f.get("max_age_h", MAX_AGE_H) * 3600:
                     continue
                 if no_aporta(e["title"], f["sec"]):
                     continue
@@ -442,6 +517,7 @@ def main():
                     "date": e["date"].isoformat() if e["date"] else None, "sec": sec, "lang": f["lang"],
                     "region": f.get("region") or (guess_region(title + " " + e["summary"]) if sec == "international" else None),
                     "words": norm_words(title), "image": e.get("image", ""),
+                    "inst": f.get("inst"), "official": bool(f.get("official")),
                 })
                 n += 1
             status.append({"name": f["name"], "ok": True, "items": n})
@@ -486,9 +562,17 @@ def main():
             "score": len(srcs),
             "image": next((s["image"] for s in srcs if s.get("image")), ""),
         })
+        inst = next((i["inst"] for i in c["items"] if i.get("inst")), None)
+        if inst:
+            stories[-1]["inst"] = inst
+            stories[-1]["score"] += 1          # las novedades de instituciones cuentan algo más
+        if any(i.get("official") for i in c["items"]):
+            stories[-1]["official"] = True
         if stories[-1]["sec"] == "economia":
             low = (stories[-1]["title"] + " " + stories[-1]["summary"]).lower()
             stories[-1]["sub"] = next((k for k, pat in ECON_SUB if re.search(pat, low)), "mundo")
+
+    stories = merge_threads(stories)
 
     def rank_key(s):
         # los sucesos con peso político o geopolítico van los últimos
