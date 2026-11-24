@@ -59,14 +59,21 @@ BLOCK = re.compile(r"(loter[ií]a|bonoloto|primitiva|euromillones|el gordo|once\
                    r"previsi[oó]n del tiempo|precio de la (luz|gasolina)|gasolina (hoy|más barata)|resultados? del? (partido)|"
                    r"ibex(\s*35)? (abre|cierra|sube|baja|cae|avanza|retrocede|arranca|termina)|bolsa española (abre|cierra|sube|baja)|"
                    r"wall street (abre|cierra)|el euro (sube|baja) frente|cotizaci[oó]n (del|de la) (euro|d[oó]lar|bitcoin) hoy|"
-                   r"cortes de tr[aá]fico|d[oó]nde ver|horarios?,? (y )?recorrido|desata las cr[ií]ticas|en redes sociales|retiran (dos |varios )?lotes|"
+                   r"precio de la (luz|leche|gasolina|bombona)|cu[aá]nto cuesta hoy|cortes de tr[aá]fico|d[oó]nde ver|horarios?,? (y )?recorrido|desata las cr[ií]ticas|en redes sociales|retiran (dos |varios )?lotes|"
                    r"en directo|última hora|minuto a minuto|crucigrama|sudoku|quiz|wordle|ofertas?|descuentos?|black friday|cupones?)", re.I)
 # Sucesos (accidentes, crímenes, incendios locales…) que no aportan, salvo que tengan peso político o geopolítico
-SUCESOS = re.compile(r"(muere|muertos?|fallec|heridos?|herida|killed|\bdead\b|\bdies\b|died|injur|accidente|atropell|incendio|fire at|\bblaze\b|crash|choque|colisi|apu[ñn]al|asesin|a tiros|ajuste de cuentas|estafa|homicid|cad[aá]ver|detenid|arrest|tiroteo|shoot|stabb|\brob(o|os)\b|atraco|\bramas?\b|derrumb|ahog|drown|desaparec|missing|sucesos?|polic[ií]a local|guardia civil (busca|localiza)|reyerta|okup)", re.I)
+SUCESOS = re.compile(r"(muere|muertos?|fallec|heridos?|herida|killed|\bdead\b|\bdies\b|died|injur|accidente|atropell|incendio|fire at|\bblaze\b|crash|choque|colisi|apu[ñn]al|asesin|a tiros|ajuste de cuentas|estafa|\bclan\b|narco|homicid|cad[aá]ver|detenid|arrest|tiroteo|shoot|stabb|\brob(o|os)\b|atraco|\bramas?\b|derrumb|ahog|drown|desaparec|missing|sucesos?|polic[ií]a local|guardia civil (busca|localiza)|reyerta|okup)", re.I)
 PESO = re.compile(r"(guerra|\bwar\b|gaza|ucrania|ukrain|rusia|russia|dron|drone|attack|ataque|ofensiva|militar|military|army|ej[eé]rcito|gobierno|government|ministr|presiden|elecci|election|parlament|congreso|ley\b|\blaw\b|terror|dana|clima|climate|protest|manifest|huelga|strike|sanci[oó]n|sanction|s[aá]nchez|feij[oó]o|abascal|psoe|\bpp\b|\bvox\b|sumar|trump|putin|alcald|mayor\b|ministro|minister)", re.I)
 # Titulares gancho tipo «el aparato que…»
 CLICKBAIT = re.compile(r"(el aparato|el truco|trucos? para|el producto|chollo|as[ií] (puedes|podr[aá]s)|sin poner la calefacci|lo que (nadie|no) te|no te (lo )?vas a creer|te sorprender)", re.I)
+DEPORTES = re.compile(r"\b(f[uú]tbol|liga|laliga|champions|bar[cç]a|real madrid|atl[eé]tico de madrid|fichaje|delantero|entrenador|"
+                      r"fifa|uefa|mls|nba|nfl|premier league|soccer|football|tenis|tennis|f[oó]rmula 1|motogp|golf|baloncesto|"
+                      r"selecci[oó]n espa[nñ]ola|mundial de|eurocopa|olimpi|marat[oó]n)\w*", re.I)
+DEPORTE_PESO = re.compile(r"\b(corrupci|investiga|juez|tribunal|fiscal|ley|gobierno|derechos|boicot|sanci|dinero p[uú]blico|impuesto)\w*", re.I)
+
+
 def no_aporta(title, sec):
+    if DEPORTES.search(title) and not DEPORTE_PESO.search(title): return True
     if sec != "moda" and CLICKBAIT.search(title): return True
     return bool(SUCESOS.search(title)) and not PESO.search(title)
 
@@ -240,7 +247,11 @@ def call_ai(messages):
                 txt = json.loads(raw)["choices"][0]["message"]["content"]
                 txt = re.sub(r"^```(json)?|```$", "", txt.strip()).strip()
                 m = re.search(r"\{.*\}", txt, re.S)
-                return json.loads(m.group(0)), url.split("/")[2] + " · " + model
+                try:
+                    data = json.loads(m.group(0))
+                except ValueError:       # JSON mal cerrado: quitar comas finales y saltos sueltos
+                    data = json.loads(re.sub(r",\s*([}\]])", r"\1", m.group(0).replace("\n", " ")))
+                return data, url.split("/")[2] + " · " + model
             except urllib.error.HTTPError as ex:
                 log("IA", model, "HTTP", ex.code, ex.read()[:160])
                 if ex.code not in (429, 500, 503):

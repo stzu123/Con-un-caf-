@@ -27,7 +27,8 @@
       "url": "https://news.google.com/rss/search?q=moda+when:1d&hl=es&gl=ES&ceid=ES:es",
       "sec": "moda",
       "lang": "es",
-      "aggregator": true
+      "aggregator": true,
+      "only": "colecci|desfile|pasarela|dise[nñ]|firma|marca|ropa|prenda|vestid|look|tendencia|estilo|lujo|textil|joy|zapat|bolso|Inditex|Zara|Mango|Loewe|Dior|Chanel|Prada|Gucci|Vogue|semana de la moda"
     },
     {
       "name": "El País",
@@ -253,7 +254,8 @@
       "lang": "es",
       "aggregator": true,
       "inst": "BCE",
-      "max_items": 4
+      "max_items": 4,
+      "only": "\\bBCE\\b|Banco Central Europeo|Lagarde|tipos de inter"
     },
     {
       "name": "Google Noticias · Reserva Federal",
@@ -262,7 +264,8 @@
       "lang": "es",
       "aggregator": true,
       "inst": "Fed",
-      "max_items": 4
+      "max_items": 4,
+      "only": "Reserva Federal|\\bFed\\b|Powell"
     },
     {
       "name": "Google Noticias · FMI",
@@ -271,16 +274,18 @@
       "lang": "es",
       "aggregator": true,
       "inst": "FMI",
-      "max_items": 4
+      "max_items": 4,
+      "only": "\\bFMI\\b|Fondo Monetario|Georgieva"
     },
     {
       "name": "Google Noticias · Banco de España, INE y Eurostat",
-      "url": "https://news.google.com/rss/search?q=%22Banco%20de%20Espa%C3%B1a%22%20OR%20INE%20OR%20Eurostat%20OR%20%22Escriv%C3%A1%22%20when%3A1d&hl=es&gl=ES&ceid=ES:es",
+      "url": "https://news.google.com/rss/search?q=%22Banco%20de%20Espa%C3%B1a%22%20OR%20Eurostat%20OR%20%22IPC%22%20OR%20%22datos%20del%20INE%22%20when%3A1d&hl=es&gl=ES&ceid=ES:es",
       "sec": "economia",
       "lang": "es",
       "aggregator": true,
       "inst": "Datos oficiales",
-      "max_items": 4
+      "max_items": 4,
+      "only": "Banco de España|Eurostat|Escriv[aá]|\\bIPC\\b|\\bEPA\\b|\\bPIB\\b|deuda p[uú]blica|paro registrado"
     },
     {
       "name": "Google Noticias · Unión Europea",
@@ -290,7 +295,8 @@
       "aggregator": true,
       "inst": "UE",
       "max_items": 4,
-      "region": "europe"
+      "region": "europe",
+      "only": "Comisi[oó]n Europea|von der Leyen|Consejo Europeo|Parlamento Europeo|Bruselas"
     },
     {
       "name": "Google Noticias · ONU y OTAN",
@@ -300,7 +306,8 @@
       "aggregator": true,
       "inst": "ONU",
       "max_items": 4,
-      "region": "global"
+      "region": "global",
+      "only": "\\bONU\\b|Naciones Unidas|Guterres|\\bOTAN\\b"
     },
     {
       "name": "BCE · Comunicados oficiales",

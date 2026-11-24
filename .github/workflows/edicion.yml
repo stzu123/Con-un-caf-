@@ -3,6 +3,7 @@ name: Edición diaria
 on:
   schedule:
     - cron: "15 4 * * *"   # 05:15 en invierno / 06:15 en verano (hora de Madrid)
+    - cron: "45 5 * * *"   # 06:45: segunda pasada, rellena las explicaciones que falten
   workflow_dispatch:        # botón «Run workflow» para lanzarla a mano
   push:
     branches: [main]
