@@ -352,7 +352,7 @@ def good_images(stories):
         cands = []
         if s.get("image"):
             cands.append(upsize(s["image"]))
-        for link in [s["link"]] + [o["link"] for o in s.get("others", [])][:3]:
+        for link in [s["link"]]:          # solo la foto de su propio artículo, nunca la de otro
             u = page_image(link)
             if u:
                 cands.append(upsize(u))
@@ -434,35 +434,73 @@ psoe pp vox sumar podemos junts erc pnv bildu compromis sanchez feijoo abascal d
 supremo tribunal congreso senado fiscal fiscalia audiencia nacional bruselas comision madrid barcelona
 enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre
 lunes martes miercoles jueves viernes sabado domingo monday tuesday wednesday thursday friday saturday sunday
-internacional international world mundial ccoo ugt pedro alberto nunez frente amplio china chinese russia russian rusia ruso rusa ukraine ucrania israel gaza iran francia france alemania germany italia italy mexico europe european europea uk britain british londres london paris berlin washington white house casa blanca who what why how when where quien como cuatro tres dos cinco seis mentiras alleged""".split())
+internacional international world mundial ccoo ugt economia gran nuevo nueva pedro alberto nunez frente amplio china chinese russia russian rusia ruso rusa ukraine ucrania israel gaza iran francia france alemania germany italia italy mexico europe european europea uk britain british londres london paris berlin washington white house casa blanca who what why how when where quien como cuatro tres dos cinco seis mentiras alleged""".split())
 THREAD_COMMON={unicodedata.normalize("NFD",w).encode("ascii","ignore").decode() for w in THREAD_COMMON}
 def ent_norm(w):
     return unicodedata.normalize('NFD', w.lower()).encode('ascii','ignore').decode()
+PARTICLES = {"de", "del", "der", "van", "von", "la", "da", "di", "le", "y"}
+# Palabras demasiado generales para decidir que dos titulares cuentan la misma historia
+GENERIC = set("""presidente presidenta gobierno ministro ministra millones euros dolares anos caso nuevo nueva nuevos
+primera primer hoy ayer semana mes dia dias tras ante sobre segun dice says said new year years first after over
+government president minister million billion people pide propone asegura confirma anuncia politica economia mundo
+espana pais paises ciudad parte gran grandes mayor mejor peor contra entre desde hasta about week day""".split())
+
+
 def entities(text):
-    out=set()
-    for sent in re.split(r"[.:;!?«»\"“”'‘’()|\-–—]\s*", text):
-        toks=re.findall(r"[A-Za-zÀ-ÿ0-9][\wÀ-ÿ'’\-]*", sent)
-        for i,t in enumerate(toks):
-            if (t[0].isupper() or re.match(r"^[A-Z0-9]{2,}", t)) and len(t)>=3 and not t.isdigit() and not re.match(r"^\d", t) and ent_norm(t) not in THREAD_COMMON:
-                out.add(ent_norm(t))
+    """Nombres propios como frases: «Jensen Huang», «Von der Leyen», «Nvidia»."""
+    out = set()
+    for sent in re.split(r"[.:;!?«»\"“”'‘’()|\-–—,]\s*", text):
+        toks = re.findall(r"[A-Za-zÀ-ÿ0-9][\wÀ-ÿ'’\-]*", sent)
+        cur = []
+        def flush():
+            while cur and cur[-1].lower() in PARTICLES:
+                cur.pop()
+            if cur:
+                key = " ".join(ent_norm(t) for t in cur)
+                if not all(ent_norm(t) in THREAD_COMMON or len(t) < 3 or t.isdigit() for t in cur):
+                    out.add(key)
+            cur.clear()
+        for t in toks:
+            cap = (t[0].isupper() or re.match(r"^[A-Z0-9]{2,}", t)) and not re.match(r"^\d", t)
+            if cap and ent_norm(t) not in THREAD_COMMON:
+                cur.append(t)
+            elif cur and t.lower() in PARTICLES:
+                cur.append(t)
+            else:
+                flush()
+        flush()
     return out
+
+
 def thread_groups(stories, title_df_max=4):
-    ents=[entities(s["title"]) for s in stories]
-    full=[entities(s["title"]+". "+(s.get("summary") or "")) for s in stories]
-    df={}
+    """Une piezas de la misma historia solo si comparten un nombre poco frecuente en el titular
+    Y además algo más: otra palabra del titular o un segundo nombre."""
+    ents = [entities(s["title"]) for s in stories]
+    full = [entities(s["title"] + ". " + (s.get("summary") or "")) for s in stories]
+    words = []
+    for s, e in zip(stories, ents):
+        etoks = {w for x in e for w in x.split()}
+        words.append({w for w in norm_words(s["title"]) if ent_norm(w) not in etoks and w not in GENERIC})
+    df = {}
     for e in full:
-        for x in e: df[x]=df.get(x,0)+1
-    def match(i,j):
-        shared_t={x for x in ents[i]&ents[j] if df[x]<=title_df_max}
-        if not shared_t: return False
-        shared_f={x for x in full[i]&full[j] if df[x]<=title_df_max}
-        return len(shared_f)>=2 or min(df[x] for x in shared_t)<=3
-    order=sorted(range(len(stories)), key=lambda i: -(stories[i].get("score") or 1))
-    groups=[]
+        for x in e:
+            df[x] = df.get(x, 0) + 1
+
+    def match(i, j):
+        shared_t = {x for x in ents[i] & ents[j] if df[x] <= title_df_max}
+        if not shared_t:
+            return False
+        shared_f = {x for x in full[i] & full[j] if df[x] <= title_df_max}
+        return len(words[i] & words[j]) >= 1 or len(shared_f) >= 2
+
+    order = sorted(range(len(stories)), key=lambda i: -(stories[i].get("score") or 1))
+    groups = []
     for i in order:
-        g=next((g for g in groups if match(g[0],i)), None)
-        if g: g.append(i)
-        else: groups.append([i])
+        g = next((g for g in groups if match(g[0], i)), None)
+        if g:
+            g.append(i)
+        else:
+            groups.append([i])
     return groups
 
 
@@ -480,7 +518,6 @@ def merge_threads(stories):
                         seen.add(o["link"]); lead["others"].append(o)
                 if m.get("summary"):
                     more.append(m["summary"])
-                lead["image"] = lead.get("image") or m.get("image", "")
                 lead["date"] = max(filter(None, [lead["date"], m["date"]]), default=None)
             lead["others"] = lead["others"][:10]
             lead["score"] = sum(stories[i]["score"] for i in g)
