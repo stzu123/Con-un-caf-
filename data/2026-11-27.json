@@ -1,7 +1,7 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-27T05:19+00:00",
- "headline": "Hernández de Cos se convertirá en febrero en el primer español en presidir el BCE",
+ "generated_at": "2026-11-27T06:42+00:00",
+ "headline": "Los diez minutos que desenredaron el nudo para encumbrar a Hernández de Cos como presidente del BCE",
  "headline_sec": "economia",
  "sources_ok": 47,
  "sources_total": 49,
@@ -10,29 +10,29 @@
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "Simpatizantes de Núcleo Nacional acudieron a Ceuta para agredir a inmigrantes: “Estamos con los bates de béisbol, sacando a la morralla”",
-   "summary": "Los ‘pinchazos’ policiales del caso revelan los planes de seguidores del grupúsculo neonazi durante la crisis migratoria de julio",
-   "link": "https://elpais.com/espana/2026-11-27/simpatizantes-de-nucleo-nacional-acudieron-a-ceuta-para-agredir-a-inmigrantes-estamos-con-los-bates-de-beisbol-sacando-a-la-morralla.html",
-   "source": "El País",
-   "date": "2026-11-27T04:30:01+00:00",
+   "title": "Encendido de luces de Navidad de Málaga hoy: horario y pases del espectáculo de la calle Larios",
+   "summary": "Málaga vuelve a dar la bienvenida a la Navidad este viernes 27 de diciembre con uno de sus grandes atractivos de estas fechas, nada menos que el espectáculo de luces y sonido de la calle Larios . La céntrica vía malagueña, convertida cada año en uno de los principales reclamos de la ciudad durante las fiestas navideñas, reúne a miles de personas para…",
+   "link": "https://www.abc.es/espana/andalucia/malaga/encendido-luces-navidad-malaga-hoy-horario-pases-20261127050000-nts.html",
+   "source": "ABC",
+   "date": "2026-11-27T06:17:40+01:00",
    "others": [
     {
      "source": "ABC",
-     "title": "Abascal: «La primera medida será la recuperación total de Ceuta. Se ha pisoteado la dignidad nacional»",
-     "link": "https://www.abc.es/espana/abascal-primera-medida-recuperacion-total-absoluta-ceuta-20261127015512-nt.html"
+     "title": "Encendido luces de Navidad de Zaragoza: horario, calles iluminadas, dónde están los árboles y los belenes",
+     "link": "https://www.abc.es/espana/aragon/encendido-luces-navidad-zaragoza-horario-calles-iluminadas-20261127050023-nt.html"
     }
    ],
    "score": 2,
-   "image": "https://imagenes.elpais.com/resizer/v2/RAKVCF22QVBZJKOVMFB34QFOUE.jpg?auth=cced883bb93734e18a7ee2f76dc861f319e5a8a45241f3a98cc7d12950509b4b",
+   "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/27/luces-navidad-centro-malaga-efe-Rq9WCE0WZ1Nm4VUyA8VKGaI-1200x840@diario_abc.jpg",
    "more": [
-    "Santiago Abascal (Bilbao, 1976) sitúa la defensa de la soberanía nacional en Ceuta entre las principales prioridades de su discurso político. Tras la invasión de cerca de 100.000 inmigrantes en la ciudad autónoma el pasado mes de julio, el líder de Vox acudió allí días después. También eligió el territorio norafricano para dar el pistoletazo de salida a la…"
+    "La cantante Vicco pasará la 'noche entera' en Zaragoza el viernes 27 de noviembre. La artista será la protagonista del tradicional encendido navideño en la capital aragonesa y a las 18.30 horas dará la bienvenida a la Navidad en la orilla derecha del Ebro. La iluminación y el acto inicial tendrá lugar en la plaza Aragón y se adelanta dos días respecto al…"
    ],
    "id": "s1",
    "ai": {
-    "esencial": "Intervenciones policiales destaparon que miembros del grupo de ultraderecha viajaron armados durante la crisis fronteriza de julio para atacar a personas migrantes.",
-    "porque": "Las grabaciones judicializadas constatan la coordinación operativa sobre el terreno de grupúsculos violentos en zonas de alta tensión social e institucional.",
-    "contexto": "Las pesquisas forman parte de las diligencias sobre redes extremistas activadas a raíz de los episodios migratorios de este verano en la ciudad autónoma. En ese periodo, la presión en la frontera norteafricana se convirtió además en eje central del debate político, con visitas de líderes de formaciones de oposición que reclamaban medidas drásticas de seguridad. Las escuchas incorporadas al sumario reflejan cómo militantes radicales se organizaron para patrullar calles con bates y ejecutar agresiones directas aprovechando la situación.",
-    "cafe": "El uso de tensiones fronterizas para movilizar violencia callejera organizada es una amenaza directa a la convivencia y los derechos fundamentales de colectivos vulnerables. Muestra cómo la crispación política que ves a diario en redes sociales traspasa las pantallas hasta convertirse en riesgo físico en el espacio público. Entender este paso de la retórica a la acción es vital para calibrar la seguridad ciudadana. Atenta a: las imputaciones judiciales y detenciones que ordene el juzgado a partir del contenido de los teléfonos intervenidos.",
+    "esencial": "Málaga inaugura este 27 de diciembre su alumbrado navideño en la calle Larios con tres pases diarios y música sincronizada.",
+    "porque": "Atrae a miles de visitantes y dinamiza la economía local del centro histórico durante las fiestas.",
+    "contexto": "El encendido oficial cuenta con la actuación del cantante El Kanka y está protagonizado por el periodista Matías Prats como invitado especial que acciona el botón de la iluminación. La instalación incluye dieciséis estrellas con medallones y un espectáculo visual llamado 'Natividad de luz', aunque las proyecciones se realizan sin sonido en fechas señaladas como Nochebuena, Nochevieja y la víspera de Reyes.",
+    "cafe": "Si viajas en estas fechas o sales a pasear por el centro, prepárate para aglomeraciones masivas y cortes de tráfico en las principales arterias comerciales de la ciudad. Atenta a: los horarios de los pases de luces para evitar los momentos de mayor afluencia de público.",
     "v": 2
    }
   },
@@ -111,7 +111,14 @@
    ],
    "score": 2,
    "image": "",
-   "id": "s4"
+   "id": "s4",
+   "ai": {
+    "esencial": "Irun incorpora este año un calendario de adviento singular con forma de relatos para celebrar las fiestas navideñas.",
+    "porque": "Añade una propuesta cultural novedosa destinada a dinamizar las calles y atraer al público familiar durante el periodo festivo.",
+    "contexto": "Los municipios modifican su programación de diciembre con iniciativas de carácter lúdico y visual para competir en la atracción de visitantes y fomentar el consumo en el comercio local. Estas actividades se suman al despliegue tradicional de luces y mercados que transforman el espacio urbano en los últimos días del año.",
+    "cafe": "Es el tipo de plan local perfecto para desconectar entre exámenes si estás por la zona norte durante las vacaciones. Atenta a: la programación cultural de tu ayuntamiento para no perderte las actividades gratuitas en la calle.",
+    "v": 2
+   }
   },
   {
    "sec": "espana",
@@ -147,26 +154,29 @@
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "El Supremo fija el final de la pena de Ábalos el 11 de mayo de 2042 y el 2 de noviembre de 2040 la de Koldo",
-   "summary": "El ex ministro y su ex asesor fueron condenados por delitos de organización criminal, cohechos, malversación y tráfico de influencias Leer",
-   "link": "https://www.elmundo.es/espana/2026/11/26/6b08386ee85eced9618b456e.html",
-   "source": "El Mundo",
-   "date": "2026-11-26T15:57:50+01:00",
+   "title": "¿Puede repetirse una catástrofe como la del Prestige? Un experto analiza los riesgos del buque hundido cerca de Ibiza",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPMTNMeWF4UHpENXQtMjZKTDNHakdCcjNnY0FtZTFNQWhQYXYwcEVUQnEyMU13dVhrNHVmcmUzelZhYjVMckl0SVkxSUJhSGRRdkpCaGpVdTgwYkc2Q1d2V2QwSm1TQ2FwLU85dlFBNTUzaHdFMDNESWNweV9CTmxIQ19YS2toNHFvN1dBbnlEdDZPcElUOVpCeUNtM25NSHlDRGZxTHVjVzR5eXg0UnlQbXJmUlF6cWczcHJJTG9iak8yN2lPcXV2dlZhWTZ5LWxhdmwxNXZoWGtsOVY4RHRJZERyWE1HNHJRNnp5SlBUSzljdVlWcC1EODE4SEFaQdIBkgJBVV95cUxOX2dibVU4ektKaVl4UkRoUDVnVDh5ZjFjb0pFbEE3QnNCaW1xMHNYdm5WTUFTUmpFbm9CM0k2cHdaUnh4VURwR05NQ0thcmY0eFY5VUZTZ2FtcWZZX0YweUJZNVNCVEVHVjVpYVROa2o3LWVLTnR5SjVMaXFlb29kdEhnRzBoVnRvMmxMZThUdGpkb2JpZ0R4dGpwa1dILXUycTJCUEtjS0x3QXYxWjk5QWl1TVpYdU1HakdkeDNKdEE5c19qelFNRHpVS2NJQURwQUo5SGxIeHZab25XMURZRnpsUUgxb0dOY1VyZzMySFhyb3ZacUFpMW96NW5SMEJpTTVjTFc4SE9pN0F6QTRaS1hn?oc=5",
+   "source": "Cadena SER",
+   "date": "2026-11-26T15:25:36+01:00",
    "others": [
     {
-     "source": "20minutos",
-     "title": "El Supremo establece las fechas para el final de las condenas de Ábalos y Koldo",
-     "link": "https://www.20minutos.es/nacional/tribunal-supremo-establece-mayo-2042-fin-condena-jose-luis-abalos-noviembre-2040-koldo-garcia_7066263_0.html"
+     "source": "El Mundo · Economía",
+     "title": "Un armador turco, una ruta \"habitual\" y una diferencia crucial con el Prestige: todas las claves del Med Emre, el barco volcado cerca de Ibiza",
+     "link": "https://www.elmundo.es/economia/empresas/2026/11/26/6b082435e85ecede028b4582.html"
     }
    ],
    "score": 2,
-   "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/05/06/17781018771589.jpg",
+   "image": "",
+   "more": [
+    "La embarcación transportaba 7.000 toneladas de combustible marítimo desde la refinería de San Roque (Algeciras) con destino al Puerto de Barcelona. Todo apunta a una vía de agua que desetabilizó la nave hasta invertirla Leer"
+   ],
    "id": "s6",
    "ai": {
-    "esencial": "La Sala Segunda limita el cumplimiento efectivo a 16 años y medio para el exministro y a 15 para su antiguo asesor.",
-    "porque": "La resolución establece el calendario definitivo de privación de libertad por el caso Mascarillas y concreta las sanciones económicas pendientes, cerrando el margen de interpretación sobre cuánto tiempo pasarán ambos condenados entre rejas.",
-    "contexto": "Ambos fueron sentenciados en junio de 2026 por organización criminal, cohecho, malversación y tráfico de influencias al favorecer al empresario Aldama en contratos sanitarios pandémicos a cambio de costear un alto nivel de vida. Aunque las penas individuales suman 8.830 días para el exdirigente socialista y 7.166 para su colaborador, el Código Penal fija topes de 6.015 y 5.475 jornadas respectivamente. A esas cifras se descuentan los 208 días de prisión preventiva iniciada en noviembre de 2025, además de seis y 21 días por comparecencias judiciales y retirada de pasaporte. Queda por conocerse el importe exacto de la multa impuesta.",
-    "cafe": "Puede chocar que una condena que supera los 24 años al sumar todos los delitos se reduzca en la práctica a unos dieciséis, pero la ley española establece límites máximos de estancia continua en la cárcel para evitar cadenas perpetuas encubiertas. También computan como tiempo ya saldado las medidas cautelares previas al juicio, como entregar el pasaporte o acudir a firmar al juzgado. Eso sí, las fechas anunciadas marcan el techo absoluto sin contar futuros permisos ordinarios o progresiones de grado penitenciario. Atenta a: si las defensas recurren este cálculo o solicitan beneficios penitenciarios cuando cumplan parte del castigo.",
+    "esencial": "Un carguero turco cargado con 7.000 toneladas de combustible se ha volcado en aguas próximas a Ibiza debido a una vía de agua.",
+    "porque": "Genera una gran preocupación medioambiental por el riesgo potencial de vertido tóxico en el mar.",
+    "contexto": "El buque Med Emre cubría una ruta habitual transportando hidrocarburos desde la refinería de San Roque, en Algeciras, con destino al Puerto de Barcelona antes de sufrir el accidente que destabilizó su estructura. Los expertos analizan las diferencias de este siniestro con el histórico hundimiento del Prestige para calibrar la gravedad de la situación actual en el archipiélago balear.",
+    "cafe": "Un desastre ecológico en esa zona arruinaría la temporada turística y afectaría de lleno a los ecosistemas marinos de las islas. Atenta a: la evolución de las tareas de reflotamiento y a los datos oficiales sobre posibles fugas de combustible.",
     "v": 2
    }
   },
@@ -174,57 +184,85 @@
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "El bocadillo con cinco ingredientes que se corona como el mejor 'esmorzar' de la década",
-   "summary": "El 'esmorzar' valenciana ya tiene a su campeón de campeones. Casa Marina, de Benifairó de la Valldigna, se ha alzado con el Gran Cacau d'Or de Amstel, un reconocimiento extraordinario que, con motivo de una década de trayectoria de estos premios, reunió, por primera vez, a 42 establecimientos galardonados en anteriores ediciones para elegir al mejor entre…",
-   "link": "https://www.abc.es/espana/comunidad-valenciana/bocadillo-cinco-ingredientes-corona-mejor-esmorzar-decada-20261127053000-nt.html",
+   "title": "Page, su mentor Bono y todos estos impostores",
+   "summary": "Los farsantes con frecuencia terminan siendo víctimas de su propia farsa. Acaban por vérseles las costuras y entretelas de sus enredos y sus trampas. En política, como en el teatro, hay papeles que se reparten con esmero. Esta semana el socialismo castellanomanchego, tan simuladamente crítico con Pedro Sánchez, ha representado el suyo con una coreografía…",
+   "link": "https://www.abc.es/espana/castilla-la-mancha/toledo/page-mentor-bono-impostores-20261126073008-nt.html",
    "source": "ABC",
-   "date": "2026-11-27T05:30:15+01:00",
+   "date": "2026-11-27T07:30:08+01:00",
    "others": [],
    "score": 1,
-   "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/27/cacau-or-Rus0ntDR8iABwrtWuDobtTP-1200x840@diario_abc.jpg",
-   "id": "s7"
+   "image": "https://s1.abcstatics.com/narwhal/1.3.72/assets/images/abc-noticias.jpg",
+   "id": "s7",
+   "ai": {
+    "esencial": "La cúpula socialista de Castilla-La Mancha ha participado en actos de campaña en la región para pedir el voto a favor de Pedro Sánchez.",
+    "porque": "Este respaldo electoral reactiva el debate interno sobre la coherencia entre las críticas públicas de los dirigentes territoriales a la dirección federal del partido y su apoyo explícito ante las urnas.",
+    "contexto": "Durante años, el actual presidente autonómico cultivó un perfil crítico dentro de su formación frente a decisiones del Ejecutivo central que consideraba perjudiciales para su comunidad. Sin embargo, esta semana se desplegó una agenda coordinada en varios municipios. El martes, el expresidente regional arropó al líder nacional en Albacete mientras su sucesor viajaba a Bruselas; el viernes llamó a la movilización en Santa Cruz de la Zarza y el sábado intervino en Alcázar de San Juan, al tiempo que el dirigente actual protagonizaba un mitin en Guadalajara, además de recorrer otros puntos del país.",
+    "cafe": "En periodos de votaciones suele darse una tensión clásica dentro de los grandes partidos: los responsables autonómicos marcan distancias con Madrid durante la legislatura para defender intereses locales, pero cierran filas cuando toca movilizar al electorado propio. Para quien vota, la clave está en distinguir entre las discrepancias discursivas de cada territorio y las decisiones reales de poder tras el recuento, desde pactos de investidura hasta reparto de recursos. Atenta a: si estas fricciones vuelven a aflorar en el debate interno una vez celebrados los comicios.",
+    "v": 2
+   }
   },
   {
    "sec": "espana",
    "lang": "es",
    "region": null,
-   "title": "Así son las áreas protegidas donde se hundió el 'Med Emre': un corredor cetáceo, el canal de Ibiza y una reserva \"única\" de esponjas",
-   "summary": "La zona reúne dos espacios marinos protegidos, importantes tanto para la migración de grandes animales como por la riqueza de sus fondos submarinos.",
-   "link": "https://www.20minutos.es/baleares/areas-protegidas-produjo-accidente-buque-med-emre-corredor-migracion-cetaceos-mediterraneo-canal-ibiza_7066218_0.html",
+   "title": "Los agentes digitalizadores se manifiestan por los retrasos del Kit Digital",
+   "summary": "La Asociación de Agentes Digitalizadores Adheridos (ADAS) denuncia que los retrasos en la revisión y el pago de expedientes del Kit Digital están trasladando a las empresas y profesionales que ejecutan el programa el coste de sostener servicios ya prestados. La asociación advierte de que la incertidumbre sobre los cobros dificulta atender los gastos de…",
+   "link": "https://www.abc.es/espana/andalucia/agentes-digitalizadores-manifiestan-retrasos-kit-digital-20261127170309-nts.html",
+   "source": "ABC",
+   "date": "2026-11-27T07:24:25+01:00",
+   "others": [],
+   "score": 1,
+   "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/26/kit-digital-RrHk2R6kWxGffmRdJCOIw1K-1200x840@diario_abc.jpg",
+   "id": "s8",
+   "ai": {
+    "esencial": "La asociación ADAS convoca una protesta el viernes 27 de noviembre a las 13:30 ante la sede de Red.es en Madrid.",
+    "porque": "Las demoras obligan a las pymes tecnológicas a financiar servicios ya prestados, provocando tensiones de tesorería que amenazan el pago de nóminas, proveedores y licencias mientras esperan los abonos públicos.",
+    "contexto": "Solo en Andalucía hay 1.296 empresas afectadas y 156.392 subvenciones concedidas bajo este programa. Según testimonios del sector, numerosos expedientes llevan meses bloqueados en fases como presentada, documentación adicional o enviada para pago, con una evolución desigual. Además de la lentitud, los profesionales denuncian cambios de criterio entre evaluadores, peticiones reiteradas de papeles y modificaciones de estado sin aviso sobre qué subsanar. Por ello, reclaman plazos concretos de resolución, explicaciones individualizadas cuando un cobro se atasque y que cualquier ajuste en las revisiones se comunique por escrito.",
+    "cafe": "Este programa financia páginas web, ciberseguridad o gestión de clientes para pequeños negocios, pero el ingreso no es inmediato: quien instala la herramienta adelanta el trabajo y cobra tras validar el papeleo. Cuando la gestión administrativa se frena, el desgaste recae sobre autónomos, pequeñas consultoras y perfiles jóvenes contratados en el ramo, cuya estabilidad depende de cobrar a tiempo. Atenta a: si la entidad gestora responde tras la concentración con un calendario fijo y reglas homogéneas.",
+    "v": 2
+   }
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "El viaje de la infancia a la adolescencia a través de la figura del maestro: «La escuela es el lugar donde se ensaya el futuro»",
+   "summary": "El desarrollo del niño pasa por diferentes etapas donde la enseñanza forma parte de su camino evolucionando a medida que ellos mismos lo hacen. Las aulas de Infantil están llenas de descubrimientos: de colores, de armonía, de paisajes llenos de nubes, pero también de palabras y emociones que empiezan a tomar forma. Luego, en Primaria las clases están…",
+   "link": "https://www.abc.es/espana/andalucia/viaje-infancia-adolescencia-traves-figura-maestro-escuela-20261127071859-nts.html",
+   "source": "ABC",
+   "date": "2026-11-27T07:19:00+01:00",
+   "others": [],
+   "score": 1,
+   "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/30/1200x840_pral-kd6H-U40422301627EVF-1200x840@diario_abc.jpg",
+   "id": "s9",
+   "ai": {
+    "esencial": "Con motivo del Día del Maestro, varios docentes finalistas y una ganadora de los Premios EDUCA Abanca relatan su labor en las aulas.",
+    "porque": "La iniciativa subraya el papel del profesorado como referente continuo para acompañar cambios personales y cognitivos en cada etapa, reivindicando la vocación y la innovación pedagógica más allá del temario.",
+    "contexto": "Los galardones se entregan en enero para reconocer a los mejores educadores de España en cada especialidad. El recorrido abarca tres fases muy distintas: Infantil, centrada en los primeros descubrimientos y las emociones; Primaria, marcada por los libros, las amistades iniciales y preguntas más complejas; y Secundaria, donde pesan las dudas y la construcción de la identidad. Entre los testimonios destaca Alberto Padilla López, natural de Bailén y que ejerce desde hace más de quince años en el CEIP Diego Velázquez de El Ejido, quien defiende aprender cada día de los alumnos.",
+    "cafe": "Si alguna vez has recordado una asignatura entera solo por cómo la explicaba alguien en clase, ahí está la tesis de este reportaje: el vínculo humano pesa tanto como los apuntes. Para quienes estudian Magisterio, preparan oposiciones o valoran dedicarse a la enseñanza, estos reconocimientos visibilizan un trabajo a menudo poco valorado socialmente pese a sostener el desarrollo escolar desde los tres hasta los dieciséis años. Atenta a: la próxima gala de entrega, donde se darán a conocer los nombres premiados de este año.",
+    "v": 2
+   }
+  },
+  {
+   "sec": "espana",
+   "lang": "es",
+   "region": null,
+   "title": "El sueño cumplido de Lucía, de 100 años, junto a Ona Carbonell: \"Nadar con ella fue muy bonito\"",
+   "summary": "Lucía ha contado a 20minutos cómo ha sido su experiencia de volver a nadar junto a la medallista olímpica, en una iniciativa enmarcada en el 'Programa de Sueños' de la Fundación Adopta Un Abuelo.",
+   "link": "https://www.20minutos.es/deportes/sueno-cumplido-lucia-100-anos-ona-carbonell-no-hay-que-quedarse-inactivo-nadar-con-ella-fue-muy-bonito_7065171_0.html",
    "source": "20minutos",
-   "date": "2026-11-27T05:00:41+01:00",
+   "date": "2026-11-27T07:14:19+01:00",
    "others": [],
    "score": 1,
-   "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/26/6b081d27f342c9-37499434.png",
-   "id": "s8"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
-   "title": "Es el poder adquisitivo, estúpido",
-   "summary": "La evolución de los salarios y el coste de la vida marca todas las elecciones occidentales (y las españolas) desde la Gran Crisis",
-   "link": "https://elpais.com/espana/elecciones-generales/2026-11-27/es-el-poder-adquisitivo-estupido.html",
-   "source": "El País",
-   "date": "2026-11-27T04:30:01+00:00",
-   "others": [],
-   "score": 1,
-   "image": "https://imagenes.elpais.com/resizer/v2/LG2X26HLYNH3RAIXGYRJE23JOQ.JPG?auth=ca9bedafb25b491710c22d9cf4ee17492bea1c30280f86434aacfd9ed3ada137",
-   "id": "s9"
-  },
-  {
-   "sec": "espana",
-   "lang": "es",
-   "region": null,
-   "title": "Destapan una cocina-chabola en un garaje tras la puerta secreta de un restaurante chino",
-   "summary": "El propio informe de la Policía Municipal de Madrid hace el símil: «Solo el penitente pasará». Es la frase que un moribundo Sean Connery revela a Harrison Ford en 'Indiana Jones. En busca del Arca Perdida'. Los agentes de la Oficina de Atención al Ciudadano definen así la cocina ilegal que se escondía tras una puerta secreta en un restaurante chino de Usera…",
-   "link": "https://www.abc.es/espana/madrid/destapan-cocinachabola-garaje-tras-puerta-secreta-restaurante-20261128022728-nt.html",
-   "source": "ABC",
-   "date": "2026-11-27T02:27:29+01:00",
-   "others": [],
-   "score": 1,
-   "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/26/A69BCC11-B1CF-4984-8B55-96074352DCC2-RtutywH10jiVJwVwjtcw0tM-1200x840@diario_abc.jpg",
-   "id": "s10"
+   "image": "https://imagenes.20minutos.es/files/image_1920_1080/files/fp/uploads/imagenes/2026/11/24/6b058cc11e9760-06843201.r_d.652-175.jpeg",
+   "id": "s10",
+   "ai": {
+    "esencial": "La iniciativa forma parte del Programa de Sueños de la Fundación Adopta Un Abuelo y se celebró en el madrileño barrio de Chamberí.",
+    "porque": "El encuentro visibiliza el valor de acompañar a las personas mayores y combatir su soledad, reivindicando su papel activo en la sociedad a cualquier edad.",
+    "contexto": "La protagonista se lanzó por primera vez al agua en 1951, con 25 años, y mantuvo esa afición tanto en piscinas como en el mar hasta que fue perdiendo movilidad con el paso del tiempo. Para celebrar esta fecha tan señalada, volvió a sumergirse en las instalaciones del Centro Maná y asistió además a una exhibición privada de natación artística de la medallista olímpica. Al salir, expresó entre lágrimas su alegría y aseguró que ya piensa en repetir. Por su parte, la deportista elogió su vitalidad y su carisma.",
+    "cafe": "Detrás de esta escena entrañable hay un problema real en España: miles de ancianos viven aislados y desconectados de la vida cotidiana, muchas veces en residencias o pisos sin red cercana. Programas de voluntariado intergeneracional demuestran que dedicar tiempo a escuchar o compartir actividades sencillas mejora su bienestar físico y anímico, además de transformar la mirada de los jóvenes sobre la vejez. Atenta a: nuevas convocatorias de voluntariado y proyectos solidarios que suelen abrirse durante todo el año.",
+    "v": 2
+   }
   },
   {
    "sec": "politica",
@@ -234,7 +272,7 @@
    "summary": "Vienen tándems políticos que no siempre pedalearán con el ritmo y la intensidad coordinadas. Lealtades líquidas",
    "link": "https://elpais.com/opinion/2026-11-26/el-debate-de-los-vicepresidentes.html",
    "source": "El País",
-   "date": "2026-11-27T02:18:17+01:00",
+   "date": "2026-11-27T02:02:19+01:00",
    "others": [
     {
      "source": "EL PAÍS",
@@ -257,17 +295,12 @@
      "link": "https://www.lavanguardia.com/politica/20261127/11694546/sprint-feijoo-abascal.html"
     },
     {
-     "source": "ABC",
-     "title": "Feijóo y Abascal: no me chilles que no te veo",
-     "link": "https://www.abc.es/espana/jose-antonio-perez-feijoo-abascal-chilles-veo-20261127014801-nt.html"
-    },
-    {
      "source": "20minutos",
      "title": "Sánchez y Feijóo mantienen su pulso en un debate áspero con un Abascal duro y una Colau incisiva",
      "link": "https://www.20minutos.es/nacional/sanchez-feijoo-mantienen-su-pulso-con-un-abascal-duro-una-colau-incisiva_7066464_0.html"
     }
    ],
-   "score": 7,
+   "score": 6,
    "image": "https://imagenes.elpais.com/resizer/v2/IMLLBEAV2VFZ7DTSC2RRJBKYJM.JPG?auth=74c9b653152033d060f5aa30f21c39b98a566b27e997bc73da7ba244dd1ecf98",
    "id": "s11",
    "ai": {
@@ -314,74 +347,6 @@
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "Pedro Vallín reacciona a la entrevista de Sánchez con Plex: \"El presidente está en su \"prime\" absoluto, esta campaña me parece espectacular\"",
-   "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQTUsyQlJmUlo4M3FIMGZzbGUtUnNJUmNoNzlqUmF2WHBQVWtNMTItMERZbVk2YlhmVHFzYXZqVTFkeUY4S1hnU1ZOV2toTE1welF3dlRub2sxeGd4eDdkYWwxUThzc3ZZYzNWLXV1Qk5zVklGeFQ4cGU3UmdhaDM4QmtXdEJRYmZTbHBFc3ZpQlk4UXZJYnhkOFYxU1JWYUJOZVZONHJSVGtjOTlIZDE5UjFKV0YtbUJ5aHFWRC1JU1A0eUJ0cm10LWVPYkZKWm12emVXNll0bTU4ZEZ3c3FBbllFMk9XN0tVNk1ya2VMVFc1Y0o4R2oybF93M0xrTU1jWkxmTXBJd1Z6STdOUUQxRlBPX1ZSSzdqcUQwMVNB0gGeAkFVX3lxTE9fOGpkY0MtSTF6X19tWUhTeU5wX1ZLNVlXVnFrTHF5b3o1Y3haZVVFdEtDbE1tTk16Y0hYQTJmMWlIWTVYQWpUaENoclZoY3ZqZHlSSFVEc1JuYWxGVkhDYWN0M0toaFNnQVBqVFNIdXpCZVhRVlhzZVZWMWV1Q2t5UW9JQklSbVVwUVRSX1hQV09GbHRlRnVaNDVzdnJKMEdUQThDY25BWVROOXRhQjN1dDNQOUxTQjhvUW16dGVTb3dnMEJaRVh0Y1J3NW92S3hnSEFHQ2hJMEczRjVoTTBjX3FrLThxQm5fNHV4M2l3N0Vzc0RBYXRZdzJFMnBKSGVJeHdEOExRdm9PN05hMXo2UWdDZkNfRU1Kd2FHVXc?oc=5",
-   "source": "LaSexta",
-   "date": "2026-11-26T12:12:46+00:00",
-   "others": [
-    {
-     "source": "elDiario.es",
-     "title": "Feijóo culpa a Ester Muñoz por el famoso lapsus de \"Anotop at\" en su entrevista con Plex: \"Me tocó la pierna\"",
-     "link": "https://www.eldiario.es/rastreador/feijoo-culpa-ester-munoz-famoso-lapsus-anotop-at-entrevista-plex-toco-pierna_132_13694406.html"
-    },
-    {
-     "source": "elDiario.es",
-     "title": "Sánchez con Plex: Lamborghinis, impuestos y GTA",
-     "link": "https://www.eldiario.es/rastreador/sanchez-plex-lamborghinis-impuestos-gta_132_13694143.html"
-    }
-   ],
-   "score": 3,
-   "image": "",
-   "more": [
-    "Los candidatos vuelven a sus andadas en el mundo de los youtubers, esta vez, Feijóo elige un encuentro en un circuito de carreras de Madrid y una vuelta en un Porsche Sánchez con Plex: Lamborghinis, impuestos y GTA Un circuito de carreras de Madrid, un Porsche y una nueva aventura de los candidatos presidenciales en el mundo de las redes sociales. El…",
-    "El youtuber se lamentó por unas declaraciones en las que el presidente del Gobierno defendió que hubiera \"más transporte público y menos Lamborghinis\": \"Lo que quise decir fue que estupendo que la gente tenga su 'Lambo' si quiere, pero yo creo que nuestro compromiso tiene que ser que haya buen transporte público\" Feijóo culpa a Ester Muñoz por el famoso…"
-   ],
-   "id": "s13",
-   "ai": {
-    "esencial": "Los líderes políticos intensifican su presencia en canales de creadores de contenido digital para debatir sobre coches de lujo, impuestos y videojuegos.",
-    "porque": "Buscan conectar con jóvenes alejados de los medios tradicionales en plataformas donde el formato distendido evita el choque parlamentario directo.",
-    "contexto": "La campaña electoral ha saltado a formatos informales en internet, abordando desde la polémica por priorizar el transporte público frente a deportivos de alta gama hasta referencias a títulos populares de consolas. Al mismo tiempo, figuras de la oposición han protagonizado vídeos en autódromos de velocidad, salpicados de lapsus que se viralizaron con rapidez en redes. Este giro estratégico persigue frenar la abstención en el tramo de menor edad, que consume actualidad a través de streaming en lugar de ruedas de prensa.",
-    "cafe": "En lugar de digerir programas electorales de cientos de páginas, ves a los aspirantes hablando de coches o videojuegos en los canales que abres cada día. La contrapartida es que cuestiones cruciales como tus prácticas remuneradas o el precio del alquiler quedan desplazadas por anécdotas y clips de entretenimiento. Atenta a: si este despliegue en redes logra movilizar a la juventud en las urnas o se queda solo en visitas.",
-    "v": 2
-   }
-  },
-  {
-   "sec": "politica",
-   "lang": "es",
-   "region": null,
-   "title": "Carmena, Bescansa, Garzón y 75 cargos del primer Podemos y sus confluencias piden el voto para el Frente Amplio apelando a los que se ilusionaron en aquellos años",
-   "summary": "Muchos de los \"protagonistas\" del ciclo más exitoso de Podemos se unen en un manifiesto para expresar su apoyo a Ada Colau Leer",
-   "link": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/26/6b078c79fc6c8331038b4596.html",
-   "source": "El Mundo",
-   "date": "2026-11-26T09:41:51+01:00",
-   "others": [
-    {
-     "source": "elDiario.es",
-     "title": "Carmena, Bescansa, Tania Sánchez y otros exdirigentes de Podemos y su entorno piden el voto para el Frente Amplio",
-     "link": "https://www.eldiario.es/politica/carmena-bescansa-tania-sanchez-exdirigentes-entorno-piden-voto-frente-amplio_1_13694266.html"
-    },
-    {
-     "source": "La Vanguardia",
-     "title": "Excargos de Podemos y sus alianzas como Carmena, Bescansa y Espinar apoyan a Frente Amplio",
-     "link": "https://www.lavanguardia.com/politica/20261126/11693793/excargos-alianzas-carmena-bescansa-espinar-apoyan-frente-amplio.html"
-    }
-   ],
-   "score": 3,
-   "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/26/17956569332402.jpg",
-   "id": "s14",
-   "ai": {
-    "esencial": "Cuatro integrantes de la primera ejecutiva de Pablo Iglesias firman el respaldo electoral a la candidatura de Ada Colau y Emilio Delgado.",
-    "porque": "Consolida la fractura definitiva del espacio del cambio a las puertas de las urnas frente a las siglas de la formación morada.",
-    "contexto": "El texto conjunto apela al espíritu fundacional de las elecciones de 2014 y a los votantes que impulsaron las mareas ciudadanas que casi sobrepasan al PSOE en 2016. La iniciativa reúne tanto a figuras institucionales de primera línea como a cuadros técnicos y organizativos fundacionales que abandonaron la estructura estatal durante los años de mayor fricción interna.",
-    "cafe": "Si sigues la política española, ves la foto final de diez años de disputas: quienes crearon la papeleta del cambio piden el voto para otra marca distinta. Atenta a: cómo reacciona la dirección actual del partido morado durante el cierre de campaña.",
-    "v": 2
-   }
-  },
-  {
-   "sec": "politica",
-   "lang": "es",
-   "region": null,
    "title": "Rego, el candidato que busca el récord del independentismo gallego: \"Quien quiera nuestro voto tendrá que aceptar nuestras exigencias\"",
    "summary": "El BNG aspira a triplicar su representación tras siete años con un solo diputado y frenar al PP \"más ultra de los últimos tiempos\" Leer",
    "link": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/26/6b0726bde9cf4a77418b45ae.html",
@@ -396,12 +361,39 @@
    ],
    "score": 2,
    "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956308895378.jpg",
-   "id": "s15",
+   "id": "s13",
    "ai": {
     "esencial": "El BNG concurre en solitario el 29-N para triplicar su único escaño actual en el Congreso y descarta cualquier pacto con Alberto Núñez Feijóo.",
     "porque": "Si PP y Vox no consolidan la mayoría absoluta que apuntan los sondeos, los diputados nacionalistas pueden resultar decisivos para investir a Pedro Sánchez a cambio de inversiones y competencias específicas para Galicia.",
     "contexto": "Tras siete años en Madrid, el dirigente lucense reivindica frente a los otros 22 parlamentarios de su comunidad haber conseguido bonificaciones en la autopista AP-9, desbloquear su transferencia, reforzar la dependencia y ampliar los permisos de paternidad. Aunque facilitó dos mandatos previos para frenar a la derecha, reprocha al Gobierno central que su propuesta de financiación autonómica ignore la dispersión geográfica y el envejecimiento, así como mantener parte de la reforma laboral y la ley mordaza, actuar tarde en vivienda y disparar el presupuesto militar. Mientras tanto, la última encuesta otorga al bloque conservador entre 182 y 193 asientos.",
     "cafe": "En un Parlamento fragmentado, pasar de uno a tres actas multiplica la capacidad de negociación cuando ningún gran partido alcanza los 176 apoyos necesarios para gobernar. Esa aritmética explica por qué formaciones pequeñas rechazan integrarse en coaliciones estatales: prefieren voz propia para canjear su voto por peajes más baratos o partidas concretas para sus votantes, aunque el coste sea asumir desgaste si sus socios de investidura incumplen promesas básicas como el acceso al alquiler. Atenta a: si la suma conservadora amarra la mayoría en las urnas o si la izquierda vuelve a depender de acuerdos territoriales.",
+    "v": 2
+   }
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "La inmigración en perspectiva",
+   "summary": "Además de cuestiones éticas, morales y de solidaridad, hay un argumento económico clave detrás de los flujos migratorios: tratar de frenarlos o revertirlos puede suponer una quiebra de nuestro modelo económico de consecuencias imprevisibles Uno de los temas más candentes del debate político, económico y social en España es el de la inmigración. De hecho…",
+   "link": "https://www.eldiario.es/economia/inmigracion-perspectiva_129_13695183.html",
+   "source": "elDiario.es",
+   "date": "2026-11-27T06:00:00+01:00",
+   "others": [
+    {
+     "source": "La Vanguardia",
+     "title": "Si te preocupa la inmigración, la IA no te dirá a quién votar",
+     "link": "https://www.lavanguardia.com/politica/20261127/11694281/te-preocupa-inmigracion-ia-te-dira-votar.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://static.eldiario.es/clip/f76e47a4-3c95-40b1-bbdc-c3443d03e21b_16-9-discover-aspect-ratio_default_0.jpg",
+   "id": "s14",
+   "ai": {
+    "esencial": "El saldo migratorio en España ha oscilado drásticamente en los últimos 65 años, pasando de expulsar mano de obra a recibirla.",
+    "porque": "Condiciona la viabilidad del actual modelo económico y el equilibrio demográfico del país.",
+    "contexto": "Durante las décadas de 1960 y 1970, el régimen franquista toleró y fomentó la salida de trabajadores al extranjero para aliviar el desempleo rural y captar divisas mediante las remesas familiares. La escasez de series estadísticas fiables y homogéneas sobre estos flujos dificulta dimensionar el fenómeno real, que hoy protagoniza el debate político en paralelo a la crisis de la vivienda.",
+    "cafe": "A tu generación le tocará convivir con un mercado laboral y un sistema de pensiones que dependen directamente de la integración de trabajadores extranjeros para sostenerse. Atenta a: los informes oficiales de población que se publiquen próximamente para entender la verdadera magnitud de estos movimientos demográficos.",
     "v": 2
    }
   },
@@ -423,7 +415,7 @@
    ],
    "score": 2,
    "image": "https://imagenes.elpais.com/resizer/v2/4KJJA3ZTPJFWHNEKP4VLM2RP2M.jpg?auth=31ef044685991f3a1e95df691ce77b853c541a15e680e3564fa7d8d18d3e29f1",
-   "id": "s16",
+   "id": "s15",
    "ai": {
     "esencial": "Moncloa y Ferraz fichan a una productora británica que trabajó con Barack Obama, elevando los seguidores de Pedro Sánchez de 2,6 a 8,2 millones.",
     "porque": "Profesionalizar el ataque digital con declaraciones literales busca viralizar contradicciones de la oposición sin perder credibilidad, en una carrera clave por captar al electorado joven que se informa fuera de los medios tradicionales.",
@@ -436,62 +428,8 @@
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "Vox planta a la Diputación Permanente del Congreso a tres días de las elecciones",
-   "summary": "Con las encuestas a la baja y sin mayoría para frenar al Gobierno, los de Abascal evitan retratarse ante la subida salarial de los funcionarios",
-   "link": "https://www.lavanguardia.com/politica/20261126/11693811/vox-planta-diputacion-permanente-congreso-tres-dias-elecciones.html",
-   "source": "La Vanguardia",
-   "date": "2026-11-27T02:11:41+01:00",
-   "others": [
-    {
-     "source": "ABC",
-     "title": "PP y Vox consolidan su alternativa contra Sánchez a tres días de las elecciones",
-     "link": "https://www.abc.es/espana/pp-vox-consolidan-alternativa-sanchez-tres-dias-20261126000318-nt.html"
-    }
-   ],
-   "score": 2,
-   "image": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2026/11/26/6b080db553a02.jpeg",
-   "id": "s17",
-   "ai": {
-    "esencial": "El partido de Santiago Abascal evita votar la subida salarial de los funcionarios y acusa al Gobierno de comprometer más de 30.000 millones en campaña.",
-    "porque": "Se juega su atractivo electoral entre empleados públicos, atrapado entre oponerse a mejoras laborales o respaldar iniciativas de Pedro Sánchez que hipotecarían las cuentas del próximo mandato.",
-    "contexto": "Antes de ausentarse, la formación registró tres escritos ante la Mesa —el 9 y 16 de octubre y el 11 de noviembre— alegando que el reparto actual de escaños incumple el artículo 78.1 de la Constitución. Pedía aplicar el voto ponderado conforme a la Cámara del 5 de octubre y apartar a Francina Armengol de las votaciones. Además, reprocha que se aprueben 18 decretos leyes desde la convocatoria electoral con unos Presupuestos prorrogados desde 2023, antes de la cita del 29 de noviembre.",
-    "cafe": "Si algún familiar trabaja en la sanidad o educación pública, esa mejora de sueldo depende de convalidaciones que ocurren incluso con las Cortes disueltas. Para entender esta maniobra conviene saber que este órgano es la guardia mínima que sustituye al Parlamento cuando se disuelve, y sigue legislando por decreto aunque no haya pleno. Queda por ver si esta estrategia de silla vacía convence al electorado conservador. Atenta a: si el resultado en las urnas deja un bloque capaz de frenar o revertir estos decretos.",
-    "v": 2
-   }
-  },
-  {
-   "sec": "politica",
-   "lang": "es",
-   "region": null,
-   "title": "Ada Colau le pone las pilas a Sánchez",
-   "summary": "Feijóo se ve obligado a soportar la presencia de Abascal en el debate, mientras la energía de Colau fuerza a Sánchez a adoptar un estilo más agresivo y muy diferente al del primer debate Todas las mentiras del debate a cuatro Se acabó la 'high-road rebuttal“, la llamada refutación con altura y todo ese pijerío de sabihondos que consistía en pensar que un…",
-   "link": "https://www.eldiario.es/politica/ada-colau-le-pone-pilas-sanchez_129_13697587.html",
-   "source": "elDiario.es",
-   "date": "2026-11-27T01:43:50+01:00",
-   "others": [
-    {
-     "source": "ABC",
-     "title": "Ada Colau se abraza a Sánchez en el debate para «reeditar el Gobierno de coalición»",
-     "link": "https://www.abc.es/espana/ada-colau-20261126215946-nt.html"
-    }
-   ],
-   "score": 2,
-   "image": "https://static.eldiario.es/clip/a8b9b2c6-8bd2-47d3-a581-c3063ef8318a_16-9-discover-aspect-ratio_default_0.jpg",
-   "id": "s18",
-   "ai": {
-    "esencial": "En el debate a cuatro del jueves, la exalcaldesa forzó al presidente a abandonar su contención anterior y elevar el tono contra Alberto Núñez Feijóo.",
-    "porque": "La cita reconfigura el pulso electoral entre bloques: la izquierda intenta vincular al líder popular con la ultraderecha, mientras el candidato conservador evita choques con su posible socio para no dinamitar futuros pactos.",
-    "contexto": "Una semana atrás, el jefe del Ejecutivo había perdido el primer cara a cara tras apostar por una réplica templada. Esta vez, la dirigente progresista abrió el encuentro exigiendo condenar la violencia machista, una postura que Santiago Abascal rechazó mientras acusaba a su rival socialista de usarla para el «juego sucio». Ese clima llevó al aspirante a la reelección a lanzar dardos personales sobre el nivel de inglés del gallego, quien se ciñó a cuestionar la financiación de su oponente y el alza de precios como si buscara 176 escaños en solitario.",
-    "cafe": "En unos comicios tan ajustados, los debates no cambian leyes al momento, pero sí deciden quién marca la agenda sobre derechos de las mujeres o coste de la vida en tus conversaciones de grupo. La clave para leer este choque es que el bipartidismo clásico ya no compite solo: ningún aspirante mayoritario puede atacar sin medir cómo afecta a sus aliados de coalición. Atenta a: si el tono más duro moviliza al electorado indeciso antes de abrirse las urnas.",
-    "v": 2
-   }
-  },
-  {
-   "sec": "politica",
-   "lang": "es",
-   "region": null,
    "title": "Feijóo se enreda en la polémica tras su “calladita” y Ada Colau responde: “Las mujeres no vamos a estar calladitas”",
-   "summary": "El líder del PP defiende que se ha manipulado su frase porque se refería a que estuvo en silencio y no la estaba mandando callar, pero también que lo \"retira\" si ha \"molestado\" a alguien Ada Colau le pone las pilas a Sánchez El debate de los cuatro candidatos a la presidencia del Gobierno comenzó con la negativa de Santiago Abascal a sumarse a las condenas…",
+   "summary": "El líder del PP defiende que se ha manipulado su frase porque se refería a que estuvo en silencio y no la estaba mandando callar, pero también que lo \"retira\" si ha \"molestado\" a alguien CRÓNICA - Ada Colau le pone las pilas a Sánchez; por Iñigo Sáenz de Ugarte El debate de los cuatro candidatos a la presidencia del Gobierno comenzó con la negativa de…",
    "link": "https://www.eldiario.es/politica/feijoo-enreda-polemica-calladita-referirse-ada-colau-mujeres-no-calladitas_1_13697743.html",
    "source": "elDiario.es",
    "date": "2026-11-27T01:07:34+01:00",
@@ -504,7 +442,7 @@
    ],
    "score": 2,
    "image": "https://static.eldiario.es/clip/b5f88bae-fcb0-4ef2-a9e6-c24dd28629ec_16-9-discover-aspect-ratio_default_0.jpg",
-   "id": "s19",
+   "id": "s16",
    "ai": {
     "esencial": "El líder del PP retiró el comentario si había molestado, aunque denunció una manipulación tras soltar la frase durante un cruce sobre la DANA.",
     "porque": "El episodio desvía el foco del debate hacia el feminismo en plena recta final, permitiendo al bloque progresista cerrar filas y obligando a los conservadores a dar explicaciones defensivas sobre su tono.",
@@ -517,27 +455,107 @@
    "sec": "politica",
    "lang": "es",
    "region": null,
-   "title": "Ignacio Escolar, sobre el \"calladita\" de Feijóo a Colau: \"Es impresentable. Tiene que explicarlo porque ha metido la pata\"",
-   "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOY2hmR3I1V1ZLYjI1VElyNXlOaW9zeW80ZXJNSFVtei1PUGF3OXlENlI1dHlwRFVkWEktVnE2TkRQX1pUWW1DZFFUSnVvSzNIblhYUlI3RjgzS0UzejRPdU1EY0xTcThWNjcxc19FZm5WVHRlQUxzYU5oam1tRWZnMHZHWGpPZ1Vyck1jMDY1X1FNRXg4UlVBR3RzaEQyT3AtQWd0dDRXaUpmYS1TWGU3SEItLTk1d3RQZGR6ODQ5REtQMDlzdExuUXdhSE9RU21YWHVNaXQyc1hkQ3V2enNrV0NGcExhcnVra01ZOG5aczV3TjZxWGxTQmVvSkJaQXJVN3NsTEZn0gGGAkFVX3lxTE9rVVpRV0s2SHozN1hqUHNpM3JCbDVYZl96dzNGV2R1OWcwMzJOM0x3U2QtMDFDLXQ0YXBIYzFQRVNhSWwtM09wbU9rM3VqMktpSk5ZSlEyckYzd3V5aVhlZ2NCWVQ4T0I2OXRZZFp3SW11b1AwNGFUWGNmU1dLV3JSS3pla0h4TWxGWklfZTZFTVpHX2htWlF3X1QzR2NvekNOcGF2WmNhNHpKVzZkUXREaDIxYlA2MjE5dXlmWmZRbG4wN2t4MjFockJIUnk5Y2NyRWFfSU5UaFJ6QXMycGh2RU53MTkxV2pkTDkzUVZ5SUNUX2ZVY3hCbzN0RGE5MlZib3F6LXc?oc=5",
-   "source": "LaSexta",
-   "date": "2026-11-27T01:03:57+00:00",
+   "title": "El PSOE difunde la foto de Sánchez en la mili tras el debate: “Van de patriotas y…”",
+   "summary": "Moncloa distribuye la foto de Pedro Sánchez en su Jura de bandera para certificar que el candidato socialista sí realizó la mili como ha indicado a Feijóo y Abascal en el debate.",
+   "link": "https://www.20minutos.es/nacional/sanchez-saca-mili-debate-frente-feijoo-abascal-van-patriotas-los-tres-unico-que-ha-hecho-he-sido-yo_7066478_0.html",
+   "source": "20minutos",
+   "date": "2026-11-27T00:49:02+01:00",
    "others": [
     {
      "source": "EL PAÍS",
-     "title": "Sánchez pregunta a Feijóo por qué no pide la dimisión de Ayuso: “¿Tiene miedo de que le pase lo mismo que a Casado?",
-     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPUkVUdmZGTkI4WVFNeHBPdnlsN1ZmdEdjTzRBSVF2ZENBR1RzTXg1UkNYYkk1ajZuMXVYV015c3pDR0hxWTdBRm5jX1NZLURlNi14T2R1M0s5TnUybFAtQkVRQTF2dF96QkN1SGgySDZwOVJnbHRtdDBYcHhmeFJlVDNaYVU1Ry1mdUxLRFZFNzIwRGc3Tk9OcDk2Q0Z5UkZpNXdiS1ZNbFJ2OGtLNDk2cThKUW8yZW5qS3FZZ3J4YkowRVkwbWtvdU5uLXBjUmZ3elNpZHZkaGRYTHIxRndGQnpjcmVYREVDcWtPNVUwZ1JMQ09ILWs1ZUZ3aXcxVkRESnJSUdIBmAJBVV95cUxNZUZ2aFEyWmp5ZXNWeUo4T1drOU5MU01TOFRVbnNZSWczbUtlTVBiRXVmbnJLWjJLQVItUzE0a0kwRXNpNmt0cm1KV3pBb2NXVFVGZmpXN3lYc0h4U1B6by1CWnFiMjdpRmM5bGFXQ0hJQmpqUFJCNFhseVNNelgzeE4yNVpoNllqMFVNQ3NZcFVxQTNVa0poZU1zaC12bmRKUmkwVTV0Q2lMMEYzNHluVTdNN1lBQ1I0V2NjdmxlaldleG03Z0p2a2x0UFp6WXFpMHp2THcwZmpUYjJQaVVNUDZ0NW9yNDVma2dJa2g5QUF4eDJyYUlGT0dERFZnVXYyQ1RVTVdMcWZ2QnUzUmFfY3RYalRock9R?oc=5"
+     "title": "Esta es la foto de Sánchez haciendo la mili de la que ha hablado en el debate a cuatro",
+     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNSkVtRFZyb3ZnM0hIS29pMjNJSXR0M2hPbUJHcUZ3a3h6clp6MHlVTUh1eWZSN0NVT1dNYjZsSVI1a2VxVC1tMV9ZbUpkYk82bmlnajdIRk9NX0lwQ0NxZUxCZEdSaWJlVENFOEw4elFlU3Rpc0FfNmFLS2s1UlctaDVnc1ZCZVhQQlFWOGgyaDhSbHBGLWQ0NDkwZkNjZG1XbWFZd2ZZRXV4dGo5NHNnQjJmbXNMNjVCMTFlRThPME13cFVXODl3eGRtcVJ4VlRNQ3lGS3JZeTJWdlB4V2FPakd5STRoc1JkeG1fOEk5U3NLSDFObUJ5TDhGQkV5OVVs0gGUAkFVX3lxTE5qODRxYWI0a0Z6WFpURWtxbGRRelZIZzVIRHVKVFJjalpWcWo5Y0VIcFd4c3ZXMkNpOGxTQmhBMnF5UzNmZmNCcTZMQW5PNEo0dk5pRjZ4bVhGekd2TkFON2p0TzVWYTVhQVk3Q01GM1Y4MjBiMXhMUW03VThXRFFXOEEzblNnUTRiZmJZX182M0gwaC1BcTA3N1o1OWVZdEtXd3NCalRpYUJxc1pGTlVGOG1hb1RzampMdXctMkFGYzl5dkpTS0tjZm1LMzhNVXR4Nm5lZ0xrR3lwT3RHdlo1ZUVmR01nNWJVRTdNdlBxeHVvd3pPbTVXOVhzTEJpNmRFLWpRWVFmbGVuS2tTT3N6Y1F6aA?oc=5"
     }
    ],
    "score": 2,
-   "image": "",
-   "more": [],
+   "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2026/11/27/6b08d2e2459b29-92258410.jpeg",
+   "id": "s17",
+   "ai": {
+    "esencial": "Moncloa señaló que compartió la imagen de la jura de bandera tras el último cara a cara del 29N para acreditar su paso por filas.",
+    "porque": "En plena recta final hacia las urnas, los partidos disputan el relato sobre la defensa y la representación nacional para movilizar al electorado ante las posiciones divergentes sobre acción internacional.",
+    "contexto": "Durante el bloque de inmigración y política exterior, el presidente del Gobierno reprochó a Alberto Núñez Feijóo y Santiago Abascal respaldar las críticas de Donald Trump, Javier Milei y Benjamín Netanyahu, así como oponerse en Bruselas a la excepción ibérica, los fondos comunitarios y las lenguas cooficiales. El líder de Vox replicó haber hecho más servicio militar, mientras el dirigente del PP pidió explicaciones sobre Ceuta, criticó el incremento del gasto militar y calificó la situación en Gaza de masacre, frente al término genocidio empleado por su rival. Según relató el propio candidato socialista en 2015 a Bertín Osborne, sirvió en el Servicio Geográfico del Ejército en Campamento (Madrid).",
+    "cafe": "Aunque la obligatoriedad de pasar por el cuartel terminó en España en 2001 y tu generación solo la conoce por relatos familiares, las referencias castrenses siguen funcionando en la carrera electoral como símbolo de compromiso institucional. Ese choque dialéctico desplaza a menudo el foco mediático desde propuestas concretas sobre vivienda o empleo hacia gestos identitarios y alianzas geopolíticas que también condicionan el peso del país en la Unión Europea. Atenta a: si el cruce de reproches tras la emisión nocturna altera la intención de voto entre indecisos o si los aspirantes aportan más detalles sobre sus programas antes del domingo.",
+    "v": 2
+   }
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "Lo que importa sobre RTVE",
+   "summary": "Más allá de las comparaciones disparatadas, lo más preocupante de las palabras de Feijóo es que su plan es apuntalar el control partidista de la radiotelevisión pública La desmesura hasta el absurdo que domina la política española oscurece a menudo la sustancia de los debates. Parece que no vale con criticar las ideas, las propuestas o las ocurrencias si no…",
+   "link": "https://www.eldiario.es/opinion/zona-critica/importa-rtve_129_13695180.html",
+   "source": "elDiario.es",
+   "date": "2026-11-27T00:46:17+00:00",
+   "others": [
+    {
+     "source": "La Vanguardia",
+     "title": "Colau se abre paso con perfil propio en el debate a cuatro del 29-N de RTVE",
+     "link": "https://www.lavanguardia.com/politica/20261127/11694434/colau-abre-paso-perfil-propio-debate-cuatro-29-n-rtve.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://static.eldiario.es/clip/b2bb5a4e-8231-4c94-ba91-ad0dcc52ee41_16-9-discover-aspect-ratio_default_0.jpg",
+   "id": "s18",
+   "ai": {
+    "esencial": "Según el artículo de opinión, el líder del PP comparó la cadena estatal con la televisión de Corea del Norte durante el debate del 29-N.",
+    "porque": "El texto advierte que las hipérboles políticas ocultan la discusión de fondo sobre el modelo de gobernanza y la independencia editorial de los servicios audiovisuales públicos.",
+    "contexto": "El comentario analiza cómo en la retórica parlamentaria española se recurre habitualmente a etiquetas extremas —como el fascismo, el nazismo o el régimen venezolano— para buscar impacto inmediato en titulares. Frente a esa estrategia, la pieza sostiene que la propuesta de Alberto Núñez Feijóo apunta a reforzar la influencia de las formaciones políticas en la corporación. Además, reprocha tanto a dirigentes como a la propia prensa la falta de rigor al banalizar dictaduras donde la población sufre ejecuciones públicas por consumir contenidos extranjeros o al reproducir sin filtro fotografías oficiales del mandatario asiático junto a su hija.",
+    "cafe": "La gestión de las plataformas informativas sufragadas con impuestos determina la pluralidad de los telediarios que ves en casa y el tono de las retransmisiones institucionales. Más allá del cruce de reproches entre bloques ideológicos, la forma en que se nombra a su cúpula define si prima el criterio profesional o el turno de gobierno vigente, en un entorno digital saturado de clips cortos diseñados para viralizarse. Atenta a: si las candidaturas detallan reformas concretas para elegir la dirección del ente o mantienen las acusaciones mutuas sobre manipulación.",
+    "v": 2
+   }
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "Feijóo promete que dimitirá si no gobierna tras el 29N",
+   "summary": "Sánchez pregunta a PP y Vox si \"reconocerán los resultados\" de las elecciones del próximo domingo, y el candidato de la derecha le replica si en caso de perder \"va a dimitir y va a dejar el aforamiento. Yo sí\". Sánchez y Colau se lanzan en tándem contra “los bulos y recortes” de PP y Vox mientras Feijóo y Abascal se ignoran El líder del PP, Alberto Núñez…",
+   "link": "https://www.eldiario.es/politica/feijoo-promete-dimitira-si-no-gobierna-29n_1_13697643.html",
+   "source": "elDiario.es",
+   "date": "2026-11-27T00:31:52+01:00",
+   "others": [
+    {
+     "source": "20minutos",
+     "title": "Feijóo asegura que dimitirá si no gobierna tras las elecciones y Sánchez evita pronunciarse al respecto",
+     "link": "https://www.20minutos.es/nacional/feijoo-asegura-que-dimitira-si-no-gana-las-elecciones-sanchez-evita-pronunciarse_7066476_0.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://static.eldiario.es/clip/d9fdf7c0-1d99-4bfd-959f-41b8fa5c160f_16-9-discover-aspect-ratio_default_1156647.jpg",
+   "id": "s19",
+   "ai": {
+    "esencial": "Según declaró en el debate a cuatro del jueves, el aspirante popular dejaría también el acta de diputado y el aforamiento, emplazando a su rival.",
+    "porque": "El cruce de exigencias sitúa en el centro de la campaña la legitimidad del escrutinio dominical y el futuro liderazgo de las dos principales formaciones tras las votaciones.",
+    "contexto": "El intercambio comenzó cuando Pedro Sánchez acusó al PP y a Vox de sembrar dudas sobre el censo y el voto exterior al sugerir un posible fraude, exigiéndoles confirmar por adelantado si acatarán las urnas. Frente a esa interpelación, su oponente respondió que asumir la derrota implica dar un paso atrás y propuso un pacto mutuo para quien no logre la Moncloa, señalando ese gesto como prueba de aceptación del veredicto ciudadano. Fuentes del equipo conservador afirmaron después que llevaban preparada la propuesta para impulsar la regeneración interna y subrayaron que el dirigente socialista evitó comprometerse. Mientras, Colau y el líder del Ejecutivo criticaron conjuntamente los recortes y la desinformación atribuidos a la derecha.",
+    "cafe": "Cuando escuchas hablar de renunciar al escaño y a la protección judicial especial, el trasfondo es cómo rinden cuentas los dirigentes tras perder unas elecciones y qué ocurre con su fuero ante posibles causas en los tribunales. Para tu decisión frente a la papeleta, además, pesa la confianza en el sistema de recuento, incluido el sufragio de quienes estudian o trabajan fuera del país. Atenta a: si el secretario general del PSOE aclara antes de que acabe la semana qué hará si no logra gobernar y cómo reaccionan los partidos minoritarios ante esa exigencia.",
+    "v": 2
+   }
+  },
+  {
+   "sec": "politica",
+   "lang": "es",
+   "region": null,
+   "title": "Tres debates en uno",
+   "summary": "El combate a cuatro se lo llevó Colau por ser la revelación. El choque entre bloques se lo regaló la motosierra de Figaredo al Gobierno progresista. La pugna entre presidenciables se la concedió Feijóo a Sánchez hablando más de su oponente que de su proyecto Todas las mentiras del debate a cuatro Nunca sabremos cómo habría sido el debate a cuatro sin la…",
+   "link": "https://www.eldiario.es/opinion/zona-critica/tres-debates_129_13697674.html",
+   "source": "elDiario.es",
+   "date": "2026-11-26T23:53:21+00:00",
+   "others": [
+    {
+     "source": "La Vanguardia",
+     "title": "Urtasun ve un vuelco a tres días del 29-N: “Estamos a las puertas de revalidar la mayoría progresista”",
+     "link": "https://www.lavanguardia.com/politica/20261126/11693822/urtasun-propone-reequilibrar-carga-fiscal-aliviando-cobran-subiendola-rentas-altas.html"
+    }
+   ],
+   "score": 2,
+   "image": "https://static.eldiario.es/clip/04730fb0-676b-4247-ab2e-f5f49ce0bc36_16-9-discover-aspect-ratio_default_0.jpg",
    "id": "s20",
    "ai": {
-    "esencial": "El periodista reacciona al cruce televisado entre el líder del PP y la exalcaldesa de Barcelona, un episodio que sigue marcando la agenda política.",
-    "porque": "Estas críticas amplifican el desgaste de imagen del candidato conservador tras el choque, en un momento en que cada error comunicativo penaliza la recta final.",
-    "contexto": "La valoración llega en la resaca del debate a cuatro celebrado antes de las elecciones, donde la polémica sobre el trato a las mujeres eclipsó el resto de bloques. Mientras ese episodio sigue generando réplicas, el frente socialista también presiona al dirigente gallego por otro flanco: le cuestiona por qué no reclama la dimisión de Isabel Díaz Ayuso y le recuerda el precedente de Pablo Casado, apartado de la cúpula del partido en 2022.",
-    "cafe": "Cuando un comentario desafortunado salta del plató a las tertulias y portadas, deja de ser una anécdota para convertirse en un problema político que condiciona la conversación en clase o en redes. En campaña, la opinión de referentes periodísticos ayuda a fijar si un aspirante ha cruzado una línea aceptable o si una disculpa a medias basta para cerrar la crisis. Atenta a: si la presión mediática obliga a una rectificación más clara en las próximas horas.",
+    "esencial": "Según la crónica publicada, unas declaraciones matinales de José María Figaredo sobre un recorte de 112.000 millones en 2026 condicionaron el encuentro televisivo.",
+    "porque": "El episodio muestra cómo la discusión sobre el tamaño del gasto público y las estrategias de comunicación de cada bloque pueden alterar la agenda de la recta final antes de las elecciones.",
+    "contexto": "El artículo de opinión sostiene que la intervención del portavoz económico de Vox, planteando reducir a la mitad el presupuesto consolidado estatal, centró la confrontación ideológica de la jornada; el texto califica esa cifra de arbitraria y atribuye al partido una agenda real de ajustes severos. Bajo esa lectura, el autor interpreta que Colau destacó por perfil propio y que Alberto Núñez Feijóo dedicó más tiempo a cuestionar a Pedro Sánchez que a detallar sus propuestas. Por su parte, dirigentes como Urtasun afirmaron a tres días del 29-N que perciben un cambio de tendencia favorable a revalidar la mayoría progresista.",
+    "cafe": "Hablar de tijeretazos en las cuentas del Estado afecta directamente a partidas de las que dependen tus becas universitarias, el abono transporte o la sanidad que utilizas a diario. Cuando los candidatos lanzan grandes cifras macroeconómicas en campaña, conviene contrastar qué servicios concretos cambiarían y cómo impactaría en la deuda o en los impuestos que pagas en tu primer empleo. Atenta a: si la formación conservadora concreta qué ministerios o prestaciones incluiría en un eventual plan de contención fiscal antes de que abran los colegios electorales.",
     "v": 2
    }
   },
@@ -545,26 +563,21 @@
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "Hernández de Cos se convertirá en febrero en el primer español en presidir el BCE",
-   "summary": "El exgobernador del Banco de España relevará a Lagarde al frente de la autoridad monetaria europea tras obtener el apoyo de Francia y Alemania",
-   "link": "https://elpais.com/economia/2026-11-26/hernandez-de-cos-se-convertira-en-febrero-en-el-primer-espanol-en-presidir-el-bce.html",
+   "title": "Los diez minutos que desenredaron el nudo para encumbrar a Hernández de Cos como presidente del BCE",
+   "summary": "La reunión que aclaró el camino del candidato español a la cúspide del regulador monetario fue rápida. El consenso ya estaba forjado",
+   "link": "https://elpais.com/economia/2026-11-27/los-diez-minutos-que-desenredaron-el-nudo-para-encumbrar-a-hernandez-de-cos-como-presidente-del-bce.html",
    "source": "El País · Economía",
-   "date": "2026-11-27T05:03:52+00:00",
+   "date": "2026-11-27T04:30:01+00:00",
    "others": [
     {
-     "source": "France 24",
-     "title": "El economista español Pablo Hernández de Cos sucederá a Lagarde al frente del BCE",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ19XbzgxbjJ4SkdLVVpZVnZmWUc5YTdYTjBVdXhPZnpKSUxaRkMtTVY2VHZlM1B0RnpGbUdJaU91T1d0Q1JaUXVHXzFIVGRCcVowd3NCM2NmaWp6c21maEJDQ21JRVEtQXRKNVVTLUJnc3JQQ2FFVndBSC1jX3NJZy13c0FRNlM0bEVLWDM2X2UxdzJYeFA3bS1sZFk2MHlWdzJPVXpsRGswMWtoM0ZNblkyY1FkcFF1cHJrcUJyZ1F0TG1lb1NSd2hYRWJOZnBfZlRVTkJRTQ?oc=5"
-    },
-    {
-     "source": "elDiario.es",
-     "title": "El español Pablo Hernández de Cos, elegido presidente del BCE",
-     "link": "https://www.eldiario.es/economia/lideres-europeos-eligen-espanol-pablo-hernandez-cos-presidente-bce_1_13694914.html"
+     "source": "EL PAÍS",
+     "title": "Los diez minutos que desenredaron el nudo para encumbrar a Hernández de Cos como presidente del BCE",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRDR3R3hSb1VZQTRweXh1NEtvaFVZMm96ZjdtNk84T1ZGZmRTWHVvOEJkOGxITGpQVlRiTUtKZTNLNEtGU1hGb2lVVGZ2MTZkNWtEUTZjZXZzYmN5ODV3aFVuUHFtUFM2MXFVQVdCY3lMbURwa1MzZldaSHVIc0h1LTJUWmRWVlZjNEt2Q05HTlFUMnBpb2EyRDNXNTV6SnYyM250R0pHb0FIS0hkVFlpUWVmUEtISnExX2NqUkhXOElmUWpoYWE5cDJnU2JDM2NZNkx4NUhwRFEyTmvSAe8BQVVfeXFMT2V5N01tSWh0VTVaRnZoQ3ctUkZkWjJUY1ZNc05YZnZVd0kzZWdRWHlYcUtkNVdwY1FweGxSbE4tWW5RTkVqY25pYlZLRVVkNUN3REdEc083N2RjLXROWFQ4b3BUVjJ1YU5vODF5WnhOTXNsM1NnbllOM05BMDZfZ21xUFB5dzdiSGx4RjF5MXo2N3RCVWtFcVJ4aExiSUR1RHBjSjF5M2hWMkltX3YxZnJ6WldIZW9uZXRFTW02OHdRZGdtOXJGVmhhcEVfa3FQVC1GNnhaRm01Y3YyRUpHUjhid1Y1eG9aUGVmMGQ2OVk?oc=5"
     },
     {
      "source": "Cinco Días",
-     "title": "Hernández de Cos, el valor del prestigio",
-     "link": "https://elpais.com/economia/2026-11-27/hernandez-de-cos-el-valor-del-prestigio.html"
+     "title": "Los diez minutos que desenredaron el nudo para encumbrar a Hernández de Cos como presidente del BCE",
+     "link": "https://elpais.com/economia/2026-11-27/los-diez-minutos-que-desenredaron-el-nudo-para-encumbrar-a-hernandez-de-cos-como-presidente-del-bce.html"
     },
     {
      "source": "DW.com",
@@ -572,26 +585,56 @@
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObUpqQlEzcUZTU2pFcThMNk1oM2J3R0JDWEh4UEwtU0Z2Umg5S3hpRjR1ZjZ3c3RXSFU4U2h2ek5PZ2lCUEpJdGRxcnJpVWVaWmJ5YXpsWk9ZVGtqYlFlaEhsczFhSF9McXhvR3V1UWwzc01nV3ZSVUYwWEhKU09LeWJaSmlENzJzVVd0VTZmOTVzWVNROEMtaXd0WGFMc1VLU2VYWm45Nkh1VjltaS1Na1NUZFZUbWRpS0d4NEdPNlBncGtJ0gHEAUFVX3lxTE1PeGt0dG4xTkdHaGdkQjh3RFJSVVlLM1VJUE9kMlU2U3JuVVJ1YjlMSDBBRF8yN0F3NVdCbGhLYkdiZHo0eUpyLWVTUEpBUXNpeldVQmh5eXBNNmNjcnl3S0hRRl9JV01YYjRkRDRKdC14SmlHaFJLZzN0OGhNalRMMUFrS1k1SGE1cjQ0U1lyVTZ1LVVFWU1Od3JrcndnUExaN2FVYXQ2bzdzTjM3NEdTcGNQS2U0UkNKQU9yT1dSUkhWcm0?oc=5"
     },
     {
-     "source": "EL PAÍS",
-     "title": "Hernández de Cos se convertirá en febrero en el primer español en presidir el BCE",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOM3hMUWFlaEVlNUNncHM0M05Gc3pMWXdpd2gxNWl2TS02WUJudVBkYmR4NlBQT3UtRlZFdEhZR19OUm1sNFJwdnJNN0lhZGF3cGxHQ0VjWWJSczNDSEJfSmZ3TzBwalRJSG9HR3V6Z0RKbjZrcHBMaEZCTjJfTUtQWmhNUTNxZUh5dURLTEI0TFpsMElycnZkNEprcDFESTNTRVk2ZHdEQUUtUzhsa18tVExUSXk1N2lPRGgyTmkyM0M1S2PSAdcBQVVfeXFMT3RCMHBTRWRJckhhSk0xSjFfaUZVeTQyTXNHWnFoa1RYSFFSVXB6SloyRW4wZ3dYNVM4T0Z6ak9Ud0E4QkZtZm02WjhrZEd1LWhwWXdLYkp6V09QRTNtMFdfZ19TN1l6MFV3UGpPRGlRRlpPWU9WY3BqcTAzY3ZrOEhSY1JzWkdpVE1td0lzYXRhSDhDUnFNOVhPUlQ1RWgzQkM2SUQ4T3d1Wlg0VFY4dnhnbFFMSnlBZXFWekFSWTFmbnF4YlZzZ3E1bmxxbFM2bUJwYldwZG8?oc=5"
-    },
-    {
      "source": "RTVE.es",
      "title": "Pablo Hernández de Cos, un español al frente del BCE",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY01JMmRycjdCcDJrbER0VTdyemhIOHZya1RRb1FOUTZTTjNfdHNMNGlfMVUxRmpsTVBaRUZDWUwxQUc4TVBCVVlFRUxuLTluWk9JeXBfeWNkSllSYlNxVi05WWcwX0ZFckV6ZW8wRTh0bzU4Wl9xWW84SDdxbFlQVVNnc0x1X2NGeFV2eFZvZG15NmxlSW5rNVNQTlRGSC10bWlZbE5RT0w?oc=5"
+    },
+    {
+     "source": "La Vanguardia",
+     "title": "Un español al frente del BCE",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTDFfY1ZUVlRxU3BONlRMOGRJdkx6UmhkVkpDMnVBamlZM2JrQmFyMWpnUWtHcmpTRXI1TE9sYndHenVBcWNlSkVHMk1JcEdTLWNIZmN3bWFkTDQyMGNra0NYYTBmLWFSSW9vYkFSeTdfZW1RWlBkMkExdHh1RHFkUlh5ajPSAYoBQVVfeXFMTkNlQ3B1Qzd3cE9oNmZpcV9pRENnVXJDR0ZqRkk5V211UnZRall5MXd1SlV1OVhkenpUVTNmd2ZxckZNTUVPekpEODhFSUdGMVY3dHJuQ2ZtMHFFZHI4NkR1a245Z1RBYUQ0N2hOaElLenBKYVZlVnlOdTQ3NkEzWjhaQzVLdE5ZQlRR?oc=5"
     }
    ],
-   "score": 9,
-   "image": "https://imagenes.elpais.com/resizer/v2/5ECJ3PRMCZG2PD3YPJ3E6UZDWM.jpg?auth=977ad8b774d84ff4ca609ba92c7665f911cf2d4260d25dedcb8dcc6750a8dcd2",
+   "score": 7,
+   "image": "https://imagenes.elpais.com/resizer/v2/G42PPHMLUVKKVPV37C6Q6IWP34.jpg?auth=26119aa7815d3855eca52656b81756d5f29c41ef27dd93f92193b4e931a709b3",
    "inst": "BCE",
-   "sub": "bolsillo",
+   "sub": "mundo",
    "id": "s21",
    "ai": {
-    "esencial": "París y Berlín respaldan unánimemente el relevo al frente del banco central, fijando el traspaso de poderes oficial para el próximo mes de febrero.",
-    "porque": "Determinará el rumbo de los tipos de interés y el coste del crédito en toda la eurozona durante los próximos ocho años.",
-    "contexto": "El economista madrileño concluyó su mandato de seis años en el Banco de España consolidando un perfil técnico y de consenso internacional. La actual presidencia cerrará su ciclo tras una etapa de subidas históricas para frenar la escalada de precios postpandemia. Aunque la candidatura española ya contaba con simpatías en el Eurogrupo, este visto bueno definitivo despeja el camino parlamentario y gubernamental sin necesidad de vetos cruzados entre socios comunitarios.",
-    "cafe": "Las decisiones que adopte marcarán lo que te cobra el banco por un préstamo joven, la remuneración de tus ahorros o el tipo hipotecario si tu familia o tú buscáis comprar piso. Un perfil técnico suele traducirse en mayor previsibilidad en el coste de la vida. Atenta a: su primera comparecencia ante la Eurocámara para desgranar su hoja de ruta con la inflación y el ritmo de bajadas de tipos.",
+    "esencial": "El español Pablo Hernández de Cos sucede a Christine Lagarde en la cúspide del regulador monetario europeo tras un rápido acuerdo.",
+    "porque": "La designación asegura la influencia española en la toma de decisiones económicas clave de la eurozona y marca el rumbo de la política monetaria común.",
+    "contexto": "El camino hacia la presidencia del Banco Central Europeo se despejó en apenas diez minutos gracias a un consenso previo entre los Estados miembros. El exgobernador del Banco de España asume el relevo al frente de una institución clave para fijar los tipos de interés y velar por la estabilidad financiera de los veinte países que comparten la moneda única.",
+    "cafe": "Para tus finanzas, que el BCE esté dirigido por un perfil como el de Hernández de Cos condiciona directamente lo que pagas por las hipotecas y la rentabilidad de tus ahorros en el banco. Atenta a: los primeros discursos del nuevo presidente para intuir si habrá cambios inmediatos en el precio del dinero o si mantendrá la línea actual.",
+    "v": 2
+   }
+  },
+  {
+   "sec": "economia",
+   "lang": "es",
+   "region": null,
+   "title": "La Fed se prepara para subir los tipos de interés",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcjluNHFVbk1mQ01telQtVW1ZYWI3UDk0aEdYVmcxUFNDM0RKNVBtd1dxTnhVbW1WUGpNZ1Y4MmtkM1hoYWQ0SFB2dFZFQUV3eXpEVUI0UjBPX2F2VmNESVhOUEt5WjNlTHg0ZjQ4QUR1M1N5VUdUalh4MFFkZ1dnT3NQTWtNYm1TX3fSAYoBQVVfeXFMTTMzSFZJTUNBS0ZoR3BtTXQ0Q3lqNXBVOGk1Q2ZWdzhlZk8yWEwwUURUVExxZGw0OWJQSTRHNXNVX05QR05uTkRJc1hMWGluczIzMTJoZVJWZ2JxR21CVlcyTmttNzhxNXpiYmlFbG5ZQXJXSFZvaWk3bWNzanBpN0hNbm1aUXZaTmJ3?oc=5",
+   "source": "Expansión",
+   "date": "2026-11-27T05:30:00+00:00",
+   "others": [
+    {
+     "source": "Estrategias de Inversión",
+     "title": "La Fed (con permiso de la IA) toma las riendas de los mercados: sin remedio subirá los tipos en EE.UU",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVmlQSWtjSlluMVFmNzlSU0lXQnM1c2FEZUdkNVdjMjNGVHpOTlQtSXc4Uk4tb2hiTXd1c01LdDB3ZEpjbEdxQmdMV2pjMGNCeVZHdThuaFdoWVpqY2xkbzE3cUQ5QkF1TDJNbUpudm1WOU8yaG5NRzJmeFZpN29hS2k2cGRMLWdCZVhCaW5ta2FkSUkzUG1vNFFYYk9zLTZOVDRvaFFlb1dFWldKZ0xtZm82Vlo1Nkdfblk0U0hWQ0J2bTYzNmItYVBB0gGgAUFVX3lxTE1idTJvUHVrUEt5X0lLTXlLTG95enVMd1VsV0xNa3Rzamh4MVVBNmxtNzF2bHJGZXEySUhzWER5YUw0Mk51M0tlRUNFb0xSd21jV09YeDRsamNLMkZoaEJLNGZoanlaRmtEUFhnSFUtTEhYV3lXNkNZcWpvWWhQc2wzMk9GbTJwN0UxekVlUVhwWHJidlRvdXlRT21aUVJKejA?oc=5"
+    }
+   ],
+   "score": 4,
+   "image": "",
+   "inst": "Fed",
+   "sub": "mundo",
+   "more": [],
+   "id": "s22",
+   "ai": {
+    "esencial": "El banco central estadounidense planea incrementar los tipos de interés en un movimiento condicionado por la evolución tecnológica actual.",
+    "porque": "Esta medida encarece los préstamos a nivel global y repercute de forma directa en los mercados financieros internacionales y en el valor de las divisas.",
+    "contexto": "La Reserva Federal ajusta su política monetaria en un escenario donde los analistas examinan con lupa el impacto de la inteligencia artificial en la economía real. Las decisiones sobre el precio del dinero en Estados Unidos suelen provocar reacciones en cadena en las bolsas de todo el mundo y alteran las condiciones de financiación para empresas y gobiernos.",
+    "cafe": "Esto influye de rebote en los fondos de inversión globales y en el coste de ciertas tecnologías o servicios digitales dolarizados que utilizas en tu día a día. Atenta a: la próxima reunión oficial de la institución para confirmar si el encarecimiento del dinero se aplica de inmediato o si los mercados sufren volatilidad.",
     "v": 2
    }
   },
@@ -616,7 +659,7 @@
    "inst": "FMI",
    "sub": "mundo",
    "more": [],
-   "id": "s22",
+   "id": "s23",
    "ai": {
     "esencial": "El organismo internacional reclama al banco central australiano preparar incrementos adicionales tras haber elevado ya las tasas de interés en 125 puntos básicos.",
     "porque": "Una persistencia de precios elevados en economías oceánicas alerta sobre la resistencia global de la inflación y aleja rebajas monetarias inmediatas.",
@@ -629,36 +672,33 @@
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "Un armador turco, una ruta \"habitual\" y una diferencia crucial con el Prestige: todas las claves del Med Emre, el barco volcado cerca de Ibiza",
-   "summary": "La embarcación transportaba 7.000 toneladas de combustible marítimo desde la refinería de San Roque (Algeciras) con destino al Puerto de Barcelona. Todo apunta a una vía de agua que desetabilizó la nave hasta invertirla Leer",
-   "link": "https://www.elmundo.es/economia/empresas/2026/11/26/6b082435e85ecede028b4582.html",
-   "source": "El Mundo · Economía",
-   "date": "2026-11-27T05:00:29+01:00",
+   "title": "Hernández de Cos se convertirá en febrero en el primer español en presidir el BCE",
+   "summary": "El exgobernador del Banco de España relevará a Lagarde al frente de la autoridad monetaria europea tras obtener el apoyo de Francia y Alemania",
+   "link": "https://elpais.com/economia/2026-11-26/hernandez-de-cos-se-convertira-en-febrero-en-el-primer-espanol-en-presidir-el-bce.html",
+   "source": "El País · Economía",
+   "date": "2026-11-26T22:02:44+01:00",
    "others": [
     {
-     "source": "elDiario.es",
-     "title": "Delfines, cachalotes, aves endémicas y tortugas: la fauna en peligro si el barco 'Med Emre' contamina la costa de Ibiza",
-     "link": "https://www.eldiario.es/illes-balears/sociedad/delfines-cachalotes-aves-endemicas-tortugas-fauna-peligro-si-barco-med-emre-contamina-costa-ibiza_1_13696784.html"
+     "source": "El Mundo · Economía",
+     "title": "Así convenció Hernández de Cos incluso a los halcones del norte para presidir el BCE: el Gobierno no le apoyó desde el principio y \"la mayor parte del trabajo la hizo él\"",
+     "link": "https://www.elmundo.es/economia/2026/11/26/6b085e9ae4d4d8580a8b45ae.html"
     },
     {
-     "source": "20minutos",
-     "title": "El vuelco del buque Med Emre en Ibiza desconcierta a los ingenieros navales: \"Es una situación muy extraña\"",
-     "link": "https://www.20minutos.es/baleares/vuelco-buque-med-emre-ibiza-desconcierta-los-ingenieros-navales-es-una-situacion-muy-extrana_7066345_0.html"
+     "source": "EL PAÍS",
+     "title": "Hernández de Cos se convertirá en febrero en el primer español en presidir el BCE",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOM3hMUWFlaEVlNUNncHM0M05Gc3pMWXdpd2gxNWl2TS02WUJudVBkYmR4NlBQT3UtRlZFdEhZR19OUm1sNFJwdnJNN0lhZGF3cGxHQ0VjWWJSczNDSEJfSmZ3TzBwalRJSG9HR3V6Z0RKbjZrcHBMaEZCTjJfTUtQWmhNUTNxZUh5dURLTEI0TFpsMElycnZkNEprcDFESTNTRVk2ZHdEQUUtUzhsa18tVExUSXk1N2lPRGgyTmkyM0M1S2PSAdcBQVVfeXFMT3RCMHBTRWRJckhhSk0xSjFfaUZVeTQyTXNHWnFoa1RYSFFSVXB6SloyRW4wZ3dYNVM4T0Z6ak9Ud0E4QkZtZm02WjhrZEd1LWhwWXdLYkp6V09QRTNtMFdfZ19TN1l6MFV3UGpPRGlRRlpPWU9WY3BqcTAzY3ZrOEhSY1JzWkdpVE1td0lzYXRhSDhDUnFNOVhPUlQ1RWgzQkM2SUQ4T3d1Wlg0VFY4dnhnbFFMSnlBZXFWekFSWTFmbnF4YlZzZ3E1bmxxbFM2bUJwYldwZG8?oc=5"
     }
    ],
-   "score": 3,
-   "image": "https://s1.dmcdn.net/v/hGe0-1h2304ekPr5s/x1080",
-   "sub": "mundo",
-   "more": [
-    "La embarcación, cargada con 7.000 toneladas métricas de gasoil, ha volcado junto al Corredor de Migración de Cetáceos del Mediterráneo, en una zona muy cercana a la Red Natura 2000 Claves - Un muerto, 7.000 toneladas de gasoil y un naufragio inesperado: las claves del vuelco del barco 'Med Emre' frente a Ibiza El semi hundimiento de un buque cargado con…",
-    "Los expertos analizan qué pudo fallar en un buque diseñado para resistir inundaciones, cómo recuperar las 7.000 toneladas de gasóleo que transporta y por qué descartan un escenario similar al del Prestige."
-   ],
-   "id": "s23",
+   "score": 4,
+   "image": "https://imagenes.elpais.com/resizer/v2/5ECJ3PRMCZG2PD3YPJ3E6UZDWM.jpg?auth=977ad8b774d84ff4ca609ba92c7665f911cf2d4260d25dedcb8dcc6750a8dcd2",
+   "inst": "BCE",
+   "sub": "bolsillo",
+   "id": "s24",
    "ai": {
-    "esencial": "El accidente del quimiquero deja un marinero fallecido y seis heridos tras volcar con quilla al sol al noroeste de la isla.",
-    "porque": "El vuelco amenaza el corredor de cetáceos mediterráneo y activa la alerta nacional nivel dos de emergencias marítimas para evitar fugas.",
-    "contexto": "Construido en 2019 con doble casco, el navío fletado por Moeve cubría el trayecto desde San Roque hacia Barcelona cuando una vía de agua provocó la pérdida total de estabilidad. A diferencia de las 77.000 toneladas de fuel pesado del Prestige en 2002, este carguero almacena 7.000 toneladas de gasóleo para navegación, un carburante refinado y volátil que se disipa con rapidez y no forma emulsiones viscosas. Aunque solo se detectaron manchas menores en el agua, la proximidad con áreas de la Red Natura 2000 exige inspecciones submarinas urgentes.",
-    "cafe": "Si viajas a Baleares en ferry o disfrutas de sus calas, el suceso no es lejano: un vertido descontrolado perjudicaría ecosistemas marinos protegidos y la actividad de la zona. La clave técnica radica en vaciar los depósitos antes de que el casco sufra daños estructurales irreversibles. Atenta a: las operaciones de los buzos de rescate para sellar respiraderos y comenzar la extracción del carburante.",
+    "esencial": "París y Berlín respaldan unánimemente el relevo al frente del banco central, fijando el traspaso de poderes oficial para el próximo mes de febrero.",
+    "porque": "Determinará el rumbo de los tipos de interés y el coste del crédito en toda la eurozona durante los próximos ocho años.",
+    "contexto": "El economista madrileño concluyó su mandato de seis años en el Banco de España consolidando un perfil técnico y de consenso internacional. La actual presidencia cerrará su ciclo tras una etapa de subidas históricas para frenar la escalada de precios postpandemia. Aunque la candidatura española ya contaba con simpatías en el Eurogrupo, este visto bueno definitivo despeja el camino parlamentario y gubernamental sin necesidad de vetos cruzados entre socios comunitarios.",
+    "cafe": "Las decisiones que adopte marcarán lo que te cobra el banco por un préstamo joven, la remuneración de tus ahorros o el tipo hipotecario si tu familia o tú buscáis comprar piso. Un perfil técnico suele traducirse en mayor previsibilidad en el coste de la vida. Atenta a: su primera comparecencia ante la Eurocámara para desgranar su hoja de ruta con la inflación y el ritmo de bajadas de tipos.",
     "v": 2
    }
   },
@@ -686,48 +726,12 @@
    "score": 3,
    "image": "https://imagenes.elpais.com/resizer/v2/2IHK3EOLEZFR5C46UI3KVYDR54.jpg?auth=385ab0251394a34186e79c595cabf499945ac51f6cc072987b78330241598a48",
    "sub": "mundo",
-   "id": "s24",
+   "id": "s25",
    "ai": {
     "esencial": "El órgano de gobierno renueva a dos tercios de sus seis integrantes en un solo ejercicio económico.",
     "porque": "El recambio simultáneo de asientos clave redefinirá las mayorías internas a la hora de diseñar las directrices del euro.",
     "contexto": "La reorganización de la cúpula ejecutiva incorpora a perfiles de Alemania y Francia junto a la representación española, completando una de las transiciones institucionales más rápidas de Fráncfort tras meses de relevos escalonados en puestos decisorios de supervisión.",
     "cafe": "El rumbo de este comité marca directamente el coste de financiar una matrícula, pagar un préstamo de coche o el interés de tu cuenta bancaria. Atenta a: la primera reunión formal conjunta para comprobar si hay virajes en el ritmo de bajadas de tipos.",
-    "v": 2
-   }
-  },
-  {
-   "sec": "economia",
-   "lang": "es",
-   "region": null,
-   "title": "Los analistas ven a Cos como un perfil moderado que dejará “una huella personal” en el BCE",
-   "summary": "Los expertos consideran que el español no variará la política monetaria del banco central a corto plazo e inciden en su capacidad de consenso",
-   "link": "https://cincodias.elpais.com/mercados-financieros/2026-11-27/los-analistas-ven-a-cos-como-un-perfil-moderado-que-dejara-una-huella-personal-en-el-bce.html",
-   "source": "El País · Economía",
-   "date": "2026-11-27T04:25:00+00:00",
-   "others": [
-    {
-     "source": "Cinco Días",
-     "title": "Los analistas ven a Cos como un perfil moderado que dejará “una huella personal” en el BCE",
-     "link": "https://cincodias.elpais.com/mercados-financieros/2026-11-27/los-analistas-ven-a-cos-como-un-perfil-moderado-que-dejara-una-huella-personal-en-el-bce.html"
-    },
-    {
-     "source": "20minutos",
-     "title": "De Cos, un perfil conciliador contra la escalada de los precios y el crecimiento débil en la eurozona",
-     "link": "https://www.20minutos.es/lainformacion/economia-y-finanzas/pablo-hernandez-cos-primer-espanol-presidir-bce_7062216_0.html"
-    }
-   ],
-   "score": 3,
-   "image": "https://imagenes.elpais.com/resizer/v2/UICCWV62GBP2ZDPIEHPJZWHAYE.jpg?auth=b65b4a433a5362313e3aeda0b7c33f396c3a6f1c21d667032b794f7c5042073d",
-   "sub": "mundo",
-   "more": [
-    "El actual director del Banco de Pagos Internacionales será el primer español en ocupar el puesto y hará equipo dentro del Comité Ejecutivo con sus colegas franceses y alemanes."
-   ],
-   "id": "s25",
-   "ai": {
-    "esencial": "El economista compaginará la interlocución comunitaria antes de culminar su salto desde la dirección del Banco de Pagos Internacionales.",
-    "porque": "Su perfil técnico garantiza continuidad inmediata en las decisiones de Fráncfort sin sobresaltos para los mercados de deuda.",
-    "contexto": "El exgobernador del Banco de España aterriza en el directorio ejecutivo tras consolidar una reputación de creador de acuerdos en foros globales. Su papel implicará coordinar posturas en un momento marcado por la debilidad del PIB continental y presiones inflacionistas persistentes.",
-    "cafe": "Una figura dialogante suele enfriar las subidas agresivas que encarecen pedir un crédito joven o acceder a una hipoteca. Atenta a: sus primeras comparecencias públicas para detectar si prioriza el crecimiento industrial o la contención de precios.",
     "v": 2
    }
   },
@@ -859,30 +863,22 @@
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "Encendido luces de Navidad de Zaragoza: horario, calles iluminadas, dónde están los árboles y los belenes",
-   "summary": "La cantante Vicco pasará la 'noche entera' en Zaragoza el viernes 27 de noviembre. La artista será la protagonista del tradicional encendido navideño en la capital aragonesa y a las 18.30 horas dará la bienvenida a la Navidad en la orilla derecha del Ebro. La iluminación y el acto inicial tendrá lugar en la plaza Aragón y se adelanta dos días respecto al…",
-   "link": "https://www.abc.es/espana/aragon/encendido-luces-navidad-zaragoza-horario-calles-iluminadas-20261127050023-nt.html",
-   "source": "ABC",
-   "date": "2026-11-27T05:00:24+01:00",
-   "others": [
-    {
-     "source": "ABC",
-     "title": "Encendido de luces de Navidad en Gijón hoy: horario, calles iluminadas, dónde están los árboles y los belenes",
-     "link": "https://www.abc.es/espana/asturias/encendido-luces-navidad-gijon-hoy-horario-calles-20261127050000-nt.html"
-    }
-   ],
+   "title": "Bolivia accedió a un segundo desembolso del FMI por USD 212 millones y buscará impulsar la reactivación productiva",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPUS1BdExqb3Y1QlZuZE8yejdZTEJUMFUyazg3RFA5ZTNHZGtGdmg1QTBJcWotWG9rNlpScDZTSHE3c2hRYU5BakphMnBsRGo4d1pTaGs4djhLNEowdmJtWmRLaUZaTFc4NXdTcllxTWF4cXAyMTZNcUE2M2lTTTRUQ2JRN05iemV5UjZubWhvSkljR2tYcmZsUnVEYkROUGxJaG1hZEtTVmIxWC1JbnBQQ2I1WUdFbWZTYUxjY2RRYm41YUszNzVnemZlYWtXdm11Uzh1TENmWjVOZWxkNGtPMndINVpIRmQtUVVtSlJ6T1lUNi13VE14eF9jaEN5Ylk1MVl30gGeAkFVX3lxTE1WRkt1RnktTzBlRWNCT2IydUU5UWNOZHd5eC1qZDhZYUtkSVA0cGdncGRLeFF0Mzg1NlVyMGhRdnlNSXpSODJiQ0RaaHNCbzZ0aVZ3bHUzY2tWc2ZscldDQWJMU1dWMkNyZ3UyWVZqNEdSNHQ5bmxYczR1VzFISUE0RFpiZE5abHJBOFpwbUhjcUN0NjB5UHRtdDd0M1h3WUFfRmN5Tl9jZmNReHkxbzJQZkotUFh3bWt6MHBnbnlyS2hPd1FhOWFDYWV3bWtYTC0zYUJ1aHZaV19KYnFuRGtYM1ZvejZFTlpZZmRYa256Nmp2aHBxVlpSZkVhYUhaSXJlOXRnNGlYNm1idVJFV2pqMVhPWFF4YWItUDgyMUE?oc=5",
+   "source": "Infobae",
+   "date": "2026-11-27T05:50:00+00:00",
+   "others": [],
    "score": 2,
-   "image": "https://s1.abcstatics.com/abc/www/multimedia/espana/2026/11/27/sdfsdf-k5iC-RgVfTKQlf9lXnccPHlEXdcI-1200x840@diario_abc.jpg",
-   "sub": "empresas",
-   "more": [
-    "Este viernes, 27 de noviembre, se encienden las luces de Navidad en Gijón . Como es costumbre, entrado el otoño se celebra la inauguración del alumbrado navideño en la ciudad, una cita que vecinos, familias y turistas esperan con ilusión cada año.Miles de personas podrán seguir hoy el primer encendido de la temporada desde el acto inaugural en la Plaza…"
-   ],
+   "image": "",
+   "inst": "FMI",
+   "sub": "mundo",
    "id": "s30",
    "ai": {
-    "esencial": "La capital aragonesa, como Gijón, estrena su alumbrado este viernes 27 de noviembre a las 18:30 con Vicco y 1,5 millones de inversión.",
-    "porque": "El evento abre una programación con más de 650 actos para dinamizar el centro, aunque obliga a cortar el tráfico, el tranvía y seis líneas de autobús entre las 15:00 y las 22:00.",
-    "contexto": "En distintas ciudades españolas el otoño da paso estos días a las citas festivas para vecinos y turistas. En el caso maño, el arranque se adelanta dos días respecto a 2025 y empezará una hora antes del concierto en plaza Aragón —al que acudirá la alcaldesa Natalia Chueca— con «Dumia», un pasacalles de Kivala Producciones desde plaza de España por el paseo de la Independencia con cuatro caballos hinchables de 3,5 metros. El programa «Estrella» sumará un montaje audiovisual de pago popular en el Parque Grande José Antonio Labordeta y nueva decoración en la calle Alfonso, mientras en la urbe asturiana miles de asistentes seguirán su propio acto.",
-    "cafe": "Si tienes que moverte por esas avenidas esa tarde para ir a clase, a trabajar o a coger un tren, toca salir con margen y consultar los desvíos de las líneas 21, 22, 28, 29, 39 y 40 antes de quedarte tirada en la parada. Más allá del espectáculo gratuito, estas iniciativas mueven turismo y consumo comercial durante semanas, aunque también reabren el debate sobre el gasto público municipal. Atenta a: la afluencia de público y posibles aglomeraciones en los primeros fines de semana de compras.",
+    "esencial": "",
+    "porque": "La llegada de divisas extranjeras busca aliviar las presiones sobre la balanza de pagos y sostener el crecimiento económico ante las tensiones financieras que atraviesan los mercados emergentes.",
+    "contexto": "Los programas de asistencia financiera del organismo multilateral suelen entregarse por tramos sujetos al cumplimiento de metas fiscales, monetarias o de reservas internacionales. Que se trate de una segunda entrega indica que el país andino ya había recibido un giro inicial dentro de un acuerdo más amplio orientado a estabilizar sus cuentas externas y fortalecer su liquidez. Sin embargo, al no detallarse en la información disponible las condiciones pactadas ni el calendario completo del convenio, queda por conocer qué sectores productivos recibirán prioridad ni qué reformas de política económica exige la entidad internacional a cambio.",
+    "cafe": "Aunque la noticia ocurra al otro lado del Atlántico, estos acuerdos explican cómo funcionan las líneas de crédito que también han marcado la historia reciente de Europa y América Latina cuando escasean los dólares. Para que una economía financie importaciones, pague deudas o mantenga estable su moneda, a menudo debe negociar respaldo externo con requisitos estrictos de gasto público. Atenta a: si las autoridades locales detallan en qué proyectos concretos invertirán los recursos y cómo evoluciona su estabilidad cambiaria en los próximos meses.",
     "v": 2
    }
   },
@@ -890,22 +886,30 @@
    "sec": "economia",
    "lang": "es",
    "region": null,
-   "title": "Bolivia accede a un segundo desembolso del FMI por 212 millones de dólares",
+   "title": "Madrid Nuevo Norte pisa el acelerador: vía libre a su mayor bolsa de vivienda y apertura inminente del túnel de Castellana",
    "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVFJ4ZE82UHZ2MW81dHprd3cyMTE3U1R0S3hRQVg0TGR2MnZERUVQZDUyRlFnc0o5UmlybG42NXlBdUxZcEVNQkhTN3Mwd3pMUlFmZkVlTlB1ZTM2eGxGRnZHaEFTWTgxZFk2MndRTVA2SjZ3ZDBqd1BNR0VKOU82SmpROU5MSk1YLUtSZ1UwYmNkUFdXZ3hZYlRuQldpdDA?oc=5",
-   "source": "Jornada",
-   "date": "2026-11-27T04:59:11+00:00",
-   "others": [],
+   "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxObEFXTGZwMXlBbEpYSXUzX2NBN1hnS3J5TlJacG9UdUNwR0pCblhvMjBXTno1X0RqVl96X1JXdXV5dUR4NGg0STNtV2hfV0x0eFpRSlpEeWdwOGZTajQxUzFTRFNGU0daRXhKVFd5ejUwemJVZWZEaW9LVHhLSURwOHhqMW40cjl6dHhhOVh2Y1p1Tk5MMVF5TURvMS13bXRmMnlaeFhFNXo3eGR5VXFXLWVBa2x3dDNJamVQRGhMLVJ2U0sxR012Qm9aOXZwUGpQZWZIcFRMUUZLeVFDNzR5TXhzZEQteFZQLTYxOFNGY3NOTnlIckIycUZMeWpCRUxYWmxIc3czT1NCRWpXZ1lldzRxdUpKUlFIR2xYbWlpcnlPNzA4bFpB0gGSAkFVX3lxTFBHSlBDZ3R4ei1UMnZjb1pkdk1xYks3V3FHOFhIYldmdTJNTjBYRGF5TEdUTTZ0Ui1qc3MwWTVrejlQaEZJTEdPaE4xMS1FR3dpMk5INjRaYnRpby1NWVZRd1ZpclYyT1E3ZGtZSHdQRVYxUEx3Vjk1Sl9PYk1NcXd5QnF3YVE0TGZiU3JERjg5NDg5RUtFVHhFR2xBRzVPLWUxREdUbTRVbndjeURVQjMzQ3RuTDJGc0E4LUFjOTJnTUFxa21WREF0NHN0bnRYNWFtaGk4R0pMNEZ5TDNyakhyZS1Fbnl3eUc4T1dGYkpDRWpyd3JNWmZUY2RYX2NJUk0zcE9Tek04ckhLZ3NEOWNkYUE?oc=5",
+   "source": "El Economista",
+   "date": "2026-11-27T04:55:00+01:00",
+   "others": [
+    {
+     "source": "20minutos",
+     "title": "Madrid Nuevo Norte avanza con el plan de Malmea y la inminente apertura del túnel de Castellana",
+     "link": "https://www.20minutos.es/madrid/madrid-nuevo-norte-continua-su-desarrollo-con-planeamiento-barrio-malmea-inminente-apertura-tunel-castellana_7066316_0.html"
+    }
+   ],
    "score": 2,
    "image": "",
-   "inst": "FMI",
-   "sub": "mundo",
+   "sub": "bolsillo",
+   "more": [
+    "La Junta de Gobierno constituye la Junta de Compensación de Malmea-San Roque-Tres Olivos, un ámbito con capacidad para 7.138 viviendas, y Madrid prevé abrir el subterráneo de Castellana Norte a mediados de diciembre."
+   ],
    "id": "s31",
    "ai": {
-    "esencial": "",
-    "porque": "El ingreso refuerza las reservas de divisas del país andino y alivia sus tensiones de liquidez externa, aunque suele implicar compromisos de ajuste fiscal y reformas económicas supervisadas por el organismo internacional.",
-    "contexto": "Este giro forma parte de un programa escalonado de asistencia financiera en el que la entidad multilateral libera fondos por tramos tras revisar el cumplimiento de metas macroeconómicas previas. Antes de esta entrega se había completado una primera transferencia, y la continuidad del calendario de pagos queda sujeta a futuras evaluaciones sobre el déficit, la estabilidad cambiaria y la balanza exterior del territorio sudamericano.",
-    "cafe": "Cuando un Estado recibe moneda extranjera de un prestamista global, busca evitar la escasez para pagar importaciones básicas como combustibles, medicinas o tecnología, algo que acaba notándose en los precios del día a día y en el empleo. Para entender la noticia, la pieza clave es que esta institución no regala el dinero: presta por fases a cambio de disciplina económica. Atenta a: si el Gobierno supera los próximos exámenes para desbloquear otra partida o si surgen protestas sociales por los recortes.",
+    "esencial": "El ámbito de Malmea-San Roque-Tres Olivos suma capacidad para 7.138 pisos y el paso subterráneo abrirá a mediados de diciembre.",
+    "porque": "Ambos avances desbloquean la gestión urbanística del mayor desarrollo inmobiliario pendiente en el norte de la capital y reorganizan la circulación viaria en una de sus principales arterias.",
+    "contexto": "El impulso administrativo llega tras constituir la Junta de Gobierno municipal la correspondiente Junta de Compensación, el órgano integrado por los propietarios del suelo encargado de financiar y ejecutar la urbanización de los terrenos antes de levantar los edificios. Se trata del paso imprescindible para transformar los antiguos suelos ferroviarios en parcelas edificables dentro de la prolongación de la Castellana Norte, un proyecto que acumula décadas de tramitación y modificaciones desde sus orígenes en los años noventa. Al mismo tiempo, la puesta en marcha de la conexión soterrada responde a la necesidad de descongestionar el tráfico en superficie mientras avanzan las obras del entorno. Queda por concretar el calendario de las promociones residenciales y el reparto de vivienda protegida.",
+    "cafe": "Si estudias o buscas alquiler en la ciudad, sabes que la falta de oferta nueva dispara los precios mensuales incluso en barrios periféricos. La transformación de esta área busca ampliar el parque disponible y mejorar las conexiones de transporte hacia los campus y zonas de oficinas cercanas, aunque sus efectos en el mercado tardarán años en notarse. Atenta a: cuándo salen a concurso los primeros lotes y qué porcentaje de los nuevos inmuebles se destina finalmente a rentas asequibles para jóvenes.",
     "v": 2
    }
   },
@@ -945,20 +949,17 @@
    "summary": "",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxON0FfQUZuNHFvSV9KeUYyR2RSSU92YkpkSW5VME5GZE90SEtISkpmZmFiUzVKZEZtREM5T0RJb1ZDM2x5RS1zblVJb2ctVzU5T3BObUhXamxHRzBlcTFXbV9NVGd1SlhXRVp6NXRObVdXVDQ4YWZOZFp2ZzdhYzlqbVpQVTVLY2ZvQTg0RUhaa2NwazVQbTBudU9iSGl6NXV4NmFVUTNWTzFtS3NDUDVTUWNxbnQ3bkF0d3VEZ2VwN1I4Tk4xNU40MW5lbGxTSWZUYXhYedIB6AFBVV95cUxPYTNnUmZIMEpZcEZ0b3ZlVXV3cHNiQUEwOURKaEZnbFBwcXJBcExkR3JWdS1BaWdiYW93LV9vQlROY1hOclg0V1hvWXlYMnFpMktkWElUNm5UdnRHYkxLcVhDYzUzWHY4cjg0UnZnMEtsQldSU2Z4ZGVVOXhuTUlPcUVldC1oLXJXMG1EVjNVLTk0dmozNTFIbnpZMVY5QS0zbXZGZk4ybWtkRDRQMWdYUURPNUJCRFZpSWN6dWV4M0ludGVoek5RUzNFQWRhb3Z3UU5oMWVyVFItanRkbDhsS1h6WGdYRG1T?oc=5",
    "source": "EL PAÍS",
-   "date": "2026-11-27T03:19:22+00:00",
+   "date": "2026-11-27T05:09:36+00:00",
    "others": [
     {
-     "source": "elDiario.es",
-     "title": "Un tribunal de la ONU concluye que la UNRWA despidió a empleados palestinos tras acusaciones sin pruebas de Israel",
-     "link": "https://www.eldiario.es/internacional/theguardian/tribunal-onu-concluye-unrwa-despidio-empleados-palestinos-acusaciones-pruebas-israel_1_13694575.html"
+     "source": "Europa Press",
+     "title": "Costa Rica impide la entrada a la relatora de la ONU Albanese cuando iba a ser reconocida como doctora honoris causa",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPZU1JNGNRWndvdTNBUEt4VGZYSWRwd1VlVVBzNDd3WWdaZ0FzZkQtazNCd3YtN0JWQk05dmFpQk8zcDYya3dwMHJyUVN4ZHRfVGNUaWhscEkyQlZEWmlmVVcyWDRleU9Oc2IwVnh5S2FCQVNuUHR5c3gteVV0LVdVVFE2YkNaTl9ESXZoWUFOMk54UjFFVklhSFc1Z3hFLU1mSF9UX0Rybi03cHdhbnBycktEdnFkNFBMWVJwZmh1UDN3bjJ6RGgwS1h6TEZPUHNkVzBtRFc0bnRmckwtNFM4Q3BvQnZRWXRKTnFRbVdmT0hRdm9sdXdB?oc=5"
     }
    ],
    "score": 3,
    "image": "",
    "inst": "ONU",
-   "more": [
-    "El tribunal falla que la investigación interna de la UNRWA fue insatisfactoria, que la decisión se tomó antes de recibir las supuestas pruebas y que estas Ilan Pappé, historiador: “Israel no es una democracia porque los votos palestinos no cuentan” Un tribunal de la ONU ha puesto en duda las pruebas utilizadas para justificar el despido de trabajadores…"
-   ],
    "id": "s33",
    "ai": {
     "esencial": "El gobierno costarricense prohibió la entrada al país a la enviada especial de Naciones Unidas.",
@@ -1035,28 +1036,6 @@
   },
   {
    "sec": "international",
-   "lang": "es",
-   "region": "global",
-   "title": "La OTAN evalúa a la División Castillejos en Noruega para asumir el mando terrestre de su Fuerza de Reacción Aliada en 2027",
-   "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOV3J3SVhCZU0zSGpMQ2NmU19mTmhaSDkwOE12M19wU0NXblNKQmV5cXNBbFhEWFFmRE1qNHR5RGdVMUtmTUVNemdBLWZYOG5PU0lpTFdCYXEtYTFDZG5KRFNEWTd6Z2xmVUpRYUNvZnZucUVlbEE5SW11X0h0eTBad0FRNlBJVmw2YXhxVjBIa0lJLUhxb0RCaHd3R0JOZmhxMUx3X05jMVZsMHNHeVNBY0VfbmdEeHBZZlNMdHE5UnZIZ2pONWVNYkt4cEdYRWVBS1NidC1qUmdFQ2FGa2xxQURR?oc=5",
-   "source": "Infodefensa",
-   "date": "2026-11-27T05:02:56+00:00",
-   "others": [],
-   "score": 2,
-   "image": "",
-   "inst": "ONU",
-   "id": "s36",
-   "ai": {
-    "esencial": "",
-    "porque": "Superar este examen situaría al Ejército de Tierra al frente de la principal unidad de respuesta rápida, reforzando el peso estratégico y operativo del país dentro de la estructura militar atlántica.",
-    "contexto": "Este cuerpo multinacional de alta disponibilidad se creó tras la invasión rusa de Ucrania para sustituir a la antigua fuerza de respuesta y desplegar tropas con rapidez ante cualquier crisis. Para asumir esa rotación de liderazgo, los cuarteles generales nacionales deben superar certificaciones exigentes sobre el terreno, poniendo a prueba comunicaciones, logística y mando bajo condiciones climáticas extremas. Esta gran unidad española acumula experiencia en misiones internacionales y participa habitualmente en maniobras de defensa colectiva.",
-    "cafe": "Aunque suene a maniobras lejanas en el Ártico, asumir este liderazgo implica comprometer recursos públicos y personal en un momento en que Europa debate cuánto destinar a defensa frente a otras partidas sociales. Además, sitúa a los militares españoles en primera línea de la disuasión en el flanco norte, condicionando la agenda exterior. Atenta a: el dictamen final tras las pruebas en tierras nórdicas que confirme si se concreta el relevo.",
-    "v": 2
-   }
-  },
-  {
-   "sec": "international",
    "lang": "en",
    "region": "europe",
    "title": "Race hate exploded in this Spanish town last year. Now its residents are bracing for more",
@@ -1070,69 +1049,12 @@
    "more": [
     "Torre-Pacheco’s diverse communities are fearful that the far-right Vox party will enter government after Sunday’s election Sitting on a park bench, taking in the sunny day, Naima reflected on all that had seemingly changed since she moved to Spain three decades earlier. Back then, the Moroccan national had felt warmly welcomed by Spaniards. “I had never, at…"
    ],
-   "id": "s37",
+   "id": "s36",
    "ai": {
     "esencial": "Habitantes de Torre-Pacheco, con al menos un 30 % de población migrante entre 42.000 vecinos, temen más rechazo tras las elecciones generales de este domingo.",
     "porque": "Las encuestas prevén una coalición entre el Partido Popular y Vox que metería a la extrema derecha en el Ejecutivo por primera vez desde la dictadura, amenazando la convivencia local.",
     "contexto": "La agricultura intensiva de este municipio murciano lleva décadas atrayendo mano de obra extranjera. Residentes llegados hace treinta años, como Naima, relatan que antes se sentían bien recibidos y que ahora perciben miradas, gestos y un discurso político que demoniza a minorías y musulmanes para ganar votos. En campaña, la formación ultraconservadora ha planteado revisar la nacionalidad de más de 300.000 personas de origen marroquí, restringir alumnos de otras culturas en las aulas y gravar las remesas enviadas fuera, una medida inspirada en Estados Unidos. Propietarios de negocios locales, como Allal Abourayane, advierten de la inquietud por el futuro de sus hijos.",
     "cafe": "Las propuestas sobre nacionalidad, colegios y envío de dinero afectan directamente a jóvenes nacidos o criados aquí con raíces en el norte de África: compañeros de clase, amigos o trabajadores esenciales en el campo y los servicios. Limitar el acceso escolar por idioma o encarecer las transferencias que sostienen a familias enteras cambiaría el día a día en cientos de barrios y pueblos agrícolas mucho más allá de Murcia. Atenta a: los pactos tras el escrutinio y si esas medidas entran en el programa de gobierno.",
-    "v": 2
-   }
-  },
-  {
-   "sec": "international",
-   "lang": "en",
-   "region": "asia",
-   "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
-   "summary": "The right-leaning ruling bloc led by the National Party has fallen short of the majority needed to govern.",
-   "link": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC · Asia",
-   "date": "2026-11-27T03:28:15+00:00",
-   "others": [
-    {
-     "source": "BBC",
-     "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8tNkNacV80YlJ0MG9zSWpMaWJkalF0eVlkZm5vNlNsZENQczlGV1R5dG1UbkRZajBYbEY0em1kSEJUNlRqSXZCeU5BOUJySVd5UmdRUW50cW4ta0FiX0E?oc=5"
-    }
-   ],
-   "score": 2,
-   "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
-   "id": "s38",
-   "ai": {
-    "esencial": "El recuento definitivo dejó al bloque conservador de Christopher Luxon con 65 de los 130 escaños, obligándole a pactar con el partido centrista Opportunity.",
-    "porque": "Si las negociaciones fracasan, el país deberá repetir elecciones, prolongando la inestabilidad política en un momento de economía estancada y fuerte desafección entre los votantes.",
-    "contexto": "Tras los comicios del 7 de noviembre, el escrutinio preliminar daba una ajustada ventaja a los partidos gubernamentales —el Nacional, con 40 diputados, ACT y Nueva Zelanda Primero—. Sin embargo, el voto especial de ciudadanos residentes en el extranjero o fuera de su distrito, tradicionalmente más progresista, les restó dos asientos clave. Aunque el opositor Partido Laborista de Chris Hipkins obtuvo el voto popular junto a sus aliados verdes y maoríes, tampoco suma mayoría ni siquiera con los siete escaños bisagra que lidera Qiulae Wong. El sistema proporcional mixto, con doble papeleta por elector, hace casi inevitables los gobiernos de coalición.",
-    "cafe": "Lo que ocurre en las antípodas recuerda mucho a la aritmética parlamentaria española: cuando ningún bloque alcanza la mayoría absoluta, una formación pequeña con apenas siete representantes pasa a tener la llave del Ejecutivo y puede imponer su agenda a cambio de estabilidad. Además, demuestra cómo el sufragio exterior o fuera de circunscripción —similar al voto CERA en España— puede dar un vuelco decisivo días después de cerrar las urnas. Atenta a: si el partido bisagra exige ministerios o concesiones clave para evitar otra convocatoria electoral.",
-    "v": 2
-   }
-  },
-  {
-   "sec": "international",
-   "lang": "en",
-   "region": "asia",
-   "title": "Heatwaves, floods, fires and rain: weekend of weather extremes expected across Australia",
-   "summary": "As bushfires ravage Flinders Island, Victorians can expect a wet and windy election day as storms forecast on east coast Get our breaking news email , free app or daily news podcast Major fires are among a multitude of weather extremes forecast across Australia on Friday and into the weekend, which also includes severe storms, heavy rain, floods and…",
-   "link": "https://www.theguardian.com/world/2026/nov/27/heatwaves-floods-fires-and-rain-weekend-of-extreme-weather-expected-across-australia",
-   "source": "The Guardian · World",
-   "date": "2026-11-27T03:14:10+00:00",
-   "others": [
-    {
-     "source": "The Guardian · World",
-     "title": "Coalition teams up with Labor to pass 20% gas reservation scheme for Australia’s largest exporters",
-     "link": "https://www.theguardian.com/australia-news/2026/nov/26/coalition-to-team-up-with-labor-to-pass-20-gas-reservation-scheme-for-australias-largest-exporters"
-    }
-   ],
-   "score": 2,
-   "image": "https://i.guim.co.uk/img/media/ff0dfabe6ea18f527edb59eab7b707945bfdab3d/258_0_4179_3344/master/4179.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0cfca41602a97db735f6e61081f59061",
-   "more": [
-    "Labor passes final major piece of legislation for 2026, denying Greens’ bid for 25% tax on exports Get our daily political email , free app or daily news podcast A federal gas reservation scheme requiring Australia’s largest exporters to keep up to 20% of their product for domestic use will go ahead with the Coalition’s support. The opposition waved through…"
-   ],
-   "id": "s39",
-   "ai": {
-    "esencial": "Un incendio fuera de control en la isla de Flinders ha dañado al menos ocho edificios y obliga a refugiarse ante rachas de 60 km/h.",
-    "porque": "Quienes ignoran las alertas arriesgan la vida sin rescate garantizado, mientras lluvias de hasta 70 milímetros amenazan con riadas repentinas el sábado y marcarán la jornada electoral en Victoria.",
-    "contexto": "El temporal refleja la vulnerabilidad simultánea del país ante fenómenos opuestos: mientras los bomberos de Tasmania combaten llamas alimentadas por aire seco, una banda de humedad tropical traerá crecidas a múltiples ríos costeros y tormentas a la costa este. Todo ello coincide con el cierre del curso político federal de 2026 en el Parlamento, donde el debate energético también ha marcado la agenda. El Gobierno laborista logró aprobar su última gran ley del año gracias al apoyo de la coalición opositora: un plan que obligará a los mayores exportadores de gas a reservar hasta el 20 % de su producción para el consumo nacional, rechazando así la propuesta de los Verdes de imponer un impuesto del 25 % a las exportaciones.",
-    "cafe": "Que un país productor de combustibles fósiles sufra a la vez fuegos extremos e inundaciones el mismo fin de semana explica por qué la política energética divide tanto a sus partidos. Reservar gas para el mercado interno busca contener las facturas de luz y calefacción de los hogares frente a los precios internacionales, aunque decepciona a quienes reclaman gravar más las ventas al exterior para acelerar la transición verde. Atenta a: si el mal tiempo reduce la participación en las urnas regionales y cómo evolucionan las alertas climáticas.",
     "v": 2
    }
   },
@@ -1151,12 +1073,39 @@
    "more": [
     "No one expected an agreement at Thursday's gathering — but the scale of division caused leaders to depart visibly shocked and angry."
    ],
-   "id": "s40",
+   "id": "s37",
    "ai": {
     "esencial": "Dinamarca, Suecia, Bélgica y Austria abandonaron la cumbre de Bruselas tras rechazar el método negociador de António Costa para el presupuesto comunitario de 2028-2034.",
     "porque": "Aunque disponen de un año de margen, los dirigentes buscan cerrar el acuerdo antes de las elecciones francesas de abril ante el auge de Marine Le Pen.",
     "contexto": "La cita no perseguía firmar un consenso definitivo, sino acercar a dos bloques irreconciliables entre los Veintisiete. Por un lado, países como España e Italia defienden un techo de gasto amplio que proteja partidas tradicionales como la agricultura y las ayudas a las regiones menos desarrolladas. Enfrente, socios encabezados por Alemania exigen recortar el desembolso global y priorizar la inversión en defensa y seguridad. Tras horas de reuniones en grupos reducidos, los partidarios de la austeridad denunciaron que se intentaba dividirlos con concesiones aisladas. El desplante nocturno forzó a suspender la segunda jornada y dejó la comparecencia conjunta con Ursula von der Leyen en apenas once minutos.",
     "cafe": "El marco financiero plurianual decide dónde irá el dinero común durante siete años, incluidas becas como Erasmus, programas de investigación o fondos de cohesión que financian infraestructuras y empleo juvenil. Si se impone la línea de recortar las partidas clásicas para reorientar prioridades, las administraciones locales y autonómicas verán mermadas las transferencias directas procedentes de las instituciones comunitarias. Que una reunión salte por los aires de madrugada anticipa un pulso durísimo. Atenta a: la cita del 17 de diciembre, donde se esperan jornadas maratonianas de regateo.",
+    "v": 2
+   }
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "global",
+   "title": "New Zealand election: final results show ruling coalition needs minor party to govern",
+   "summary": "Incumbent prime minister Christopher Luxon loses majority and needs support of Opportunity party to remain in power, or country faces another election The final results of New Zealand’s general election show the incumbent rightwing coalition will need the support of a centrist newcomer party to form a government, and to avoid sending the country back to the…",
+   "link": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results",
+   "source": "The Guardian · World",
+   "date": "2026-11-27T02:38:15+00:00",
+   "others": [
+    {
+     "source": "The Guardian",
+     "title": "New Zealand election: final results show ruling coalition needs minor party to govern",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeEk5YVZhQkVab283WHpWNWNfQ3JlcFFPM0pUeHJ0SjlkblhSbEFNNTYzdElNTVJwOXRncXk2cDEtWUlEYVBJc21hdWFOY19fZzlINE9iOG5PeG14QVR3VXdRdV9ybE5nbldiQjF6VUE4VXZfMTM2Q0J4WlBlY0RUWXpHb01LUWpiRHFOaElpdmRpQQ?oc=5"
+    }
+   ],
+   "score": 2,
+   "image": "https://i.guim.co.uk/img/media/15bb64d1f1fa3f1840538248518d963a2c8d39e8/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e59803feeecc1af1d51cb6e9eb9cd1e2",
+   "id": "s38",
+   "ai": {
+    "esencial": "El recuento definitivo de los votos especiales deja al bloque conservador con 65 escaños, a uno de la mayoría absoluta de 130.",
+    "porque": "El primer ministro Christopher Luxon necesita el pacto con el partido de centro Opportunity o afrontar una repetición electoral.",
+    "contexto": "El recuento de casi 485.000 votos emitidos fuera de las circunscripciones o desde el extranjero alteró tres escaños: el Partido Laborista arrebató dos al gubernamental National y los Verdes ganaron otro. El bloque derechista aún puede eludir al partido centrista si gana un recurso antes del 3 de diciembre.",
+    "cafe": "Imagina que en tu facultad las elecciones a junta de delegados quedan en empate técnico y el decanato depende de que un grupo minoritario decida daros su apoyo. Atenta a: la resolución de los recursos de revisión de escaños previstos para principios de diciembre.",
     "v": 2
    }
   },
@@ -1173,7 +1122,7 @@
    "score": 2,
    "image": "",
    "inst": "UE",
-   "id": "s41"
+   "id": "s39"
   },
   {
    "sec": "international",
@@ -1188,7 +1137,7 @@
    "score": 2,
    "image": "",
    "inst": "ONU",
-   "id": "s42"
+   "id": "s40"
   },
   {
    "sec": "international",
@@ -1203,27 +1152,101 @@
    "score": 2,
    "image": "",
    "inst": "ONU",
-   "id": "s43"
+   "id": "s41"
   },
   {
    "sec": "international",
    "lang": "en",
-   "region": "asia",
-   "title": "Politician hosts 400,000 guests at daughter’s wedding in India’s poorest state",
-   "summary": "Six helipads built and feast prepared by 500 cooks for wedding hosted by Anant Singh, an MP charged with murder It takes a brave soul to try to match the mythic opulence of the wedding arranged by the Indian billionaire Mukesh Ambani for his son Anant in 2024. Estimates of the cost for the months-long celebration ran to at least $600m, with world leaders…",
-   "link": "https://www.theguardian.com/world/2026/nov/26/india-anant-singh-hosts-400000-guests-wedding-guests-daughter",
+   "region": "europe",
+   "title": "What would happen if Russia detonated a nuclear weapon in space?",
+   "summary": "⁠Sputnik-S, a nuclear-enabled satellite, has been assembled by Russia and could be launched in 60 days, reports say Russia is reportedly preparing to launch a nuclear-armed satellite into space later this year, in a scenario that could pose a significant threat to global communications. German media outlets have reported, citing western intelligence agency…",
+   "link": "https://www.theguardian.com/world/2026/nov/26/what-would-be-the-fallout-from-a-nuclear-armed-satellite-detonated-into-space",
    "source": "The Guardian · World",
-   "date": "2026-11-26T20:32:43+00:00",
+   "date": "2026-11-26T19:04:00+00:00",
    "others": [
     {
-     "source": "Al Jazeera",
-     "title": "Indian politician facing murder charges hosts 400,000-guest wedding",
-     "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/aje-onl-nf_indian-politician-facing-murder-charges-wedding-261126?traffic_source=rss"
+     "source": "The Guardian",
+     "title": "What would happen if Russia detonated a nuclear weapon in space?",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNFBGcTVEVlc4VEJ6MnI5TTlkaG5BY1N3S0p2cFVMRnVTdmtYMXU2dDdWRWdOUFVvWnBLamZYS1Y5ZHZ0YV9yRlEyOUxwdFI3dWpDSVhtbGFWRTczMWVUQTEyRmtLSFRRazFLQlViQjFkX2c2R2dZVm1hbG85eWhNVTd5NWkxZUFxM01OYWRRbk9DWWJwaHZ5TjJoRTY0MXpMbm5lVnVZdDFmM2tyYWxack9WeWUtaDhfMm94Z0JBNE0?oc=5"
     }
    ],
    "score": 2,
-   "image": "https://i.guim.co.uk/img/media/146f27955d71d926be0d5814ed341c2e68dcde32/596_0_2787_2231/master/2787.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=64016de0d26ef16dac7a106fd125ac5e",
-   "id": "s44"
+   "image": "https://i.guim.co.uk/img/media/8e5f6381b847d901db02b9872e0ff3196ba7e4ae/1_0_1578_1263/master/1578.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=cb963f629d901eefa03cc9cc93975c57",
+   "id": "s42",
+   "ai": {
+    "esencial": "Rusia ha ensamblado un satélite con capacidad nuclear, el Sputnik-S, que podría ser lanzado en un plazo de 60 días.",
+    "porque": "Una detonación en la órbita terrestre baja crearía un cinturón de radiación artificial capaz de destruir las comunicaciones globales durante años.",
+    "contexto": "Informes de inteligencia occidental señalan que el artefacto operativo pondría en riesgo la Estación Espacial Internacional y constelaciones satelitales enteras. Pruebas históricas como Starfish Prime generaron auroras boreales masivas y apagones terrestres a cientos de kilómetros de distancia, aunque analistas dudan de su uso por el daño colateral a los propios satélites rusos y chinos.",
+    "cafe": "Piénsalo como si un apagón tecnológico global inutilizara de golpe el GPS de tu móvil, las redes de datos de la universidad y las plataformas de streaming durante años. Atenta a: los movimientos del Kremlin y las alertas de los servicios de inteligencia occidentales sobre el lanzamiento.",
+    "v": 2
+   }
+  },
+  {
+   "sec": "international",
+   "lang": "en",
+   "region": "europe",
+   "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
+   "summary": "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning support from the EU’s biggest countries. The economist and monetary policymaker will become the first…",
+   "link": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
+   "source": "The Guardian · World",
+   "date": "2026-11-26T17:50:54+00:00",
+   "others": [],
+   "score": 2,
+   "image": "https://i.guim.co.uk/img/media/47d2f9781397baf313cb89ec9480624dbe557b02/1058_252_3184_2548/master/3184.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9576b3fb1c7ff446582a521d6aa2f99a",
+   "more": [
+    "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning support from the EU’s biggest countries. The economist and monetary policymaker will become the first…"
+   ],
+   "id": "s43",
+   "ai": {
+    "esencial": "El exgobernador del Banco de España sucederá a Christine Lagarde al frente del BCE tras lograr el apoyo franco-alemán.",
+    "porque": "El nombramiento como primer presidente español de la institución consoluitda el peso de España en las altas esferas comunitarias.",
+    "contexto": "El Consejo Europeo formalizará en diciembre el cargo tras un acuerdo a tres bandas que incluyó a Laurence Boone y Markus Brunnermeier en el comité ejecutivo. La elección se produce en un contexto de tensiones económicas marcadas por la competencia china, los aranceles estadounidenses y la crisis energética.",
+    "cafe": "Es el equivalente a que el máximo responsable de fijar los tipos de interés de tus préstamos, el precio de la vivienda y la inflación en media Europa sea un economista de casa. Atenta a: la ratificación formal de los líderes europeos en la cumbre de diciembre.",
+    "v": 2
+   }
+  },
+  {
+   "sec": "international",
+   "lang": "es",
+   "region": "europe",
+   "title": "Hernández de Cos recibe el respaldo unánime del Consejo Europeo",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbVNXYWtmMkRGUURUUW5aY2c0bGpZNWVLOUZ6OEJpZWg1TWtMU0NJUGtoNzNpaVdaTmNrb1BIMnd5djNtY1hNOVF2R0pfRDh3MEJGNmkteVp4aFhWdGVTS01qOTA3ZjRweGZJSi1mZl85dm1Yd2FMdTljSWNKR3FpSUxCOXlVVnRaZG9nUkQ4Y1B2Ml840gGaAUFVX3lxTE5uXzR6RGs1S0tBYy1OcUZRUUc1SGpXa0FCUlZVTS1oQkFaQUxHYjZyRlBXbnB4TGwxSUVYdHp4bGJGaldkbm9xc1pYR1NDTzZqMkpEYkJtbTE0NmVzSHpSa0RtanRqcDBUTlhXMzBDQ084MDlfYUx2X21jNHlKV2J1ekVkdk0yUGZidTJYTkN0SW9SOHJ0YTdSNkE?oc=5",
+   "source": "el boletin",
+   "date": "2026-11-26T17:28:03+00:00",
+   "others": [],
+   "score": 2,
+   "image": "",
+   "inst": "UE",
+   "id": "s44",
+   "ai": {
+    "esencial": "",
+    "porque": "La unanimidad de los jefes de Estado y de Gobierno de la Unión Europea despeja el camino político para la designación, refuerza la presencia española en las instituciones comunitarias y evita bloqueos entre capitales.",
+    "contexto": "Su trayectoria al frente del Banco de España entre 2018 y 2024 incluyó la participación en el Consejo de Gobierno del BCE y la presidencia del Comité de Supervisión Bancaria de Basilea. En esa etapa destacó por su perfil técnico en política monetaria y regulación financiera. Tras concluir su mandato en Madrid, asumió la dirección general del Banco de Pagos Internacionales. Quedan por concretar la plaza específica a la que corresponde este aval y los siguientes trámites formales del nombramiento.",
+    "cafe": "La cumbre que reúne a los dirigentes de los veintisiete socios no legisla en el día a día, pero pacta los puestos clave de la arquitectura económica continental. Lograr ese consenso en finanzas amplía la capacidad de influencia nacional en debates que acaban repercutiendo en los tipos de interés, el crédito o las normas bancarias. Atenta a: la confirmación oficial de la responsabilidad asignada y los trámites posteriores que correspondan.",
+    "v": 2
+   }
+  },
+  {
+   "sec": "moda",
+   "lang": "es",
+   "region": null,
+   "title": "El desconocido armario de Gala Dalí: los vestidos de Dior, Chanel y Schiaparelli que convirtieron a la musa del pintor en un icono",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZUZzX1FvbHhOWTFicEtoMGhMMEx2SjB4T0RaSjNvMTRhRC1uUC04US14YzZvVmw4OHZqMDZUWURsN0RkYU9HeWY5MmJ3eV9LSExiV3VJc2d3Q2hkSXZXTEFqRjFpTGxGeHktd25GUVZNUTZoOElDUWw2XzNxSVI1WlNFZVRFdnNxcmpFOHZWejFTM0EwZE9DUnBMeEFER3E3aGlac00tMnJwTkl4M283ZVlfb2xURklHcU5ILWRHN1RTYzJwTFHSAcsBQVVfeXFMTXhjSU9ZcDA2dGNkVkRSZEUxeWV0eHgyRnJqWFVucXNUbjV1RzJFa0dKMWIteTlLZy1LRDQ4Z2o4cjdoa1RRcjU5NERWUWtKMlRPSTlpVU0zWG4xbEo1NDFOQzBOMkttQTc1al9JUmg5X3ljcjdzWmNXTzIyeWN5QVdYMUFRQk9qdE5DVlVuUU5HT2NjWUEzX1BXN3lScmJpRnNrclJUN203X2NhSkZTNVR0SEJ0d0VIa2JXNUtiR0h2V3hvYUFQZGhFZVk?oc=5",
+   "source": "Mujerhoy",
+   "date": "2026-11-27T05:33:00+00:00",
+   "others": [],
+   "score": 1,
+   "image": "",
+   "id": "s45",
+   "ai": {
+    "esencial": "",
+    "porque": "Analizar la indumentaria de figuras históricamente reducidas al papel de acompañantes permite revalorizar su rol activo en la construcción de su propia imagen pública y su peso cultural.",
+    "contexto": "Nacida Elena Ivánovna Diákonova, fue mucho más que la pareja y modelo del artista surrealista: gestionó su carrera, sus contratos y su proyección internacional en Europa y Estados Unidos durante buena parte del siglo XX. En ese periodo mantuvo una estrecha relación con la alta costura parisina y con casas clave de la vanguardia, utilizando la vestimenta como una herramienta consciente de representación artística y poder personal. Queda por concretar el motivo editorial actual, como una exposición o publicación, que reúne ahora estas piezas.",
+    "cafe": "Hoy damos por hecho que la ropa comunica identidad en redes sociales o alfombras rojas, pero hace décadas las prendas de diseño ya funcionaban como lenguaje estratégico para ganar visibilidad e influencia. Rescatar el legado estético de mujeres ligadas a grandes genios masculinos ayuda a reescribir la historia del arte más allá de los tópicos, reconociendo su trabajo como creadoras de marca y estilo propio. Atenta a: posibles muestras en museos o catálogos que recuperen y exhiban al público estas colecciones textiles.",
+    "v": 2
+   }
   },
   {
    "sec": "moda",
@@ -1237,7 +1260,7 @@
    "others": [],
    "score": 1,
    "image": "",
-   "id": "s45"
+   "id": "s46"
   },
   {
    "sec": "moda",
@@ -1251,7 +1274,7 @@
    "others": [],
    "score": 1,
    "image": "",
-   "id": "s46"
+   "id": "s47"
   },
   {
    "sec": "moda",
@@ -1261,20 +1284,6 @@
    "summary": "",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTGZBanZacGY4UXZwWFFzMjVtMTRIYU8zcV9wVHFlRDZ4eFlfWC01SE9mYzRHa25VeGxibUxmeTBMaThrbHBmRVlfMUNTeUpReFI0MkhxV2hJSnoyaGI2dFAtdnNObzA3TWtqdlB5dGxYenVoSTUtckxTenQ0djBXcTY1VzRsMEdkYVVlVjI0TGFLZ3VNdDB4NmdrZVdYV1p2?oc=5",
    "source": "Vanitatis",
-   "date": "2026-11-27T04:00:00+00:00",
-   "others": [],
-   "score": 1,
-   "image": "",
-   "id": "s47"
-  },
-  {
-   "sec": "moda",
-   "lang": "es",
-   "region": null,
-   "title": "De Tokio al armario global: Zara lleva el universo creativo de Kolor a mujer, hombre y niño",
-   "summary": "",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNczhJc3NtOWl6bDA5RGxKUEhIUlRQdV92SzFXOTdGNDUtbl9pbkI1QlNQWkZocGtfQjYtUmg4clZ0a3BfZ2hLWlp5Y3U0emozc29Dalk5T2JCOWhXR21WNkZ4T3VlVXJEakNFajJHMVhZaC15aUVnb2FNUkpDVlJ4bkFRNE1WSkhFbXhYZWEtQmc0VUJCSjBkdmMtNFZqWUpHQVVYMEVhbDdmcUprQU0wNmN6NnhsUHVh?oc=5",
-   "source": "Modaes",
    "date": "2026-11-27T04:00:00+00:00",
    "others": [],
    "score": 1,
@@ -1336,11 +1345,11 @@
    "size": "s"
   },
   {
-   "id": "s13",
+   "id": "s34",
    "size": "s"
   },
   {
-   "id": "s34",
+   "id": "s35",
    "size": "s"
   }
  ],
@@ -1354,10 +1363,10 @@
    "sec": "international",
    "show": "Global News Podcast (BBC)",
    "spotify": "https://open.spotify.com/search/Global%20News%20Podcast",
-   "episode": "Net migration to UK at lowest level since 1997",
-   "link": "http://www.bbc.co.uk/programmes/p0pq2ymt",
-   "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pq2tz0.mp3",
-   "date": "2026-11-26T16:09:00+00:00"
+   "episode": "President Zelensky voices his frustration with the US",
+   "link": "http://www.bbc.co.uk/programmes/p0pq5lhm",
+   "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pq5lc7.mp3",
+   "date": "2026-11-27T05:20:00+00:00"
   },
   {
    "sec": "international",
@@ -1368,10 +1377,10 @@
    "sec": "economia",
    "show": "La Primera de Expansión",
    "spotify": "https://open.spotify.com/search/La%20Primera%20de%20Expansi%C3%B3n",
-   "episode": "CaixaBank, De Cos, Indra, Bayer, debate, Nvidia y la NBA en Europa",
-   "link": "https://shows.acast.com/la-primera-de-expansion/episodes/caixabank-de-cos-indra-bayer-debate-nvidia-y-la-nba-en-europ",
-   "audio": "https://sphinx.acast.com/p/open/s/6a2934a3ec7c103dcafc05f5/e/6b07d0ecf37086a127c634ba/media.mp3",
-   "date": "2026-11-26T06:25:48+00:00"
+   "episode": "Seat, Indra, De Cos, Black Friday, China, inflación y Le Pen",
+   "link": "https://shows.acast.com/la-primera-de-expansion/episodes/seat-indra-de-cos-black-friday-china-inflacion-y-le-pen",
+   "audio": "https://sphinx.acast.com/p/open/s/6a2934a3ec7c103dcafc05f5/e/6b09211fbecb6df492ad2419/media.mp3",
+   "date": "2026-11-27T06:20:15+00:00"
   },
   {
    "sec": "politica",
@@ -1388,22 +1397,22 @@
   {
    "name": "Google Noticias · España",
    "ok": true,
-   "items": 34
+   "items": 36
   },
   {
    "name": "Google Noticias · Economía",
    "ok": true,
-   "items": 22
+   "items": 21
   },
   {
    "name": "Google News · World",
    "ok": true,
-   "items": 32
+   "items": 34
   },
   {
    "name": "Google Noticias · Moda",
    "ok": true,
-   "items": 12
+   "items": 11
   },
   {
    "name": "El País",
@@ -1423,7 +1432,7 @@
   {
    "name": "El Mundo · Economía",
    "ok": true,
-   "items": 28
+   "items": 29
   },
   {
    "name": "elDiario.es",
@@ -1433,7 +1442,7 @@
   {
    "name": "La Vanguardia",
    "ok": true,
-   "items": 39
+   "items": 38
   },
   {
    "name": "ABC",
@@ -1443,7 +1452,7 @@
   {
    "name": "20minutos",
    "ok": true,
-   "items": 33
+   "items": 34
   },
   {
    "name": "Expansión",
@@ -1458,7 +1467,7 @@
   {
    "name": "BBC · Europe",
    "ok": true,
-   "items": 10
+   "items": 11
   },
   {
    "name": "BBC · US & Canada",
@@ -1473,7 +1482,7 @@
   {
    "name": "BBC · Latin America",
    "ok": true,
-   "items": 2
+   "items": 1
   },
   {
    "name": "BBC · Middle East",
@@ -1483,7 +1492,7 @@
   {
    "name": "BBC · Africa",
    "ok": true,
-   "items": 7
+   "items": 6
   },
   {
    "name": "The Guardian · World",
@@ -1623,12 +1632,12 @@
   {
    "name": "Podcast · Global News Podcast (BBC)",
    "ok": true,
-   "items": 293
+   "items": 294
   },
   {
    "name": "Podcast · La Primera de Expansión",
    "ok": true,
-   "items": 1471
+   "items": 1472
   }
  ],
  "ai_engine": "generativelanguage.googleapis.com · gemini-4-hydrogen"
